@@ -1,5 +1,5 @@
 +++
-title =  "Thinking of Your Career as a Startup"
+title = "Thinking of Your Career as a Startup"
 date = 2019-11-29T00:00:18+05:30
 tags = ["career"]
 featured_image = ""

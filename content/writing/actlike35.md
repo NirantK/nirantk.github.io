@@ -1,7 +1,7 @@
 +++
 title = "Act Like You're 35"
-description = "Career Framing wish I'd been told when I was starting my career"
 date = 2019-12-07T00:09:00+05:30
+description = "Career Framing for the Young Me"
 tags = ["career", "niranting"]
 toc = true
 show_reading_time = true
