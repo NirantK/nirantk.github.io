@@ -10,7 +10,7 @@ show_reading_time = true
 
 Hello! 
 
-If we are meeting for the first time, a short version of my story so far: After doing research engineering for almost 4 years across startups and a BigCo, I joined as an early machine learning engineer at [Verloop.io](https://verloop.io) - a B2B startup that makes customer support automation SaaS. We're directly responsible for most Natural Language Processing needs within the business.
+If we are meeting for the first time, a short version of my story so far: After doing research engineering for almost 4 years across startups and a BigCo, I joined as an early machine learning engineer at [Verloop.io](https://verloop.io) - a B2B startup that makes customer support automation SaaS in 2019. I was there till April 201. We were directly responsible for most Natural Language Processing needs within the business.
 
 While there is plenty of good advice on [making ML work](https://www.shreya-shankar.com/making-ml-work/) and [making a career as a Data Scientist](https://medium.com/@rchang/advice-for-new-and-junior-data-scientists-2ab02396cf5b), I wanted to write my experience as a manager/early engineer who built out a ML team at a startup. 
 
@@ -29,13 +29,6 @@ This is divided into the following sections:
 
 Bonus: [Beliefs](#beliefs)
 
----
-
-*_I'm hiring for a ML SDE 2 and a Data Science Manager/ML Lead Position*_
-
-*_If this is something which interests you, are you are interested in working with us, please directly book a calendly slot with me here: https://calendly.com/nirant-k-verloop/intro-call-with-verloop-tech_*.
-
----
 
 # Hiring
 
@@ -150,11 +143,7 @@ Managing my own mental state has been more work than I'd expected. My blast radi
 
 Early on, I'd decided that I'd not repeated any of the mistakes that my previous managers had made. I ended up making a different version of the same f**king mistakes anyway. 
 
-After >1 year, the only thing which works for me is to listen to what people want and then do that. Hiring smart people and then getting out of their way seems to work really well in our specific team. 
-
-The limitation of this mindset is that it relies on people being able to articulate their needs/demands.
-
-Unfortunately, that isn't an universal gift. Some people would rather explode and take extreme actions instead of giving the other person a chance. If you have a good alternative to this - let me know? 
+After >1 year, the only thing which works for me is to listen to what people want and then do that.
 
 ### Reading Reccos
 
@@ -192,7 +181,8 @@ What we did:
 What we should have also done: 
 
 1. Encourage every team member to spend time data-ing i.e. exploring datasets, building a mental model around it, tagging it on their own 
-2.  Stronger emphasis on software engineering practices once they joined the team e.g. doing TDD, code hygiene
+2. Introduce Engineering Practices Early: Stronger emphasis on software engineering practices once they joined the team e.g. doing TDD, code hygiene, 
+3. Have every 
 
 ## Peer Management
 
@@ -269,6 +259,3 @@ If you are considering a career in Data Science, I hope this helps you see beaut
 
 Till we meet again,
 Nirant
-
----
-[ATL] Advanced Technologies Lab (CTO's Office), Samsung Research Institute, Bengaluru.

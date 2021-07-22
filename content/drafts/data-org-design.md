@@ -1,8 +1,8 @@
 +++
 title = "Data Science Org Designs"
 description = ""
-date = 2020-09-15T00:09:00+05:30
-tags = ["career", "verloop", "machine learning", "tech"]
+date = 2021-07-24T00:09:00+05:30
+tags = ["career", "machine learning", "tech"]
 toc = true
 draft = true
 show_reading_time = true
@@ -11,6 +11,8 @@ show_reading_time = true
 # Data Science Org Design
  
 While there is plenty of good advice on [making ML work](https://www.shreya-shankar.com/making-ml-work/) and [making a career as a Data Scientist](https://medium.com/@rchang/advice-for-new-and-junior-data-scientists-2ab02396cf5b) -  I think very little discussion happens on the organization design for Data Science itself.
+
+This blog will hopefully help folks not just build their team, but also understand the ecosystem from which they are hiring.
 
 > Organization Design is determined by these 3 broad categories:
 >
@@ -66,24 +68,45 @@ The most common warning was the amount of context which any lead/manager Data Sc
 
 ## 5. [Verloop Today] Full Stack Data Science
 
-This is the **org design at Verloop ML today**. The defining characteristic of this org design is that the every ML person does things end to end - there is no division of labour. 
+This is the **org design at Verloop.io ML today**. The defining characteristic of this org design is that the every ML person does things end to end - there is no division of labour. 
 
 There is a brilliant explanation on this from StitchFix: https://multithreaded.stitchfix.com/blog/2019/03/11/FullStackDS-Generalists/ 
 
 > The goal of data science is not to execute. Rather, the goal is to learn and develop new business capabilities. … There are no blueprints; these are new capabilities with inherent uncertainty. … All the elements you’ll need must be learned through experimentation, trial and error, and iteration. – Eric Colson
 
-As Eric calls out, Data Science, unlike say Platform Engineering functions - is not a pure "execution" function. It's an iteration and discovery function of the organisation. In business terms, you might call this Market Research, but where techonology is applied to develop new capabilities.
+As Eric calls out, Data Science, unlike say Platform Engineering functions - is not a pure "execution" function. It's an **iteration and discovery function** of the organisation. In business terms, you might call this Market Research, but where techonology is applied to develop new capabilities.
 
 This full cycle development [seems to be endorsed](https://eugeneyan.com/writing/end-to-end-data-science/) by Netflix Tech officially and Data Science folks at Lazada as well. 
 
-The other quirk in org design is that the ML function reports directly to the CEO. The CEO directly brings the business context and drives quick wins. The ML Lead needs to negotiate continuously on organisational goals, constantly query for added context, and makes long term bets.
+## Characterstic of ML Org at Verloop.io:
 
-Part of the ML Product Manager role also got absorbed into what I've been doing as a Machine Learning Manager because we did not have a full time Product Manager in the company for more than 6 months:
-- Does: Work with ML team, data owners to prioritize, execute and spec out projects
-- Tools: Jupyter for PoC, JIRA, Slack, Google Docs for Comms
+1. ML function reported directly to the CEO for the longest time. The CEO directly brings the business context and drives quick wins. The ML Lead needs to negotiate continuously on organisational goals, constantly query for added context, and makes long term bets.
 
-Another advantage of this org design is that it makes attracting talent easier by giving them quite high autonomy. The team also owns model performance and deployment. 
+Part of the ML Product Manager role also got absorbed into what I'd been doing as a Machine Learning Lead/Manager because we did not have a full time Product Manager in the company for more than 6 months.
+
+2. Attracting young talent was easier by giving them quite high autonomy. The team also owns model performance and deployment. 
 
 The deployment ownership is made possible by a ML System Design decision as well. The strong adherence to multi-tenant models instead of client specific models.
 
-There are so many reasons that this org design is a bad design that it'd take us an entire night to spell it out. Since the team can influence everything (to varying degrees) from engineering to front end changes - the blast radius of what this team can screw up or drastically improve is quite large. 
+3. Talent pool is smaller. 
+
+Quite a few data science candidates refused to join the team because they were not interested in engineering. 
+
+4. Talent retention is hard.
+
+The second unintentional choice was to isolate ML from the rest of the engineering roadmap, so that we could ship without having to be in sync with them. In hindsight, this was a mistake. It definitely empowered us to ship faster, but teammates felt isolated, and it was hard to complete the feedback loop with our end users via the Product Manager alone.
+
+I’d do this differently the next time around. 
+There are 3 things I’d do differently: 
+
+1. Remove the middleman (i.e me): PM and the Data Scientist should work directly with each other. Instead of the information flowing/gathered with me as the nodal person. 
+
+2. Retrospectives: We did a lot of reviews i.e. what went well or wrong, but not enough of “How does this inform our future?”
+
+3. Add Front End, DevOps Skills: Lot of our releases would reach the end user because the interface was designed, but not implemented. 
+
+Engineering teams would quite obviously pick their own OKRs above ours. The short term fix is to add Front End and DevOps skills. Even something as simple as being able to build+deploy Gradio or Streamlit demos would go a long way in convincing the org to prioritise the shipped work. 
+
+---
+
+I hope that this 
