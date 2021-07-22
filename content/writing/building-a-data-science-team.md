@@ -1,10 +1,9 @@
 +++
-title = "Case Study: Building a Data Science Team at a Startup"
+title = "Building a Data Science Team at a Startup"
 description = ""
 date = 2020-08-30T00:09:00+05:30
-tags = ["verloop", "machine learning", "tech"]
+tags = ["org", "machine learning", "tech"]
 toc = true
-draft = true
 show_reading_time = true
 +++
 
@@ -13,6 +12,8 @@ Hello!
 If we are meeting for the first time, a short version of my story so far: After doing research engineering for almost 4 years across startups and a BigCo, I joined as an early machine learning engineer at [Verloop.io](https://verloop.io) - a B2B startup that makes customer support automation SaaS in 2019. I was there till April 201. We were directly responsible for most Natural Language Processing needs within the business.
 
 While there is plenty of good advice on [making ML work](https://www.shreya-shankar.com/making-ml-work/) and [making a career as a Data Scientist](https://medium.com/@rchang/advice-for-new-and-junior-data-scientists-2ab02396cf5b), I wanted to write my experience as a manager/early engineer who built out a ML team at a startup. 
+
+I hope you find it useful!
 
 # Who is this for? 
 People with these questions:
