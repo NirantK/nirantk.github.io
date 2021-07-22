@@ -7,6 +7,6 @@ description: "Collection of my Essays and Thoughts"
 
 My best received posts are
 
-1. [Thinking of your Career as a Startup](./ruleof40)
-2. [Recession Proofing my Technical Career](./recession-proofing)
-3. [Act Like You're 35](./actlike35/)
+1. [Thinking of your Career as a Startup](./writing/ruleof40)
+2. [Recession Proofing my Technical Career](./writing/recession-proofing)
+3. [Act Like You're 35](./writing/actlike35/)
