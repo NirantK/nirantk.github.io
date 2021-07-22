@@ -88,25 +88,30 @@ Part of the ML Product Manager role also got absorbed into what I'd been doing a
 
 The deployment ownership is made possible by a ML System Design decision as well. The strong adherence to multi-tenant models instead of client specific models.
 
-3. Talent pool is smaller. 
+3. Talent pool is smaller
 
-Quite a few data science candidates refused to join the team because they were not interested in engineering. 
+A few data science candidates refused to join the team because they were not interested in engineering, and wanted to focus on modeling tasks. 
 
-4. Talent retention is hard.
+4. Talent retention is hard
 
-The second unintentional choice was to isolate ML from the rest of the engineering roadmap, so that we could ship without having to be in sync with them. In hindsight, this was a mistake. It definitely empowered us to ship faster, but teammates felt isolated, and it was hard to complete the feedback loop with our end users via the Product Manager alone.
+The second unintentional choice was to isolate ML from the rest of the engineering roadmap, so that we could ship without having to be in sync with them. 
+
+In hindsight, this was a mistake. It definitely empowered us to ship faster, but teammates felt isolated, and it was hard to complete the feedback loop with our end users via the Product Manager alone.
 
 I’d do this differently the next time around. 
+
 There are 3 things I’d do differently: 
 
-1. Remove the middleman (i.e me): PM and the Data Scientist should work directly with each other. Instead of the information flowing/gathered with me as the nodal person. 
+1. **Remove the middleman** (i.e me): PM and the Data Scientist should work directly with each other. Instead of the information flowing/gathered with me as the nodal person. 
 
-2. Retrospectives: We did a lot of reviews i.e. what went well or wrong, but not enough of “How does this inform our future?”
+2. **Better Retrospectives**: We did a few reviews i.e. what went well or wrong, but not enough of “How does this inform our future?”
 
-3. Add Front End, DevOps Skills: Lot of our releases would reach the end user because the interface was designed, but not implemented. 
+3. **Add Front End, DevOps Skills**: Lot of our releases would reach the end user because the interface was designed, but not implemented. 
 
-Engineering teams would quite obviously pick their own OKRs above ours. The short term fix is to add Front End and DevOps skills. Even something as simple as being able to build+deploy Gradio or Streamlit demos would go a long way in convincing the org to prioritise the shipped work. 
+Engineering teams would quite obviously pick their own OKRs above ours. The short term fix is to add Front End and DevOps skills. 
+
+Even something as simple as being able to build+deploy Gradio or Streamlit demos would go a long way in convincing the org to prioritise the shipped work. 
 
 ---
 
-I hope that this 
+I hope that this article helps you understand the org design at Verloop.io.
