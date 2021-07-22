@@ -23,19 +23,23 @@ Code is also on [Github](https://github.com/NirantK/nlp-python-deep-learning)
 <img src="https://images-eu.ssl-images-amazon.com/images/I/41uaueSqtUL._SX260_.jpg" alt="bookcover" style="width:261px;"/>
 
 ## Talks
-1. PyCon India 2019: [Slides](http://bit.ly/pycon2019talk) and [Youtube](https://youtu.be/UM56FDjSx9g)
-2. inMobi Tech Talks: A Nightmare on the LM Street; [Slides](http://bit.ly/nirant-talk-inmobi)
-3. Wingify DevFest: NLP for Indian Languages; [Slides](http://bit.ly/nirant-talk-1), [Youtube](https://www.youtube.com/watch?v=WiqV2W7tNc8) 
-4. PyData Bengaluru Inaugral Talk: Quiz Generation with spaCy; [Youtube](https://www.youtube.com/watch?v=lsIXsnmICOM)
+1. Fifth Elephant MLOps Conf: [Slides](https://bit.ly/startupmlops2021)
+2. PyCon India 2019: [Slides](http://bit.ly/pycon2019talk) and [Youtube](https://youtu.be/UM56FDjSx9g)
+3. inMobi Tech Talks: A Nightmare on the LM Street; [Slides](http://bit.ly/nirant-talk-inmobi)
+4. Wingify DevFest: NLP for Indian Languages; [Slides](http://bit.ly/nirant-talk-1), [Youtube](https://www.youtube.com/watch?v=WiqV2W7tNc8)
+5. PyData Bengaluru Inaugral Talk: Quiz Generation with spaCy; [Youtube](https://www.youtube.com/watch?v=lsIXsnmICOM)
 
 ## Open Source Contributions 
 
-1. [Awesome Project Ideas](https://github.com/NirantK/awesome-project-ideas) <img src="https://img.shields.io/github/stars/NirantK/awesome-project-ideas?style=social" style="width:50px;display: inline-block;"/> - Curated list of machine learning (mostly deep learning) project ideas with datasets. These ideas range from Vision, Text, Forecasting to Recommender Systems
+1. [Awesome Project Ideas](https://github.com/NirantK/awesome-project-ideas) <img src="https://img.shields.io/github/stars/NirantK/awesome-project-ideas?style=social" style="width:10%;display: inline-block;"/> - Curated list of machine learning (mostly deep learning) project ideas with datasets. These ideas range from Vision, Text, Forecasting to Recommender Systems
 
-2. [Awesome NLP](https://github.com/keon/awesome-nlp)<img src= "https://img.shields.io/github/stars/keon/awesome-nlp?style=social"> Curated list of Natural Language Processing Resources 
-	* I've been the Primary Maintainer for [Awesome-NLP](https://github.com/keon/awesome-nlp), which is also featured in Github's Official Machine Learning [Collection](https://github.com/collections/machine-learning) since 2016 and recommended by Stanford CS 230 in 2020
+2. [Awesome NLP](https://github.com/keon/awesome-nlp)<img src= "https://img.shields.io/github/stars/keon/awesome-nlp?style=social" style="width:10%;display: inline-block;"> Curated list of Natural Language Processing Resources. 
 
-3. State of the Art Language Modeling in Hindi + new datasets, check the code here at [hindi2vec](https://github.com/NirantK/hindi2vec) <img src= "https://img.shields.io/github/stars/NirantK/hindi2vec?style=social"> 
+I've been the Primary Maintainer for [Awesome-NLP](https://github.com/keon/awesome-nlp)
+	* Recommended by Dr. Andrew Ng's (Stanford) CS 230
+	* Featured in Github's Official Machine Learning [Collection](https://github.com/collections/machine-learning) since 2016 and 
+	
+3. State of the Art Language Modeling in Hindi + new datasets, check the code here at [hindi2vec](https://github.com/NirantK/hindi2vec) <img src= "https://img.shields.io/github/stars/NirantK/hindi2vec?style=social" style="width:10%;display: inline-block;"> 
 
 ## Web Mentions - My 5 minutes of Internet fame
 
