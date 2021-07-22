@@ -2,7 +2,7 @@
 title = "Case Study: Building a Data Science Team at a Startup"
 description = ""
 date = 2020-08-30T00:09:00+05:30
-tags = ["career", "verloop", "machine learning", "tech"]
+tags = ["verloop", "machine learning", "tech"]
 toc = true
 draft = true
 show_reading_time = true
