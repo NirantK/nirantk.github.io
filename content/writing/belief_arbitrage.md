@@ -3,7 +3,6 @@ title = "Belief Arbitrage"
 description = "Talent, Genius and Courage"
 date = 2021-07-21T00:09:00+05:30
 tags = ["niranting"]
-toc = true
 show_reading_time = true
 featured_image= "/images/belief_arbit.png"
 +++
