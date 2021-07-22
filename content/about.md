@@ -31,15 +31,16 @@ Code is also on [Github](https://github.com/NirantK/nlp-python-deep-learning)
 
 ## Open Source Contributions 
 
-1. [Awesome Project Ideas](https://github.com/NirantK/awesome-project-ideas) <img src="https://img.shields.io/github/stars/NirantK/awesome-project-ideas?style=social" style="width:10%;display: inline-block;"/> - Curated list of machine learning (mostly deep learning) project ideas with datasets. These ideas range from Vision, Text, Forecasting to Recommender Systems
+1. [Awesome Project Ideas](https://github.com/NirantK/awesome-project-ideas) <img src="https://img.shields.io/github/stars/NirantK/awesome-project-ideas?style=social" style="width:20%;display: inline-block;"/> - Curated list of machine learning (mostly deep learning) project ideas with datasets. These ideas range from Vision, Text, Forecasting to Recommender Systems
 
-2. [Awesome NLP](https://github.com/keon/awesome-nlp)<img src= "https://img.shields.io/github/stars/keon/awesome-nlp?style=social" style="width:10%;display: inline-block;"> Curated list of Natural Language Processing Resources. 
+2. [Awesome NLP](https://github.com/keon/awesome-nlp)<img src= "https://img.shields.io/github/stars/keon/awesome-nlp?style=social" style="width:20%; display: inline-block;"> Curated list of Natural Language Processing Resources. 
 
 I've been the Primary Maintainer for [Awesome-NLP](https://github.com/keon/awesome-nlp)
+
 	* Recommended by Dr. Andrew Ng's (Stanford) CS 230
 	* Featured in Github's Official Machine Learning [Collection](https://github.com/collections/machine-learning) since 2016 and 
 	
-3. State of the Art Language Modeling in Hindi + new datasets, check the code here at [hindi2vec](https://github.com/NirantK/hindi2vec) <img src= "https://img.shields.io/github/stars/NirantK/hindi2vec?style=social" style="width:10%;display: inline-block;"> 
+3. State of the Art Language Modeling in Hindi + new datasets, check the code here at [hindi2vec](https://github.com/NirantK/hindi2vec) <img src= "https://img.shields.io/github/stars/NirantK/hindi2vec?style=social" style="width:20%; display: inline-block;"> 
 
 ## Web Mentions - My 5 minutes of Internet fame
 
