@@ -14,15 +14,23 @@ I'm a hands on engineer and actively give back.
 I can-
 
 - Discuss anything about data or Machine Learning which you need help with
-- Help you discuss ML hiring, problem approach, deployment challenges, MLOps and more
 - Build NLP datasets and models for you
 - Can advice you in some technology decisions. I'll choose to say, "I don't know", instead of misleading you
 - Tweet/Write and spread the word about you if it helps
 - Use your product and recommend it freely to teams I know
 
+### Hiring
+
+1. Guidance on sourcing candidates
+- I can recommend what to look for in candidates based on their experience, projects, etc.
+- You would still have complete control and do your own sourcing
+2. Setting up an interview process. This includes assignments, interview stages, interview questions etc.
+3. Assessing assignment submissions. This includes feedback on the quality of the work, and if it's a good fit for the team.
+4. Taking the ML round interview, specially if it's NLP
+
 ## What I cannot do for you
 
-- Recommend candidates or refer friends to join you full time
+- Do candidates sourcing or complete end to end resume screening or refer friends to join you full time
 
 ## Contact
 
