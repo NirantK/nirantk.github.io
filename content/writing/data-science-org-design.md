@@ -1,7 +1,7 @@
 +++
 title = "Data Science Org Design for Startups"
 description = "" 
-date = 2021-07-24T00:09:00+05:30 
+date = 2021-08-02T00:09:00+05:30
 tags = ["career", "machine learning", "tech"] 
 toc = true draft = true 
 show_reading_time = true
