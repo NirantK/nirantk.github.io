@@ -1,13 +1,12 @@
 +++
 title = "Data Science Org Design for Startups"
-description = "" 
+description = ""
 date = 2021-08-02T00:09:00+05:30
-tags = ["career", "machine learning", "tech"] 
-toc = true draft = true 
+tags = ["machine learning", "tech"]
+toc = true
 show_reading_time = true
-image = "/images/data-science-org-design.jpeg"
+featured_image = "/images/data-science-org-design.jpeg"
 +++
-
 
 # Data Science Org Design for Startups
 
