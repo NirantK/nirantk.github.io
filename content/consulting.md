@@ -34,4 +34,4 @@ I can-
 
 ## Contact
 
-Write to me at hello [at] nirantk [dot] com
+Figure out a time that works for you here: https://calendly.com/nirantk/assist 
