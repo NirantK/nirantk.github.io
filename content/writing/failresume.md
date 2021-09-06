@@ -24,7 +24,7 @@ It’s important to not only list the failures, but also learn from them, so I w
 - Rejected by UMass, UW, CMU Language Technolog, UCB MIMS, and bunch of other Grad school programs because of a bad recco
   - Lesson Learnt: Never trust an American
 - Sahil, the Product Manager and Verloop and Piyush, the CTO at Verloop quit -- atleast in part because I think I overwhelmed them
-- Got cold-rejected by someone I thought it'd work out with
+- Got cold-rejected by someone I thought it'd work out with romantically
 
 # 2019
 - Spent 6 weeks prototyping a solution at Verloop.io which doesn't break even on cost
