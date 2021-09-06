@@ -145,12 +145,4 @@ That said, if you come to the interview without enough homework on your own subm
 
 ---
 
-*I'm hiring for a MLE SDE 2 Position*
-
-*If this is something which interests you, and you are interested in working with us, please directly book an intro call with me here: https://calendly.com/nirant-k-verloop/intro-call-with-verloop-tech*
-
----
-
 This document is inspired by similar documents by Google Inc. I borrowed from the best when relevant.
-
-<iframe src="https://niranting.substack.com/embed" style="border:1px solid #EEE; background:white;" frameborder="0" scrolling="no"></iframe>
