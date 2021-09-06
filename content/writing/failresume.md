@@ -14,6 +14,12 @@ This concept originated in [academia](https://www.nytimes.com/2019/02/03/smarter
 I’ve organized my setbacks by year (starting with 2016), and what constitutes a “failure” (or _fail_) here is based solely on my own judgement. 
 It’s important to not only list the failures, but also learn from them, so I will add reflections to some of them (in progress). 
 
+# 2021
+- Never heard back from [Forethought.ai](https://forethought.ai/), [Coinbase](https://www.coinbase.com/). Had applied via the cold form on their websites.
+- Rejected by [Flowrite](https://flowrite.com/) because they could not afford me
+- Ghosted by [XFlowPay](https://xflowpay.com/) in mid-August
+- Ghosted by Google Recruiter in July
+
 # 2020
 - Rejected by UMass, UW, CMU Language Technolog, UCB MIMS, and bunch of other Grad school programs because of a bad recco
   - Lesson Learnt: Never trust an American
