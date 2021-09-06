@@ -7,6 +7,8 @@ toc = true
 show_reading_time = true
 +++
 
+Update, September 2021: This guide is a little outdated, but not obsolete. I no longer work at Verloop.io. 
+
 # Preparation Guide
 
 I've been an early Machine Learning Engineer at [Verloop.io](https://verloop.io) for almost 1.5 years, primarily working on NLP problems and now more in an Engineering Manager-ish role. 
@@ -42,13 +44,6 @@ All of the above is done by MLE at Verloop. Every engineer is expected to build 
 
 Verloop MLE often contribute to adjacent/overlapping challenges such as DevOps for Machine Learning aka ML Ops. These are often problems in model serving, automated deployment, data versioning, model monitoring, alerting and other parts of developer tooling.
 
----
-
-*I'm hiring for a MLE SDE 2 Position*
-
-*If this is something which interests you, and you are interested in working with us, please directly book an intro call with me here: https://calendly.com/nirant-k-verloop/intro-call-with-verloop-tech*
-
----
 # Programming Tips
 
 Write your code (unless otherwise stated) as if you are deploying this code to production. So anything which you'd want to pay attention to for your production code should ideally be there. 
