@@ -8,9 +8,8 @@ description = ""
 
 # What I’m doing now
  
-Work: After a 2+ years stint building multi-lingual online ML systems (in the Chat Automation/Conversational AI space) at [Verloop](https://verloop.io) - I'm now a free agent and on a career break/sabbatical. Given the COVID situtation 
-
+Work: After almost 6 months of Machine Learning consulting/career break, I've moved to a role away from the data science field. I’m now working as a Software Engineer at [Sundial.so](https://www.sundial.so/).
 ---
-Last Updated in May 2021 from Bengaluru, India
+Last Updated in December 2021 from Bengaluru, India
 
 The concept of now page is from [Derek Sivers](https://sivers.org/nowff)
