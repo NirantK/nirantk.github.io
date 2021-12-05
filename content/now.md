@@ -7,7 +7,7 @@ description = ""
 +++
 
 # What I’m doing now
- 
+
 Work: After almost 6 months of [Machine Learning consulting](./consulting)/career break, I've moved to a role away from the data science field. I’m now working as a Software Engineer at [Sundial.so](https://www.sundial.so/).
 ---
 Last Updated in December 2021 from Bengaluru, India
