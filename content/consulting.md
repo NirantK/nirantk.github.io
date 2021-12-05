@@ -1,13 +1,11 @@
 # How can Nirant help you?
 
 ## Things to know
-I'm Nirant. 
+I'm Nirant. I'm a software engineer, and I'm here to help you.
 
-I've about 5 years of experience doing Machine Learning across Big Corps like Samsung Research and Startups in India. 
+I've about 5 years of experience doing Machine Learning across Big Corps like Samsung Research and Startups in India. Here is a little bit more [about me](./about).
 
-I'm based out of India, but happy to take calls from PT/ET timezones as well.
-
-I'm a hands on engineer and actively give back.
+I'm based out of India, but happy to take calls from PT/ET timezones as well. I only take a maximum of 2 projects at a time.
 
 ### What I can do for you
 
