@@ -12,36 +12,36 @@ I've worked in Machine Learning for almost ~5 years, and have written a [book](#
 
 I live in Bengaluru, but grew up in Surat, Gujarat.
 
-## Book: [NLP in Python: Quickstart Guide](https://read.amazon.in/kp/embed?asin=B07L3PLQS1&preview=newtab&linkCode=kpe&ref_=cm_sw_r_kb_dp_MRBPRC9ZWRC8B4SKT74X)
+## [NLP in Python: Quickstart Guide](https://read.amazon.in/kp/embed?asin=B07L3PLQS1&preview=newtab&linkCode=kpe&ref_=cm_sw_r_kb_dp_MRBPRC9ZWRC8B4SKT74X)
 
-Meant primarily for programmers to add NLP sugar to their skillset. Written with code examples and programmer-first mindset. Available on Amazon and other select book stores.  
+[Github](https://github.com/NirantK/nlp-python-deep-learning)
 
-Code is also on [Github](https://github.com/NirantK/nlp-python-deep-learning)
+This is a book for programmers to add NLP to their skillset. Written with code examples and programmer-first mindset. It has sold 1k+ copies mostly in US and UK.
 
 <img src="https://images-eu.ssl-images-amazon.com/images/I/41uaueSqtUL._SX260_.jpg" alt="bookcover" style="width:261px;"/>
 
-## Talks
-1. Fifth Elephant MLOps Conf: [Slides](https://bit.ly/startupmlops2021)
-2. PyCon India 2019: [Slides](http://bit.ly/pycon2019talk) and [Youtube](https://youtu.be/UM56FDjSx9g)
-3. inMobi Tech Talks: A Nightmare on the LM Street; [Slides](http://bit.ly/nirant-talk-inmobi)
-4. Wingify DevFest: NLP for Indian Languages; [Slides](http://bit.ly/nirant-talk-1), [Youtube](https://www.youtube.com/watch?v=WiqV2W7tNc8)
-5. PyData Bengaluru Inaugral Talk: Quiz Generation with spaCy; [Youtube](https://www.youtube.com/watch?v=lsIXsnmICOM)
+## Papers and Open Source Contributions
 
-## Open Source Contributions 
+1. Hinglish: [github](https://github.com/NirantK/Hinglish), [paper](https://aclanthology.org/2020.semeval-1.119/) focussed on code-mixed languages was published in ACL 2019.
 
-1. Hinglish [code](https://github.com/NirantK/Hinglish), [paper](https://aclanthology.org/2020.semeval-1.119/) focussed on code-mixed languages was published in ACL 2019.
+2. [Awesome Project Ideas](https://github.com/NirantK/awesome-project-ideas) <img src="https://img.shields.io/github/stars/NirantK/awesome-project-ideas?style=social" style="width:20%;display: inline-block;"/> - Curated list of machine learning (mostly deep learning) project ideas with datasets. These ideas range from Vision, Text, Forecasting to Recommender Systems
 
-1. [Awesome Project Ideas](https://github.com/NirantK/awesome-project-ideas) <img src="https://img.shields.io/github/stars/NirantK/awesome-project-ideas?style=social" style="width:20%;display: inline-block;"/> - Curated list of machine learning (mostly deep learning) project ideas with datasets. These ideas range from Vision, Text, Forecasting to Recommender Systems
-
-1. [Awesome NLP](https://github.com/keon/awesome-nlp)<img src= "https://img.shields.io/github/stars/keon/awesome-nlp?style=social" style="width:20%; display: inline-block;"> Curated list of Natural Language Processing Resources. 
-
-I've been the Primary Maintainer for [Awesome-NLP](https://github.com/keon/awesome-nlp)
+3. [Awesome NLP](https://github.com/keon/awesome-nlp)<img src= "https://img.shields.io/github/stars/keon/awesome-nlp?style=social" style="width:20%; display: inline-block;"> Curated list of Natural Language Processing Resources. I've been the Primary Maintainer for [Awesome-NLP](https://github.com/keon/awesome-nlp)
 
 	* Recommended by Dr. Andrew Ng's (Stanford) CS 230
 	* Featured in Github's Official Machine Learning [Collection](https://github.com/collections/machine-learning) since 2016 and 
 	
-1. State of the Art Language Modeling in Hindi + new datasets, check the code here at [hindi2vec](https://github.com/NirantK/hindi2vec) <img src= "https://img.shields.io/github/stars/NirantK/hindi2vec?style=social" style="width:20%; display: inline-block;"> 
+4. State of the Art Language Modeling in Hindi + new datasets, check the code here at [hindi2vec](https://github.com/NirantK/hindi2vec) <img src= "https://img.shields.io/github/stars/NirantK/hindi2vec?style=social" style="width:20%; display: inline-block;"> 
 
+5. Comparative Study of Preprocessing and Classification Methods in Character Recognition of Natural Scene Images. In: Machine Intelligence and Signal Processing. Advances in Intelligent Systems and Computing, vol 390. Springer, New Delhi (2015). https://doi.org/10.1007/978-81-322-2625-3_11
+
+## Talks
+
+1. Fifth Elephant MLOps Conf 2021: [Slides](https://bit.ly/startupmlops2021)
+2. PyCon India 2019: [Slides](http://bit.ly/pycon2019talk) and [Youtube](https://youtu.be/UM56FDjSx9g)
+3. inMobi Tech Talks: A Nightmare on the LM Street; [Slides](http://bit.ly/nirant-talk-inmobi)
+4. Wingify DevFest: NLP for Indian Languages; [Slides](http://bit.ly/nirant-talk-1), [Youtube](https://www.youtube.com/watch?v=WiqV2W7tNc8)
+5. PyData Bengaluru Inaugral Talk: Quiz Generation with spaCy; [Youtube](https://www.youtube.com/watch?v=lsIXsnmICOM)
 
 ## Web Mentions - My 5 minutes of Internet fame
 
