@@ -6,13 +6,11 @@ description = ""
 
 ## Me in 10 seconds
 
-Most recently, I built the ML stack and team at [Verloop.io](https://verloop.io) from 0 to 1 as the Founding ML Engineer. 
+I now do mostly [analytics engineering](https://www.getdbt.com/what-is-analytics-engineering/) at Sundial.so. 
 
-I've been doing NLP (Natural Language Processing) for a bit, and did Computer Vision before. Have some exposure to Document Search, Embedded ML and Predictive Analytics before. 
+I've worked in Machine Learning for almost ~5 years, and have written a [book](#book) on Natural Language Processing. Dr. Andrew Ng recommends my work to his CS230 students at Stanford. My blogs have been appreciated by Noble Laureate Dr. Paul Romer. 
 
-I've written a [book](#book) about NLP. Some of [my work](https://github.com/keon/awesome-nlp) is recommended by Stanford CS 230 and my blogs found useful by Nobel Laureates. 
-
-I now live in the Silicon Valley of India: Bengaluru, but grew up in Surat, Gujarat. 
+I live in Bengaluru, but grew up in Surat, Gujarat.
 
 ## Book: [NLP in Python: Quickstart Guide](https://read.amazon.in/kp/embed?asin=B07L3PLQS1&preview=newtab&linkCode=kpe&ref_=cm_sw_r_kb_dp_MRBPRC9ZWRC8B4SKT74X)
 
@@ -31,16 +29,19 @@ Code is also on [Github](https://github.com/NirantK/nlp-python-deep-learning)
 
 ## Open Source Contributions 
 
+1. Hinglish [code](https://github.com/NirantK/Hinglish), [paper](https://aclanthology.org/2020.semeval-1.119/) focussed on code-mixed languages was published in ACL 2019.
+
 1. [Awesome Project Ideas](https://github.com/NirantK/awesome-project-ideas) <img src="https://img.shields.io/github/stars/NirantK/awesome-project-ideas?style=social" style="width:20%;display: inline-block;"/> - Curated list of machine learning (mostly deep learning) project ideas with datasets. These ideas range from Vision, Text, Forecasting to Recommender Systems
 
-2. [Awesome NLP](https://github.com/keon/awesome-nlp)<img src= "https://img.shields.io/github/stars/keon/awesome-nlp?style=social" style="width:20%; display: inline-block;"> Curated list of Natural Language Processing Resources. 
+1. [Awesome NLP](https://github.com/keon/awesome-nlp)<img src= "https://img.shields.io/github/stars/keon/awesome-nlp?style=social" style="width:20%; display: inline-block;"> Curated list of Natural Language Processing Resources. 
 
 I've been the Primary Maintainer for [Awesome-NLP](https://github.com/keon/awesome-nlp)
 
 	* Recommended by Dr. Andrew Ng's (Stanford) CS 230
 	* Featured in Github's Official Machine Learning [Collection](https://github.com/collections/machine-learning) since 2016 and 
 	
-3. State of the Art Language Modeling in Hindi + new datasets, check the code here at [hindi2vec](https://github.com/NirantK/hindi2vec) <img src= "https://img.shields.io/github/stars/NirantK/hindi2vec?style=social" style="width:20%; display: inline-block;"> 
+1. State of the Art Language Modeling in Hindi + new datasets, check the code here at [hindi2vec](https://github.com/NirantK/hindi2vec) <img src= "https://img.shields.io/github/stars/NirantK/hindi2vec?style=social" style="width:20%; display: inline-block;"> 
+
 
 ## Web Mentions - My 5 minutes of Internet fame
 
