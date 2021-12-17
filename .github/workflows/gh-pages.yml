@@ -10,8 +10,6 @@ on:
 jobs:
   deploy:
     runs-on: ubuntu-20.04
-    env:
-      - HUGO_ENV=production
     steps:
       - uses: actions/checkout@v2
         with:
@@ -23,6 +21,7 @@ jobs:
         with:
           hugo-version: 'latest'
           extended: true
+          HUGO_ENV: 'production'
 
       - name: Build
         run: hugo --minify
