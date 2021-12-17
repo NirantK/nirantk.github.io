@@ -21,6 +21,7 @@ jobs:
         with:
           hugo-version: 'latest'
           extended: true
+        env:
           HUGO_ENV: 'production'
 
       - name: Build
