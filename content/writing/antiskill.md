@@ -1,7 +1,7 @@
 +++
 title = "Anti Skills"
 description = "Skills you don't want to tell people about"
-date = 2021-12-18T00:09:00+05:30
+date = 2021-12-15T00:09:00+05:30
 tags = ["niranting"]
 toc = true
 draft = true
@@ -10,6 +10,9 @@ draft = true
 Consider this hypothetical: If you're a software engineer who is known to be good at iOS development, you'll find it hard to get job offers outside of iOS development.[1]
 
 The amount paid to you for this will keep improving as you keep getting better at it. Note that this increased pay might still be less than even starting pay in some other fields, say Data Science -- but you've Golden Handcuffs on you now, don't you? You've hit a local maxima, and you're now a top-notch iOS developer!
+
+And I totally get the pressure of the talent markets, and I'm sure you're not alone:
+{{< tweet user="ponnappa" id="1415323073444597761" >}}
 
 But what if you're someone who enjoys doing iOS development? I'm super happy for you! You'll most likely be great at this and enjoy it.
 
