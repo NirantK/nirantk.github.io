@@ -26,7 +26,9 @@ jobs:
 
       - name: Build
         run: hugo --minify
-
+        env:
+          HUGO_ENV: 'production'
+          
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
         if: github.ref == 'refs/heads/main'
