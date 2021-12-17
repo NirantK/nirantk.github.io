@@ -3,7 +3,7 @@ title = "Character is Net Worth"
 date = 2020-10-10T00:09:00+05:30
 tags = ["niranting"]
 description = "And 2 more metaphors"
-toc = false
+toc = true
 featured_image= "/images/bitsaa-keychain.png"
 +++
 
