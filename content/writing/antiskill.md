@@ -7,7 +7,7 @@ toc = true
 draft = true
 +++
 
-Consider this hypothetical: If you're a software engineer who is known to be good at iOS development, you'll find it hard to get job offers outside of iOS development.[1]
+Consider this hypothetical: If you're a software engineer who is known to be good at iOS development, you'll find it hard to get job offers outside of iOS development[1]
 
 The amount paid to you for this will keep improving as you keep getting better at it. Note that this increased pay might still be less than even starting pay in some other fields, say Data Science -- but you've Golden Handcuffs on you now, don't you? You've hit a local maxima, and you're now a top-notch iOS developer!
 
