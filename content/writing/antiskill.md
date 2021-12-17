@@ -7,14 +7,23 @@ toc = true
 show_reading_time = true
 +++
 
-Consider this hypothetical: If you're a software engineer who is known to be good at iOS development, you'll find it hard to get job offers outside of iOS development[1]
+You learn a well-paying skill and years later - it comes back to hurt you in unexpected ways. That's an **Anti Skill**.
 
-The amount paid to you for this will keep improving as you keep getting better at it. Note that this increased pay might still be less than even starting pay in some other fields, say Data Science -- but you've Golden Handcuffs on you now, don't you? You've hit a local maxima, and you're now a top-notch iOS developer!
+Consider this hypothetical: You start of your software engineering career and build a reputation as someone who is good at iOS development. Each year, the money you make keeps improving as you keep getting better at it. 
 
-And I totally get the pressure of the talent markets, and I'm sure you're not alone:
+The downside? You'll find it hard to get job offers outside of iOS development [1]
+
+Note that this increased pay might still be less than even starting pay in some other fields, say Data Science -- but you've Golden Handcuffs on you now, don't you? 
+
+Congratulations! You've hit a local maxima!
+
+But what if you're someone who enjoys doing iOS development? 
+I'm super happy for you! You'll most likely not just be good at it, but great at this and enjoy it.
+
+## What is an Anti Skill?
+
+Part of the puzzle lies in pressures of talent markets and need to launch your career.
 {{< tweet user="ponnappa" id="1415323073444597761" >}}
-
-But what if you're someone who enjoys doing iOS development? I'm super happy for you! You'll most likely be great at this and enjoy it.
 
 The discussion gets more interesting when you consider that you're not just a software engineer anymore, but a mobile app developer. Nothing wrong it, just like there is nothing wrong with being a divorce-attorney vs a vanilla lawyer. But when you started, did you know that learning these skills will reduce your optionality in the future?
 
