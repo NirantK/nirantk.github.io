@@ -2,9 +2,9 @@
 title = "Anti Skills"
 description = "Skills you don't want to tell people about"
 date = 2021-12-15T00:09:00+05:30
-tags = ["niranting"]
+tags = ["niranting", "career"]
 toc = true
-draft = true
+show_reading_time = true
 +++
 
 Consider this hypothetical: If you're a software engineer who is known to be good at iOS development, you'll find it hard to get job offers outside of iOS development[1]
