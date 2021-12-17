@@ -1,5 +1,5 @@
 +++
-title = "Breaking into NLP for outsiders"
+title = "Breaking into NLP"
 description = "How to form better connections within the community"
 date = 2021-12-07T00:09:00+05:30
 tags = ["career", "niranting"]
