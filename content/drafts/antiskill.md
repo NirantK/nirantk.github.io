@@ -9,7 +9,7 @@ draft = true
 
 Consider this hypothetical: If you're a software engineer who is known to be good at iOS development, you'll find it hard to get job offers outside of iOS development.[1]
 
-The amount paid to you for this will keep improving as you keep getting better at it. Note that this increased pay might still be less than even starting pay in some other fields, say Data Science -- but you've Golden Handcuffs on you now, don't you?
+The amount paid to you for this will keep improving as you keep getting better at it. Note that this increased pay might still be less than even starting pay in some other fields, say Data Science -- but you've Golden Handcuffs on you now, don't you? You've hit a local maxima, and you're now a top-notch iOS developer!
 
 But what if you're someone who enjoys doing iOS development? I'm super happy for you! You'll most likely be great at this and enjoy it.
 
@@ -21,8 +21,18 @@ This has nothing to do with whether it's a good skill to learn or not. Some of t
 
 It might be harder to get out of these impressions at your existing job, because they tend to be sticky. In such scenarios, moving to a different team within the same company or a different company altogether might be good option. I know of atleast one case where someone had to change jobs to get a 'soft' career reset. 
 
-You might be tempted to move up the value chain. In my limited experience, this rarely works out well and is often quite hard to get out of.E.g. You might not want to build a reputation for being good at debugging, but you might want to advertise that you're good at problem-solving. Another example: Good at SQL? No. Great at metrics? Yes.
-
 The worst of these scenarios is that in a few years from now, you are great at something you don't enjoy anymore. And now, it's too late to do something else because you're stuck with it.
+
+## What can we do?
+
+To begin with, [keep your identity small](http://www.paulgraham.com/identity.html). That includes not self-identifying by a technology, platform or worse, a JS Framework :P 
+
+This way, you're not atleast not in your own way of seeing that you're at a local maxima.
+
+If you're in a position, where you're stuck at a local maxima -- resist the temptation to go up the ladder. Think of taking titles into your [identity on as taking debt](). The title of the job is a ceiling e.g. a Head of Mobile, or Head of Data is often not in the running for the next CTO :)
+
+It's much better to be a small fish in a big pond than other way around.
+
+This reset, speaking from personal experience, is quite uncomfortable and requires you to fall down a skill-cliff and climb up again. If you're considering something like this, feel free to hit me up with your thoughts. I'm [here](https://twitter.com/nirantk) to help.
 
 [1] Changing to a different role and/or adding skill sets might still be possible within the organisation you already work at. Lateral shifts are usually harder.
