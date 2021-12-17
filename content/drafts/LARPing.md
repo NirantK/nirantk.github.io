@@ -8,6 +8,11 @@ draft = true
 show_reading_time = true
 +++
 
+Role Models and Distance
+Chesterton's Outgroup
+
+
+https://alexdanco.com/2019/04/28/secrets-about-people-a-short-and-dangerous-introduction-to-rene-girard/
 
 From Samo Burja's [How to Find Frontier's of Knowledge](https://medium.com/@samo.burja/how-to-find-the-frontiers-of-knowledge-ada58d0be155)
 
