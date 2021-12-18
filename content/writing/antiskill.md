@@ -37,7 +37,7 @@ Anti Skills prevent you from adapting quickly to the changing environment around
 
 To prevent this, [keep your identity small](http://www.paulgraham.com/identity.html). That includes not self-identifying by a technology, platform or worse, a JS Framework :P 
 
-This way, you're not atleast not in your own way of seeing that you're at a local maxima.
+Do not use labels like title, narrow technology expertise, or platform to describe yourself in your own mind. This will make it easier to see when/if you're stuck.
 
 If you're in a position where you're stuck at a local maxima -- resist the temptation to go up the ladder. Think of taking titles into your [identity on as taking debt](https://nirantk.com/writing/character-is-net-worth.html). Job titles are not your identity. They're _prestige handcuffs_, and you're not going to be able to get them off you easily.
 
