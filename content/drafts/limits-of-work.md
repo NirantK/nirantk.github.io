@@ -10,7 +10,7 @@ draft = true
 
 
 
-Achieving without looking like you're trying to achieve is actually much harder. 
+Achieving without looking like you're trying to achieve is actually much harder.
 
 Work as Ethic
 Work as Duty

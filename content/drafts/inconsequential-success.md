@@ -8,6 +8,8 @@ draft = true
 show_reading_time = true
 +++
 
+Faux checkpoints, they don't give you anything. They're not impactful, but because they look good/easy to explain/convey - we intend to chase them.
+
 When I was much younger, I mostly saw world and most things in binaries: success or failure. Then, I came to see how this always put me in a state of pre-success failure state. Because my brain would almost instantly go from achieving one checkpoint to seeing next level, and realising I'm not there yet. 
 
 I learnt from Pressfield's writing the merits of taking your craft as supreme, what it means to be a _professional_, and the emotional-mental benefits of combining a blue collar work-ethic combined with an indomitable will.
