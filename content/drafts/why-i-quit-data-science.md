@@ -50,6 +50,8 @@ I was also bored by the mundanity of problems you encounter in typical early-sta
 
 Stepping away from Machine Learning Lead roles can be a massive cash and title/designation downgrade. It definitely turned out to be true for me. 
 
-My alternate job offer was a Machine Learning Lead, instead of a Platform Engineer. I would not be happy with the role, but I'd be very happy with the salary. It'd be 3-4x in cash, and 4-5x in total compensation terms. Another way to look at this, I took at 75% cut on my cash compensation.
+My alternate job offer was a Series B/C Machine Learning Lead, instead of a Platform Engineer. I would not be happy with the role, but I'd be very happy with the salary. It'd be 3-4x in cash, and 4-5x in total compensation terms. Another way to look at this, I took at 75% cut on my cash compensation.
 
 I'm betting that I'll have a lot more fun doing this, but I'm also betting that I'll be a little more successful - which will compensate for this over a 4-10 year chapter of the career.
+
+In addition to the cash and title hit, it's a bit of social shaming: People might be inclined to assume that you were not quite good as a Data Scientist and that is why you moved to SWE. I don't care enough about that but mentioning it here so that you can see that I'm aware of it.
