@@ -7,7 +7,7 @@ toc = true
 show_reading_time = true
 +++
 
-Theme: I am interested in knowing how did you come to this decision of moving to SWE from DS/MLE.
+Question from a friend: I am interested in knowing how did you come to this decision of moving to SWE from DS/MLE. Since I've been asked a variant of this question quite a few times, I thought it would be good to share my answer.
 
 ## What kind of research did you do to get to this decision?
 
@@ -15,15 +15,19 @@ I spoke to a lot of people who were both big companies and startups. I also spok
 
 ## What were your considerations while making this decision?
 
-### Skill Stack
+### Skills
 
 This is how I understand the world today: There are 3 primary functions around data: data engineering, modeling (e.g. predictive) and data analytics.
 
-I could keep going deeper into modeling e.g. learning more about CNNs and Transformers. Between writing the NLP Book and professional Machine Learning, I'd guess that I'm in top 20-30% of the world doing this. The journey to get from here to being the best is hard and I'm not sure if I'm going to be able to do it.
+I could keep going deeper into modeling e.g. learning more about CNNs and Transformers. Between writing the NLP Book and professional Machine Learning, I'd guess that I'm in top 20-30% of the world doing this. The journey to get from here to being the best is hard and I'm not sure if I'm going to be able to do it. 
+
+The field also suffers a bit from the [Red Queen effect](https://fs.blog/the-red-queen-effect/) on the applied side of things. I'm not sure if I want to keep doing it 5, 10, or 20 years from now. I started doing Machine Learning because I was interested in the field and I was curious about how it would work. 
+
+It's no longer about the thrill of solving a puzzle/problem anymore. The roles I've access to, have the drudgery of making the same pipelines work in similar ways and then applying them to different problems.
 
 I'd much rather add another skill and get to the top 25% in it -- and then quickly rise to the top on it's intersection. This will also be easier as I've tons of novelty and new ideas to learn. 
 
-Since analytics roles are neither well respected nor well paid, I'd rather be a platform/data enginer than a data analyst.
+Since analytics roles are neither well respected nor well paid, the process of elimination works. I'd rather be a platform enginer than a data/product analyst.
 
 ### Competition
 
@@ -53,4 +57,5 @@ My alternate job offer was a Series B/C Machine Learning Lead, instead of a Plat
 
 I'm betting that I'll have a lot more fun doing this, but I'm also betting that I'll be a little more successful - which will compensate for this over a 4-10 year chapter of the career.
 
-In addition to the cash and title hit, it's a bit of social shaming: People might be inclined to assume that you were not quite good as a Data Scientist and that is why you moved to SWE. I don't care enough about that but mentioning it here so that you can see that I'm aware of it.
+In addition to the cash and title hit, it's a bit of social shaming: People might be inclined to assume that you were not quite good as a Data Scientist and that is why you moved to SWE. I don't care enough about that to influence my decision but I do care about it and hence worth mentioning.
+
