@@ -4,11 +4,10 @@ description = ""
 date = 2022-01-09T00:09:00+05:30
 tags = ["niranting"]
 toc = true
-draft = true
 show_reading_time = true
 +++
 
-Question: I am interested in knowing how did you come to this decision of moving to SWE from DS/MLE.
+Theme: I am interested in knowing how did you come to this decision of moving to SWE from DS/MLE.
 
 ## What kind of research did you do to get to this decision?
 
