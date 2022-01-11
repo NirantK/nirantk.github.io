@@ -31,23 +31,40 @@ Since analytics roles are neither well respected nor well paid, the process of e
 
 ### Competition
 
-Within this, let's talk separately about pre-series D startups and big companies (e.g. FAANG/MAGA) for modeling roles. Startups are usually open to hiring folks without a MS/PhD degree, while big companies are more open to hiring folks with a PhD. 
+Within this, let's talk separately about pre-series D startups and big companies (e.g. FAANG/MAGA) for modeling roles. Startups are usually open to hiring folks without a MS/PhD degree, while big companies are more open to hiring folks with a MS/PhD.
 
 For modeling roles at big companies you will be competing with folks with a PhD. For startups, I often see they end up hiring better trained folks as they scale up and relegate older, less 'specialised' folk to roles closer to engineering (e.g. API Design, uptime) and away from modeling.
 
 It's also much harder for me, personally to find truly exceptional Machine Learning mentors, but relatively easier to find proven, battle-tested quite senior engineers. And as much as you might underestimate the role of coaching, I believe that in our craft - it can save you 4-5 years of learning time.
 
+
 ### Title/Impact
 
 I've the least confidence on this being true over a longer duration. But I'm mentioning it here since a lot of senior people do think about this. 
 
-Growing within modeling-related roles is hard and you hit the ceiling as Head of Machine Learning. Notice that in most of the cases, you are not even Head of Data, you're Head of Research or ML or some function within Data.
+Growing within modeling-related roles is hard and you hit the ceiling as Head of Machine Learning. Notice that in most of the cases, you are not even Head of Data, you're Head of Research or ML or some function within Data. The Head of Data in turns reports to the senior most Engineering Leader e.g. the CTO.
+
+This means your influence over things which shape your day: tooling, infrastructure, product direction, org structure, promotions etc. is limited. You can't even learn these things.
+
+I'd like to keep my options of becoming a Engineering Manager/VP Engineering/CTO in a few years. I'd much prefer that to Head of Data Science or Analytics. This option is so much more valuable to me that I'm happy to pay a price to "buy" it.
 
 ## What was/is the goal of this particular switch? What were you trying to optimize?
 
-I'm optimizing for being great (but not best) at the intersection of 2-3 things instead of 1 narrowly, clearly defined role. I'm trying to get to the top of the intersection. 
+I'm optimizing for being great (but not best) at the [intersection of 3 things](https://dilbertblog.typepad.com/the_dilbert_blog/2007/07/career-advice.html) instead of 1 narrowly, clearly defined role. I'm trying to get to the top of the intersection.
 
 I was also bored by the mundanity of problems you encounter in typical early-stage startups. The need to trade off personal-notion-of-quality for speed is sometimes a bit of a problem, but I usually enjoyed the challenge.
+
+### Why not Machine Learning Engineering at a Big Company?
+
+I fear that this role combines the worst of two worlds. You've the skills of a backend engineer: you can design microservices, implement them, scale them, deploy them, and manage the infrastructure. But you also have the skills of a Data Scientist: you can build models, train them, deploy them, and manage the experimentation infrastructure.
+
+You don't get paid or recognized for either of them. The backend developer thinks of you as a "ML guy" and the Data Scientist thinks of you as a "Backend guy". This is made worse at a Big Company because they tend to reward specialists via promotions. You're going to get underpaid for both roles.
+
+Not to mention that a large fraction of your knowledge is getting outdated faster than I can learn. Of course, you might be 10x faster, better learner than me - in which case this blog post is not meant for you.
+
+### Why not take a 1 year Research focussed Sabbatical?
+
+Well, because companies which ask for skills acquired via a MS/PhD are often not willing to pay for a 1 year research year. It'd not be that much better than being endorsed by Dr. Andrew Ng, [writing a book](http://amzn.to/3i2X0jv), mentoring folks for [ACL papers](https://aclanthology.org/2020.semeval-1.119) and speaking at [PyCon India](https://www.youtube.com/watch?v=UM56FDjSx9g). 
 
 ## What information did you find for and against this switch?
 
@@ -59,3 +76,4 @@ I'm betting that I'll have a lot more fun doing this, but I'm also betting that 
 
 In addition to the cash and title hit, it's a bit of social shaming: People might be inclined to assume that you were not quite good as a Data Scientist and that is why you moved to SWE. I don't care enough about that to influence my decision but I do care about it and hence worth mentioning.
 
+My Machine Learning skills will also atrophy with time. I'll be able to get to similar productivity faster in a few years because the [half-life of knowledge](https://www.wikiwand.com/en/Half-life_of_knowledge) in the field is really short and tooling improvements make it easier to ship well. 
