@@ -1,8 +1,8 @@
 +++
-title = "Proto-Cyborgs"
-description = "We're all Cyborgs Now"
-date = 2020-09-15T00:09:00+05:30
-tags = [""niranting"]
+title = "LARPing Cyborgs"
+description = ""
+date = 2021-12-18T00:09:00+05:30
+tags = ["niranting"]
 toc = true
 draft = true
 show_reading_time = true
