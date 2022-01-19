@@ -1,6 +1,5 @@
 +++
 title = "Why I Quit Data Science"
-description = ""
 featured_image= "/images/began.jpeg"
 date = 2022-01-09T00:09:00+05:30
 tags = ["niranting", "career"]
