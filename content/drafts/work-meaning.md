@@ -1,7 +1,7 @@
 +++
-title = "Thinking about Work"
+title = "What does WORK mean?"
 date = 2021-12-27T00:09:00+05:30
-description = "Work as Play"
+description = "The many Avatars of Work"
 tags = ["career", "niranting"]
 toc = true
 show_reading_time = true
