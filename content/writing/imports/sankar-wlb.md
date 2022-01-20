@@ -12,7 +12,7 @@ Note from Nirant: This is an archived blog post from [here](https://webcache.goo
 
 I've taken the liberty to copy paste the raw text:
 
-Given [my journey](), you can imagine my first reaction to questions of work-life balance is fairly unsympathetic. I want to protest that, by legitimizing such a false dichotomy, you’re pre-empting a much more meaningful conversation. But I suspect that conversation is closer to the heart of this anxiety than most people realize. 
+Given [my journey](https://www.forbes.com/sites/quora/2012/09/18/how-did-shyam-sankar-join-palantir/?sh=551313eb2539), you can imagine my first reaction to questions of work-life balance is fairly unsympathetic. I want to protest that, by legitimizing such a false dichotomy, you’re pre-empting a much more meaningful conversation. But I suspect that conversation is closer to the heart of this anxiety than most people realize. 
 
 If you’re worrying about work-life balance at the beginning of your career, and you’re reading this, I’m guessing you’re not lazy. You’re not looking for an easy life (even if this seems like an appealing concept right after midterms). I’m willing to bet that what you’re really worried about is someone else owning your most precious possession: your future. 
 
