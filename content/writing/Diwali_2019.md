@@ -1,5 +1,5 @@
 +++
-title = "Happy Diwali 2019"
+title = "Annual Letter: Diwali 2019"
 date = 2019-11-01T00:09:00+05:30
 tags = ["niranting"]
 description = "And Annual Updates"
