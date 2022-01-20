@@ -1,13 +1,13 @@
-
 +++
 title = "Where are my demons?"
 date = 2021-02-01T00:09:00+05:30
 description = "A Soliloquy"
-tags = ["career", "niranting"]
-toc = true
+tags = ["niranting"]
+draft = true
 show_reading_time = true
 +++
 
+In the town of Indraprastha, every child had heard the story of demons and how a band of heroes had come to their rescue. 
 
 Repeat the Good Fight but use the Demons as a metaphor here
 
