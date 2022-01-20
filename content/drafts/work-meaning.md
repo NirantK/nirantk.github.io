@@ -1,28 +1,43 @@
 +++
 title = "What does WORK mean?"
 date = 2021-12-27T00:09:00+05:30
-description = "The many Avatars of Work"
+description = "What the fuck is work?"
 tags = ["career", "niranting"]
 toc = true
 show_reading_time = true
 draft = true
 +++
 
+I began writing this post as a rebuttal to Sajith Pai's 'Work as Play' in his [Shower Thoughts](https://sajithpai.com/venture-capital-startups/shower-thoughts/)[1]. It evoked quite an emotional response from me, quite similar to how I see sprezzatura: a form of deceit on behalf of the professional, and unfair expectation to have societally.
 
+But I realized that my emotional friction with the post has a more interesting dimension to it. This essay is about the not that often asked question: 
 
-Achieving without looking like you're trying to achieve is actually much harder.
+> "What does WORK mean?"
+
+I searched a bit and didn't really come across a philosophical answer to this which was not tainted by the capitalism vs socialist wars. Here, I am attempting to think about a personal understanding about the meaning, the role, WORK plays in our lives.
+
+Work as Flow/Joy
+
+I've come across some really good writing and thinking on the topic. The most memorable of last 5 years is perhaps Shyam Sankar's The Case Against Work Life Balance [2]
 
 Work as Ethic
 Work as Duty
 Work as Survival
+
+
 Work as Play
 
+
+
+
+
+Achieving without looking like you're trying to achieve is actually much harder.
 
 
 Appendix
 ---
 
-This post is a continuation of Sajith Pai's 'Work as Play' in his [Shower Thoughts](https://sajithpai.com/venture-capital-startups/shower-thoughts/). Here is an excerpt from the post:
+This post is a continuation of 
 
 > An alternate framework to ‘shower thoughts’, and one I have often used is that **high performance workers dont see the work they do as ‘work’**, i.e., something that needs to be dealt with for 5-6 hours and then moved on from. Instead they see work as play. The find it easy and enjoyable. This is what is referred to the in the saying “Choose a job you love and you will never have to work a day in your life.” (source unknown)
 
@@ -42,4 +57,8 @@ This has few interesting outcomes:
 
 Winning is now going to be talked about in terms of human values
 
+
+[1]
+
+[2] 
 https://twitter.com/fortelabs/status/1297619990699417600
