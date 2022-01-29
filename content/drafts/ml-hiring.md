@@ -2,7 +2,7 @@
 title = "Dos and Don'ts for ML Hiring"
 date = 2022-01-27T00:09:00+05:30
 description = "ML Hiring in India: Cliff Notes"
-tags = ["niranting"]
+tags = ["niranting"] 
 toc = true
 show_reading_time = true
 +++
@@ -18,8 +18,8 @@ show_reading_time = true
         - 6+ months to close a senior hire
 - If a developer has open source code contributions in the last 2-3 years, consider waving off the coding or algorithmic challenge to speed up the interview process
 - Pay above market cash salaries
-    - In 12-18 months from now, when your ML Engineer will have internalised all the requirements, company culture and built a bunch of important tooling - she would get an offer which is 2-3x of today. If you're already paying above market salaries, a 20-30% jump is quite often not the worth 
-- Have 3 versions of your shipping timeline
+    - In 12-18 months from now, when your ML Engineer will have internalised all the requirements, company culture and built a bunch of important tooling - she would get an offer which is 2-3x of today. If you're already paying above market salaries, a 20-30% jump is quite often enough to retain many folks 
+- Have 3 at least versions of your shipping timeline
 - Do hire [full stack Data Science people/teams](https://nirantk.com/writing/building-a-data-science-team.html).  If you're hiring for early members for your team, this is practical necessity. An example of T shaped skills could look like
 
 ## Don't
@@ -28,6 +28,6 @@ show_reading_time = true
     - Why? This is because it's cheaper (and often faster) to change ML modeling approach than to make changes in data engineering pipelines
 - Don't start by hiring an intern to implement papers or take things to production before you've done them
 - Don't expect data science to deliver or ship at the same "user value" pace as Product Engineering
-    - Why? Data Science suffers from the twin problems of being new
+    - Why? Data Science suffers from the twin problems of being new and experiment-driven
 - Don't assume that you've so much data, and since all of it is queryable, it's all usable
-- Hire ultra-specialists too early 
+- Hire ultra-specialists e.g. post-docs and PhDs too early, barring products which requires invention and not application
