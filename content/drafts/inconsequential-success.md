@@ -1,5 +1,5 @@
 +++
-title = "Inconsequential Success"
+title = "Beware of Inconsequential Success"
 description = ""
 date = 2021-12-18T00:09:00+05:30
 tags = ["niranting"]

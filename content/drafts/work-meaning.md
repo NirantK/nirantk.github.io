@@ -1,5 +1,6 @@
 +++
-title = "What does WORK mean?"
+title = "Don't be Jesus"
+description = "Or a saint for that matter"
 date = 2021-12-27T00:09:00+05:30
 description = "What the fuck is work?"
 tags = ["career", "niranting"]

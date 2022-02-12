@@ -7,6 +7,8 @@ toc = true
 show_reading_time = true
 +++
 
+This is primarily for my future self. These are observations based on my own experience of 2 years at Verloop.io and helping a few companies hire for similar roles. 
+
 ## Do
 - Seniormost hire first: Start by hiring the senior most person you're going to hire. E.g. start by hiring the ML Lead (assuming you already have a CTO)
 - Have a means to tell that your investment in data science is working out or not
