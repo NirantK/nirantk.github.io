@@ -1,13 +1,3 @@
-+++
-title = "Don't be Jesus"
-description = "Or a saint for that matter"
-description = "What the fuck is work?"
-tags = ["career", "niranting"]
-toc = true
-show_reading_time = true
-draft = true
-+++
-
 I began writing this post as a rebuttal to Sajith Pai's 'Work as Play' in his [Shower Thoughts](https://sajithpai.com/venture-capital-startups/shower-thoughts/)[1]. It evoked quite an emotional response from me, quite similar to how I see sprezzatura: a form of deceit on behalf of the professional, and unfair expectation to have societally.
 
 But I realized that my emotional friction with the post has a more interesting dimension to it. This essay is about the not that often asked question: 
@@ -26,10 +16,6 @@ Work as Survival
 
 
 Work as Play
-
-
-
-
 
 Achieving without looking like you're trying to achieve is actually much harder.
 
