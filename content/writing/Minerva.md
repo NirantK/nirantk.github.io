@@ -104,4 +104,4 @@ SQL is not only more widely spoken, it'd be a lot more efficient and more scalab
 
 ---
 
-These are some notes and screen grabs from a talk which I'd found on Youtube. I seem to have lost the source/original link. Please share it if you know which talk is this!
+These are some notes and screen grabs from a talk which I'd found on [Youtube](https://www.youtube.com/watch?app=desktop&v=ksWwdYwXhh0&ab_channel=Databricks). Thanks to [Kunal Kundu](https://twitter.com/kunal__kundu) for finding the talk link which I'd lost!
