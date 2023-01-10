@@ -6,7 +6,7 @@ description = ""
 
 ## Me in 10 seconds
 
-I now do mostly [analytics engineering](https://www.getdbt.com/what-is-analytics-engineering/) at Sundial.so. 
+I am a Machine Learning consultant with a focus on NLP (including search & speech) & Vision systems for 0 to 1 startups.
 
 I've worked in Machine Learning for almost ~5 years, and have written a [book](#book) on Natural Language Processing. Dr. Andrew Ng recommends my work to his CS230 students at Stanford. My blogs have been appreciated by Noble Laureate Dr. Paul Romer. 
 
