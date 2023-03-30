@@ -35,6 +35,45 @@ Saturday: participants use 2nd, 3rd, and 4th floors; Demo Day on 2nd floor; live
 Talks streamed via Zoom or TVs on 2nd and 3rd floors; schedule: https://hasgeek.com/generativeAI/deep-hackathon/schedule
 Emcee: Ravi Srinivasan; Sooraj, Sanat, and Ravi will make social videos during hackathon
 
+## FAQ
+
+### Can I work on my own startup idea?
+
+The demo day is only for ideas developed during the hackathon.
+
+The demo day is not for startups who want to showcase their products built using Generative AI. You can and should libraries (e.g. Langchain, LLama Index) and boilerplate code libs (e.g. Tailwind). It is also okay to do some homework before the hackathon on what approaches, libraries/APIs you want to use and have that all in place when you begin.
+
+If you want to showcase the work your startup is doing, please reach out to The Fifth Elephant team at Hasgeek which is organizing forums for such opportunities.
+
+### Can I work on a project that I have already started?
+
+Yes, you can work on a project that you have already started. But in the interest of fairness, please do not work on a project that you have already made a lot of progress on, say 60% completed.
+
+## What are the prizes?
+
+The prize categories are as follows:
+
+### Visual Voyager
+Sponsored by [Sequoia Capital](https://www.sequoiacap.com/india/)
+Devtools for working with Multimedia: Pipelines and tools to make gifs, comics, videos, but not the output itself -> Famous examples include RoomGPT, PhotoAI.io, Playgroundai.com, Lexica.art
+
+### Voracious Word Weaver
+Sponsored by [Springworks](https://springworks.in)
+LLM apps, browser extensions, most SaaS will go here
+
+### Creative Chronicler
+Focussed on Content & Storytelling -- video, generated art, music, comics
+Includes content but not the tooling used to make it
+
+### Tool Triumph: AI Infra & Devtool
+Sponsored by [AppSmith](https://appsmith.com) &  e.g. CLIs, VSCode extensions,  training tools, libraries)
+Compute Sponsor: [Replit](https://replit.com)
+
+### AI for Good: Social Impact & Open Source
+Sponsored by **e/jugaad** 
+
+e.g. Scrappy AI projects, or those built for the underprivileged: vernacular chat services, text to speech for the visually impaired
+
 ## Replit Free Pro Plan
 
 Hello all! Replit is offering a free Pro plan for one month for all Deep Hack participants. Please fill out the form below by April 1, 1pm to have the Pro plan provisioned prior to the hackathon. https://replit.typeform.com/to/WVnEqb2N
