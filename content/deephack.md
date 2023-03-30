@@ -10,30 +10,30 @@ Venue: Juspay Technologies Private Limited, Stallion Business Center, 444, 18th 
 
 ### Entry
 
-Enter venue from basement; parking for 40 two-wheelers, cars park in side lanes/roads
-**Show government ID** to security person, Shankar Dutta, at basement for check-in
-Check-ins start at 3:15 PM; hackathon starts at 4 PM; schedule: https://hasgeek.com/generativeAI/deep-hackathon/schedule
-Assemble on 2nd floor, work on 2nd and 3rd floors after 5 PM briefing
-Guest WiFi access available; login and password details at venue
-Follow Code of Conduct; be respectful, collaborate, and ask questions
+- Enter venue from basement; parking for 40 two-wheelers, cars park in side lanes/roads
+- **Show government ID** to security person, Shankar Dutta, at basement for check-in
+- Check-ins start at 3:15 PM; hackathon starts at 4 PM; schedule: https://hasgeek.com/generativeAI/deep-hackathon/schedule
+- Assemble on 2nd floor, work on 2nd and 3rd floors after 5 PM briefing
+- Guest WiFi access available; login and password details at venue
+- Follow Code of Conduct; be respectful, collaborate, and ask questions
 
 ### During the Hackathon
 
-Washrooms, water stations, and coffee vending machines on 2nd and 3rd floors; bring reusable mugs if desired
-Bring your own laptops and chargers; power strips provided
+- Washrooms, water stations, and coffee vending machines on 2nd and 3rd floors; bring reusable mugs if desired
+- Bring your own laptops and chargers; power strips provided
 
 ### Friday
 
-Dinner served at 8:15 PM in 5th floor pantry; no eating on 2nd and 3rd floors
-Pantry stocked with sandwich supplies and snacks for night; eating only in 5th floor pantry
-Couches, bean bags, and sofas available for rest; no pressure to stay overnight
+- Dinner served at 8:15 PM in 5th floor pantry; no eating on 2nd and 3rd floors
+- Pantry stocked with sandwich supplies and snacks for night; eating only in 5th floor pantry
+- Couches, bean bags, and sofas available for rest; no pressure to stay overnight
 
 ### Saturday
 
-Breakfast served from 8 AM, lunch from 12 PM in 5th floor pantry
-Saturday: participants use 2nd, 3rd, and 4th floors; Demo Day on 2nd floor; livestream on TVs for additional viewers
-Talks streamed via Zoom or TVs on 2nd and 3rd floors; schedule: https://hasgeek.com/generativeAI/deep-hackathon/schedule
-Emcee: Ravi Srinivasan; Sooraj, Sanat, and Ravi will make social videos during hackathon
+- Breakfast served from 8 AM, lunch from 12 PM in 5th floor pantry
+- Saturday: participants use 2nd, 3rd, and 4th floors; Demo Day on 2nd floor; livestream on TVs for additional viewers
+- Talks streamed via Zoom or TVs on 2nd and 3rd floors; schedule: https://hasgeek.com/generativeAI/deep-hackathon/schedule
+- Emcee: Ravi Srinivasan; Sooraj, Sanat, and Ravi will make social videos during hackathon
 
 ## FAQ
 
