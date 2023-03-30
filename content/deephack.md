@@ -54,23 +54,28 @@ Yes, you can work on a project that you have already started. But in the interes
 The prize categories are as follows:
 
 ### Visual Voyager
+
 Sponsored by [Sequoia Capital](https://www.sequoiacap.com/india/)
 Devtools for working with Multimedia: Pipelines and tools to make gifs, comics, videos, but not the output itself -> Famous examples include RoomGPT, PhotoAI.io, Playgroundai.com, Lexica.art
 
 ### Voracious Word Weaver
+
 Sponsored by [Springworks](https://springworks.in)
 LLM apps, browser extensions, most SaaS will go here
 
 ### Creative Chronicler
+
 Focussed on Content & Storytelling -- video, generated art, music, comics
 Includes content but not the tooling used to make it
 
 ### Tool Triumph: AI Infra & Devtool
-Sponsored by [AppSmith](https://appsmith.com) &  e.g. CLIs, VSCode extensions,  training tools, libraries)
+
+Sponsored by [AppSmith](https://appsmith.com) & e.g. CLIs, VSCode extensions, training tools, libraries)
 Compute Sponsor: [Replit](https://replit.com)
 
 ### AI for Good: Social Impact & Open Source
-Sponsored by **e/jugaad** 
+
+Sponsored by **e/jugaad**
 
 e.g. Scrappy AI projects, or those built for the underprivileged: vernacular chat services, text to speech for the visually impaired
 
@@ -98,5 +103,3 @@ To get a better understanding of the API, we encourage you to explore the follow
 
 Technical documentation 📚: https://studio-rephrase-api.readme.io/reference/post_personalized-brand-api-rephrase-ai-v2-campaign-create.
 Loom walkthrough on navigating the API documentation: https://www.loom.com/share/bbc907c2893d47b5b0e1f4409a5713ce.
-
-For any questions, https://wa.me/917737887058
