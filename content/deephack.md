@@ -103,3 +103,19 @@ To get a better understanding of the API, we encourage you to explore the follow
 
 Technical documentation 📚: https://studio-rephrase-api.readme.io/reference/post_personalized-brand-api-rephrase-ai-v2-campaign-create.
 Loom walkthrough on navigating the API documentation: https://www.loom.com/share/bbc907c2893d47b5b0e1f4409a5713ce.
+
+## Namma Yatri Hackathon with 50 Lakhs Prize Pool
+
+Bangalore’s BIGGEST Open Mobility Challenge is here!
+
+An open initiative to encourage building innovative solutions to solve mobility issues.
+
+Citizens are invited to participate and propose solutions to improve transportation efficiency, affordability, and sustainability.
+
+Mar 2023 edition of the open challenge has 10 challenges across 3 tracks: Future of mobility, Driver Enablement, Namma Yatri.
+
+Total Prizes worth INR 10+ lakhs and paid internship worth INR 50 lakhs to be won.
+
+Cash Prize, Macbook Air, Oneplus 5G and Tees are up for grabs.
+
+To know more about the hackathon and enroll click here: https://nammayatri.in/challenge/
