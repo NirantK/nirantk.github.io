@@ -79,6 +79,18 @@ Sponsored by **e/jugaad**
 
 e.g. Scrappy AI projects, or those built for the underprivileged: vernacular chat services, text to speech for the visually impaired
 
+## Azure OpenAI
+
+Sample Code: https://github.com/Azure/azure-openai-workshop
+Rate Limits: https://learn.microsoft.com/en-us/azure/cognitive-services/openai/quotas-limits
+
+To minimize issues related to throttling, it's a good idea to use the following techniques:
+- Implement retry logic in your application. Can use `tenacity` library for Python.
+- Avoid sharp changes in the workload. Increase the workload gradually.
+- Test different load increase patterns
+- Create another OpenAI service resource in the same or different regions, and distribute the workload among them
+
+
 ## Replit Free Pro Plan
 
 Hello all! Replit is offering a free Pro plan for one month for all Deep Hack participants. Please fill out the form below by April 1, 1pm to have the Pro plan provisioned prior to the hackathon. https://replit.typeform.com/to/WVnEqb2N
