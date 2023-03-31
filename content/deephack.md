@@ -81,8 +81,9 @@ e.g. Scrappy AI projects, or those built for the underprivileged: vernacular cha
 
 ## Azure OpenAI
 
-Sample Code: https://github.com/Azure/azure-openai-workshop
-Rate Limits: https://learn.microsoft.com/en-us/azure/cognitive-services/openai/quotas-limits
+### Links
+- Sample Code: https://github.com/Azure/azure-openai-workshop
+- Rate Limits: https://learn.microsoft.com/en-us/azure/cognitive-services/openai/quotas-limits
 
 To minimize issues related to throttling, it's a good idea to use the following techniques:
 - Implement retry logic in your application. Can use `tenacity` library for Python.
