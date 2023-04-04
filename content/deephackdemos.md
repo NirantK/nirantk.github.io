@@ -1,7 +1,10 @@
 +++
+title =  "Generative AI Hack Demos"
+date = 2022-04-02T00:00:09+05:30
 tags = ["hackathon"]
 featured_image = ""
-description = ""
+description = "Collection of Demos from Deep Hack on Generative AI"
+toc = true
 +++
 
 👋 You've landed at the perfect spot to check out all the coolest demos from the #GenerativeAIHack.
