@@ -10,9 +10,13 @@ toc = true
 👋 You've landed at the perfect spot to check out all the coolest demos from the #GenerativeAIHack.
 
 🧑‍🤝‍🧑 90+ hackers on Day 1, 150+ folks at Demo day
+
 ⚡️ 43 submissions, 32 in-person, 11 remote from 6 cities
+
 🙏 13 sponsors from 3 countries, 2 COSS: Weaviate, AppSmith
+
 🤗 20% raised from communities
+
 💰 5 Lakh INR in Prizes
 
 I'm super stoked to share these mind-blowing projects with you—created by some seriously talented folks from all corners of the world. 🌍 Whether you're into art, gaming, or just love a good tech innovation, we've got something for everyone.
