@@ -79,6 +79,19 @@ Sponsored by **e/jugaad**
 
 e.g. Scrappy AI projects, or those built for the underprivileged: vernacular chat services, text to speech for the visually impaired
 
+## Azure OpenAI
+
+### Links
+- Sample Code: https://github.com/Azure/azure-openai-workshop
+- Rate Limits: https://learn.microsoft.com/en-us/azure/cognitive-services/openai/quotas-limits
+
+To minimize issues related to throttling, it's a good idea to use the following techniques:
+- Implement retry logic in your application. Can use `tenacity` library for Python.
+- Avoid sharp changes in the workload. Increase the workload gradually.
+- Test different load increase patterns
+- Create another OpenAI service resource in the same or different regions, and distribute the workload among them
+
+
 ## Replit Free Pro Plan
 
 Hello all! Replit is offering a free Pro plan for one month for all Deep Hack participants. Please fill out the form below by April 1, 1pm to have the Pro plan provisioned prior to the hackathon. https://replit.typeform.com/to/WVnEqb2N
@@ -103,3 +116,19 @@ To get a better understanding of the API, we encourage you to explore the follow
 
 Technical documentation 📚: https://studio-rephrase-api.readme.io/reference/post_personalized-brand-api-rephrase-ai-v2-campaign-create.
 Loom walkthrough on navigating the API documentation: https://www.loom.com/share/bbc907c2893d47b5b0e1f4409a5713ce.
+
+## Namma Yatri Hackathon with 50 Lakhs Prize Pool
+
+Bangalore’s BIGGEST Open Mobility Challenge is here!
+
+An open initiative to encourage building innovative solutions to solve mobility issues.
+
+Citizens are invited to participate and propose solutions to improve transportation efficiency, affordability, and sustainability.
+
+Mar 2023 edition of the open challenge has 10 challenges across 3 tracks: Future of mobility, Driver Enablement, Namma Yatri.
+
+Total Prizes worth INR 10+ lakhs and paid internship worth INR 50 lakhs to be won.
+
+Cash Prize, Macbook Air, Oneplus 5G and Tees are up for grabs.
+
+To know more about the hackathon and enroll click here: https://nammayatri.in/challenge/
