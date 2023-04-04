@@ -13,7 +13,7 @@ toc = true
 
 ⚡️ 43 submissions, 32 in-person, 11 remote from 6 cities
 
-🙏 13 sponsors from 3 countries, 2 Open Source Software companies: Weaviate, AppSmith
+🙏 13 sponsors from 3 countries, 2 COSS: Weaviate, AppSmith
 
 🤗 20% raised from individual donors or collectives of them
 
@@ -29,7 +29,7 @@ All demos have been shared with creator's permission! 🚀
 
 [Demo Video](https://youtu.be/VpVT8UQSANg)
 
-Multimode is a platform that converts text into pixel animations, offering a unique and engaging way for users to create and share visual content.
+[Multimode](https://multimode.run/) helps you generate game assets like sprite animations, tilable textures and more from a text prompt.
 
 ## AI For Good: Sens.AI: Learning Redefined
 
