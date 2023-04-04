@@ -15,7 +15,7 @@ toc = true
 
 🙏 13 sponsors from 3 countries, 2 COSS: Weaviate, AppSmith
 
-🤗 20% raised from communities
+🤗 20% raised from individual donors or collectives of them
 
 💰 5 Lakh INR in Prizes
 
