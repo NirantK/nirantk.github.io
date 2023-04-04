@@ -29,7 +29,7 @@ All demos have been shared with creator's permission! 🚀
 
 [Demo Video](https://youtu.be/VpVT8UQSANg)
 
-Multimode is a platform that converts text into pixel animations, offering a unique and engaging way for users to create and share visual content.
+[Multimode](https://multimode.run/) helps you generate game assets like sprite animations, tilable textures and more from a text prompt so that you can build you game faster.
 
 ## AI For Good: Sens.AI: Learning Redefined
 
