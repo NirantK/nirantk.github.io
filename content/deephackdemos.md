@@ -13,7 +13,7 @@ toc = true
 
 ⚡️ 43 submissions, 32 in-person, 11 remote from 6 cities
 
-🙏 13 sponsors from 3 countries, 2 COSS: Weaviate, AppSmith
+🙏 13 sponsors from 3 countries, 2 Open Source Software companies: Weaviate, AppSmith
 
 🤗 20% raised from individual donors or collectives of them
 
