@@ -119,9 +119,9 @@ Hiring Assistant is an AI-powered solution designed to streamline the recruitmen
 
 Edden is an AI-driven tool that enables users to create landing pages within minutes. By simplifying the design process, Edden allows users to focus on their core business objectives while still achieving professional and visually appealing landing pages.
 
-## SBB: Bringing Your Imagination to Life
+## Shakalaka Boom Boom: Jo ye banaye sach ho jaye!
 
-SBB is an AI-powered app that helps users create visual media such as GIFs and videos. With its intuitive interface and robust features, SBB provides a platform for users to bring their creative visions to life.
+Discover "Shakalaka Boom Boom": Inspired by the nostalgic Indian TV show, this innovative entertainment tool transforms your doodles into realistic images using advanced AI. Shakalaka Boom Boom also suggests e-commerce products resembling your creations, making it the perfect fusion of imagination and shopping. Relive the magic of your childhood and watch your artistic dreams come to life with Shakalaka Boom Boom!
 
 ## DiagramGenie: Voice-Activated Software Engineering Diagrams
 
