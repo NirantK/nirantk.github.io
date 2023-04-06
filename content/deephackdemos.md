@@ -9,6 +9,7 @@ toc = true
 
 👋 You've landed at the perfect spot to check out all the coolest demos from the #GenerativeAIHack.
 
+
 🧑‍🤝‍🧑 90+ hackers on Day 1, 150+ folks at Demo day
 
 ⚡️ 43 submissions, 32 in-person, 11 remote from 6 cities
@@ -22,6 +23,10 @@ toc = true
 I'm super stoked to share these mind-blowing projects with you—created by some seriously talented folks from all corners of the world. 🌍 Whether you're into art, gaming, or just love a good tech innovation, we've got something for everyone.
 
 All demos have been shared with creator's permission! 🚀
+
+# Links
+- **Livestream**: https://www.youtube.com/live/E5gpisqhwJc?feature=share
+- **Hackathon Website**: https://has.gy/gpt4hack 
 
 # Prize Winners
 
