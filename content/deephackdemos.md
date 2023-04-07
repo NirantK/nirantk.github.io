@@ -9,6 +9,7 @@ toc = true
 
 👋 You've landed at the perfect spot to check out all the coolest demos from the #GenerativeAIHack.
 
+
 🧑‍🤝‍🧑 90+ hackers on Day 1, 150+ folks at Demo day
 
 ⚡️ 43 submissions, 32 in-person, 11 remote from 6 cities
@@ -23,13 +24,17 @@ I'm super stoked to share these mind-blowing projects with you—created by some
 
 All demos have been shared with creator's permission! 🚀
 
+# Links
+- **Livestream**: https://www.youtube.com/live/E5gpisqhwJc?feature=share
+- **Hackathon Website**: https://has.gy/gpt4hack 
+
 # Prize Winners
 
 ## Best Tooling for Media: Multimode: Text to Pixel Animation using Stable Diffusion
 
 [Demo Video](https://youtu.be/VpVT8UQSANg)
 
-Multimode is a platform that converts text into pixel animations, offering a unique and engaging way for users to create and share visual content.
+[Multimode](https://multimode.run/) helps you generate game assets like sprite animations, tilable textures and more from a text prompt so that you can build you game faster.
 
 ## AI For Good: Sens.AI: Learning Redefined
 
@@ -95,6 +100,12 @@ BlindVisAidGPT aims to provide a helpful interface for visually impaired individ
 
 Consumable.AI is an educational tool designed to make learning more accessible and efficient. By generating short, personalized notes based on keywords, users can quickly consume information tailored to their interests. This innovative approach to education streamlines the learning process and promotes a more engaging experience for students.
 
+## CodeAU: Adding and Updating code base.
+
+[Demo Video](https://www.youtube.com/watch?v=qgO_8KdyO_k)
+
+CodeAU, an innovative and robust coding assistant framework designed to empower developers by seamlessly updating and expanding their existing code base. As libraries evolve and new versions are released, it becomes increasingly challenging for developers to keep up with the changes and ensure their code remains functional and efficient. CodeAU is here to bridge the gap and effortlessly maintain the code's compatibility with the latest library versions.
+
 ## Parable: Turning Text into Insight
 
 [GitHub](https://github.com/dhruvshrivastava/parable-backend) | [Demo Video](https://www.loom.com/share/87156c77f49e411fb472d9af1ffce75d)
@@ -119,9 +130,9 @@ Hiring Assistant is an AI-powered solution designed to streamline the recruitmen
 
 Edden is an AI-driven tool that enables users to create landing pages within minutes. By simplifying the design process, Edden allows users to focus on their core business objectives while still achieving professional and visually appealing landing pages.
 
-## SBB: Bringing Your Imagination to Life
+## Shakalaka Boom Boom: Jo ye banaye sach ho jaye!
 
-SBB is an AI-powered app that helps users create visual media such as GIFs and videos. With its intuitive interface and robust features, SBB provides a platform for users to bring their creative visions to life.
+Discover "Shakalaka Boom Boom": Inspired by the nostalgic Indian TV show, this innovative entertainment tool transforms your doodles into realistic images using advanced AI. Shakalaka Boom Boom also suggests e-commerce products resembling your creations, making it the perfect fusion of imagination and shopping. Relive the magic of your childhood and watch your artistic dreams come to life with Shakalaka Boom Boom!
 
 ## DiagramGenie: Voice-Activated Software Engineering Diagrams
 
