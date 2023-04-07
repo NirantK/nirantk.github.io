@@ -51,7 +51,7 @@ osh revolutionizes the command line experience by providing LLM-based assistance
 
 ## Tale of Dattā: Short Comic about the Mythology of Data & AI
 
-[Demo Video](https://www.youtube.com/watch?v=LflHZZ-3VFM)
+[Demo Video](https://www.youtube.com/watch?v=LflHZZ-3VFM) | [Process from the Artist](https://rasagy.in/projects/datta/)
 
 Tale of Dattā is a short comic exploring the mythology of data and AI, offering a creative and engaging perspective on the world of technology.
 
