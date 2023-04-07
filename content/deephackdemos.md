@@ -132,6 +132,8 @@ Edden is an AI-driven tool that enables users to create landing pages within min
 
 ## Shakalaka Boom Boom: Jo ye banaye sach ho jaye!
 
+[Website](http://shakalakaboomboom.jadoosnap.com) | [Demo Video](https://drive.google.com/file/d/1CyC0jGg1oqEI4paOY2jlUUQxf-x0Jt9v/view?usp=sharing)
+
 Discover "Shakalaka Boom Boom": Inspired by the nostalgic Indian TV show, this innovative entertainment tool transforms your doodles into realistic images using advanced AI. Shakalaka Boom Boom also suggests e-commerce products resembling your creations, making it the perfect fusion of imagination and shopping. Relive the magic of your childhood and watch your artistic dreams come to life with Shakalaka Boom Boom!
 
 ## DiagramGenie: Voice-Activated Software Engineering Diagrams
