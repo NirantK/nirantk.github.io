@@ -56,7 +56,7 @@ osh revolutionizes the command line experience by providing LLM-based assistance
 
 ## Tale of Dattā: Short Comic about the Mythology of Data & AI
 
-[Demo Video](https://www.youtube.com/watch?v=LflHZZ-3VFM)
+[Demo Video](https://www.youtube.com/watch?v=LflHZZ-3VFM) | [Process from the Artist](https://rasagy.in/projects/datta/)
 
 Tale of Dattā is a short comic exploring the mythology of data and AI, offering a creative and engaging perspective on the world of technology.
 
@@ -100,6 +100,12 @@ BlindVisAidGPT aims to provide a helpful interface for visually impaired individ
 
 Consumable.AI is an educational tool designed to make learning more accessible and efficient. By generating short, personalized notes based on keywords, users can quickly consume information tailored to their interests. This innovative approach to education streamlines the learning process and promotes a more engaging experience for students.
 
+## CodeAU: Adding and Updating code base.
+
+[Demo Video](https://www.youtube.com/watch?v=qgO_8KdyO_k)
+
+CodeAU, an innovative and robust coding assistant framework designed to empower developers by seamlessly updating and expanding their existing code base. As libraries evolve and new versions are released, it becomes increasingly challenging for developers to keep up with the changes and ensure their code remains functional and efficient. CodeAU is here to bridge the gap and effortlessly maintain the code's compatibility with the latest library versions.
+
 ## Parable: Turning Text into Insight
 
 [GitHub](https://github.com/dhruvshrivastava/parable-backend) | [Demo Video](https://www.loom.com/share/87156c77f49e411fb472d9af1ffce75d)
@@ -125,6 +131,8 @@ Hiring Assistant is an AI-powered solution designed to streamline the recruitmen
 Edden is an AI-driven tool that enables users to create landing pages within minutes. By simplifying the design process, Edden allows users to focus on their core business objectives while still achieving professional and visually appealing landing pages.
 
 ## Shakalaka Boom Boom: Jo ye banaye sach ho jaye!
+
+[Website](http://shakalakaboomboom.jadoosnap.com) | [Demo Video](https://drive.google.com/file/d/1CyC0jGg1oqEI4paOY2jlUUQxf-x0Jt9v/view?usp=sharing)
 
 Discover "Shakalaka Boom Boom": Inspired by the nostalgic Indian TV show, this innovative entertainment tool transforms your doodles into realistic images using advanced AI. Shakalaka Boom Boom also suggests e-commerce products resembling your creations, making it the perfect fusion of imagination and shopping. Relive the magic of your childhood and watch your artistic dreams come to life with Shakalaka Boom Boom!
 
