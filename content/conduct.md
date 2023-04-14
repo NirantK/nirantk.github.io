@@ -10,7 +10,11 @@ Standards of Behavior: The following standards of behavior are expected of all m
 
 1. If you see an off-topic discussion, ping an admin to move it to a more appropriate splinter WA group.
 
-1. Be jovial. Disagreements are fine, but be respectful of others. If you are unable to be respectful, you will be asked to leave the community.
+   - If you see a post that is not relevant to the community, ping an admin to remove it
+   - If you post something that is not relevant to the community, or self-promotion it will be removed
+   - One strike policy: If you post something that is not relevant to the community more than once, you will be removed from the community.
+
+1. Have a thick skin. Disagreements are fine. If you are unable to be respectful, you will be asked to leave the community.
 
 1. Don't share links to content that is not publicly and freely available. Avoid sharing links to content that requires a login, or is behind a paywall. If you are unable to share a link to freely available content, share a summary of the content.
 
