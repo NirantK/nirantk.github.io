@@ -65,6 +65,11 @@ identifier = "writing"
 url = "/writing"
 
 [[menu.main]]
+name = "substack"
+identifier = "substack"
+url = "https://niranting.substack.com/"
+
+[[menu.main]]
 name = "home"
 identifier = "home"
 url = "/"
