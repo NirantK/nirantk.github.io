@@ -9,6 +9,7 @@ Standards of Behavior: The following standards of behavior are expected of all m
 1. Share context when sharing a link. Add a short description of the link, and why you think it is relevant to the community. This also increases the chances that the link will be read.
 
 1. If you see an off-topic discussion, please DM the person to move that conversation elsewhere
+
    - If you post something that is not relevant to the community, you will be removed from the community -- active contributors will be DM'd, no such privilege to others
 
 1. Have a thick skin. Disagreements are fine. If you are unable to be respectful, you will be asked to leave the community.
@@ -27,8 +28,8 @@ Standards of Behavior: The following standards of behavior are expected of all m
 
 1. Harassment & Abuse: I don't need to say this, but a mere suspicion is enough grounds for admins to throw the accused out. No evidence necessary. Be particularly respectful when reaching out to a minority in technology e.g. based on gender, race, religion, nationality
 
-1. Langauage: _English_ only, always
+1. Language: _English_ only, always
 
-1. Data Usage: All messages in that group can be flipped to public. Or used for training a bot. We've no means of preventing members from downloading chat history. 
+1. Data Usage: All messages in that group can be flipped to public. Or used for training a bot. We've no means of preventing members from downloading chat history.
 
 1. Lastly, this is a dictatorship or fiefdom. You're free to express disagreement but do not expect admins to adhere to your desires, or even public pressure.
