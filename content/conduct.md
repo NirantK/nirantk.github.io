@@ -25,4 +25,10 @@ Standards of Behavior: The following standards of behavior are expected of all m
 
 1. Be respectful of others' time. If you have a question, try to find the answer yourself before asking. If you have an answer, try to find the question yourself before answering. If you are unable to find the answer or question, ask it. If you are unable to find the answer or question, share it.
 
+1. Harassment & Abuse: I don't need to say this, but a mere suspicion is enough grounds for admins to throw the accused out. No evidence necessary. Be particularly respectful when reaching out to a minority in technology e.g. based on gender, race, religion, nationality
+
+1. Langauage: _English_ only, always
+
+1. Data Usage: All messages in that group can be flipped to public. Or used for training a bot. We've no means of preventing members from downloading chat history. 
+
 1. Lastly, this is a dictatorship or fiefdom. You're free to express disagreement but do not expect admins to adhere to your desires, or even public pressure.
