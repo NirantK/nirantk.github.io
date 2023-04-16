@@ -1,4 +1,4 @@
-# Code of Conduct for the Generative AI Community
+# Generative AI Community Guidelines
 
 Purpose: The purpose of this document is to define the standards of behavior for the Generative AI Community. This document is intended to be a living document, and will be updated as needed to reflect the needs of the community.
 
@@ -8,11 +8,8 @@ Standards of Behavior: The following standards of behavior are expected of all m
 
 1. Share context when sharing a link. Add a short description of the link, and why you think it is relevant to the community. This also increases the chances that the link will be read.
 
-1. If you see an off-topic discussion, ping an admin to move it to a more appropriate splinter WA group.
-
-   - If you see a post that is not relevant to the community, ping an admin to remove it
-   - If you post something that is not relevant to the community, or self-promotion it will be removed
-   - One strike policy: If you post something that is not relevant to the community more than once, you will be removed from the community.
+1. If you see an off-topic discussion, please DM the person to move that conversation elsewhere
+   - If you post something that is not relevant to the community, you will be removed from the community -- active contributors will be DM'd, no such privilege to others
 
 1. Have a thick skin. Disagreements are fine. If you are unable to be respectful, you will be asked to leave the community.
 
@@ -27,3 +24,5 @@ Standards of Behavior: The following standards of behavior are expected of all m
 1. Share Knowledge freely. If you have a question, ask it. [Don't Ask to Ask, Just Ask](https://dontasktoask.com/), If you have an answer, share it. Don't be afraid to ask questions, and don't be afraid to share your knowledge.
 
 1. Be respectful of others' time. If you have a question, try to find the answer yourself before asking. If you have an answer, try to find the question yourself before answering. If you are unable to find the answer or question, ask it. If you are unable to find the answer or question, share it.
+
+1. Lastly, this is a dictatorship or fiefdom. You're free to express disagreement but do not expect admins to adhere to your desires, or even public pressure.
