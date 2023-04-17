@@ -24,7 +24,7 @@ Standards of Behavior: The following standards of behavior are expected of all m
 
 1. Share Knowledge freely. If you have a question, ask it. [Don't Ask to Ask, Just Ask](https://dontasktoask.com/), If you have an answer, share it. Don't be afraid to ask questions, and don't be afraid to share your knowledge.
 
-1. Be respectful of others' time. If you have a question, try to find the answer yourself before asking. If you have an answer, try to find the question yourself before answering. If you are unable to find the answer or question, ask it. If you are unable to find the answer or question, share it.
+1. Be respectful of others' time. If you have a question, try to find the answer yourself and [mention what you've tried when you ask](http://www.catb.org/~esr/faqs/smart-questions.html). 
 
 1. Harassment & Abuse: I don't need to say this, but a mere suspicion is enough grounds for admins to throw the accused out. No evidence necessary. Be particularly respectful when reaching out to a minority in technology e.g. based on gender, race, religion, nationality
 
