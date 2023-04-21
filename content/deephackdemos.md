@@ -136,11 +136,11 @@ Edden is an AI-driven tool that enables users to create landing pages within min
 
 Discover "Shakalaka Boom Boom": Inspired by the nostalgic Indian TV show, this innovative entertainment tool transforms your doodles into realistic images using advanced AI. Shakalaka Boom Boom also suggests e-commerce products resembling your creations, making it the perfect fusion of imagination and shopping. Relive the magic of your childhood and watch your artistic dreams come to life with Shakalaka Boom Boom!
 
-## DiagramGenie: Voice-Activated Software Engineering Diagrams
+## DiagramGenie🔮: Text to Software Engineering Diagrams
 
-[Demo Video](https://www.loom.com/share/1184ca3a719b4d058964d5d77ddd7aa4)
+[Website](https://diagram-genie.up.railway.app) | [Github](https://github.com/ShimantaBhuyan/diagram-genie) | [Demo Video](https://drive.google.com/file/d/1xPAFXmRX-XWBnk6vm0Kuv7frf1oZ4jth/view?usp=sharing)
 
-DiagramGenie is an innovative tool that allows users to create software engineering diagrams through voice commands. This AI-powered solution simplifies the process of creating complex diagrams and streamlines the workflow for software engineers and developers.
+DiagramGenie is an innovative tool that allows users to create software engineering diagrams by just describing it in a few simple words. This AI-powered solution simplifies the process of creating complex diagrams and streamlines the workflow for software engineers and developers.
 
 ## Student Mentor: Medical, Literature Analysis, and Career Guidance
 
