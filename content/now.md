@@ -8,11 +8,9 @@ description = ""
 
 # What I’m doing now
 
-Work: 
-
-After almost 6 months of full time [Machine Learning consulting](./consulting)/career break, I've moved to a role away from the data science field. I’m now working as a Software Engineer at [Sundial.so](https://www.sundial.so/).
+I'm a Machine Learning consultant with focus on Natural Language Processing e.g. finetuning your LLM, Code Generation, Vector Databases Speech-to-text, some Text-to-speech and adjacent topics. I talk about this on my social handles e.g. Twitter.
 
 ---
-Last Updated in December 2021 from Bengaluru, India
+Last Updated in May 2023 from Bengaluru, India
 
 The concept of now page is from [Derek Sivers](https://sivers.org/nowff)
