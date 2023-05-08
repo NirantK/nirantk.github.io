@@ -60,10 +60,9 @@ identifier = "book"
 url = "http://amzn.to/3i2X0jv"
 
 [[menu.main]]
-name = "community"
-identifier = "community"
+name = "ai community"
+identifier = "ai community"
 url = "/ai"
-
 
 [[menu.main]]
 name = "writing"
