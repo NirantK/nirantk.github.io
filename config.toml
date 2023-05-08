@@ -6,7 +6,7 @@ languageCode = "en"
 
 title = "Nirant Kasliwal"
 theme = ["ananke"] 
-Paginate = 9
+Paginate = 30
 
 [sitemap]
   changefreq = "monthly"
@@ -58,6 +58,11 @@ url = "/about"
 name = "nlp book"
 identifier = "book"
 url = "http://amzn.to/3i2X0jv"
+
+[[menu.main]]
+name = "ai community"
+identifier = "ai community"
+url = "/ai"
 
 [[menu.main]]
 name = "writing"
