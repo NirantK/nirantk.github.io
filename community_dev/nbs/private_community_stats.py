@@ -1,30 +1,8 @@
-import re
-from datetime import datetime, timedelta
+from datetime import timedelta
 from pathlib import Path
-from typing import List, Tuple
 
 import pandas as pd
-
-
-class MessageExtractor:
-    def __init__(self, file_path: Path) -> None:
-        self.file_path = file_path
-
-    def extract_messages(self) -> List[Tuple[str, str, str]]:
-        pattern = re.compile(
-            r"\[(?P<date>\d{1,2}\/\d{1,2}\/\d{2,4}), (?P<time>\d{1,2}:\d{2}:\d{2})\] (?P<sender>[^:]+): (?P<message>.+)"
-        )
-        join_pattern = re.compile(r"joined using this group\'s invite link")
-        messages = []
-        with open(self.file_path, "r") as f:
-            for line in f:
-                match = pattern.match(line)
-                if match and not join_pattern.search(line):
-                    date, time, sender, message = match.groups()
-                    datetime_str = f"{date} {time}"
-                    dt = datetime.strptime(datetime_str, "%m/%d/%y %H:%M:%S")
-                    messages.append((sender, dt, message))
-        return messages
+from parsing_utils import MessageExtractor
 
 
 class TopSenders:
