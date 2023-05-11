@@ -4,6 +4,7 @@ import re
 from functools import lru_cache
 from pathlib import Path
 
+import fire
 import pandas as pd
 import pytz
 from langchain.chains.summarize import load_summarize_chain
@@ -140,7 +141,7 @@ def generate_daily_summary(csv_path: str) -> None:
     # Generating the EndNote column
     daily_df["Endnote"] = (
         daily_df["Message"]
-        .apply(extract_urls_context(text))
+        .apply(extract_urls_context)
         .apply(
             lambda urls_context: "\n".join(
                 [
@@ -176,8 +177,6 @@ def generate_daily_summary(csv_path: str) -> None:
         with file_path.open("w") as f:
             f.write(page)
 
-
-import fire
 
 if __name__ == "__main__":
     fire.Fire(generate_daily_summary)
