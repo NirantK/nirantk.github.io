@@ -1,17 +1,17 @@
 import re
 import time
 import json
-import pytz
-from datetime import datetime, time
+import re
+import datetime
+from functools import lru_cache
 from pathlib import Path
 
-from langchain.text_splitter import CharacterTextSplitter
-from langchain.prompts import PromptTemplate
-from langchain.docstore.document import Document
-from langchain.chat_models import ChatOpenAI
+import pytz
 from langchain.chains.summarize import load_summarize_chain
-
-from functools import lru_cache
+from langchain.chat_models import ChatOpenAI
+from langchain.docstore.document import Document
+from langchain.prompts import PromptTemplate
+from langchain.text_splitter import CharacterTextSplitter
 
 text_splitter = CharacterTextSplitter.from_tiktoken_encoder()
 
@@ -69,7 +69,7 @@ def extract_urls_context(text: str, window_size: int = 1) -> list:
 # TODO: Below functions can be simplified and optimized if the purpose is more clearer
 def get_page_header_date(date_object):
     # Combine the date object with a time object and set the desired timezone
-    dt = datetime.combine(date_object, time())
+    dt = datetime.datetime.combine(date_object, datetime.time())
     desired_timezone = pytz.timezone("Asia/Kolkata")
     localized_dt = desired_timezone.localize(dt)
 
