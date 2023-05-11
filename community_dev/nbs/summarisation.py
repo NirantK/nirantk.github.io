@@ -1,9 +1,9 @@
 import json
 import re
 import datetime
+import pandas as pd
 from functools import lru_cache
 from pathlib import Path
-from Exploration
 import pytz
 from langchain.chains.summarize import load_summarize_chain
 from langchain.chat_models import ChatOpenAI
@@ -100,6 +100,9 @@ def make_page_header(row):
     return page_header
 
 
+from formatting_functions import human_date
+
+
 def make_page(row):
     page = (
         row["page_headers"]
@@ -111,6 +114,15 @@ def make_page(row):
     )
     file_name = f"{human_date(row['Date'])}.md"
     return page, file_name
+
+
+def generate_daily_df(csv_path: str) -> None:
+    df = pd.read_csv(csv_path)
+    df["Datetime"] = pd.to_datetime(df["Datetime"])
+    df["Date"] = df["Datetime"].dt.date
+    daily_df = df.groupby("Date").agg({"Message": " \n ".join}).reset_index()
+    daily_df["wc"] = daily_df["Message"].apply(lambda x: len(x.split()))
+    return daily_df
 
 
 if __name__ == "__main__":
