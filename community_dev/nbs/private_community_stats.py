@@ -1,7 +1,8 @@
 import re
 from datetime import datetime, timedelta
-from typing import List, Tuple
 from pathlib import Path
+from typing import List, Tuple
+
 import pandas as pd
 
 
@@ -130,8 +131,10 @@ if __name__ == "__main__":
     # Top K senders per month
     top_senders_monthly = top_senders.top_k_senders("M", k)
     print(f"\nTop {k} senders per month:")
-    display(top_senders_monthly.style.hide_index())
+    top_senders_monthly.to_csv("top_senders_monthly.csv")
+    # display(top_senders_monthly.style.hide_index())
 
     # Weekly stats for new, active and churned senders.
     weekly_sender_stats = weekly_senders.compute_weekly_sender_stats()
-    display(weekly_sender_stats)
+    # display(weekly_sender_stats)
+    weekly_sender_stats.to_csv("weekly_sender_stats.csv")
