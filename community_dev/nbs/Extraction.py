@@ -1,3 +1,5 @@
+import fire
+
 from pathlib import Path
 
 import pandas as pd
@@ -5,8 +7,14 @@ import pandas as pd
 from parsing_utils import MessageExtractor, DataFrameCleaner
 
 
-if __name__ == "__main__":
-    readpath = Path("_chat.txt")
+def extract_messages(readpath):
+    """
+    Extracts messages from a WhatsApp chat export file
+
+    Args:
+        readpath (.txt): Explicit path to a WhatsApp chat export file, usually _chat.txt
+    """
+    readpath = Path(readpath)
 
     msg_extractor = MessageExtractor(readpath)
     messages = msg_extractor.extract_messages()
@@ -23,3 +31,7 @@ if __name__ == "__main__":
     print(f"After cleanup: {len(df)}")
 
     df.to_csv(savepath, index=False)
+
+
+if __name__ == "__main__":
+    fire.Fire(extract_messages)
