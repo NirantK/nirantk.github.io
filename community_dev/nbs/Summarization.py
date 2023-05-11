@@ -42,9 +42,13 @@ def summarize_docs(
     return chain_output["output_text"]
 
 
-def summarize(message: str, prompt_template: str, chain_type: str="stuff") -> str:
+def summarize(message: str, prompt_template: str, chain_type: str = "stuff") -> str:
     docs = make_docs(message)
-    summary_text = summarize_docs(docs, prompt_template, chain_type="stuff",)
+    summary_text = summarize_docs(
+        docs,
+        prompt_template,
+        chain_type="stuff",
+    )
     return summary_text
 
 
