@@ -1,15 +1,19 @@
+import datetime
 import json
 import re
-import datetime
-import pandas as pd
 from functools import lru_cache
 from pathlib import Path
+
+import pandas as pd
 import pytz
 from langchain.chains.summarize import load_summarize_chain
 from langchain.chat_models import ChatOpenAI
 from langchain.docstore.document import Document
 from langchain.prompts import PromptTemplate
 from langchain.text_splitter import CharacterTextSplitter
+
+from formatting_utils import human_date
+from prompts import PROMPT_TEMPLATES
 
 text_splitter = CharacterTextSplitter.from_tiktoken_encoder()
 
@@ -100,9 +104,6 @@ def make_page_header(row):
     return page_header
 
 
-from formatting_functions import human_date
-
-
 def make_page(row):
     page = (
         row["page_headers"]
@@ -125,8 +126,9 @@ def generate_daily_df(csv_path: str) -> None:
     return daily_df
 
 
-if __name__ == "__main__":
-    readpath = Path("../20230507_Messages.csv")
+def generate_daily_summary(csv_path: str) -> None:
+    readpath = Path(csv_path).resolve()
+    assert readpath.exists(), "CSV file does not exist"
     write_dir = Path("../../content/ai/").resolve()
 
     daily_df = generate_daily_df(readpath, True)
@@ -173,3 +175,9 @@ if __name__ == "__main__":
         file_path = write_dir / file_name
         with file_path.open("w") as f:
             f.write(page)
+
+
+import fire
+
+if __name__ == "__main__":
+    fire.Fire(generate_daily_summary)
