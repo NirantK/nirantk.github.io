@@ -1,11 +1,9 @@
-import re
-import time
 import json
 import re
 import datetime
 from functools import lru_cache
 from pathlib import Path
-
+from Exploration
 import pytz
 from langchain.chains.summarize import load_summarize_chain
 from langchain.chat_models import ChatOpenAI
@@ -142,7 +140,11 @@ if __name__ == "__main__":
     # Generating Title and Description Columns that can be passed to header method
     # We are avoiding the for loop with this intermediate column
     daily_df["title_desc"] = daily_df["Summary"].apply(
-        summarize, args=(PROMPT_TEMPLATES["title_description_template"], "map_reduce",)
+        summarize,
+        args=(
+            PROMPT_TEMPLATES["title_description_template"],
+            "map_reduce",
+        ),
     )
     # Generating page headers
     page_headers = []
