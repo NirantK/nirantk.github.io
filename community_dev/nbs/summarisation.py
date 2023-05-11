@@ -1,17 +1,20 @@
-import re
-import time
+import datetime
 import json
-import pytz
-from datetime import datetime, time
+import re
+from functools import lru_cache
 from pathlib import Path
 
-from langchain.text_splitter import CharacterTextSplitter
-from langchain.prompts import PromptTemplate
-from langchain.docstore.document import Document
-from langchain.chat_models import ChatOpenAI
+import fire
+import pandas as pd
+import pytz
 from langchain.chains.summarize import load_summarize_chain
+from langchain.chat_models import ChatOpenAI
+from langchain.docstore.document import Document
+from langchain.prompts import PromptTemplate
+from langchain.text_splitter import CharacterTextSplitter
 
-from functools import lru_cache
+from formatting_utils import human_date
+from prompts import PROMPT_TEMPLATES
 
 text_splitter = CharacterTextSplitter.from_tiktoken_encoder()
 
@@ -26,7 +29,7 @@ def make_docs(plain_text: str) -> list:
 def summarize_docs(
     docs: list,
     prompt_template: str,
-    model=ChatOpenAI(temperature=0),
+    model,
     chain_type="stuff",
 ) -> str:
     prompt = PromptTemplate(template=prompt_template, input_variables=["text"])
@@ -42,9 +45,14 @@ def summarize_docs(
     return chain_output["output_text"]
 
 
-def summarize(message: str, prompt_template: str, chain_type: str="stuff") -> str:
+def summarize(message: str, prompt_template: str, chain_type: str = "stuff") -> str:
     docs = make_docs(message)
-    summary_text = summarize_docs(docs, prompt_template, chain_type="stuff",)
+    summary_text = summarize_docs(
+        docs,
+        prompt_template,
+        chain_type="stuff",
+        model=ChatOpenAI(temperature=0),
+    )
     return summary_text
 
 
@@ -69,7 +77,7 @@ def extract_urls_context(text: str, window_size: int = 1) -> list:
 # TODO: Below functions can be simplified and optimized if the purpose is more clearer
 def get_page_header_date(date_object):
     # Combine the date object with a time object and set the desired timezone
-    dt = datetime.combine(date_object, time())
+    dt = datetime.datetime.combine(date_object, datetime.time())
     desired_timezone = pytz.timezone("Asia/Kolkata")
     localized_dt = desired_timezone.localize(dt)
 
@@ -111,8 +119,18 @@ def make_page(row):
     return page, file_name
 
 
-if __name__ == "__main__":
-    readpath = Path("../20230507_Messages.csv")
+def generate_daily_df(csv_path: str) -> None:
+    df = pd.read_csv(csv_path)
+    df["Datetime"] = pd.to_datetime(df["Datetime"])
+    df["Date"] = df["Datetime"].dt.date
+    daily_df = df.groupby("Date").agg({"Message": " \n ".join}).reset_index()
+    daily_df["wc"] = daily_df["Message"].apply(lambda x: len(x.split()))
+    return daily_df
+
+
+def generate_daily_summary(csv_path: str) -> None:
+    readpath = Path(csv_path).resolve()
+    assert readpath.exists(), "CSV file does not exist"
     write_dir = Path("../../content/ai/").resolve()
 
     daily_df = generate_daily_df(readpath, True)
@@ -124,7 +142,7 @@ if __name__ == "__main__":
     # Generating the EndNote column
     daily_df["Endnote"] = (
         daily_df["Message"]
-        .apply(extract_urls_context(text))
+        .apply(extract_urls_context)
         .apply(
             lambda urls_context: "\n".join(
                 [
@@ -138,7 +156,11 @@ if __name__ == "__main__":
     # Generating Title and Description Columns that can be passed to header method
     # We are avoiding the for loop with this intermediate column
     daily_df["title_desc"] = daily_df["Summary"].apply(
-        summarize, args=(PROMPT_TEMPLATES["title_description_template"], "map_reduce",)
+        summarize,
+        args=(
+            PROMPT_TEMPLATES["title_description_template"],
+            "map_reduce",
+        ),
     )
     # Generating page headers
     page_headers = []
@@ -155,3 +177,7 @@ if __name__ == "__main__":
         file_path = write_dir / file_name
         with file_path.open("w") as f:
             f.write(page)
+
+
+if __name__ == "__main__":
+    fire.Fire(generate_daily_summary)

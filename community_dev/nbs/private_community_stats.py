@@ -1,29 +1,9 @@
-import re
-from datetime import datetime, timedelta
-from typing import List, Tuple
+from datetime import timedelta
 from pathlib import Path
+
 import pandas as pd
 
-
-class MessageExtractor:
-    def __init__(self, file_path: Path) -> None:
-        self.file_path = file_path
-
-    def extract_messages(self) -> List[Tuple[str, str, str]]:
-        pattern = re.compile(
-            r"\[(?P<date>\d{1,2}\/\d{1,2}\/\d{2,4}), (?P<time>\d{1,2}:\d{2}:\d{2})\] (?P<sender>[^:]+): (?P<message>.+)"
-        )
-        join_pattern = re.compile(r"joined using this group\'s invite link")
-        messages = []
-        with open(self.file_path, "r") as f:
-            for line in f:
-                match = pattern.match(line)
-                if match and not join_pattern.search(line):
-                    date, time, sender, message = match.groups()
-                    datetime_str = f"{date} {time}"
-                    dt = datetime.strptime(datetime_str, "%m/%d/%y %H:%M:%S")
-                    messages.append((sender, dt, message))
-        return messages
+from parsing_utils import MessageExtractor
 
 
 class TopSenders:
@@ -130,8 +110,10 @@ if __name__ == "__main__":
     # Top K senders per month
     top_senders_monthly = top_senders.top_k_senders("M", k)
     print(f"\nTop {k} senders per month:")
-    display(top_senders_monthly.style.hide_index())
+    top_senders_monthly.to_csv("top_senders_monthly.csv")
+    # display(top_senders_monthly.style.hide_index())
 
     # Weekly stats for new, active and churned senders.
     weekly_sender_stats = weekly_senders.compute_weekly_sender_stats()
-    display(weekly_sender_stats)
+    # display(weekly_sender_stats)
+    weekly_sender_stats.to_csv("weekly_sender_stats.csv")
