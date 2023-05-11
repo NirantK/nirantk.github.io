@@ -1,10 +1,9 @@
-import fire
-
 from pathlib import Path
 
+import fire
 import pandas as pd
 
-from parsing_utils import MessageExtractor, DataFrameCleaner
+from parsing_utils import DataFrameCleaner, MessageExtractor
 
 
 def extract_messages(readpath):
