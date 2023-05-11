@@ -29,7 +29,7 @@ def make_docs(plain_text: str) -> list:
 def summarize_docs(
     docs: list,
     prompt_template: str,
-    model=ChatOpenAI(temperature=0),
+    model,
     chain_type="stuff",
 ) -> str:
     prompt = PromptTemplate(template=prompt_template, input_variables=["text"])
@@ -51,6 +51,7 @@ def summarize(message: str, prompt_template: str, chain_type: str = "stuff") -> 
         docs,
         prompt_template,
         chain_type="stuff",
+        model=ChatOpenAI(temperature=0),
     )
     return summary_text
 
