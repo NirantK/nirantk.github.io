@@ -1,9 +1,9 @@
 import re
-import pandas as pd
 from pathlib import Path
-from datetime import datetime
-from typing import List, Tuple
-from PrivateCommunityStats import MessageExtractor
+
+import pandas as pd
+
+from private_community_stats import MessageExtractor
 
 
 class PIIRemover:
@@ -35,9 +35,9 @@ class DataFrameCleaner:
         to_remove = [
             "deleted this message",
             "message was deleted",
-            "‎‪", # Not sure about this, notebooks rendered them properly
+            "‎‪",  # Not sure about this, notebooks rendered them properly, so does VSCode
             "changed the subject to",
-            "‎", # Not sure about this, notebooks rendered them properly
+            "‎",  # Not sure about this, notebooks rendered them properly, so does VSCode
             "You added",
             "changed the group description",
             "POLL:",
@@ -52,6 +52,7 @@ class DataFrameCleaner:
         self.df["Message"] = self.df["Message"].apply(pii_remover.remove_pii)
         return self.df
 
+
 if __name__ == "__main__":
     readpath = Path("_chat.txt")
 
@@ -59,7 +60,7 @@ if __name__ == "__main__":
     todays_date = df["Datetime"].max().date().strftime("%Y%m%d")
     print(f"Today's date is {todays_date}")
 
-    savepath = f'../{todays_date}_Messages.csv'
+    savepath = f"../{todays_date}_Messages.csv"
 
     msg_extractor = MessageExtractor(readpath)
     messages = msg_extractor.extract_messages()
@@ -68,5 +69,5 @@ if __name__ == "__main__":
     df_cleaner = DataFrameCleaner(df)
     df = df_cleaner.cleanup()
     print(f"After cleanup: {len(df)}")
-    
+
     df.to_csv(savepath, index=False)
