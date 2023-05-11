@@ -42,9 +42,9 @@ def summarize_docs(
     return chain_output["output_text"]
 
 
-def summarize(message: str, prompt_template: str) -> str:
+def summarize(message: str, prompt_template: str, chain_type: str="stuff") -> str:
     docs = make_docs(message)
-    summary_text = summarize_docs(docs, prompt_template)
+    summary_text = summarize_docs(docs, prompt_template, chain_type="stuff",)
     return summary_text
 
 
@@ -138,7 +138,7 @@ if __name__ == "__main__":
     # Generating Title and Description Columns that can be passed to header method
     # We are avoiding the for loop with this intermediate column
     daily_df["title_desc"] = daily_df["Summary"].apply(
-        summarize, args=(PROMPT_TEMPLATES["title_description_template"],)
+        summarize, args=(PROMPT_TEMPLATES["title_description_template"], "map_reduce",)
     )
     # Generating page headers
     page_headers = []
