@@ -8,7 +8,8 @@ def human_date(d: datetime.date):
     Args:
         d (datetime.date): _description_
     """
-    def ordinal(n: int)):
+
+    def ordinal(n: int):
         return "%d%s" % (
             n,
             "tsnrhtdd"[((n // 10 % 10 != 1) * (n % 10 < 4) * n % 10) :: 4],
