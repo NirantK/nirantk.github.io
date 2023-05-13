@@ -48,12 +48,7 @@ class PIIRemover:
 
         return no_emails
 
-
-class DataFrameCleaner:
-    def __init__(self, df):
-        self.df = df
-
-    def cleanup(self):
+    def remove_actions(self) -> None:
         # Drop the Sender column
         if "Sender" in self.df.columns:
             self.df = self.df.drop(columns=["Sender"])
@@ -75,10 +70,5 @@ class DataFrameCleaner:
             "changed this group's settings",
         ]
 
-        for s in to_remove:
-            self.df = self.df[~self.df["Message"].str.contains(s)]
-
-        pii_remover = PIIRemover()
-        self.df["Message"] = self.df["Message"].apply(pii_remover.remove_pii)
-
-        return self.df
+        for stop_phrase in to_remove:
+            self.df = self.df[~self.df["Message"].str.contains(stop_phrase)]
