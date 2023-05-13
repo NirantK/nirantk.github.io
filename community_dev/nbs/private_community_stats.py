@@ -3,6 +3,7 @@ from pathlib import Path
 
 import fire
 import pandas as pd
+from rich import print
 
 from parsing_utils import WhatsAppMessageExtractor
 
