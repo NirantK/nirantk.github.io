@@ -1,9 +1,10 @@
 from datetime import timedelta
 from pathlib import Path
 
+import fire
 import pandas as pd
 
-from parsing_utils import MessageExtractor
+from parsing_utils import WhatsAppMessageExtractor
 
 
 class TopSenders:
