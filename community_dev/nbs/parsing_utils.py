@@ -29,7 +29,7 @@ class WhatsAppMessageExtractor(BaseModel):
                 if match and not join_pattern.search(line):
                     date, time, sender, message = match.groups()
                     datetime_str = f"{date} {time}"
-                    dt = datetime.strptime(datetime_str, "%m/%d/%y %H:%M:%S")
+                    dt = datetime.datetime.strptime(datetime_str, "%m/%d/%y %H:%M:%S")
                     messages.append((sender, dt, message))
         return messages
 
