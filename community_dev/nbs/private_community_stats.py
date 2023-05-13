@@ -121,13 +121,14 @@ def compute(readpath: str) -> None:
 
     # Top K senders per week
     k = 6
-    top_senders_weekly = top_senders.top_k_senders("W", k)
-    print(f"Top {k} senders per week:")
+    top_senders = get_top_senders(df, freq="W", k=k)
+    print(f"Top {k} senders per week: {top_senders}")
 
-    # Top K senders per month
-    top_senders_monthly = top_senders.top_k_senders("M", k)
-    print(f"\nTop {k} senders per month:")
-    top_senders_monthly.to_csv("top_senders_monthly.csv")
+    top_senders = get_top_senders(df, freq="M", k=k)
+    print(f"Top {k} senders per month: {top_senders}")
+
+    weekly_senders = WeeklySenders(df)
+    # top_senders_monthly.to_csv("top_senders_monthly.csv")
     # display(top_senders_monthly.style.hide_index())
 
     # Weekly stats for new, active and churned senders.
