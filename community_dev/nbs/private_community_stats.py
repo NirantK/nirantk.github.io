@@ -124,7 +124,6 @@ def compute(readpath: str, k: int) -> None:
     df = pd.DataFrame(messages, columns=["Sender", "Datetime", "Message"])
 
     # Top K senders per week
-    k = 6
     weekly_top_senders = get_top_senders(df, freq="W", k=k)
     print(f"Top {k} senders per week:\n{weekly_top_senders}")
 
