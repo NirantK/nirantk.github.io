@@ -19,8 +19,12 @@ def get_top_senders(df, freq: str, k: int = 5) -> pd.DataFrame:
     Returns:
         pd.DataFrame: _description_
     """
-    df.set_index("Datetime", inplace=True)  # Set 'Datetime' as index
-    df.sort_index(inplace=True)  # Sort the DataFrame based on the index
+    if freq not in ["W", "M"]:
+        raise ValueError("freq must be 'W' or 'M'")
+    # If 'Datetime' is not the index, set it as the index
+    if df.index.name != "Datetime":
+        df.set_index("Datetime", inplace=True)  # Set 'Datetime' as index
+        df.sort_index(inplace=True)  # Sort the DataFrame based on the index
     resampled = df.groupby("Sender").resample(freq).count()
     sorted_grouped = (
         resampled["Message"]
@@ -35,6 +39,8 @@ def get_top_senders(df, freq: str, k: int = 5) -> pd.DataFrame:
 class WeeklySenders:
     def __init__(self, df: pd.DataFrame) -> None:
         self.df = df
+        self.df.set_index("Datetime", inplace=True)
+        self.df.sort_index(inplace=True)
 
     def compute_weekly_sender_stats(self) -> None:
         # Assuming 'df' is the DataFrame with the columns 'Sender', 'Datetime', and 'Message'
