@@ -2,7 +2,11 @@ import datetime
 import re
 from pathlib import Path
 
+import loguru
+import pandas as pd
 from pydantic import BaseModel
+
+logger = loguru.logger("parsing_utils")
 
 
 class WhatsAppMessageExtractor(BaseModel):
@@ -31,6 +35,8 @@ class WhatsAppMessageExtractor(BaseModel):
                     datetime_str = f"{date} {time}"
                     dt = datetime.datetime.strptime(datetime_str, "%m/%d/%y %H:%M:%S")
                     messages.append((sender, dt, message))
+
+        messages = self.remove_actions(pd.DatFrame(messages))
         return messages
 
 
