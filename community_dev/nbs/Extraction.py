@@ -3,7 +3,7 @@ from pathlib import Path
 import fire
 import pandas as pd
 
-from parsing_utils import DataFrameCleaner, MessageExtractor
+from parsing_utils import DataFrameCleaner, WhatsAppMessageExtractor
 
 
 def extract_messages(readpath):
@@ -15,7 +15,7 @@ def extract_messages(readpath):
     """
     readpath = Path(readpath)
 
-    msg_extractor = MessageExtractor(readpath)
+    msg_extractor = WhatsAppMessageExtractor(readpath)
     messages = msg_extractor.extract_messages()
 
     df = pd.DataFrame(messages, columns=["Sender", "Datetime", "Message"])
