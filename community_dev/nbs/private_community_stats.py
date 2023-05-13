@@ -36,13 +36,13 @@ def get_top_senders(df, freq: str, k: int = 5) -> pd.DataFrame:
     return top_senders
 
 
-class WeeklySenders:
+class ActivityStats:
     def __init__(self, df: pd.DataFrame) -> None:
         self.df = df
         self.df.set_index("Datetime", inplace=True)
         self.df.sort_index(inplace=True)
 
-    def compute_weekly_sender_stats(self) -> None:
+    def compute_sender_stats(self) -> None:
         # Assuming 'df' is the DataFrame with the columns 'Sender', 'Datetime', and 'Message'
         # Make sure the 'Datetime' column is set as the index
         self.df.set_index("Datetime", inplace=True)
