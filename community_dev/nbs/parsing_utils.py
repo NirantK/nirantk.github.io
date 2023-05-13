@@ -5,7 +5,7 @@ from pathlib import Path
 from pydantic import BaseModel
 
 
-class MessageExtractor(BaseModel):
+class WhatsAppMessageExtractor(BaseModel):
     """
     Extracts messages from a WhatsApp chat export file
     into a list of tuples: (sender, datetime, message)
