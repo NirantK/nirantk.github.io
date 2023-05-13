@@ -6,7 +6,7 @@ import loguru
 import pandas as pd
 from pydantic import BaseModel
 
-logger = loguru.logger("parsing_utils")
+logger = loguru.logger
 
 
 class WhatsAppMessageExtractor(BaseModel):
@@ -36,7 +36,7 @@ class WhatsAppMessageExtractor(BaseModel):
                     dt = datetime.datetime.strptime(datetime_str, "%m/%d/%y %H:%M:%S")
                     messages.append((sender, dt, message))
 
-        messages = self.remove_actions(pd.DatFrame(messages))
+        messages = self.remove_actions(pd.DataFrame(messages))
         return messages
 
     def remove_pii(self, text):
@@ -52,12 +52,12 @@ class WhatsAppMessageExtractor(BaseModel):
 
         return no_emails
 
-    def remove_actions(self) -> None:
+    def remove_actions(self, df) -> None:
         # Drop the Sender column
-        if "Sender" in self.df.columns:
-            self.df = self.df.drop(columns=["Sender"])
+        if "Sender" in df.columns:
+            df = df.drop(columns=["Sender"])
         # Drop the rows with no message
-        self.df = self.df.dropna()
+        df.dropna(inplace=True)
 
         to_remove = [
             "deleted this message",
@@ -75,4 +75,4 @@ class WhatsAppMessageExtractor(BaseModel):
         ]
 
         for stop_phrase in to_remove:
-            self.df = self.df[~self.df["Message"].str.contains(stop_phrase)]
+            df = df[~df["Message"].str.contains(stop_phrase)]
