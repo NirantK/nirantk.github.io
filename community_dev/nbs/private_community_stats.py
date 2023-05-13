@@ -106,16 +106,22 @@ class ActivityStats:
             }
         )
         result_df.set_index("Date", inplace=True)
+        return result_df
 
 
-def compute(readpath: str) -> None:
+def compute(readpath: str, k: int) -> None:
+    """
+    Compute the stats.
+
+    Args:
+        readpath (str): Path to the WhatsApp chat file.
+        k (int): Number of top senders to consider.
+    """
     readpath = Path(readpath)
     assert readpath.exists()
     msg_extractor = WhatsAppMessageExtractor(file_path=readpath)
     messages = msg_extractor.extract_messages()
     df = pd.DataFrame(messages, columns=["Sender", "Datetime", "Message"])
-    top_senders = TopSenders(df)
-    weekly_senders = WeeklySenders(df)
 
     # Top K senders per week
     k = 6
