@@ -44,11 +44,6 @@ class ActivityStats:
             self.df.sort_index(inplace=True)
 
     def compute_sender_stats(self) -> None:
-        # Assuming 'df' is the DataFrame with the columns 'Sender', 'Datetime', and 'Message'
-        # Make sure the 'Datetime' column is set as the index
-        self.df.set_index("Datetime", inplace=True)
-        self.df.sort_index(inplace=True)
-
         # Resample DataFrame to a weekly frequency
         weekly_data = self.df.resample("W").count()
 
@@ -86,7 +81,8 @@ class ActivityStats:
             for sender in previous_senders:
                 if (
                     sender not in current_senders
-                    and (week - df[df["Sender"] == sender].index[-1]) > churn_window
+                    and (week - self.df[self.df["Sender"] == sender].index[-1])
+                    > churn_window
                 ):
                     churned_senders_count += 1
                     churned.add(sender)
