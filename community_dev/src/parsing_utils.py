@@ -39,8 +39,6 @@ class WhatsAppMessageExtractor(BaseModel):
         messages = self.remove_actions(pd.DatFrame(messages))
         return messages
 
-
-class PIIRemover:
     def remove_pii(self, text):
         # Remove phone numbers
         phone_pattern = re.compile(r"@\+?(\d[\d-]{7,}\d)")
