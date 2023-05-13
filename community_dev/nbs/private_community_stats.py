@@ -118,3 +118,7 @@ def compute(readpath: str) -> None:
     weekly_sender_stats = weekly_senders.compute_weekly_sender_stats()
     # display(weekly_sender_stats)
     weekly_sender_stats.to_csv("weekly_sender_stats.csv")
+
+
+if __name__ == "__main__":
+    fire.Fire(compute)
