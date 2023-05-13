@@ -7,20 +7,29 @@ import pandas as pd
 from parsing_utils import WhatsAppMessageExtractor
 
 
-class TopSenders:
-    def __init__(self, df: pd.DataFrame) -> None:
-        self.df = df
+def get_top_senders(df, freq: str, k: int = 5) -> pd.DataFrame:
+    """
+    Get the top K senders per week.
 
-    def top_k_senders(self, freq: str, k: int = 5) -> pd.DataFrame:
-        resampled = self.df.groupby("Sender").resample(freq).count()
-        sorted_grouped = (
-            resampled["Message"]
-            .reset_index()
-            .sort_values(["Datetime", "Message"], ascending=[True, False])
-            .groupby("Datetime")
-        )
-        top_senders = sorted_grouped.head(k)
-        return top_senders
+    Args:
+        df (_type_): _description_
+        freq (str): _description_
+        k (int, optional): _description_. Defaults to 5.
+
+    Returns:
+        pd.DataFrame: _description_
+    """
+    df.set_index("Datetime", inplace=True)  # Set 'Datetime' as index
+    df.sort_index(inplace=True)  # Sort the DataFrame based on the index
+    resampled = df.groupby("Sender").resample(freq).count()
+    sorted_grouped = (
+        resampled["Message"]
+        .reset_index()
+        .sort_values(["Datetime", "Message"], ascending=[True, False])
+        .groupby("Datetime")
+    )
+    top_senders = sorted_grouped.head(k)
+    return top_senders
 
 
 class WeeklySenders:
