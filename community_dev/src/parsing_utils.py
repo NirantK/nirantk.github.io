@@ -35,8 +35,8 @@ class WhatsAppMessageExtractor(BaseModel):
                     datetime_str = f"{date} {time}"
                     dt = datetime.datetime.strptime(datetime_str, "%m/%d/%y %H:%M:%S")
                     messages.append((sender, dt, message))
-
-        messages = self.remove_actions(pd.DataFrame(messages))
+        df = pd.DataFrame(messages, columns=["Sender", "Datetime", "Message"])
+        messages = self.remove_actions(df)
         return messages
 
     def remove_pii(self, text):
@@ -52,12 +52,14 @@ class WhatsAppMessageExtractor(BaseModel):
 
         return no_emails
 
-    def remove_actions(self, df) -> None:
+    def remove_actions(self, df, remove_sender=False) -> None:
         # Drop the Sender column
-        if "Sender" in df.columns:
+        logger.info(f"Dataframe columns: {df.columns}")
+        if "Sender" in df.columns and remove_sender:
             df = df.drop(columns=["Sender"])
         # Drop the rows with no message
         df.dropna(inplace=True)
+        logger.info(f"Number of messages before removing actions: {len(df)}")
 
         to_remove = [
             "deleted this message",
