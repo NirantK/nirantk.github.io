@@ -39,8 +39,9 @@ def get_top_senders(df, freq: str, k: int = 5) -> pd.DataFrame:
 class ActivityStats:
     def __init__(self, df: pd.DataFrame) -> None:
         self.df = df
-        self.df.set_index("Datetime", inplace=True)
-        self.df.sort_index(inplace=True)
+        if self.df.index.name != "Datetime":
+            self.df.set_index("Datetime", inplace=True)
+            self.df.sort_index(inplace=True)
 
     def compute_sender_stats(self) -> None:
         # Assuming 'df' is the DataFrame with the columns 'Sender', 'Datetime', and 'Message'
