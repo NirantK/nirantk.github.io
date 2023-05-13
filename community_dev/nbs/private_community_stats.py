@@ -94,9 +94,10 @@ class WeeklySenders:
         result_df.set_index("Date", inplace=True)
 
 
-if __name__ == "__main__":
-    readpath = Path("_chat.txt")
-    msg_extractor = MessageExtractor(readpath)
+def compute(readpath: str) -> None:
+    readpath = Path(readpath)
+    assert readpath.exists()
+    msg_extractor = WhatsAppMessageExtractor(file_path=readpath)
     messages = msg_extractor.extract_messages()
     df = pd.DataFrame(messages, columns=["Sender", "Datetime", "Message"])
     top_senders = TopSenders(df)
