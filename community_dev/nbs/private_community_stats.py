@@ -1,37 +1,50 @@
 from datetime import timedelta
 from pathlib import Path
 
+import fire
 import pandas as pd
+from rich import print
 
-from parsing_utils import MessageExtractor
+from parsing_utils import WhatsAppMessageExtractor
 
 
-class TopSenders:
+def get_top_senders(df, freq: str, k: int = 5) -> pd.DataFrame:
+    """
+    Get the top K senders per week.
+
+    Args:
+        df (_type_): _description_
+        freq (str): _description_
+        k (int, optional): _description_. Defaults to 5.
+
+    Returns:
+        pd.DataFrame: _description_
+    """
+    if freq not in ["W", "M"]:
+        raise ValueError("freq must be 'W' or 'M'")
+    # If 'Datetime' is not the index, set it as the index
+    if df.index.name != "Datetime":
+        df.set_index("Datetime", inplace=True)  # Set 'Datetime' as index
+        df.sort_index(inplace=True)  # Sort the DataFrame based on the index
+    resampled = df.groupby("Sender").resample(freq).count()
+    sorted_grouped = (
+        resampled["Message"]
+        .reset_index()
+        .sort_values(["Datetime", "Message"], ascending=[True, False])
+        .groupby("Datetime")
+    )
+    top_senders = sorted_grouped.head(k)
+    return top_senders
+
+
+class ActivityStats:
     def __init__(self, df: pd.DataFrame) -> None:
         self.df = df
+        if self.df.index.name != "Datetime":
+            self.df.set_index("Datetime", inplace=True)
+            self.df.sort_index(inplace=True)
 
-    def top_k_senders(self, freq: str, k: int = 5) -> pd.DataFrame:
-        resampled = self.df.groupby("Sender").resample(freq).count()
-        sorted_grouped = (
-            resampled["Message"]
-            .reset_index()
-            .sort_values(["Datetime", "Message"], ascending=[True, False])
-            .groupby("Datetime")
-        )
-        top_senders = sorted_grouped.head(k)
-        return top_senders
-
-
-class WeeklySenders:
-    def __init__(self, df: pd.DataFrame) -> None:
-        self.df = df
-
-    def compute_weekly_sender_stats(self) -> None:
-        # Assuming 'df' is the DataFrame with the columns 'Sender', 'Datetime', and 'Message'
-        # Make sure the 'Datetime' column is set as the index
-        self.df.set_index("Datetime", inplace=True)
-        self.df.sort_index(inplace=True)
-
+    def compute_sender_stats(self) -> None:
         # Resample DataFrame to a weekly frequency
         weekly_data = self.df.resample("W").count()
 
@@ -69,7 +82,8 @@ class WeeklySenders:
             for sender in previous_senders:
                 if (
                     sender not in current_senders
-                    and (week - df[df["Sender"] == sender].index[-1]) > churn_window
+                    and (week - self.df[self.df["Sender"] == sender].index[-1])
+                    > churn_window
                 ):
                     churned_senders_count += 1
                     churned.add(sender)
@@ -83,37 +97,44 @@ class WeeklySenders:
             previous_senders.update(current_senders)
             current_senders.clear()
 
-            result_df = pd.DataFrame(
-                {
-                    "Date": weekly_data.index,
-                    "New Senders": new_senders,
-                    "Active Senders": active_senders,
-                    "Churned Senders": churned_senders,
-                }
-            )
+        result_df = pd.DataFrame(
+            {
+                "Date": weekly_data.index,
+                "New Senders": new_senders,
+                "Active Senders": active_senders,
+                "Churned Senders": churned_senders,
+            }
+        )
         result_df.set_index("Date", inplace=True)
+        return result_df
+
+
+def compute(readpath: str, k: int) -> None:
+    """
+    Compute the stats.
+
+    Args:
+        readpath (str): Path to the WhatsApp chat file.
+        k (int): Number of top senders to consider.
+    """
+    readpath = Path(readpath)
+    assert readpath.exists()
+    msg_extractor = WhatsAppMessageExtractor(file_path=readpath)
+    messages = msg_extractor.extract_messages()
+    df = pd.DataFrame(messages, columns=["Sender", "Datetime", "Message"])
+
+    # Top K senders per week
+    weekly_top_senders = get_top_senders(df, freq="W", k=k)
+    print(f"Top {k} senders per week:\n{weekly_top_senders}")
+
+    monthly_top_senders = get_top_senders(df, freq="M", k=k)
+    print(f"Top {k} senders per month:\n{monthly_top_senders}")
+
+    weekly_senders = ActivityStats(df)
+    stats_df = weekly_senders.compute_sender_stats()
+    print("Weekly sender stats:")
+    print(stats_df)
 
 
 if __name__ == "__main__":
-    readpath = Path("_chat.txt")
-    msg_extractor = MessageExtractor(readpath)
-    messages = msg_extractor.extract_messages()
-    df = pd.DataFrame(messages, columns=["Sender", "Datetime", "Message"])
-    top_senders = TopSenders(df)
-    weekly_senders = WeeklySenders(df)
-
-    # Top K senders per week
-    k = 6
-    top_senders_weekly = top_senders.top_k_senders("W", k)
-    print(f"Top {k} senders per week:")
-
-    # Top K senders per month
-    top_senders_monthly = top_senders.top_k_senders("M", k)
-    print(f"\nTop {k} senders per month:")
-    top_senders_monthly.to_csv("top_senders_monthly.csv")
-    # display(top_senders_monthly.style.hide_index())
-
-    # Weekly stats for new, active and churned senders.
-    weekly_sender_stats = weekly_senders.compute_weekly_sender_stats()
-    # display(weekly_sender_stats)
-    weekly_sender_stats.to_csv("weekly_sender_stats.csv")
+    fire.Fire(compute)

@@ -9,3 +9,4 @@ junta/*.wav
 junta/*.zip
 ai/nbs/.ipynb_checkpoints/*
 .DS_Store
+community_dev/nbs/__pycache__/*
