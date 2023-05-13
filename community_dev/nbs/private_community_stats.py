@@ -100,14 +100,14 @@ class ActivityStats:
             previous_senders.update(current_senders)
             current_senders.clear()
 
-            result_df = pd.DataFrame(
-                {
-                    "Date": weekly_data.index,
-                    "New Senders": new_senders,
-                    "Active Senders": active_senders,
-                    "Churned Senders": churned_senders,
-                }
-            )
+        result_df = pd.DataFrame(
+            {
+                "Date": weekly_data.index,
+                "New Senders": new_senders,
+                "Active Senders": active_senders,
+                "Churned Senders": churned_senders,
+            }
+        )
         result_df.set_index("Date", inplace=True)
 
 
@@ -122,20 +122,16 @@ def compute(readpath: str) -> None:
 
     # Top K senders per week
     k = 6
-    top_senders = get_top_senders(df, freq="W", k=k)
-    print(f"Top {k} senders per week: {top_senders}")
+    weekly_top_senders = get_top_senders(df, freq="W", k=k)
+    print(f"Top {k} senders per week:\n{weekly_top_senders}")
 
-    top_senders = get_top_senders(df, freq="M", k=k)
-    print(f"Top {k} senders per month: {top_senders}")
+    monthly_top_senders = get_top_senders(df, freq="M", k=k)
+    print(f"Top {k} senders per month:\n{monthly_top_senders}")
 
-    weekly_senders = WeeklySenders(df)
-    # top_senders_monthly.to_csv("top_senders_monthly.csv")
-    # display(top_senders_monthly.style.hide_index())
-
-    # Weekly stats for new, active and churned senders.
-    weekly_sender_stats = weekly_senders.compute_weekly_sender_stats()
-    # display(weekly_sender_stats)
-    weekly_sender_stats.to_csv("weekly_sender_stats.csv")
+    weekly_senders = ActivityStats(df)
+    stats_df = weekly_senders.compute_sender_stats()
+    print("Weekly sender stats:")
+    print(stats_df)
 
 
 if __name__ == "__main__":
