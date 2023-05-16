@@ -4,6 +4,7 @@ from pathlib import Path
 import fire
 import pandas as pd
 from rich import print
+from loguru import logger
 
 from parsing_utils import WhatsAppMessageExtractor
 
@@ -30,6 +31,7 @@ def get_top_senders(df, freq: str, k: int = 5) -> pd.DataFrame:
         df.sort_index(inplace=True)  # Sort the DataFrame based on the index
         logger.info(f"Index name: {df.index.name}, type: {type(df.index)}")
     resampled = df.groupby("Sender").resample(freq).count()
+    resampled.reset_index("Datetime", inplace=True)  # Reset only the 'Datetime' index
     sorted_grouped = (
         resampled["Message"]
         .reset_index()
