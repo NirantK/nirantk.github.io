@@ -23,9 +23,12 @@ def get_top_senders(df, freq: str, k: int = 5) -> pd.DataFrame:
     if freq not in ["W", "M"]:
         raise ValueError("freq must be 'W' or 'M'")
     # If 'Datetime' is not the index, set it as the index
+    logger.info(f"Index name: {df.index.name}, type: {type(df.index)}")
     if df.index.name != "Datetime":
+        df["Datetime"] = pd.to_datetime(df["Datetime"])
         df.set_index("Datetime", inplace=True)  # Set 'Datetime' as index
         df.sort_index(inplace=True)  # Sort the DataFrame based on the index
+        logger.info(f"Index name: {df.index.name}, type: {type(df.index)}")
     resampled = df.groupby("Sender").resample(freq).count()
     sorted_grouped = (
         resampled["Message"]
