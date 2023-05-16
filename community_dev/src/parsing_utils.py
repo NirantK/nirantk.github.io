@@ -52,7 +52,7 @@ class WhatsAppMessageExtractor(BaseModel):
 
         return no_emails
 
-    def remove_actions(self, df, remove_sender=False) -> None:
+    def remove_actions(self, df: pd.DataFrame, remove_sender: bool = False) -> None:
         # Drop the Sender column
         logger.info(f"Dataframe columns: {df.columns}")
         if "Sender" in df.columns and remove_sender:
