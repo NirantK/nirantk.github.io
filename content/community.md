@@ -18,11 +18,13 @@
    - surveillance technology and tools e.g. face recognition
    - machine learning to predict criminality, caste, gender, or religion
 
+1. Good Conscience and Integrity: If you are sharing something or asking questions about something that you think could be unethical, please mention it in the message. If you are not sure, please ask the community.
+
+1. Act in good faith. Assume that others are operating in good faith. If you suspect otherwise, please contact an admin. Disagreements are acceptable, but respect is essential. Disrespectful members may be asked to leave the community.
+
 1. If you notice an off-topic discussion, kindly DM the individual to move the conversation elsewhere.
 
    - Posting irrelevant content may result in removal from the community. Active contributors will be notified via DM, but others may not receive this courtesy.
-
-1. Maintain a thick skin. Disagreements are acceptable, but respect is essential. Disrespectful members may be asked to leave the community.
 
 1. Share publicly and freely available content. Refrain from sharing links that require a login or are behind a paywall. If you cannot share a free link, provide a summary of the content.
 
