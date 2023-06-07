@@ -10,7 +10,8 @@
 
 1. When sharing a link, provide context. Include a brief description of the link and its relevance to the community. This increases the likelihood that the link will be read.
 
-1. For hiring announcements, please fill out this form: [https://forms.gle/DRuZGp9z8UHpC8sw9](https://forms.gle/DRuZGp9z8UHpC8sw9). We will compile these and share them weekly with the group.
+1. For hiring announcements, please fill out [this form](https://forms.gle/DRuZGp9z8UHpC8sw9). We will compile these and share them weekly with the group.
+Looking for jobs? See [open roles here](https://docs.google.com/spreadsheets/d/1WOlIw1vxnJXPLZpfcdpozhaR0TXN1hPuFQs_puL3Gn8/edit?resourcekey#gid=1112881564) 
 
 1. Actively discourage and reserve the right to ban conversations about proven harm technologies. This definitely includes
 
