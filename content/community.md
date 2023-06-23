@@ -12,7 +12,7 @@ These guides are good rules of thumbs for behaviour, but admins reserve all righ
 
 ✅ Things that you find interesting, curious or noteworthy around AI research, philosophy, implementation and future. Also new tools or how you’re using them. 
 
-✅Give context when sharing if possible, or ask questions, especially if you are looking for a specific kind of help
+✅ Give context when sharing if possible, or ask questions, especially if you are looking for a specific kind of help
 
 ❌ Self promotion of your products, your company or your events. Group should not be used as your marketing channel. 
 
