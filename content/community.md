@@ -1,44 +1,49 @@
-# Generative AI Community Guidelines
+# Generative AI community : General guide
 
-**Purpose:** The purpose of this document is to establish the behavioral expectations for members of the Generative AI Community. This document is a living document and will be updated as needed to meet the evolving needs of the community.
+✅ - Please do these behaviours!
 
-**Scope:** This document applies to all members of the Generative AI Community, including but not limited to members of the WhatsApp community, members of the mailing list, and all attendees of Generative AI Community events.
+❌ - These may result in bans
 
-**Expectations:** The following standards of behavior are expected of all members of the Generative AI Community:
+👎 - we discourage these behaviours, but context matters
 
-1. For events announcements, please fill out this form: [Generative AI Events](https://forms.gle/s3Na6t7HzW43wfEX7). These are published here: [Generative AI Events](https://docs.google.com/spreadsheets/d/e/2PACX-1vTftcrqLyUN8N81ekOBsQgWUWqg_t0QKk0Xil49OZKNhSrhHHN3DZRucTo4RJnYGQBYzes0NFxJKAL_/pubhtml)
+These guides are good rules of thumbs for behaviour, but admins reserve all rights to remove or ban members or conversations. 
 
-1. When sharing a link, provide context. Include a brief description of the link and its relevance to the community. This increases the likelihood that the link will be read.
+## Content sharing
 
-1. For hiring announcements, please fill out [this form](https://forms.gle/DRuZGp9z8UHpC8sw9). We will compile these and share them weekly with the group.
-Looking for jobs? See [open roles here](https://docs.google.com/spreadsheets/d/1WOlIw1vxnJXPLZpfcdpozhaR0TXN1hPuFQs_puL3Gn8/edit?resourcekey#gid=1112881564) 
+✅ Things that you find interesting, curious or noteworthy around AI research, philosophy, implementation and future. Also new tools or how you’re using them. 
 
-1. Actively discourage and reserve the right to ban conversations about proven harm technologies. This definitely includes
+✅Give context when sharing if possible, or ask questions, especially if you are looking for a specific kind of help
 
-   - deep fakes e.g. images, gifs and videos,
-   - surveillance technology and tools e.g. face recognition
-   - machine learning to predict criminality, caste, gender, or religion
+❌ Self promotion of your products, your company or your events. Group should not be used as your marketing channel. 
 
-1. Good Conscience and Integrity: If you are sharing something or asking questions about something that you think could be unethical, please mention it in the message. If you are not sure, please ask the community.
+👎 Sharing paid/paywalled content. You can describe if something is relevant to the discussion but sharing this content is discouraged
 
-1. Act in good faith. Assume that others are operating in good faith. If you suspect otherwise, please contact an admin. Disagreements are acceptable, but respect is essential. Disrespectful members may be asked to leave the community.
+## General conversation
 
-1. If you notice an off-topic discussion, kindly DM the individual to move the conversation elsewhere.
+✅ Ask questions, especially follow ups if a conversation or topic intrigues you
 
-   - Posting irrelevant content may result in removal from the community. Active contributors will be notified via DM, but others may not receive this courtesy.
+✅ Share knowledge that you have with the community members, we can only grow the AI community in India if we help each other out
 
-1. Share publicly and freely available content. Refrain from sharing links that require a login or are behind a paywall. If you cannot share a free link, provide a summary of the content.
+✅ Act in good faith and with integrity. When in doubt ask
 
-1. Avoid exaggeration and sensationalism, e.g., claiming AGI will arrive in 2025 or that AI will destroy the world. Share strong opinions but be prepared for challenges.
+✅ Disclose any conflicts of interests in a particular conversation
 
-1. Self-promotion is discouraged. If you actively contribute to the community, others may be happy to share your work -- ask someone else to post it, mods are often happy to share new things!
+❌ Conversations about topics with proven harm technologies like deep fakes, surveillance, or discrimination promoting tech. 
 
-1. Disclose any conflicts of interest, such as financial involvement in a company or product, organizational memberships with financial interests, or personal relationships with company founders.
+❌ Harassment or abuse, targeted towards a group or an individual
 
-1. [Don't Ask to Ask, Just Ask](https://dontasktoask.com/). Try to find answers yourself before asking, and [mention what you've tried when seeking help](http://www.catb.org/~esr/faqs/smart-questions.html). Ask the question with context >>> Asking the question >> Asking if someone has used X > Asking "Can I ask questions about X?". If you have a question, ask it.
+👎 Off topic discussions. Avoid spamming others’ inboxes with messages irrelevant to the group. Take those discussions to DMs
 
-1. Harassment & Abuse: Even a suspicion of such behavior may result in removal from the community. Admins reserve the right to act without evidence. Be especially respectful when interacting with minorities in technology, e.g., based on gender, race, religion, or nationality.
+👎 Sensationalism and exaggerations. 
 
-1. Data Usage: Messages in the group may be made public or used for training a bot. We cannot prevent members from downloading chat history.
+👎 Don’t ask to just ask. Do some preliminary research beforehand. 
 
-1. Remember, this community operates as a dictatorship or fiefdom. Feel free to express disagreement, but do not expect admins to comply with your wishes or public pressure.
+## Other cases
+
+**Event announcements:** Please fill out this form: [Generative AI Events](https://forms.gle/s3Na6t7HzW43wfEX7). These are published here: [Generative AI Events](https://docs.google.com/spreadsheets/d/e/2PACX-1vTftcrqLyUN8N81ekOBsQgWUWqg_t0QKk0Xil49OZKNhSrhHHN3DZRucTo4RJnYGQBYzes0NFxJKAL_/pubhtml)
+
+******************Hiring announcements: P******************lease fill out [this form](https://forms.gle/DRuZGp9z8UHpC8sw9). We will compile these and share them weekly with the group
+
+**Looking for jobs?** See [open roles here](https://docs.google.com/spreadsheets/d/1WOlIw1vxnJXPLZpfcdpozhaR0TXN1hPuFQs_puL3Gn8/edit?resourcekey#gid=1112881564)
+
+## ⚠️ Data Usage: Messages in the group may be made public or used for training a bot. We cannot prevent members from downloading chat history.
