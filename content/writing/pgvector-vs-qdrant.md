@@ -61,5 +61,9 @@ PGVector(lists=200, probes=2)
 
 We probably leave a lot of performance on the table for both platforms. We will continue to explore the configuration space for both platforms and update this. 
 
+# Conversations with the Community
+
+{{ < tweet 1674395120395747331 >}}
+
 # Acknowledgements
 These surprising revelations are courtesy of Erik Bernhardsson's [ann-benchmarks](https://ann-benchmarks.com) code, with special thanks to [Kumar Shivendu](https://www.linkedin.com/in/kshivendu) for their forked version.
