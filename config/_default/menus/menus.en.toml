@@ -40,8 +40,8 @@
 #   weight = 15
 
 [[main]]
-  name = "Blog"
-  url = "/blog/"
+  name = "Writing"
+  url = "/writing/"
   weight = 20
 
 [[main]]
