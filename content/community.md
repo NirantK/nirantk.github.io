@@ -28,9 +28,11 @@ These guides are good rules of thumbs for behaviour, but admins reserve all righ
 
 ✅ Disclose any conflicts of interests in a particular conversation
 
-❌ Conversations about topics with proven harm technologies like deep fakes, surveillance, or discrimination promoting tech. 
+❌ Conversations about topics with proven harm technologies like deep fakes, surveillance, or discrimination promoting tech
 
 ❌ Harassment or abuse, targeted towards a group or an individual
+
+👎 Asking on main to add your friend. Ping admins directly. 
 
 👎 Off topic discussions. Avoid spamming others’ inboxes with messages irrelevant to the group. Take those discussions to DMs
 
