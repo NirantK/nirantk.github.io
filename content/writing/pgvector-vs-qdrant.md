@@ -91,7 +91,9 @@ When there are no filters, pgvector uses IVF ([Twitter Intro to IVFPQ](https://t
 
 > pgvector is an extension which default will just search the closest cluster to the query vector which for most high dimensional embedding models will return just 2-3 out of 10 real neighbors.
 
-This is a very important point. `pgvector` is not a vector search engine. It's a vector extension for PostgreSQL and that involves some tradeoffs which are sometimes not obvious.
+This is a very important point. `pgvector` is not a vector search engine. It's a vector extension for PostgreSQL and that involves some tradeoffs which are sometimes not obvious. 
+
+There is a [US$2000 bounty](https://twitter.com/alexgraveley/status/1674679862961885184) for anyone who can raise a PR to make the `pgvector` extension use HNSW instead of IVF.
 
 ## Acknowledgements
 These surprising revelations are courtesy of Erik Bernhardsson's [ann-benchmarks](https://ann-benchmarks.com) code, with special thanks to [Kumar Shivendu](https://www.linkedin.com/in/kshivendu) for their forked version.
