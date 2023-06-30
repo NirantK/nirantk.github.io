@@ -2,7 +2,7 @@
 title =  "1M OpenAI Benchmark: PGVector vs VectorDB (Qdrant)"
 date = 2023-06-30T00:00:18+05:30
 tags = ["tech", "machine learning", "production ml"]
-featured_image = /images/ink.png"
+featured_image = "/images/ink.png"
 description = "Consider This Before Using pgvector in Production"
 toc = true
 show_reading_time = true
@@ -63,6 +63,10 @@ PGVector(lists=200, probes=2)
 ```
 
 There is much more to be tested. We will continue to explore the configuration space for both platforms and update this. 
+
+## Conversations with the Community
+
+{{ < tweet 1674395120395747331 >}}
 
 ## Acknowledgements
 These surprising revelations are courtesy of Erik Bernhardsson's [ann-benchmarks](https://ann-benchmarks.com) code, with special thanks to [Kumar Shivendu](https://www.linkedin.com/in/kshivendu) for their forked version.
