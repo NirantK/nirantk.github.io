@@ -66,8 +66,8 @@ There is much more to be tested. We will continue to explore the configuration s
 
 ## Conversations with the Community
 
-> Paul Copplestone (CEO, Supabase) has also shared his [thoughts on the matter](https://twitter.com/kiwicopple/status/1674395120395747331):
-> 
+Paul Copplestone (CEO, Supabase) has also shared his [thoughts on the matter](https://twitter.com/kiwicopple/status/1674395120395747331):
+ 
 > Yup:
 >1. Wait 6 months, a lot of development is happening on pgvector
 >2. Use hybrid search
