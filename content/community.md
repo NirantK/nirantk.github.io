@@ -46,12 +46,19 @@ These guides are good rules of thumbs for behaviour, but admins reserve all righ
 
 👎 Don’t ask to just ask. Do some preliminary research beforehand. 
 
-## Other cases
+## How can I promote my product/blog/event on group?
 
-**Event announcements:** Please fill out this form: [Generative AI Events](https://forms.gle/s3Na6t7HzW43wfEX7). These are published here: [Generative AI Events](https://docs.google.com/spreadsheets/d/e/2PACX-1vTftcrqLyUN8N81ekOBsQgWUWqg_t0QKk0Xil49OZKNhSrhHHN3DZRucTo4RJnYGQBYzes0NFxJKAL_/pubhtml)
+✅ Have someone else share it on the group
 
-**Hiring announcements:** Please fill out [this form](https://forms.gle/DRuZGp9z8UHpC8sw9). We will compile these and share them weekly with the group
+❌ Promote your own product/blog/event
 
-**Looking for jobs?** See [open roles here](https://docs.google.com/spreadsheets/d/1WOlIw1vxnJXPLZpfcdpozhaR0TXN1hPuFQs_puL3Gn8/edit?resourcekey#gid=1112881564)
+### Event announcements
+Please fill out this form: [Generative AI Events](https://forms.gle/s3Na6t7HzW43wfEX7). These are published here: [Generative AI Events](https://docs.google.com/spreadsheets/d/e/2PACX-1vTftcrqLyUN8N81ekOBsQgWUWqg_t0QKk0Xil49OZKNhSrhHHN3DZRucTo4RJnYGQBYzes0NFxJKAL_/pubhtml)
+
+### Hiring Announcements:
+Please fill out [this form](https://forms.gle/DRuZGp9z8UHpC8sw9). We will compile these and share them weekly with the group
+
+### Looking for jobs?
+See [open roles here](https://docs.google.com/spreadsheets/d/1WOlIw1vxnJXPLZpfcdpozhaR0TXN1hPuFQs_puL3Gn8/edit?resourcekey#gid=1112881564)
 
 ## ⚠️ Data Usage: Messages in the group may be made public or used for training a bot. We cannot prevent members from downloading chat history.
