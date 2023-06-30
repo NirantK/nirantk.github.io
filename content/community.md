@@ -38,8 +38,6 @@ These guides are good rules of thumbs for behaviour, but admins reserve all righ
 
 ❌ Harassment or abuse, targeted towards a group or an individual
 
-👎 Asking on main to add your friend. Ping admins directly. 
-
 👎 Off topic discussions. Avoid spamming others’ inboxes with messages irrelevant to the group. Take those discussions to DMs
 
 👎 Sensationalism and exaggerations. 
