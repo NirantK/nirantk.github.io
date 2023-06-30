@@ -18,9 +18,9 @@ We ran both benchmarks using the [vectordb framework](https://github.com/qdrant/
 
 ![](../images/1M_QPS.jpeg)
 
-Final results show that `pgvector` lags behind Qdrant by a factor of 20 when it comes to throughput.  
+Final results show that `pgvector` lags behind Qdrant by a factor of 15 when it comes to throughput.  
 
-That is a 2000% deficit in speed. However, we shouldn't only consider speed as the main metric when evaluating a database. In terms of accuracy, `pgvector` delivers way fewer relevant results than Qdrant.
+That is a 1500% deficit in speed. However, we shouldn't only consider speed as the main metric when evaluating a database. In terms of accuracy, `pgvector` delivers way fewer relevant results than Qdrant.
 
 ## Workload
 
