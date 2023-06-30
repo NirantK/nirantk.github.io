@@ -52,7 +52,7 @@ For the data enthusiasts among us, we have provided a comprehensive Google Sheet
 
 ### Configuration 
 
-We use the default for both Qdrant and pgvector:
+We use the default for Qdrant and better than default params for pgvector:
 
 ```
 Qdrant(quantization=False, m=16, ef_construct=128, grpc=True, hnsw_ef=None, rescore=True)
