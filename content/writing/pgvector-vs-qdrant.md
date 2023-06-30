@@ -1,5 +1,5 @@
 +++
-title =  "1M OpenAI Benchmark: PGVector vs VectorDB (Qdrant)"
+title =  "Qdrant vs pgvector - Results from the 1M OpenAI Benchmark"
 date = 2023-06-30T00:00:18+05:30
 tags = ["tech", "machine learning", "production ml"]
 featured_image = "/images/ink.png"
@@ -8,7 +8,7 @@ toc = true
 show_reading_time = true
 +++
 
-# 1M OpenAI Benchmark: pgvector vs VectorDB (Qdrant)
+# Qdrant vs pgvector - Results from the 1M OpenAI Benchmark
 
 You may have considered using PostgreSQL's `pgvector` extension for vector similarity search. There are good reasons why this option is **strictly inferior** to dedicated vector search engines, such as [Qdrant](https://qdrant.tech/).
 
@@ -32,7 +32,7 @@ As an ardent supporter of PostgreSQL, it is disheartening to witness that `pgvec
 
 ![](../images/QPSvsVectorQdrant.png)
 
-## Correctness / Accuracy
+## Correctness 
 
 One might try to rationalize this by assuming that Postgres is slower, but more accurate? Data reveals that `pgvector` is not just slower, but also ~18% less accurate!
 
@@ -46,13 +46,13 @@ Here, Qdrant holds its own. The worst p95 latency for Qdrant is 2.85s, a stark c
 
 ### Benchmark Specs
 
-Machine used: t3.2xlarge, 8 vCPU, 32GB RAM
+The Machine we used to run the benchmark: `t3.2xlarge, 8 vCPU, 32GB RAM`
 
-For the data enthusiasts among us, we have provided a comprehensive Google Sheet that details all the numbers for a more in-depth analysis: [Google Sheet](https://docs.google.com/spreadsheets/d/1t2-tXID2LJCXdLv1JTPQaYhmMs6woOnK7W7nkEuDsUc/edit?usp=sharing)
+For data enthusiasts among us, this Google Sheet details all the numbers for a more in-depth analysis: [Google Sheet](https://docs.google.com/spreadsheets/d/1t2-tXID2LJCXdLv1JTPQaYhmMs6woOnK7W7nkEuDsUc/edit?usp=sharing)
 
 ### Configuration 
 
-We use the default for Qdrant and better than default params for pgvector:
+We use the default configuration for Qdrant and much better parameters for pgvector:
 
 ```
 Qdrant(quantization=False, m=16, ef_construct=128, grpc=True, hnsw_ef=None, rescore=True)
@@ -83,15 +83,17 @@ Paul Copplestone (CEO, Supabase) has also shared his [thoughts on the matter](ht
 
 Adding my notes here:
 
-`pgvector` use full-scan when there are filters or hybrid search. This is a very slow algorithm when using 1536 embeddings. It's `O(n)` where `n` -> number of vectors matching the filter. 
+`pgvector` uses full-scan when there are filters or hybrid search. This is a very slow algorithm when using 1536 embeddings. It's `O(n)` where `n` -> number of vectors matching the filter. 
 
-When there are no filters, pgvector uses IVF ([Twitter Intro to IVFPQ](https://twitter.com/NirantK/status/1653919899662835713) from yours truly) - this is a slower algorithm when using 1536 embeddings, and it’s less accurate than Qdrant's HNSW.
+When there are no filters, `pgvector` uses IVF. This is a slower algorithm when using 1536 embeddings, and it’s less accurate than Qdrant's HNSW. 
+
+> **Aside:** Feel free to check out my [Twitter Intro to IVFPQ](https://twitter.com/NirantK/status/1653919899662835713).
 
 [@jobergum](https://twitter.com/jobergum/status/1674545510475001857), creator of Vespa.ai (a vector search engine) also shared his thoughts:
 
-> pgvector is an extension which default will just search the closest cluster to the query vector which for most high dimensional embedding models will return just 2-3 out of 10 real neighbors.
+> `pgvector` is an extension which default will just search the closest cluster to the query vector which for most high dimensional embedding models will return just 2-3 out of 10 real neighbors.
 
-This is a very important point. `pgvector` is not a vector search engine. It's a vector extension for PostgreSQL and that involves some tradeoffs which are sometimes not obvious. 
+This is a very important point. `pgvector` is not a vector search engine. It's a vector extension for PostgreSQL, and that involves some tradeoffs which are sometimes not obvious.
 
 There is a [US$2000 bounty](https://twitter.com/alexgraveley/status/1674679862961885184) for anyone who can raise a PR to make the `pgvector` extension use HNSW instead of IVF.
 
