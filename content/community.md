@@ -18,6 +18,12 @@ These guides are good rules of thumbs for behaviour, but admins reserve all righ
 
 👎 Sharing paid/paywalled content. You can describe if something is relevant to the discussion but sharing this content is discouraged
 
+## Adding friends
+
+✅ DM a mod if you would like to invite someone to the group
+
+👎 Asking on main to add your friend. Ping admins directly. 
+
 ## General conversation
 
 ✅ Ask questions, especially follow ups if a conversation or topic intrigues you
