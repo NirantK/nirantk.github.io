@@ -20,7 +20,7 @@ These guides are good rules of thumbs for behaviour, but admins reserve all righ
 
 ## Adding friends
 
-✅ DM a mod if you would like to invite someone to the group
+✅ Directly message an admin (not Nirant!) if you would like to invite someone to the group
 
 👎 Asking on main to add your friend. Ping admins directly. 
 
