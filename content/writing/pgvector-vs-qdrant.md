@@ -2,11 +2,11 @@
 title =  "Qdrant vs pgvector - Results from the 1M OpenAI Benchmark"
 date = 2023-06-30T00:00:18+05:30
 tags = ["tech", "machine learning", "production ml"]
-featured_image = "/images/1M_QPS.png"
+featured_image = "/images/1M_QPS.jpeg"
 description = "Consider This Before Using pgvector in Production"
 toc = true
 show_reading_time = true
-social_preview_image = "/images/1M_QPS.png"
+social_preview_image = "/images/1M_QPS.jpeg"
 +++
 
 # Qdrant vs pgvector - Results from the 1M OpenAI Benchmark
