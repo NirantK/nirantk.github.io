@@ -82,9 +82,11 @@ Adding my notes here:
 
 When there are no filters, pgvector uses IVF ([Twitter Intro to IVFPQ](https://twitter.com/NirantK/status/1653919899662835713) from yours truly) - this is a slower algorithm when using 1536 embeddings, and it’s less accurate than Qdrant's HNSW.
 
-Of course, I am not saying that `pgvector` is bad. It's just that it's not a vector engine. It's a vector extension for PostgreSQL.
+[@jobergum](https://twitter.com/jobergum/status/1674545510475001857), creator of Vespa.ai (a vector search engine) also shared his thoughts:
 
+> pgvector is an extension which default will just search the closest cluster to the query vector which for most high dimensional embedding models will return just 2-3 out of 10 real neighbors.
 
+This is a very important point. `pgvector` is not a vector search engine. It's a vector extension for PostgreSQL and that involves some tradeoffs which are sometimes not obvious.
 
 ## Acknowledgements
 These surprising revelations are courtesy of Erik Bernhardsson's [ann-benchmarks](https://ann-benchmarks.com) code, with special thanks to [Kumar Shivendu](https://www.linkedin.com/in/kshivendu) for their forked version.
