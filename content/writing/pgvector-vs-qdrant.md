@@ -95,5 +95,7 @@ When there are no filters, `pgvector` uses IVF. This is a slower algorithm when 
 
 This is a very important point. `pgvector` is not a vector search engine. It's a vector extension for PostgreSQL, and that involves some tradeoffs which are sometimes not obvious.
 
+There is a [US$2000 bounty](https://twitter.com/alexgraveley/status/1674679862961885184) for anyone who can raise a PR to make the `pgvector` extension use HNSW instead of IVF.
+
 ## Acknowledgements
 These surprising revelations are courtesy of Erik Bernhardsson's [ann-benchmarks](https://ann-benchmarks.com) code, with special thanks to [Kumar Shivendu](https://www.linkedin.com/in/kshivendu) for their forked version.
