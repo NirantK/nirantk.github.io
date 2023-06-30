@@ -2,7 +2,7 @@
 title =  "1M OpenAI Benchmark: PGVector vs VectorDB (Qdrant)"
 date = 2023-06-30T00:00:18+05:30
 tags = ["tech", "machine learning", "production ml"]
-featured_image = "../images/1M_QPS.png"
+featured_image = /images/ink.png"
 description = "When You Should Think Twice Before Using pgvector for Production"
 toc = true
 show_reading_time = true
