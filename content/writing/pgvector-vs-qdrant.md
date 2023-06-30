@@ -9,8 +9,6 @@ show_reading_time = true
 social_preview_image = "/images/1M_QPS.jpeg"
 +++
 
-# Qdrant vs pgvector - Results from the 1M OpenAI Benchmark
-
 You may have considered using PostgreSQL's `pgvector` extension for vector similarity search. There are good reasons why this option is **strictly inferior** to dedicated vector search engines, such as [Qdrant](https://qdrant.tech/).
 
 We ran both benchmarks using the [vectordb framework](https://github.com/qdrant/vector-db-benchmark) solely dedicated to processing vector data. The difference in performance is quite staggering. 
@@ -45,13 +43,13 @@ We measure this using the same methodology as the [ann-benchmarks](https://ann-b
 
 Here, Qdrant holds its own. The worst p95 latency for Qdrant is 2.85s, a stark contrast to pgvector, whose best p95 latency is a full 4.02s. Even more astonishing, pgvector's worst p95 latency skyrockets to an unbelievable 45.46s.
 
-### Benchmark Specs
+## Benchmark Specs
 
 The Machine we used to run the benchmark: `t3.2xlarge, 8 vCPU, 32GB RAM`
 
 For data enthusiasts among us, this Google Sheet details all the numbers for a more in-depth analysis: [Google Sheet](https://docs.google.com/spreadsheets/d/1t2-tXID2LJCXdLv1JTPQaYhmMs6woOnK7W7nkEuDsUc/edit?usp=sharing)
 
-### Configuration 
+## Configuration 
 
 We use the default configuration for Qdrant and much better parameters for pgvector:
 
