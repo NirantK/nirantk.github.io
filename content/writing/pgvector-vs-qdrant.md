@@ -32,7 +32,7 @@ As an ardent supporter of PostgreSQL, it is disheartening to witness that `pgvec
 
 ![](../images/QPSvsVectorQdrant.png)
 
-## Accuracy 
+## Correctness / Accuracy
 
 One might try to rationalize this by assuming that Postgres is slower, but more accurate? Data reveals that `pgvector` is not just slower, but also ~18% less accurate!
 
