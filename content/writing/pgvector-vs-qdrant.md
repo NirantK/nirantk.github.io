@@ -11,7 +11,7 @@ social_preview_image = "/images/1M_QPS.jpeg"
 
 You may have considered using PostgreSQL's `pgvector` extension for vector similarity search. There are good reasons why this option is **strictly inferior** to dedicated vector search engines, such as [Qdrant](https://qdrant.tech/).
 
-We ran both benchmarks using the [vectordb framework](https://github.com/qdrant/vector-db-benchmark) solely dedicated to processing vector data. The difference in performance is quite staggering. 
+We ran both benchmarks using the [ann-benchmarks](https://github.com/erikbern/ann-benchmarks/) solely dedicated to processing vector data. The difference in performance is quite staggering.
 
 ## Query Speed
 
@@ -45,7 +45,7 @@ Here, Qdrant holds its own. The worst p95 latency for Qdrant is 2.85s, a stark c
 
 ## Benchmark Specs
 
-The Machine we used to run the benchmark: `t3.2xlarge, 8 vCPU, 32GB RAM`
+The machine we used to run the benchmark: `t3.2xlarge, 8 vCPU, 32GB RAM`
 
 For data enthusiasts among us, this Google Sheet details all the numbers for a more in-depth analysis: [Google Sheet](https://docs.google.com/spreadsheets/d/1t2-tXID2LJCXdLv1JTPQaYhmMs6woOnK7W7nkEuDsUc/edit?usp=sharing)
 
