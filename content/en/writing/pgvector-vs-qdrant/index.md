@@ -6,6 +6,7 @@ date: 2023-06-30T00:00:18+05:30
 lastmod: 2023-06-30T00:00:18+05:30
 draft: false
 weight: 50
+images: ["../images/1M_QPS.jpeg", "../images/1M_kNN.jpeg", "../images/QPSvsVectorpgvector.png", "../images/QPSvsVectorQdrant.png"]
 categories: ["News"]
 tags: ["tech", "machine learning", "production ml"]
 contributors: ["Nirant Kasliwal", "Shivendu Kumar"]
