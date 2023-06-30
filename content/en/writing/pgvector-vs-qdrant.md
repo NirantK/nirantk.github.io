@@ -9,8 +9,9 @@ weight: 50
 images: ["../images/1M_QPS.jpeg", "../images/1M_kNN.jpeg", "../images/QPSvsVectorpgvector.png", "../images/QPSvsVectorQdrant.png"]
 tags: ["tech", "machine learning", "production ml"]
 contributors: ["Nirant Kasliwal", "Shivendu Kumar"]
+social_preview_image: images/1M_QPS.jpeg
 pinned: false
-homepage: false
+homepage: true
 ---
 
 You may have considered using PostgreSQL's `pgvector` extension for vector similarity search. There are good reasons why this option is **strictly inferior** to dedicated vector search engines, such as [Qdrant](https://qdrant.tech/).
