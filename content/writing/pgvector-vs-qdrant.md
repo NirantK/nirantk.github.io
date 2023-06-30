@@ -62,6 +62,11 @@ Qdrant(quantization=False, m=16, ef_construct=128, grpc=True, hnsw_ef=None, resc
 PGVector(lists=200, probes=2)
 ```
 
+The `pgvector` [recommendation]((https://github.com/pgvector/pgvector#query-options)) which'd be possibly worse performance-wise:
+```
+PGVector(lists=1000, probes=1)
+```
+
 There is much more to be tested. We will continue to explore the configuration space for both platforms and update this. 
 
 ## Conversations with the Community
