@@ -18,9 +18,9 @@ We ran both benchmarks using the [vectordb framework](https://github.com/qdrant/
 
 ![](../images/1M_QPS.jpeg)
 
-Final results show that `pgvector` lags behind Qdrant by a factor of 20 when it comes to throughput.  
+Final results show that `pgvector` lags behind Qdrant by a factor of 15 when it comes to throughput.  
 
-That is a 2000% deficit in speed. However, we shouldn't only consider speed as the main metric when evaluating a database. In terms of accuracy, `pgvector` delivers way fewer relevant results than Qdrant.
+That is a 1500% deficit in speed. However, we shouldn't only consider speed as the main metric when evaluating a database. In terms of accuracy, `pgvector` delivers way fewer relevant results than Qdrant.
 
 ## Workload
 
@@ -52,7 +52,7 @@ For data enthusiasts among us, this Google Sheet details all the numbers for a m
 
 ### Configuration 
 
-We use the default for both Qdrant and `pgvector`:
+We use the default configuration for Qdrant and much better parameters for pgvector:
 
 ```
 Qdrant(quantization=False, m=16, ef_construct=128, grpc=True, hnsw_ef=None, rescore=True)
@@ -60,6 +60,11 @@ Qdrant(quantization=False, m=16, ef_construct=128, grpc=True, hnsw_ef=None, resc
 
 ```
 PGVector(lists=200, probes=2)
+```
+
+The `pgvector` [recommendation]((https://github.com/pgvector/pgvector#query-options)) which'd be possibly worse performance-wise:
+```
+PGVector(lists=1000, probes=1)
 ```
 
 There is much more to be tested. We will continue to explore the configuration space for both platforms and update this. 
@@ -82,7 +87,7 @@ Adding my notes here:
 
 When there are no filters, `pgvector` uses IVF. This is a slower algorithm when using 1536 embeddings, and it’s less accurate than Qdrant's HNSW. 
 
-> Feel free to check out my [Twitter Intro to IVFPQ](https://twitter.com/NirantK/status/1653919899662835713).
+> **Aside:** Feel free to check out my [Twitter Intro to IVFPQ](https://twitter.com/NirantK/status/1653919899662835713).
 
 [@jobergum](https://twitter.com/jobergum/status/1674545510475001857), creator of Vespa.ai (a vector search engine) also shared his thoughts:
 
