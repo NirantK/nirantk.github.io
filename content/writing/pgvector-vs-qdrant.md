@@ -66,7 +66,25 @@ There is much more to be tested. We will continue to explore the configuration s
 
 ## Conversations with the Community
 
-{{ < tweet 1674395120395747331 >}}
+> Paul Copplestone (CEO, Supabase) has also shared his [thoughts on the matter](https://twitter.com/kiwicopple/status/1674395120395747331):
+> 
+> Yup:
+>1. Wait 6 months, a lot of development is happening on pgvector
+>2. Use hybrid search
+>3. Use filters on other indexed columns
+>4. Use partitions
+
+> And as always, take benchmarks with a grain of salt, they are never as clear-cut as they seem. We’ll publish benchmarks soon too using the latest version of pgvector
+
+Adding my notes here:
+
+`pgvector` use full-scan when there are filters or hybrid search. This is a very slow algorithm when using 1536 embeddings. It's `O(n)` where `n` -> number of vectors matching the filter. 
+
+When there are no filters, pgvector uses IVF ([Twitter Intro to IVFPQ](https://twitter.com/NirantK/status/1653919899662835713) from yours truly) - this is a slower algorithm when using 1536 embeddings, and it’s less accurate than Qdrant's HNSW.
+
+Of course, I am not saying that `pgvector` is bad. It's just that it's not a vector engine. It's a vector extension for PostgreSQL.
+
+
 
 ## Acknowledgements
 These surprising revelations are courtesy of Erik Bernhardsson's [ann-benchmarks](https://ann-benchmarks.com) code, with special thanks to [Kumar Shivendu](https://www.linkedin.com/in/kshivendu) for their forked version.
