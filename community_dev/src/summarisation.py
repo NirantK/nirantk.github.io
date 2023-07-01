@@ -7,13 +7,12 @@ from pathlib import Path
 import fire
 import pandas as pd
 import pytz
+from formatting_utils import human_date
 from langchain.chains.summarize import load_summarize_chain
 from langchain.chat_models import ChatOpenAI
 from langchain.docstore.document import Document
 from langchain.prompts import PromptTemplate
 from langchain.text_splitter import CharacterTextSplitter
-
-from formatting_utils import human_date
 from prompts import PROMPT_TEMPLATES
 
 text_splitter = CharacterTextSplitter.from_tiktoken_encoder()

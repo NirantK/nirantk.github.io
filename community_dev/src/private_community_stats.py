@@ -3,10 +3,9 @@ from pathlib import Path
 
 import fire
 import pandas as pd
-from rich import print
 from loguru import logger
-
 from parsing_utils import WhatsAppMessageExtractor
+from rich import print
 
 
 def get_top_senders(df, freq: str, k: int = 5) -> pd.DataFrame:
