@@ -1,8 +1,8 @@
 [[docs]]
-  name = "Prologue"
+  name = "personal"
   weight = 10
-  identifier = "prologue"
-  url = "/docs/prologue/"
+  identifier = "personal"
+  url = "/docs/personal/"
 
 [[docs]]
   name = "Summaries"
@@ -30,14 +30,9 @@
 
 [[main]]
   name = "Docs"
-  url = "/docs/prologue/introduction/"
-# url = "/docs/1.0/prologue/introduction/"
+  url = "/docs/personal/introduction/"
+# url = "/docs/1.0/personal/introduction/"
   weight = 10
-
-# [[main]]
-#   name = "Tutorial"
-#   url = "/tutorial/lorem/ipsum/"
-#   weight = 15
 
 [[main]]
   name = "Writing"
@@ -48,20 +43,20 @@
   name = "Work with Me"
   weight = 30
   identifier = "work-with-me"
-  url = "/docs/prologue/introduction/"
+  url = "/docs/personal/introduction/"
 
 [[main]]
   name = "About"
   weight = 40
   identifier = "about"
-  url = "/docs/prologue/about/"
+  url = "/docs/personal/about/"
   parent = "work-with-me"
 
 [[main]]
   name = "Introduction"
   weight = 40
   identifier = "Introduction"
-  url = "/docs/prologue/introduction/"
+  url = "/docs/personal/introduction/"
   parent = "work-with-me"
 
 [[social]]
