@@ -1,8 +1,17 @@
-+++
-tags = ["personal"]
-featured_image = ""
-description = ""
-+++
+---
+contributors:
+- Nirant Kasliwal
+date: '2021-04-27T00:00:00+00:00'
+description: ''
+draft: false
+excerpt: ''
+featured_image: ''
+images: []
+lastmod: '2021-04-27T00:00:00+00:00'
+tags:
+- personal
+weight: 50
+---
 
 ## Me in 10 seconds
 

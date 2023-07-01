@@ -1,11 +1,18 @@
 ---
 title: "Act Like You're 35"
-date: 2019-12-07T00:09:00+05:30
 description: "Career Framing for the Young Me"
+excerpt: "Career Framing for the Young Me"
+draft: false
+date: 2019-12-07T00:09:00+05:30
+lastmod: 2019-12-07T00:09:00+05:30
 tags: ["career", "niranting"]
+weight: 50
+images: []
 toc: true
+contributors: ["Nirant Kasliwal"]
 show_reading_time: true
 ---
+
 
 ## Don’t just network with people your own age
 

@@ -23,7 +23,7 @@ If you're visiting this page, it means you're likely a founder or VC interested 
 ## Advisor vs. Consulting
 - I distinguish between advisor and consulting engagements:
     - Advisor: I dedicate a day or half a day per month to provide guidance and support to early-stage startups, often through longer-term equity deals.
-    - Consulting: I operate on a retainer-based model. I don't like having every interaction to be an investment decision and tracking hours. Fees are a function of value derived and how they align with my learning. I like to keep a 30-hour workweek to give me ample time to educate myself and explore new ideas. I won't ask you to pay me to learn something.
+    - Consulting: I operate on a retainer-based model. I don't like having every interaction to be an investment decision and tracking hours. Fees are a function of value derived and how they align with my learning. I like to keep a 30-hour workweek to give me some time to educate myself and explore new ideas. I won't ask you to pay me to learn something.
 
 ### Situational Assessment
 - My consulting process begins with a situational assessment:
