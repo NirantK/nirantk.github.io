@@ -45,24 +45,24 @@
   weight = 20
 
 [[main]]
-  name = "Get Started"
+  name = "Work with Me"
   weight = 30
-  identifier = "get-started"
+  identifier = "work-with-me"
   url = "/docs/prologue/introduction/"
 
 [[main]]
-  name = "Quick Start"
+  name = "About"
   weight = 40
-  identifier = "quick-start"
-  url = "/docs/prologue/quick-start/"
-  parent = "get-started"
+  identifier = "about"
+  url = "/docs/prologue/about/"
+  parent = "work-with-me"
 
 [[main]]
-  name = "Tutorial"
-  weight = 50
-  identifier = "tutorial"
-  url = "https://getdoks.org/tutorial/introduction/"
-  parent = "get-started"
+  name = "Introduction"
+  weight = 40
+  identifier = "Introduction"
+  url = "/docs/prologue/introduction/"
+  parent = "work-with-me"
 
 [[social]]
   name = "GitHub"
@@ -82,8 +82,3 @@
   pre = "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"feather feather-linkedin\"><path d=\"M12 9.55C12.917 8.613 14.111 8 15.5 8a5.5 5.5 0 0 1 5.5 5.5V21h-2v-7.5a3.5 3.5 0 0 0-7 0V21h-2V8.5h2v1.05zM5 6.5a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3zm-1 2h2V21H4V8.5z\"></path></svg>"
   url = "https://linkedin.com/in/nirant"
   weight = 20
-
-# [[footer]]
-#   name = "Privacy"
-#   url = "/privacy-policy/"
-#   weight = 10
