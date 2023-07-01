@@ -1,11 +1,19 @@
-+++
-title =  "Don't Bask in Reflected Glory"
-date = 2019-09-18T00:00:09+05:30
-tags = ["niranting"]
-description = "How to keep your identity small?"
-toc = true
-show_reading_time = true
-+++
+---
+contributors:
+- Nirant Kasliwal
+date: '2019-09-18 00:00:09+05:30'
+description: How to keep your identity small?
+draft: false
+excerpt: How to keep your identity small?
+images: []
+lastmod: '2019-09-18 00:00:09+05:30'
+show_reading_time: true
+tags:
+- niranting
+title: Don't Bask in Reflected Glory
+toc: true
+weight: 50
+---
 
 ```
 ये जो लोग-बाग हैं, जंगल की आग हैं 

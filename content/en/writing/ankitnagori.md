@@ -1,11 +1,19 @@
-+++
-title =  "Ankit Nagori, Co-Founder of Cult"
-date = 2020-04-30T00:00:09+05:30
-tags = ["exclusive-convo"]
-description = "Cult Journey to 1M DAU, Personal Career Moats and more"
-toc = true
-featured_image= "/images/curefit.jpg"
-+++
+---
+contributors:
+- Nirant Kasliwal
+date: '2020-04-30 00:00:09+05:30'
+description: Cult Journey to 1M DAU, Personal Career Moats and more
+draft: false
+excerpt: Cult Journey to 1M DAU, Personal Career Moats and more
+featured_image: /images/curefit.jpg
+images: []
+lastmod: '2020-04-30 00:00:09+05:30'
+tags:
+- exclusive-convo
+title: Ankit Nagori, Co-Founder of Cult
+toc: true
+weight: 50
+---
 
 Last month, I had a chance to talk to Ankit Nagori - the co-founder at Cult or Cure.fit
 

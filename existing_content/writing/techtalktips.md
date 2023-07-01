@@ -1,12 +1,20 @@
-+++
-title =  "Tech Talk Tips"
-date = 2019-08-05T23:29:18+05:30
-tags = ["tech"]
-featured_image = "/images/talk.jpg"
-description = ""
-toc = true
-show_reading_time = true
-+++
+---
+contributors:
+- Nirant Kasliwal
+date: '2019-08-05 23:29:18+05:30'
+description: ''
+draft: false
+excerpt: ''
+featured_image: /images/talk.jpg
+images: []
+lastmod: '2019-08-05 23:29:18+05:30'
+show_reading_time: true
+tags:
+- tech
+title: Tech Talk Tips
+toc: true
+weight: 50
+---
 
 Collection of the Best Advice on Internet that I know about on giving a tech talk. Based on responses from my question on [Twitter](https://twitter.com/NirantK/status/1149155845604704257). 
 

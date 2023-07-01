@@ -1,11 +1,19 @@
-+++
-title = "Dos and Don'ts for ML Hiring"
-date = 2022-01-27T00:09:00+05:30
-description = "ML Hiring in India: Cliff Notes"
-tags = ["niranting"] 
-toc = true
-show_reading_time = true
-+++
+---
+contributors:
+- Nirant Kasliwal
+date: '2022-01-27 00:09:00+05:30'
+description: 'ML Hiring in India: Cliff Notes'
+draft: false
+excerpt: 'ML Hiring in India: Cliff Notes'
+images: []
+lastmod: '2022-01-27 00:09:00+05:30'
+show_reading_time: true
+tags:
+- niranting
+title: Dos and Don'ts for ML Hiring
+toc: true
+weight: 50
+---
 
 This is primarily for my future self. These are observations based on my own experience of 2 years at Verloop.io and helping a few companies hire for similar roles. 
 

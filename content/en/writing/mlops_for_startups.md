@@ -1,12 +1,20 @@
-+++
-title = "MLOps for Startups"
-description = ""
-date = 2021-07-21T00:09:00+05:30
-tags = ["machine learning", "tech"]
-toc = true
-draft = true
-show_reading_time = true
-+++
+---
+contributors:
+- Nirant Kasliwal
+date: '2021-07-21 00:09:00+05:30'
+description: ''
+draft: false
+excerpt: ''
+images: []
+lastmod: '2021-07-21 00:09:00+05:30'
+show_reading_time: true
+tags:
+- machine learning
+- tech
+title: MLOps for Startups
+toc: true
+weight: 50
+---
 
 # OVERVIEW
 

@@ -1,11 +1,19 @@
-+++
-title = "Character is Net Worth"
-date = 2020-10-10T00:09:00+05:30
-tags = ["niranting"]
-description = "And 2 more metaphors"
-toc = true
-featured_image= "/images/bitsaa-keychain.png"
-+++
+---
+contributors:
+- Nirant Kasliwal
+date: '2020-10-10 00:09:00+05:30'
+description: And 2 more metaphors
+draft: false
+excerpt: And 2 more metaphors
+featured_image: /images/bitsaa-keychain.png
+images: []
+lastmod: '2020-10-10 00:09:00+05:30'
+tags:
+- niranting
+title: Character is Net Worth
+toc: true
+weight: 50
+---
 
 
 A useful metaphor to think about character of a person is their financial “net worth”. Like your net worth, this does not mean that you have that much cash to spend. It is a sum total of something.

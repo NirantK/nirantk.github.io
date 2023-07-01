@@ -1,11 +1,19 @@
-+++
-title = "The BITS Pilani Experience"
-date = 2017-11-24T00:09:00+05:30
-tags = ["niranting"]
-description = "It's Magic"
-toc = false
-featured_image= "/images/bitsaa-keychain.png"
-+++
+---
+contributors:
+- Nirant Kasliwal
+date: '2017-11-24 00:09:00+05:30'
+description: It's Magic
+draft: false
+excerpt: It's Magic
+featured_image: /images/bitsaa-keychain.png
+images: []
+lastmod: '2017-11-24 00:09:00+05:30'
+tags:
+- niranting
+title: The BITS Pilani Experience
+toc: false
+weight: 50
+---
 
 There is a invisible binding thread among most BITSian’s - optimistic, easy going, but somewhat pragmatic. The sky is the limit, but most of them realize flying in hot air pockets is easy - it’s the takeoff that hurts.
 

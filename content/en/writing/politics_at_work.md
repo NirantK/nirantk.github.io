@@ -1,11 +1,19 @@
-+++
-title =  "Politics at Work"
-date = 2021-05-09T23:29:18+05:30
-tags = ["niranting"]
-toc = false
-featured_image = ""
-description = ""
-+++
+---
+contributors:
+- Nirant Kasliwal
+date: '2021-05-09 23:29:18+05:30'
+description: ''
+draft: false
+excerpt: ''
+featured_image: ''
+images: []
+lastmod: '2021-05-09 23:29:18+05:30'
+tags:
+- niranting
+title: Politics at Work
+toc: false
+weight: 50
+---
 
 This quick entry is partially inspired by a similar entry from [Manas Saloi](https://manassaloi.com/2021/05/02/basecamp-exits.html). Ofc, other folks have offered their opinions on Basecamp and earlier Coinbase.
 

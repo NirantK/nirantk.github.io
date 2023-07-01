@@ -1,12 +1,21 @@
-+++
-title =  "Best of Python 3 f-strings"
-date = 2019-08-27T23:29:18+05:30
-tags = ["python", "tech"]
-featured_image = "images/ink.png"
-description = "Python f-string Primer"
-toc = true
-show_reading_time = true
-+++
+---
+contributors:
+- Nirant Kasliwal
+date: '2019-08-27 23:29:18+05:30'
+description: Python f-string Primer
+draft: false
+excerpt: Python f-string Primer
+featured_image: images/ink.png
+images: []
+lastmod: '2019-08-27 23:29:18+05:30'
+show_reading_time: true
+tags:
+- python
+- tech
+title: Best of Python 3 f-strings
+toc: true
+weight: 50
+---
 
 This piece is primarily meant for those new to Python. These include mathematicians, economists, and so on who want to use Python within a Jupyter environment. Here is a quick guide on how to make [Best of Jupyter](https://github.com/NirantK/best-of-jupyter).
 

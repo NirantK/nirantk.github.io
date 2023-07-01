@@ -1,11 +1,20 @@
-+++
-title = "Talent Cooling"
-date = 2020-08-14T00:09:00+05:30
-tags = ["career", "niranting"]
-featured_image = "/images/talent-cooling.jpg"
-toc = false
-show_reading_time = true
-+++
+---
+contributors:
+- Nirant Kasliwal
+date: '2020-08-14 00:09:00+05:30'
+draft: false
+excerpt: ''
+featured_image: /images/talent-cooling.jpg
+images: []
+lastmod: '2020-08-14 00:09:00+05:30'
+show_reading_time: true
+tags:
+- career
+- niranting
+title: Talent Cooling
+toc: false
+weight: 50
+---
 
 <iframe src="https://niranting.substack.com/embed" width="480" height="320" style="border:1px solid #EEE; background:white;" frameborder="0" scrolling="no"></iframe>
 

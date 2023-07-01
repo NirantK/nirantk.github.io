@@ -1,11 +1,20 @@
-+++
-title = "First 90 Days - Software Engineer Version"
-description = "What you can do to make the most of a fresh start"
-date = 2020-09-12T00:09:00+05:30
-tags = ["career", "tech"]
-toc = true
-show_reading_time = true
-+++
+---
+contributors:
+- Nirant Kasliwal
+date: '2020-09-12 00:09:00+05:30'
+description: What you can do to make the most of a fresh start
+draft: false
+excerpt: What you can do to make the most of a fresh start
+images: []
+lastmod: '2020-09-12 00:09:00+05:30'
+show_reading_time: true
+tags:
+- career
+- tech
+title: First 90 Days - Software Engineer Version
+toc: true
+weight: 50
+---
 
 [Aditya Ankur](https://mobile.twitter.com/adityankur), asked me: 
 

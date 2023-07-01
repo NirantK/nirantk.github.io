@@ -1,12 +1,21 @@
-+++
-title = "Data Science Org Design for Startups"
-description = ""
-date = 2021-08-02T00:09:00+05:30
-tags = ["machine learning", "tech"]
-toc = true
-show_reading_time = true
-featured_image = "/images/data-science-org-design.jpeg"
-+++
+---
+contributors:
+- Nirant Kasliwal
+date: '2021-08-02 00:09:00+05:30'
+description: ''
+draft: false
+excerpt: ''
+featured_image: /images/data-science-org-design.jpeg
+images: []
+lastmod: '2021-08-02 00:09:00+05:30'
+show_reading_time: true
+tags:
+- machine learning
+- tech
+title: Data Science Org Design for Startups
+toc: true
+weight: 50
+---
 
 # Data Science Org Design for Startups
 

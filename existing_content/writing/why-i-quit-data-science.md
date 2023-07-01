@@ -1,10 +1,19 @@
-+++
-title = "Why I Quit Data Science"
-featured_image= "/images/began.jpeg"
-date = 2022-01-09T00:09:00+05:30
-tags = ["niranting", "career"]
-toc = true
-+++
+---
+contributors:
+- Nirant Kasliwal
+date: '2022-01-09 00:09:00+05:30'
+draft: false
+excerpt: ''
+featured_image: /images/began.jpeg
+images: []
+lastmod: '2022-01-09 00:09:00+05:30'
+tags:
+- niranting
+- career
+title: Why I Quit Data Science
+toc: true
+weight: 50
+---
 
 Question from a friend: I am interested in knowing how did you come to this decision of moving to SWE from DS/MLE. Since I've been asked a variant of this question quite a few times, I thought it would be good to share my answer.
 

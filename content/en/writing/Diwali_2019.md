@@ -1,11 +1,19 @@
-+++
-title = "Annual Letter: Diwali 2019"
-date = 2019-11-01T00:09:00+05:30
-tags = ["niranting"]
-description = "And Annual Updates"
-toc = true
-featured_image= "/images/Diwali2019.jpg"
-+++
+---
+contributors:
+- Nirant Kasliwal
+date: '2019-11-01 00:09:00+05:30'
+description: And Annual Updates
+draft: false
+excerpt: And Annual Updates
+featured_image: /images/Diwali2019.jpg
+images: []
+lastmod: '2019-11-01 00:09:00+05:30'
+tags:
+- niranting
+title: 'Annual Letter: Diwali 2019'
+toc: true
+weight: 50
+---
 
 I wanted to drop by and wish you a very Happy Diwali!
 

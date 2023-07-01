@@ -1,12 +1,22 @@
-+++
-title =  "How to prepare for a Data Science job from college?"
-date = 2016-12-12T23:29:18+05:30
-tags = ["career", "machine learning", "tech"]
-featured_image = "images/ink.png"
-description = "Data Science: Breaking Into the Industry"
-toc = true
-show_reading_time = true
-+++
+---
+contributors:
+- Nirant Kasliwal
+date: '2016-12-12 23:29:18+05:30'
+description: 'Data Science: Breaking Into the Industry'
+draft: false
+excerpt: 'Data Science: Breaking Into the Industry'
+featured_image: images/ink.png
+images: []
+lastmod: '2016-12-12 23:29:18+05:30'
+show_reading_time: true
+tags:
+- career
+- machine learning
+- tech
+title: How to prepare for a Data Science job from college?
+toc: true
+weight: 50
+---
 
 A Getting Started Guide
 

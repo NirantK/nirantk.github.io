@@ -1,10 +1,18 @@
-+++
-title = "Recession Proofing My Career"
-date = 2020-03-15T00:09:00+05:30
-tags = ["personal-finance"]
-description = ""
-toc = true
-+++
+---
+contributors:
+- Nirant Kasliwal
+date: '2020-03-15 00:09:00+05:30'
+description: ''
+draft: false
+excerpt: ''
+images: []
+lastmod: '2020-03-15 00:09:00+05:30'
+tags:
+- personal-finance
+title: Recession Proofing My Career
+toc: true
+weight: 50
+---
 
 I’d written originally this in August 2019 with a bit of foresight of a pending recession.
 

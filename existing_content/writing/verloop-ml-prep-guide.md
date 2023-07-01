@@ -1,11 +1,22 @@
-+++
-title = "Verloop NLP Interview Prep Guide"
-description = "What we share in our ML/NLP round"
-date = 2020-08-29T00:09:00+05:30
-tags = ["career", "machine learning", "verloop", "tech"]
-toc = true
-show_reading_time = true
-+++
+---
+contributors:
+- Nirant Kasliwal
+date: '2020-08-29 00:09:00+05:30'
+description: What we share in our ML/NLP round
+draft: false
+excerpt: What we share in our ML/NLP round
+images: []
+lastmod: '2020-08-29 00:09:00+05:30'
+show_reading_time: true
+tags:
+- career
+- machine learning
+- verloop
+- tech
+title: Verloop NLP Interview Prep Guide
+toc: true
+weight: 50
+---
 
 Update, September 2021: This guide is a little outdated, but not obsolete. I no longer work at Verloop.io. 
 

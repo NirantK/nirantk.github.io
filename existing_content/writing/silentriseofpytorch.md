@@ -1,12 +1,23 @@
-+++
-title =  "The Silent Rise of PyTorch Ecosystem"
-date = 2019-08-27T23:29:18+05:30
-tags = ["python", "machine learning", "tech", "deeplearning"]
-featured_image = "https://miro.medium.com/max/8250/1*ZLLZPo4kiH-cBzUYEukEVg.png"
-description = "What is blazing across the PyTorch Ecosystem?"
-toc = true
-show_reading_time = true
-+++
+---
+contributors:
+- Nirant Kasliwal
+date: '2019-08-27 23:29:18+05:30'
+description: What is blazing across the PyTorch Ecosystem?
+draft: false
+excerpt: What is blazing across the PyTorch Ecosystem?
+featured_image: https://miro.medium.com/max/8250/1*ZLLZPo4kiH-cBzUYEukEVg.png
+images: []
+lastmod: '2019-08-27 23:29:18+05:30'
+show_reading_time: true
+tags:
+- python
+- machine learning
+- tech
+- deeplearning
+title: The Silent Rise of PyTorch Ecosystem
+toc: true
+weight: 50
+---
 
 # The Silent Rise of PyTorch Ecosystem
 

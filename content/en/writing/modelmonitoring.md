@@ -1,12 +1,22 @@
-+++
-title =  "ML Model Monitoring"
-date = 2019-09-21T00:00:18+05:30
-tags = ["tech", "machine learning", "production ml"]
-featured_image = "images/ink.png"
-description = "Guide to Monitoring your ML Models in Production"
-toc = true
-show_reading_time = true
-+++
+---
+contributors:
+- Nirant Kasliwal
+date: '2019-09-21 00:00:18+05:30'
+description: Guide to Monitoring your ML Models in Production
+draft: false
+excerpt: Guide to Monitoring your ML Models in Production
+featured_image: images/ink.png
+images: []
+lastmod: '2019-09-21 00:00:18+05:30'
+show_reading_time: true
+tags:
+- tech
+- machine learning
+- production ml
+title: ML Model Monitoring
+toc: true
+weight: 50
+---
 
 Mayank asked on [Twitter](https://twitter.com/MayankSatnalika/status/1175446811860824064): 
 

@@ -1,11 +1,20 @@
-+++
-title = "Beyond First 90 Days"
-date = 2022-02-12T00:09:00+05:30
-description = "Career Framing for the Young Me"
-tags = ["career", "niranting"]
-toc = true
-show_reading_time = true
-+++
+---
+contributors:
+- Nirant Kasliwal
+date: '2022-02-12 00:09:00+05:30'
+description: Career Framing for the Young Me
+draft: false
+excerpt: Career Framing for the Young Me
+images: []
+lastmod: '2022-02-12 00:09:00+05:30'
+show_reading_time: true
+tags:
+- career
+- niranting
+title: Beyond First 90 Days
+toc: true
+weight: 50
+---
 
 This one's gonna be brief and echoes 2 Less Obvious Ideas to the younger me.
 

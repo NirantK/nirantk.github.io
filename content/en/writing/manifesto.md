@@ -1,10 +1,18 @@
-+++
-title =  "Personal Manifesto"
-date = 2019-09-24T00:00:09+05:30
-tags = ["notes for self"]
-toc = true
-show_reading_time = true
-+++
+---
+contributors:
+- Nirant Kasliwal
+date: '2019-09-24 00:00:09+05:30'
+draft: false
+excerpt: ''
+images: []
+lastmod: '2019-09-24 00:00:09+05:30'
+show_reading_time: true
+tags:
+- notes for self
+title: Personal Manifesto
+toc: true
+weight: 50
+---
 
 # On Death
 

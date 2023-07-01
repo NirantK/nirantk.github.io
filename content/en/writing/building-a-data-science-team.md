@@ -1,11 +1,21 @@
-+++
-title = "Building a Data Science Team at a Startup"
-description = ""
-date = 2020-08-30T00:09:00+05:30
-tags = ["org", "machine learning", "tech"]
-toc = true
-show_reading_time = true
-+++
+---
+contributors:
+- Nirant Kasliwal
+date: '2020-08-30 00:09:00+05:30'
+description: ''
+draft: false
+excerpt: ''
+images: []
+lastmod: '2020-08-30 00:09:00+05:30'
+show_reading_time: true
+tags:
+- org
+- machine learning
+- tech
+title: Building a Data Science Team at a Startup
+toc: true
+weight: 50
+---
 
 Hello! 
 

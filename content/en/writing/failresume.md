@@ -1,11 +1,19 @@
-+++
-title =  "Fail Resume"
-date = 2020-05-09T23:29:18+05:30
-tags = ["niranting"]
-toc = true
-featured_image = ""
-description = ""
-+++
+---
+contributors:
+- Nirant Kasliwal
+date: '2020-05-09 23:29:18+05:30'
+description: ''
+draft: false
+excerpt: ''
+featured_image: ''
+images: []
+lastmod: '2020-05-09 23:29:18+05:30'
+tags:
+- niranting
+title: Fail Resume
+toc: true
+weight: 50
+---
 
 A fail resume is, as its name suggests, a list of rejections and setbacks.
 

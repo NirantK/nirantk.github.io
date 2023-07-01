@@ -1,11 +1,19 @@
-+++
-title = "Shreyas Karanth: Moving from SW Engg to Product"
-date = 2020-06-15T00:09:00+05:30
-tags = ["exclusive-convo"]
-description = "Challenges & Joys"
-toc = true
-featured_image= "/images/shreyas.jpg"
-+++
+---
+contributors:
+- Nirant Kasliwal
+date: '2020-06-15 00:09:00+05:30'
+description: Challenges & Joys
+draft: false
+excerpt: Challenges & Joys
+featured_image: /images/shreyas.jpg
+images: []
+lastmod: '2020-06-15 00:09:00+05:30'
+tags:
+- exclusive-convo
+title: 'Shreyas Karanth: Moving from SW Engg to Product'
+toc: true
+weight: 50
+---
 
 Shreyas Karanth is a Product Manager at [Soroco](https://soroco.com/about/). Soroco is a Medium-sized Enterprise-focussed B2B Automation company.
 Before Product Management, Shreyas was the fastest growing engineer - going from a fresh grad to a Technical Lead within 3 years of graduation.

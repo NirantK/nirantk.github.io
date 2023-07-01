@@ -1,11 +1,19 @@
-+++
-title =  "The Good Fight"
-date = 2017-12-15T00:00:09+05:30
-tags = ["niranting"]
-description = "The Pursuit of Happiness is Futile"
-toc = true
-show_reading_time = true
-+++
+---
+contributors:
+- Nirant Kasliwal
+date: '2017-12-15 00:00:09+05:30'
+description: The Pursuit of Happiness is Futile
+draft: false
+excerpt: The Pursuit of Happiness is Futile
+images: []
+lastmod: '2017-12-15 00:00:09+05:30'
+show_reading_time: true
+tags:
+- niranting
+title: The Good Fight
+toc: true
+weight: 50
+---
 
 In the first few pages of the book Born Standing Up, Steve says something poignant:
 
