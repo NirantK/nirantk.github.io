@@ -14,13 +14,13 @@ toc: true
 ---
 If you're visiting this page, it means you're likely a founder or VC interested in working with me. I'm going to use this document to describe how I choose projects and split my work between advisory work and consulting. If it all makes sense, shoot me an email at [hello@nirantk.com](mailto:hello@nirantk.com).
 
-## Picking Projects:
+## Picking Projects
 - I prioritize projects based on three key factors:
     - High-Value Projects: I seek projects that leverage my expertise and create significant impact for founders, and in return, equitable compensation.
     - Exploring new industries: I enjoy pursuing opportunities that explore different avenues and industries. My goals here are to cross-pollinate my knowledge across many industries. I am exploring healthcare, insurance and consumer products.
     - O1 Visa Alignment: I also consider projects that align with my O1 visa application, such as speaking engagements in North America, hackathon judging, and collaborations with esteemed US or Global institutions.
 
-## Advisor vs. Consulting:
+## Advisor vs. Consulting
 - I distinguish between advisor and consulting engagements:
     - Advisor: I dedicate a day or half a day per month to provide guidance and support to early-stage startups, often through longer-term equity deals.
     - Consulting: I operate on a retainer-based model. I don't like having every interaction to be an investment decision and tracking hours. Fees are a function of value derived and how they align with my learning. I like to keep a 30-hour workweek to give me ample time to educate myself and explore new ideas. I won't ask you to pay me to learn something.

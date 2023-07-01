@@ -1,7 +1,7 @@
 ---
 title: "How to Update"
-description: "Regularly update the installed npm packages to keep your Doks website stable, usable, and secure."
-lead: "Regularly update the installed npm packages to keep your Doks website stable, usable, and secure."
+description: "How to Update"
+lead: "How to Contribute to the Summaries"
 date: 2020-11-12T13:26:54+01:00
 lastmod: 2020-11-12T13:26:54+01:00
 draft: false
@@ -13,20 +13,16 @@ weight: 610
 toc: true
 ---
 
-{{< alert icon="💡" text="Learn more about <a href=\"https://docs.npmjs.com/about-semantic-versioning\">semantic versioning</a> and <a href=\"https://docs.npmjs.com/cli/v6/using-npm/semver#advanced-range-syntax\">advanced range syntax</a>." />}}
+{{< alert icon="🤩" text="All summaries are <a href=\"https://github.com/NirantK/nirantk.github.io\">open source</a>" />}}
 
-## Check for outdated packages
+## How to Contribute
 
-The [`npm outdated`](https://docs.npmjs.com/cli/v7/commands/npm-outdated) command will check the registry to see if any (or, specific) installed packages are currently outdated:
+We welcome contributions to the summaries. If you want to contribute, please follow the steps below:
 
-```bash
-npm outdated [[<@scope>/]<pkg> ...]
-```
+1. Fork the repository
+1. Make your changes
+1. Submit a pull request
 
-## Update packages
+## Structure
 
-The [`npm update`](https://docs.npmjs.com/cli/v7/commands/npm-update) command will update all the packages listed to the latest version (specified by the tag config), respecting semver:
-
-```bash
-npm update [<pkg>...]
-```
+The summaries are written in Markdown and are stored in the `content/en/docs/summaries` directory. Each summary is a separate Markdown file. 
