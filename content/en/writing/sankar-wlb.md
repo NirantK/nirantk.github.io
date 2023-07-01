@@ -1,12 +1,21 @@
-+++
-title =  "The Case Against Work Life Balance"
-date = 2015-09-27T23:29:18+05:30
-tags = ["python", "tech"]
-featured_image = "images/ink.png"
-description = "Python f-string Primer"
-toc = true
-show_reading_time = true
-+++
+---
+contributors:
+- Nirant Kasliwal
+date: '2015-09-27 23:29:18+05:30'
+description: Python f-string Primer
+draft: false
+excerpt: Python f-string Primer
+featured_image: images/ink.png
+images: []
+lastmod: '2015-09-27 23:29:18+05:30'
+show_reading_time: true
+tags:
+- python
+- tech
+title: The Case Against Work Life Balance
+toc: true
+weight: 50
+---
 
 Note from Nirant: This is an archived blog post from [here](https://webcache.googleusercontent.com/search?q=cache:Ig6Kku5T8oYJ:https://shyamsankar.com/the-case-against-work-life-balance-owning-your-future+&cd=1&hl=en&ct=clnk&gl=in) by Syam Sankar. I am not the author of this post. I'm keeping it here since the original source is no longer available.
 
