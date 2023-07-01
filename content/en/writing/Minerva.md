@@ -1,11 +1,17 @@
-+++
-title = "Airbnb's Metric Store: Minerva"
-description = "Data Transformation, Serving and a lot more"
-date = 2022-07-31T00:09:00+05:30
-tags = ["data", "tech"]
-toc = true
-show_reading_time = true
-+++
+---
+title: "Airbnb's Metric Store: Minerva"
+description: "Data Transformation, Serving and a lot more"
+excerpt: "Data Transformation, Serving and a lot more"
+date: 2022-07-31T00:09:00+05:30
+lastmod: 2022-07-31T00:09:00+05:30
+tags: ["data", "tech"]
+toc: true
+images: []
+draft: false
+contributors: ["Nirant Kasliwal"]
+weight: 50
+show_reading_time: true
+---
 
 Data lineage is a problem because most companies have several tables and queries before humans consume it!
 

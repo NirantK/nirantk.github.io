@@ -1,11 +1,11 @@
-+++
-title = "Act Like You're 35"
-date = 2019-12-07T00:09:00+05:30
-description = "Career Framing for the Young Me"
-tags = ["career", "niranting"]
-toc = true
-show_reading_time = true
-+++
+---
+title: "Act Like You're 35"
+date: 2019-12-07T00:09:00+05:30
+description: "Career Framing for the Young Me"
+tags: ["career", "niranting"]
+toc: true
+show_reading_time: true
+---
 
 ## Don’t just network with people your own age
 
