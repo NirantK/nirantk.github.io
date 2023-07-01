@@ -1,10 +1,16 @@
 {
+    "MD001": false,
+    "MD003": false,
+    "MD007": false,
     "MD009": false,
+    "MD010": false,
     "MD013": false,
     "MD033": false,
     "MD041": false,
     "MD034": false,
     "MD012": false,
+    "MD018": false,
+    "MD019": false,
     "MD004": false,
     "MD022": false,
     "MD024": false,
@@ -13,6 +19,7 @@
     "MD032": false,
     "MD028": false,
     "MD029": false,
+    "MD030": false,
     "MD031": false,
     "MD036": false,
     "MD037": false,
@@ -21,5 +28,6 @@
     "MD045": false,
     "MD040": false,
     "MD047": false,
+    "MD049": false,
     "*": false
 }
