@@ -1,46 +1,49 @@
 ---
-title: "Quick Start"
-description: "One page summary of how to start a new Doks project."
-lead: "One page summary of how to start a new Doks project."
+title: "About"
+description: "About Nirant Kasliwal"
+lead: "Hello! What's up?"
 date: 2020-11-16T13:59:39+01:00
 lastmod: 2020-11-16T13:59:39+01:00
 draft: false
 images: []
 menu:
   docs:
-    parent: "prologue"
+    parent: "personal"
 weight: 110
 toc: true
 ---
 
-## Me in 10 seconds
+As a consultant and advisor, I specialize in working directly with founders of early-stage startups. My primary goal is to assist technical founders in accelerating their R&D. Additionally, I provide guidance to non-technical founders to enhance their comprehension of the potential applications and limitations of Generative AI technologies, such as LLMs, Vector Databases.
 
-I am a Machine Learning consultant with a focus on NLP (including search & speech) & Vision systems for 0 to 1 startups.
+My background is a ML/AI Engineer with 7+ years of experience in chat bots, retrival, ranking and language modeling. 
+I spent a lot of my time doing Open Source and Community work. Dr. Andrew Ng recommends some of my Open Source work to his CS230 students at Stanford. My blogs have been appreciated by Noble Laureate Dr. Paul Romer. I have written a [book](#book) on Natural Language Processing 
 
-I've worked in Machine Learning for almost ~5 years, and have written a [book](#book) on Natural Language Processing. Dr. Andrew Ng recommends my work to his CS230 students at Stanford. My blogs have been appreciated by Noble Laureate Dr. Paul Romer. 
+Nowadays I am just spending my time playing board games, running India's largest GenerativeAI community, learning to be better at library design and writing.
 
 I live in Bengaluru, but grew up in Surat, Gujarat.
 
-## [NLP in Python: Quickstart Guide](https://read.amazon.in/kp/embed?asin=B07L3PLQS1&preview=newtab&linkCode=kpe&ref_=cm_sw_r_kb_dp_MRBPRC9ZWRC8B4SKT74X)
+## Book
 
-[Github](https://github.com/NirantK/nlp-python-deep-learning)
+Book: [NLP in Python: Quickstart Guide](https://read.amazon.in/kp/embed?asin=B07L3PLQS1&preview=newtab&linkCode=kpe&ref_=cm_sw_r_kb_dp_MRBPRC9ZWRC8B4SKT74X)
 
-This is a book for programmers to add NLP to their skillset. Written with code examples and programmer-first mindset. It has sold 1k+ copies mostly in US and UK.
+Code: [Github](https://github.com/NirantK/nlp-python-deep-learning)
 
-<img src="https://images-eu.ssl-images-amazon.com/images/I/41uaueSqtUL._SX260_.jpg" alt="bookcover" style="width:261px;"/>
+I wrote this book in 2018 to make Natural Language Programming more accessible for software engineers and programmers. This had a very design and code-first view of tools and their limitations. Today, most of it is outdated, I do not recommend buying it. 
+
+<img src="https://images-eu.ssl-images-amazon.com/images/I/41uaueSqtUL._SX260_.jpg" alt="bookcover"/>
 
 ## Papers and Open Source Contributions
 
 1. Hinglish: [github](https://github.com/NirantK/Hinglish), [paper](https://aclanthology.org/2020.semeval-1.119/) focussed on code-mixed languages was published in ACL 2019.
 
-2. [Awesome Project Ideas](https://github.com/NirantK/awesome-project-ideas) <img src="https://img.shields.io/github/stars/NirantK/awesome-project-ideas?style=social" style="width:20%;display: inline-block;"/> - Curated list of machine learning (mostly deep learning) project ideas with datasets. These ideas range from Vision, Text, Forecasting to Recommender Systems
+2. [Awesome Project Ideas](https://github.com/NirantK/awesome-project-ideas) <img src="https://img.shields.io/github/stars/NirantK/awesome-project-ideas?style=social" style="display: inline-block;"/> - Curated list of machine learning (mostly deep learning) project ideas with datasets. These ideas range from Vision, Text, Forecasting to Recommender Systems
 
-3. [Awesome NLP](https://github.com/keon/awesome-nlp)<img src= "https://img.shields.io/github/stars/keon/awesome-nlp?style=social" style="width:20%; display: inline-block;"> Curated list of Natural Language Processing Resources. I've been the Primary Maintainer for [Awesome-NLP](https://github.com/keon/awesome-nlp)
+3. [Awesome NLP](https://github.com/keon/awesome-nlp) <img src= "https://img.shields.io/github/stars/keon/awesome-nlp?style=social" style="display: inline-block;"> Curated list of Natural Language Processing Resources. I've been the Primary Maintainer for [Awesome-NLP](https://github.com/keon/awesome-nlp)
 
 	* Recommended by Dr. Andrew Ng's (Stanford) CS 230
 	* Featured in Github's Official Machine Learning [Collection](https://github.com/collections/machine-learning) since 2016 and 
 	
-4. State of the Art Language Modeling in Hindi + new datasets, check the code here at [hindi2vec](https://github.com/NirantK/hindi2vec) <img src= "https://img.shields.io/github/stars/NirantK/hindi2vec?style=social" style="width:20%; display: inline-block;"> 
+4. State of the Art Language Modeling in Hindi + new datasets, check the code here at [hindi2vec](https://github.com/NirantK/hindi2vec) <img src= "https://img.shields.io/github/stars/NirantK/hindi2vec?style=social" style="display: inline-block;"> 
 
 5. Comparative Study of Preprocessing and Classification Methods in Character Recognition of Natural Scene Images. In: Machine Intelligence and Signal Processing. Advances in Intelligent Systems and Computing, vol 390. Springer, New Delhi (2015). https://doi.org/10.1007/978-81-322-2625-3_11
 
@@ -54,24 +57,20 @@ This is a book for programmers to add NLP to their skillset. Written with code e
 
 ## Web Mentions - My 5 minutes of Internet fame
 
-### Top 1% Podium finish at Microsoft AI Challenge 2018
+1. Search and Informational Retrieval Ranking Challenge hosted by Bing AI Team (2019)
 
-* Search and Informational Retrieval Ranking Challenge hosted by Bing AI Team (2019)
-
-* Won the Kaggle Kernel Prize (2019)
+1. Won the Kaggle Kernel Prize (2019)
 	* [The Hitchhiker's Guide to NLP in spaCy](https://www.kaggle.com/nirant/hitchhiker-s-guide-to-nlp-in-spacy/) won the first ever NLP themed Kaggle Kernel award. I won a free licensed copy of [Prodi.gy](https://prodi.gy/) worth $390 with it, and $500 in cash. 
 
-* Exploratory Programming Notes found helpful by Nobel Laureate (2018)
+1. Exploratory Programming Notes found helpful by Nobel Laureate (2018)
 	* Tips, Tricks, Best Practices for working with Jupyter Notebook's was appreciated by Economics Nobel Laureate 2018 Dr. Paul Romer: <blockquote class="twitter-tweet" data-lang="en" data-theme="dark"><p lang="en" dir="ltr">Nirant, this looks very helpful. <br><br>Re your recommendation to use f-strings, do you know a good place to learn about them for someone new to Python? <br><br>Everything I’ve found seems to be for someone making the transition from older ways that a newbie doesn’t need to learn.</p>&mdash; Paul Romer (@paulmromer) <a href="https://twitter.com/paulmromer/status/985518009879089152?ref_src=twsrc%5Etfw">April 15, 2018</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> 
-
-### Hackathons and Press
 
 1. FactorDaily's piece on [The great rush to data sciences in India](https://factordaily.com/rush-training-data-science-machine-learning-ai-india/) ends with a direct quote from me. 
 	* FactorDaily is a new age news company which sits at the intersection of technology with life, culture and society in India.
 
-2. First Runner's Up at the Future Group Datathon (March 2019)
+1. First Runner's Up at the Future Group Datathon (March 2019)
 	* Two stage Machine Learning hackathon called [Tathastu](https://www.tathastu.ai/datathon), working on recommendation systems and item information extraction problems
 
-3. Opened AI Hackathon (2019)
+1. Opened AI Hackathon (2019)
 	* Awesome NCERT won the Best use of IBM Watson API; [blog](https://medium.com/opened-ai/global-hackweek-winners-2017-a9e5da513270)
 	* Idea: Find recent+relevant news articles against any NCERT chapter in sciences and social studies
