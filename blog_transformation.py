@@ -13,7 +13,7 @@ def convert_frontmatter(input_str):
 
     # Add additional fields
     parsed_toml['excerpt'] = parsed_toml.get('description', '')
-    parsed_toml['date'] = parsed_toml.get('date', '2021-04-27T00:00:00+00:00')
+    parsed_toml['date'] = str(parsed_toml.get('date', '2021-04-27T00:00:00+00:00'))
     parsed_toml['lastmod'] = parsed_toml['date']
     parsed_toml['images'] = []
     parsed_toml['draft'] = False
@@ -21,7 +21,7 @@ def convert_frontmatter(input_str):
     parsed_toml['weight'] = 50
 
     # Convert to YAML frontmatter
-    yaml_frontmatter = yaml.dump(parsed_toml, default_flow_style=False)
+    yaml_frontmatter = yaml.safe_dump(parsed_toml, default_flow_style=False)
 
     # Add the --- at the start and end
     return '---\n' + yaml_frontmatter + '---'
