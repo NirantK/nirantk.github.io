@@ -12,3 +12,5 @@ ai/nbs/.ipynb_checkpoints/*
 community_dev/nbs/__pycache__/*
 community_dev/src/__pycache__/*
 node_modules
+resources/_gen/*/*
+.hugo_build.lock
