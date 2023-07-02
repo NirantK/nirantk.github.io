@@ -1,5 +1,5 @@
 ---
-title: "Summary"
+title: "Community Resources"
 description: "Generative AI Summary of Discussions"
 lead: "Automated Summarization of Discussions"
 date: 2020-10-06T08:49:15+00:00

@@ -8,7 +8,7 @@ draft: false
 images: []
 menu:
   docs:
-    parent: "summaries"
+    parent: "resources"
 weight: 630
 toc: true
 ---
