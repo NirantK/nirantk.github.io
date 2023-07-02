@@ -6,9 +6,6 @@ date: 2023-04-01T08:49:31+00:00
 lastmod: 2023-04-01T08:49:31+00:00
 draft: false
 images: []
-menu:
-  docs:
-    parent: "summaries"
 weight: 640
 toc: true
 ---
