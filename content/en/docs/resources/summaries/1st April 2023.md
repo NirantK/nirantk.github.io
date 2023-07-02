@@ -14,10 +14,7 @@ tags:
 - daily_summary
 title: 'DeepHack Demo Day: Attendees, Live Stream & Submissions'
 toc: true
-weight: 50
-menu:
-  main:
-    weight: 50
+weight: 640
 ---
 
 ## DeepHack Demo Day

@@ -1,11 +1,23 @@
-+++
-title =  "Exploring Quick Hacks, LLMs, Rephrase.ai, and Data Protection"
-date = 2023-03-31T00:00:00+05:30
-tags = ["daily_summary"]
-featured_image = ""
-description = "Dive into quick hacks for DeepHack GPT, managing table structures in LLMs, Rephrase.ai's innovative blog-to-video automation, and a discussion on Italian data protection laws."
-toc = true
-+++
+---
+contributors:
+- Nirant Kasliwal
+date: '2023-03-31 00:00:00+05:30'
+description: Dive into quick hacks for DeepHack GPT, managing table structures in
+  LLMs, Rephrase.ai's innovative blog-to-video automation, and a discussion on Italian
+  data protection laws.
+draft: false
+excerpt: Dive into quick hacks for DeepHack GPT, managing table structures in LLMs,
+  Rephrase.ai's innovative blog-to-video automation, and a discussion on Italian data
+  protection laws.
+featured_image: ''
+images: []
+lastmod: '2023-03-31 00:00:00+05:30'
+tags:
+- daily_summary
+title: Exploring Quick Hacks, LLMs, Rephrase.ai, and Data Protection
+toc: true
+weight: 50
+---
 
 Quick Hacks and Extensions:
 - A quick hack for DeepHack GPT to handle multiple context questions
