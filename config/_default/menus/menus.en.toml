@@ -10,28 +10,9 @@
   identifier = "summaries"
   url = "/docs/summaries/"
 
-# [[docs]]
-#   name = "Lorem"
-#   weight = 70
-#   identifier = "lorem"
-#   url = "/docs/lorem/"
-
-[[guide]]
-  name = "Lorem"
-  weight = 10
-  identifier = "lorem"
-  url = "/guide/lorem/"
-
-[[tutorial]]
-  name = "Lorem"
-  weight = 10
-  identifier = "lorem"
-  url = "/tutorial/lorem/"
-
 [[main]]
-  name = "Docs"
-  url = "/docs/personal/introduction/"
-# url = "/docs/1.0/personal/introduction/"
+  name = "Generative AI Community"
+  url = "/community"
   weight = 10
 
 [[main]]
@@ -40,24 +21,10 @@
   weight = 20
 
 [[main]]
-  name = "Work with Me"
-  weight = 30
-  identifier = "work-with-me"
-  url = "/docs/personal/introduction/"
-
-[[main]]
   name = "About"
-  weight = 40
+  weight = 30
   identifier = "about"
-  url = "/docs/personal/about/"
-  parent = "work-with-me"
-
-[[main]]
-  name = "Introduction"
-  weight = 40
-  identifier = "Introduction"
-  url = "/docs/personal/introduction/"
-  parent = "work-with-me"
+  url = "/about"
 
 [[social]]
   name = "GitHub"
