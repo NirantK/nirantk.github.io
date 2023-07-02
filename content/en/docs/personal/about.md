@@ -13,7 +13,11 @@ weight: 110
 toc: true
 ---
 
-As a consultant and advisor, I specialize in working directly with founders of early-stage startups. My primary goal is to assist technical founders in accelerating their R&D. Additionally, I provide guidance to non-technical founders to enhance their comprehension of the potential applications and limitations of Generative AI technologies, such as LLMs, Vector Databases.
+As a consultant and advisor: 
+- Specialize in working with Early stage founders, 0 to 1 stage of product development or later stage, adding a new feature to an existing product.
+- For non-coding founders, I act as a tour guide for advanced AI technologies - improving their understanding of potential applications and limitations alike. 
+
+This includes things like LLMs and Vector Databases, which are tools that can do amazing things but also have their own limits.
 
 My background is a ML/AI Engineer with 7+ years of experience in chat bots, retrieval, ranking and language modeling. 
 I spent a lot of my time doing Open Source and Community work. Dr. Andrew Ng recommends some of my Open Source work to his CS230 students at Stanford. My blogs have been appreciated by Noble Laureate Dr. Paul Romer. I have written a [book](#book) on Natural Language Processing 
