@@ -15,12 +15,10 @@ toc: true
 
 As a consultant and advisor, I specialize in working directly with founders of early-stage startups. My primary goal is to assist technical founders in accelerating their R&D. Additionally, I provide guidance to non-technical founders to enhance their comprehension of the potential applications and limitations of Generative AI technologies, such as LLMs, Vector Databases.
 
-My background is a ML/AI Engineer with 7+ years of experience in chat bots, retrival, ranking and language modeling. 
+My background is a ML/AI Engineer with 7+ years of experience in chat bots, retrieval, ranking and language modeling. 
 I spent a lot of my time doing Open Source and Community work. Dr. Andrew Ng recommends some of my Open Source work to his CS230 students at Stanford. My blogs have been appreciated by Noble Laureate Dr. Paul Romer. I have written a [book](#book) on Natural Language Processing 
 
-Nowadays I am just spending my time playing board games, running India's largest GenerativeAI community, learning to be better at library design and writing.
-
-I live in Bengaluru, but grew up in Surat, Gujarat.
+I am on a sabbatical. I enjoy my time playing board games, running India's largest GenerativeAI community, learning to be better at library design and writing.
 
 ## Book
 
