@@ -10,16 +10,32 @@ weight: 110
 toc: true
 ---
 
-As a consultant and advisor: 
-- Specialize in working with Early stage founders, 0 to 1 stage of product development or later stage, adding a new feature to an existing product.
-- For non-coding founders, I act as a tour guide for advanced AI technologies - improving their understanding of potential applications and limitations alike. 
+As a consultant and advisor:
+- I specialize in working with Early stage founders, 0 to 1 stage of product development or later stage, adding a new feature to an existing product
+- For non-coding founders, I act as a tour guide for advanced AI technologies - improving their understanding of potential applications and limitations alike
 
-This includes things like LLMs and Vector Databases, which are tools that can do amazing things but also have their own limits.
+This includes things like **LLMs** and **Vector Databases**, which are amazing tools which unlock a lot of new, intelligent value but also have their own limits.
 
-My background is a ML/AI Engineer with 7+ years of experience in chat bots, retrieval, ranking and language modeling. 
-I spent a lot of my time doing Open Source and Community work. Dr. Andrew Ng recommends some of my Open Source work to his CS230 students at Stanford. My blogs have been appreciated by Noble Laureate Dr. Paul Romer. I have written a [book](#book) on Natural Language Processing 
+I spend a lot of my time doing Open Source and Community work:
+1. Dr. Andrew Ng recommends some of my Open Source work to his CS230 students at Stanford. 
+2. My blogs have been appreciated by Noble Laureate Dr. Paul Romer. 
+3. I have written a [book](#book) on Natural Language Processing 
 
-I am on a sabbatical. I enjoy my time playing board games, running India's largest GenerativeAI community, learning to be better at library design and writing.
+I am on a sabbatical. I enjoy my time playing board games, running India's largest GenerativeAI community, learning to be better at library design and writing. 
+
+## Background
+
+Machine Learning and AI Engineer with 7+ years of experience in chat bots, retrieval, ranking and language modeling. 
+
+As a Machine Learning Engineer,
+- I trained the first [Hindi LM](https://github.com/NirantK/hindi2vec)
+- Deployed Sentence Transformers and Annoy (vector search library) for Semantic
+- Managed a team of 3 engineers to build a support chatbot for a Nifty 100 company
+
+As an AI Engineer,
+- Have built and deployed Question Answering systems for 3+ years, including 2 projects with OpenAI LLMs e.g. text-davinci-003, GPT3.5 and GPT4
+- Hallucination-free summarization and question answering systems
+
 
 ## Book
 
