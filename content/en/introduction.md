@@ -41,10 +41,10 @@ If you got this far, shoot me a *short* email to [hello@nirantk.com](mailto:hell
 
 **Here are some examples that have caught my interest:**
 
-- I'm a founder building AI for trucking. I know you're not looking to found a company, but I'm looking for someone to help me vet a technical co-founder and get my team started on the right foot.
-- I am a technical co-founder looking for a technical partner to help drive some technical exploration/designs while I spend time fundraising and hiring our founding engineers.
+- I'm a founder building text to analytics, with text to SQL as a core component. Can you help prototype a solution?
+- I'm a non-technical founder at a healthcare startup and need help evaluating out text to speech (ASR) and summarization vendors
 - I am at ABC VC and I'd love to get your thoughts on XYZ and help with some due diligence.
+- I am a technical co-founder looking for a technical partner to help drive some technical exploration/designs while I spend time fundraising and hiring our founding engineers.
 - I am a director at XYZ, and we're interested in building our automation system with ChatAPI. I would love to get your help leading our overseas SW team to see if it's feasible before getting more headcount.
-- I'm thinking about starting a accounting startup and would love to talk to you about what is feasible with all this agent work coming out recently.
 
-Btw, this document is very inspired by [Jason](https://www.jxnl.co/)'s work with me page - I highly recommend you check him out.
+Btw, this document is very inspired (aka copied!) by [Jason](https://www.jxnl.co/)'s work with me page - I highly recommend you check him out.
