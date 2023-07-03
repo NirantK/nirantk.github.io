@@ -10,19 +10,19 @@ description = "ML/AI Engineer with 7+ years of experience in building and deploy
 # docsVersion = "0.3"
 
 ## Open Graph
-images = ["doks.png"]
+images = ["NK.jpg"]
 ogLocale = "en_US"
-domainTLD = "doks.netlify.app"
-titleHome = "Doks Theme"
+domainTLD = "https://nirantk.com"
+titleHome = "NirantK"
 
 ## Twitter Cards
-twitterSite = "@getdoks"
-twitterCreator = "@henkverlinde"
+twitterSite = "@NirantK"
+twitterCreator = "@NirantK"
 
 ## JSON-LD
-# schemaType = "Person"
-schemaType = "Organization"
-schemaName = "Doks"
+schemaType = "Person"
+# schemaType = "Organization"
+schemaName = "Personal Website"
 schemaAuthor = "Henk Verlinde"
 schemaAuthorTwitter = "https://twitter.com/henkverlinde"
 schemaAuthorLinkedIn = "https://www.linkedin.com/in/henkverlinde/"
@@ -65,10 +65,10 @@ defaultImage = "default-image.png" # put in `./assets/images/`
 fillImage = "1270x740 Center" # normalize image size
 
 # Footer
-footer = "Powered by <a class=\"text-muted\" href=\"https://gohugo.io/\">Hugo</a>, and <a class=\"text-muted\" href=\"https://getdoks.org/\">Doks</a> Theme"
+footer = "Powered by <a class=\"text-muted\" href=\"https://gohugo.io/\">Hugo</a>'s <a class=\"text-muted\" href=\"https://getdoks.org/\">Doks</a> Theme"
 
 # Feed
-copyRight = "Copyright (c) 2020-2021 Nirant K"
+copyRight = "Copyright (c) 2018-Present Nirant K"
 
 # Alert
 alert = false
@@ -81,7 +81,7 @@ alertText = "Introducing the Doks child theme, several DX + UX updates, and more
 repoHost = "GitHub"
 #repoHost = "Gitea"
 docsRepo = "https://github.com/h-enk/doks"
-docsRepoBranch = "master"
+docsRepoBranch = "main"
 docsRepoSubPath = ""
 editPage = false
 lastMod = false
