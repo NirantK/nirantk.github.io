@@ -16,12 +16,13 @@ As a consultant and advisor:
 
 This includes things like **LLMs** and **Vector Databases**, which are amazing tools which unlock a lot of new, intelligent value but also have their own limits.
 
-I spend a lot of my time doing Open Source and Community work:
-1. Dr. Andrew Ng recommends some of my Open Source work to his CS230 students at Stanford. 
-2. My blogs have been appreciated by Noble Laureate Dr. Paul Romer. 
+Trivia:
+1. Dr. Andrew Ng recommends [Awesome NLP](https://github.com/keon/awesome-nlp), a repo I've maintained since 2018 at Stanford's Deep Learning course [CS 230](https://cs230.stanford.edu/section/1/).
+2. My blog have been appreciated by Noble Laureate Dr. Paul Romer [on Twitter](https://twitter.com/paulmromer/status/985518009879089152)
 3. I have written a [book](#book) on Natural Language Processing 
 
-I am on a sabbatical. I enjoy my time playing board games, running India's largest GenerativeAI community, learning to be better at library design and writing. 
+I am on a sabbatical. I enjoy my time playing board games, running India's largest GenerativeAI community. 
+I am learning to be better at software library design ([agentai](https://github.com/NirantK/agentai)) and [writing](/writing). 
 
 ## Background
 
