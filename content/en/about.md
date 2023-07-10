@@ -28,15 +28,16 @@ I am learning to be better at software library design ([agentai](https://github.
 
 Machine Learning and AI Engineer with 7+ years of experience in chat bots, retrieval, ranking and language modeling. 
 
-As a Machine Learning Engineer,
-- I trained the first [Hindi LM](https://github.com/NirantK/hindi2vec)
-- Deployed Sentence Transformers and Annoy (vector search library) for Semantic
-- Managed a team of 3 engineers to build a support chatbot for a Nifty 100 company
+As a Machine Learning Engineer, I
+- Trained the first [Hindi LM](https://github.com/NirantK/hindi2vec)
+- Deployed Sentence Transformers and Annoy (vector search library) for cosine Similarity powered search in 2018 in production
+- Managed a team of 3 engineers to build a support chatbot for 1M chat messages per month
 
 As an AI Engineer,
 - Have built and deployed Question Answering systems for 3+ years, including 2 projects with OpenAI LLMs e.g. text-davinci-003, GPT3.5 and GPT4
 - Hallucination-free summarization and question answering systems
 
+PS: What is an AI Engineer? Here you go: https://latent.space/p/ai-engineer
 
 ## Book
 
