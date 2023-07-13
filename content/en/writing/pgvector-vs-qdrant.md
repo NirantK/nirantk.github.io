@@ -102,4 +102,6 @@ This is a very important point. `pgvector` is not a vector search engine. It's a
 There is a [US$2000 bounty](https://twitter.com/alexgraveley/status/1674679862961885184) for anyone who can raise a PR to make the `pgvector` extension use HNSW instead of IVF.
 
 ## Acknowledgements
-These surprising revelations are courtesy of Erik Bernhardsson's [ann-benchmarks](https://ann-benchmarks.com) code, with special thanks to [Kumar Shivendu](https://www.linkedin.com/in/kshivendu) for their forked version.
+The engineering and [dataset](https://huggingface.co/datasets/KShivendu/dbpedia-entities-openai-1M) were both done by [Kumar Shivendu](https://www.linkedin.com/in/kshivendu). Most of my contribution was in the form of spotting the bottlenecks, feedback and sponsorship.
+
+These surprising revelations are courtesy of Erik Bernhardsson's [ann-benchmarks](https://ann-benchmarks.com) code.
