@@ -1,6 +1,6 @@
 ---
-title: "Endorsed"
-description: "This is a list of talented people I can endorse for their work."
+title: "Endorsed Friends"
+description: "Talented friends I can endorse for their work"
 lead: "Nirant's Endorsed List of Talented People"
 date: 2020-10-06T08:48:57+00:00
 lastmod: 2020-10-06T08:48:57+00:00
@@ -12,7 +12,8 @@ toc: true
 
 ## Endorsed List
 
-This is a list of consultants, agency founders or otherwise "free bird" people I can endorse for their competence.
+Talented friends I can endorse for their work -- either because I've worked with them or know them socially. 
+This is a permanent endorsement. I'm happy to connect you with them if you're looking to hire or collaborate with them, with double opt-in from both sides.
 
 
 | Name | Skills | Remarks/Notes | Endorsed By |
