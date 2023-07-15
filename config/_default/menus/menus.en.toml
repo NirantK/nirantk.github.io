@@ -44,8 +44,8 @@
   parent = "work-with-me"
 
 [[main]]
-  name = "Endorsed"
-  weight = 30
+  name = "Endorsed Friends"
+  weight = 40
   identifier = "endorsed"
   url = "/endorsed"
   parent = "work-with-me"
