@@ -25,4 +25,6 @@ I'm happy to connect you with them if you're looking to hire or collaborate with
 | [Preet Singh Khalsa](https://www.linkedin.com/in/psk97/) | Generalist Extraordinaire | Ex-CRED, Accel | Nirant | 
 | [Kumar Shivendu](https://www.linkedin.com/in/kshivendu/) | Product engineer with interest in Devtools, Search & LLMs | Builds auth devtools at SuperTokens, he was the dev behind this [blog](https://nirantk.com/writing/pgvector-vs-qdrant/) | Nirant |
 
+You can request addition and edits to this page by sending a PR to [this file](https://github.com/NirantK/nirantk.github.io/blob/main/content/en/endorsed.md)
+
 Last Updated: June 2023
