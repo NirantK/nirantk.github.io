@@ -1,4 +1,14 @@
-# Generative AI Community: General Guide
+---
+title: "Generative AI Community: General Guide"
+description: "Rules, Resources and Recommendations for the Generative AI Community"
+lead: "Rules and Guidelines for the Generative AI Community"
+date: 2023-11-16T13:59:39+01:00
+lastmod: 2023-06-01T13:59:39+01:00
+draft: false
+images: []
+weight: 110
+toc: true
+---
 
 # Rules
 
