@@ -19,7 +19,7 @@ toc: true
 
 These guides are good rules of thumbs for behaviour, but admins reserve all rights to remove or ban members or conversations. 
 
-## Content sharing
+## Content Sharing
 
 ✅ Things that you find interesting, curious or noteworthy around AI research, philosophy, implementation and future. Also new tools or how you’re using them. 
 
@@ -29,13 +29,13 @@ These guides are good rules of thumbs for behaviour, but admins reserve all righ
 
 👎 Sharing paid/paywalled content. You can describe if something is relevant to the discussion but sharing this content is discouraged
 
-## Adding friends
+## Adding Friends
 
 ✅ Directly message an admin (not Nirant!) if you would like to invite someone to the group
 
 👎 Asking on main to add your friend. Ping admins directly. 
 
-## General conversation
+## General Conversation
 
 ✅ Ask questions, especially follow ups if a conversation or topic intrigues you
 
@@ -48,6 +48,8 @@ These guides are good rules of thumbs for behaviour, but admins reserve all righ
 ❌ Conversations about topics with proven harm technologies like deep fakes, surveillance, or discrimination promoting tech
 
 ❌ Harassment or abuse, targeted towards a group or an individual
+
+❌ Inactive members. If you are inactive for more than 60 days, you will be removed from the group
 
 👎 Off topic discussions. Avoid spamming others’ inboxes with messages irrelevant to the group. Take those discussions to DMs
 
