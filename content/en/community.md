@@ -88,5 +88,7 @@ See [open roles here](https://docs.google.com/spreadsheets/d/1WOlIw1vxnJXPLZpfc
 
 All our budget and expenses are public. You can see them here: [Generative AI Finances](https://docs.google.com/spreadsheets/d/1JJfUcYP2g8ZoAwxn_DGLMOOYJFozO1wtFY3vMNigKS8/edit#gid=401406164)
 
+## Code of Conduct
+We enforce the [Hasgeek Code of Conduct](https://hasgeek.com/about/policy/code) -- and by being part of our communications e.g. WhatsApp group or attending any of ever events, you agree to adhere to the same. In case of violations, please report to coc {at} nirantk (dot) com 
 
 ## ⚠️ Data Usage: Messages in the group may be made public or used for training a bot. We cannot prevent members from downloading chat history.
