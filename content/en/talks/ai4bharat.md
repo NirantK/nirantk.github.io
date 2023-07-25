@@ -13,38 +13,63 @@ contributors: ["Nirant Kasliwal"]
 show_reading_time: true
 ---
 
-Google Slides are [here](https://docs.google.com/presentation/d/1fzwXZJtLLdXPFHahOlSuaK62VYy2F-F-yPV5SxwA5Xo/edit?usp=sharing)
+Slides are [here]
 
-Here is the outline of topics we discussed: 
 # AI4Humans: LLMs x Software Systems
 
-## Introduction
+*AI4Bharat, IIT Madras, July 2023*
 
-Hello, I'm Nirant, a machine learning engineer and contributor to AI4Bharat. I've had the privilege of working on a range of exciting projects, from publishing an ACL 2020 NLP Paper on Hinglish and writing an NLP book, to contributing to IndicGlue and deploying systems used by Nykaa. I also manage India's largest GenAI community and regularly host meetups. You can find more about my work on [my GitHub profile](https://github.com/NirantK).
+Namaste! 🙏 I'm Nirant and here's a brief of what we discussed in our session. 
 
-In this blog, I'll be discussing the intersection of Large Language Models (LLMs) and software systems, focusing on their potential for creating AI solutions that are cheaper, better, and faster. We'll also delve into the challenges and open problems in this domain.
+## Why You Should Care?
 
-## Retrieval Augmented Generation
-![](https://raw.githubusercontent.com/NirantK/nirantk.github.io/main/assets/images/RAG_System_Diagram.png)
+I have a track record in the field of NLP and machine learning, including a paper at ACL 2020 on Hinglish, the first Hindi-LM, and an NLP book with over 5000 copies sold. I've contributed to IndicGlue by AI4Bharat, built and deployed systems used by Nykaa, and consulted for healthcare enterprises and YC companies. I also manage India’s largest GenAI community with regular meetups since February 2023. 
 
-### Embedding Selection and Cross-Encoder Addition
+Check out my work on [GitHub](https://github.com/NirantK).
 
-The process of embedding selection involves adding details to the LLM. For instance, we can use OpenAI GPT4 and Ada-002 for embedding, and then add a cross-encoder like Cohere Rerank for further refinement. This process can be further enhanced by a 2-pass search using tools like BM25/ElasticSearch.
+## AI4Humans: Retrieval Augmented Generation for India
 
-### Role of Vector DBs e.g. Qdrant
+We dived into two main areas:
 
-Orchestration is a crucial aspect of LLMs. Tools like Langchain, Llama Index, and Semantic Kernel play a significant role in orchestrating the process of information retrieval, text splitting, and ranking. However, there are open problems in this area, such as handling documents that don't fit the context window and improving the ranking/selection of top K documents. 
+1. **Retrieval Augmented Generation**: 
+1. **LLM Functions**: Exploring tool augmentation and "perfect" natural language parsing
 
-### Evaluation and Monitoring
+Here's a [demo](https://github.com/NirantK/agentai) of AgentAI in action.
 
-There are several open problems in the field of LLMs. One of the most significant is evaluation. How can we automatically evaluate answers? Where do traditional measures like EM, F1, and BERT-score fall short? Another challenge is monitoring. How can we measure model degradation? How can we handle questions that are close to the domain but not exactly within it?
+### Retrieval Augmented Generation (RAG)
 
-## LLM "Functions"
+RAG is a popular pattern in AI. It's used in various applications like FAQ on WhatsApp, customer support automation, and more. It's the backbone of services like Kissan.ai, farmer.chat and Bot9.ai.
 
-LLMs can be used for tool augmentation. For example, the Gorilla LLM family offloads tasks to more specialized, reliable models. This approach allows for the conversion from language to programmatic objects or programming code. A demo of this can be seen in the AgentAI library, which I built.
+However, there are several open problems in RAG, such as text splitting, improving ranking/selection of top K documents, and embedding selection.
 
-## Conclusion
+### Adding Details to RAG
 
-LLMs hold immense potential for improving AI systems, making them cheaper, better, and faster. However, there are still many open problems to solve, from evaluation and monitoring to security and latency. As we continue to explore and innovate in this field, we can look forward to more robust and efficient AI solutions.
+We can improve RAG by integrating models like OpenAI's GPT4, Ada-002, and others. We can also enhance the system by adding a Cross-Encoder and 2 Pass Search.
 
-For more details, you can check out executable code of AgentAI [here](https://bit.ly/agentaimed).
+![RAG Outline](https://raw.githubusercontent.com/NirantK/nirantk.github.io/main/assets/images/RAG_System_Diagram.png)
+
+Despite these improvements, challenges remain in areas like evaluation, monitoring, and handling latency/speed. For instance, we discussed how to evaluate answers automatically, monitor model degradation, and improve system latency.
+
+### Using LLM to Evaluate
+
+An interesting application of LLM is to use it for system evaluation. For example, we can use LLM to auto-generate a QA test set and auto-grade the results of the specified QA chain. Check out this [auto-evaluator](https://github.com/langchain-ai/auto-evaluator) as an example.
+
+### Addressing Open Problems
+
+We discussed the best ways to improve system speed, including paged attention, caching, and simply throwing more compute at it. We also touched on security concerns, such as the need for separation of data and the use of Role Based Access Control (RBAC).
+
+## LLM “Functions”
+
+We explored how LLMs can be used for tool augmentation and converting language to programmatic objects or code. The Gorilla LLM family is a prime example of this, offloading tasks to more specialized, reliable models.
+
+In the context of AgentAI, we discussed how it can help in converting text to programmatic objects, making it easier to handle complex tasks. You can check out the working code [here]().
+
+Thank you for attending the session! Feel free to connect with me via [email](ai4bharat@nirantk.com), [Twitter](https://twitter.com/NirantK), [LinkedIn](https://linkedin.com/in/nirant) or learn more about me [here](https://nirantk.com/about).
+
+## References
+
+- [Slides](https://docs.google.com/presentation/d/1fzwXZJtLLdXPFHahOlSuaK62VYy2F-F-yPV5SxwA5Xo/edit?usp=sharing) for this talk
+- [AgentAI library](https://github.com/NirantK/agentai)
+- [Auto-evaluator](https://github.com/langchain-ai/auto-evaluator)
+
+*Images in this blog are taken from the slides presented during the talk.*
