@@ -13,8 +13,6 @@ contributors: ["Nirant Kasliwal"]
 show_reading_time: true
 ---
 
-Slides are [here]
-
 # AI4Humans: LLMs x Software Systems
 
 *AI4Bharat, IIT Madras, July 2023*
@@ -23,9 +21,7 @@ Namaste! 🙏 I'm Nirant and here's a brief of what we discussed in our session.
 
 ## Why You Should Care?
 
-I have a track record in the field of NLP and machine learning, including a paper at ACL 2020 on Hinglish, the first Hindi-LM, and an NLP book with over 5000 copies sold. I've contributed to IndicGlue by AI4Bharat, built and deployed systems used by Nykaa, and consulted for healthcare enterprises and YC companies. I also manage India’s largest GenAI community with regular meetups since February 2023. 
-
-Check out my work on [GitHub](https://github.com/NirantK).
+I have a track record in the field of NLP and machine learning, including a paper at ACL 2020 on Hinglish, the first Hindi-LM, and an NLP book with over 5000 copies sold. I've contributed to IndicGlue by AI4Bharat, built and deployed systems used by Nykaa, and consulted for healthcare enterprises and YC companies. I also manage India’s largest GenAI community with regular meetups since February 2023. [Github](https://github.com/NirantK)
 
 ## AI4Humans: Retrieval Augmented Generation for India
 
@@ -62,9 +58,9 @@ We discussed the best ways to improve system speed, including paged attention, c
 
 We explored how LLMs can be used for tool augmentation and converting language to programmatic objects or code. The Gorilla LLM family is a prime example of this, offloading tasks to more specialized, reliable models.
 
-In the context of AgentAI, we discussed how it can help in converting text to programmatic objects, making it easier to handle complex tasks. You can check out the working code [here]().
+In the context of AgentAI, we discussed how it can help in converting text to programmatic objects, making it easier to handle complex tasks. You can check out the working code [here](https://github.com/NirantK/agentai).
 
-Thank you for attending the session! Feel free to connect with me via [email](ai4bharat@nirantk.com), [Twitter](https://twitter.com/NirantK), [LinkedIn](https://linkedin.com/in/nirant) or learn more about me [here](https://nirantk.com/about).
+Thank you for attending the session! Feel free to connect with me: [Twitter](https://twitter.com/NirantK), [LinkedIn](https://linkedin.com/in/nirant) or learn more about me [here](https://nirantk.com/about).
 
 ## References
 
