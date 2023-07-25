@@ -7,7 +7,7 @@ date: 2023-07-21T00:09:00+05:30
 lastmod: 2023-07-21T00:09:00+05:30
 tags: ["tech", "niranting", "ai4bharat"]
 weight: 50
-images: ["assets/images/RAG_System_Diagram.png"]
+images: []
 toc: true
 contributors: ["Nirant Kasliwal"]
 show_reading_time: true
@@ -25,7 +25,7 @@ Hello, I'm Nirant, a machine learning engineer and contributor to AI4Bharat. I'v
 In this blog, I'll be discussing the intersection of Large Language Models (LLMs) and software systems, focusing on their potential for creating AI solutions that are cheaper, better, and faster. We'll also delve into the challenges and open problems in this domain.
 
 ## Retrieval Augmented Generation
-![](./RAG_System_Diagram.png)
+![](https://raw.githubusercontent.com/NirantK/nirantk.github.io/main/assets/images/RAG_System_Diagram.png)
 
 ### Embedding Selection and Cross-Encoder Addition
 
