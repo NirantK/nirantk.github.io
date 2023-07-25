@@ -65,7 +65,10 @@ Thank you for attending the session! Feel free to connect with me: [Twitter](htt
 ## References
 
 - [Slides](https://docs.google.com/presentation/d/1fzwXZJtLLdXPFHahOlSuaK62VYy2F-F-yPV5SxwA5Xo/edit?usp=sharing) for this talk
+- [RAG paper](https://arxiv.org/abs/2005.11401)
 - [AgentAI library](https://github.com/NirantK/agentai)
 - [Auto-evaluator](https://github.com/langchain-ai/auto-evaluator)
+- [Gorilla LLM family](https://gorilla.cs.berkeley.edu/)
+
 
 *Images in this blog are taken from the slides presented during the talk.*
