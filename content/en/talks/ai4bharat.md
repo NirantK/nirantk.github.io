@@ -18,7 +18,7 @@ Namaste! 🙏 I'm Nirant and here's a brief of what we discussed in our session.
 
 ## Why You Should Care?
 
-I have a track record in the field of NLP and machine learning, including a paper at ACL 2020 on Hinglish, the first Hindi-LM, and an NLP book with over 5000 copies sold. I've contributed to IndicGlue by AI4Bharat, built and deployed systems used by Nykaa, and consulted for healthcare enterprises and YC companies. I also manage India’s largest GenAI community with regular meetups since February 2023. [Github](https://github.com/NirantK)
+I have a track record in the field of NLP and machine learning, including a paper at ACL 2020 on Hinglish, the first Hindi-LM, and an NLP book with over 5000 copies sold. I've contributed to [IndicGlue](https://indicnlp.ai4bharat.org/) by AI4Bharat, built and deployed systems used by Nykaa, and consulted for healthcare enterprises and YC companies. I also manage India’s largest GenAI community with regular meetups since February 2023. [Github](https://github.com/NirantK)
 
 ## AI4Humans: Retrieval Augmented Generation for India
 
@@ -64,6 +64,7 @@ Thank you for attending the session! Feel free to connect with me: [Twitter](htt
 - [AgentAI library](https://github.com/NirantK/agentai)
 - [Auto-evaluator](https://github.com/langchain-ai/auto-evaluator)
 - [Gorilla LLM family](https://gorilla.cs.berkeley.edu/)
+- [vLLM](https://vllm.ai/)
 
 
 *Images in this blog are taken from the slides presented during the talk.*
