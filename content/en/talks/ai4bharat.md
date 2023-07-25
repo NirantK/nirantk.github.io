@@ -7,7 +7,7 @@ date: 2023-07-21T00:09:00+05:30
 lastmod: 2023-07-21T00:09:00+05:30
 tags: ["tech", "niranting", "ai4bharat"]
 weight: 50
-images: ["./RAG_System_Diagram.png"]
+images: ["assets/images/RAG_System_Diagram.png"]
 toc: true
 contributors: ["Nirant Kasliwal"]
 show_reading_time: true
