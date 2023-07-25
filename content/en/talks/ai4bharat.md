@@ -27,8 +27,6 @@ We dived into two main areas:
 1. **Retrieval Augmented Generation**: Examples of RAG for India, engineering choices, open problems, and how to improve it 
 1. **LLM Functions**: Exploring tool augmentation and "perfect" natural language parsing
 
-Here's a [demo](https://github.com/NirantK/agentai) of AgentAI in action.
-
 ### Retrieval Augmented Generation (RAG)
 
 RAG is a popular pattern in AI. It's used in various applications like FAQ on WhatsApp, customer support automation, and more. It's the backbone of services like Kissan.ai, farmer.chat and Bot9.ai.
