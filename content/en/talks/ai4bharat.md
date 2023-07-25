@@ -12,9 +12,6 @@ toc: true
 contributors: ["Nirant Kasliwal"]
 show_reading_time: true
 ---
-
-# AI4Humans: LLMs x Software Systems
-
 *AI4Bharat, IIT Madras, July 2023*
 
 Namaste! 🙏 I'm Nirant and here's a brief of what we discussed in our session. 
@@ -27,7 +24,7 @@ I have a track record in the field of NLP and machine learning, including a pape
 
 We dived into two main areas:
 
-1. **Retrieval Augmented Generation**: 
+1. **Retrieval Augmented Generation**: Examples of RAG for India, engineering choices, open problems, and how to improve it 
 1. **LLM Functions**: Exploring tool augmentation and "perfect" natural language parsing
 
 Here's a [demo](https://github.com/NirantK/agentai) of AgentAI in action.
