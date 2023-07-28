@@ -92,3 +92,18 @@ All our budget and expenses are public. You can see them here: [Generative AI F
 We enforce the [Hasgeek Code of Conduct](https://hasgeek.com/about/policy/code) -- and by being part of our communications e.g. WhatsApp group or attending any of ever events, you agree to adhere to the same. In case of violations, please report to coc {at} nirantk (dot) com 
 
 ## ⚠️ Data Usage: Messages in the group may be made public or used for training a bot. We cannot prevent members from downloading chat history.
+
+# GenerativeAI Startup Ecosystem for Founders and Investors
+
+Description: This Gen AI group is strictly for founder + Investors only, if you are not one of these you can be removed by admins anytime without prior acknowledgment. When you join please drop 3-4 line introduction about you and/or your product along with LinkedIn link for other members to connect with you.
+
+Read these community rules first: 
+https://superu.notion.site/AI-Startup-ecosystem-General-Guide-f8720e6e58d840138c094b28a7f5e534?pvs=4
+
+For adding new members, please reach out to
+[Nisha from SuperU on WhatsApp](https://wa.me/919725067126)
+
+For promoting any upcoming event, please reach out to
+[Aditya on WhatsApp](https://wa.me/917880067859)
+
+Group link: https://chat.whatsapp.com/BPT3pREU0QdClCtQarPu7r
