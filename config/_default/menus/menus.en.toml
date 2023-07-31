@@ -1,8 +1,15 @@
 [[main]]
-  name = "Resources"
+  name = "Summaries"
   url = "/docs/resources/"
   weight = 60
   identifier = "summaries"
+  parent = "ai"
+
+[[main]]
+  name = "DeepHack Demos"
+  url = "/deephackdemos/"
+  weight = 60
+  identifier = "deephack"
   parent = "ai"
 
 [[main]]
