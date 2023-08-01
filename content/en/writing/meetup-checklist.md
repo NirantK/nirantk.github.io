@@ -13,7 +13,8 @@ contributors: ["Nirant Kasliwal", "Soumyadeep Mukherjee", "Zainab Bawa"]
 show_reading_time: true
 ---
 
-## Meetup Parameters
+### Checklist 
+This is based on organising GenerativeAI Meetups in Bengaluru, India. This is a living document and will be updated as we learn more.
 
 ### Venue
 1. Camera: Consider the requirements for A/V if planning to do talks, streaming, or recording? Who is going to record? What kind of camera do we need? [GenerativeAI](https://nirantk.com/community) outsources this to Hasgeek. 
