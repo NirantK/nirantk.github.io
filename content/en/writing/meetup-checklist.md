@@ -28,9 +28,12 @@ Examples: GenerativeAI has never served alcohol, we often have 1-3 talks with sn
 ### Theme
 - Select a theme. This is crucial as it shapes the shared identity of all attendees and influences the discussions they initiate with strangers
 - Narrower themes are better than wider ones e.g. "DevTools" is better than "Enterprise tools for Devs"
-- Choose a catchy name to attract more attendees -- your naming is the most important branding. 
+- Choose a catchy name to attract more attendees -- your naming is the most important branding
+- There are icebreaker lists on the Internet which you can use for more intimate meetings
+- Name tags: I've tried to enforce these, but failed at the GenerativeAI Meetups -- they're great! I've seen them work well at other meetups.
 
-### Photo and Video Documentation**
+### Photo and Video Documentation
 - Encourage attendees to take photos, tag you, or send them to you for sharing on social media
 - Consider recording the talks and posting them on YouTube afterwards to provide value to the community and allow great talks to live on. We use [Hasgeek](https://hasgeek.com/) for this.
 - Note that live-streaming is not a must, but if done, it can add an extra layer of engagement for those who can't attend in person.
+
