@@ -31,7 +31,7 @@ These guides are good rules of thumbs for behaviour, but admins reserve all righ
 
 ## Adding Friends
 
-✅ Directly message an admin (not Nirant!) if you would like to invite someone to the group
+✅ Share the group link with your friends and ask them to apply: https://nas.io/the-generativeai-group (Valid till 15th September 2023)
 
 👎 Asking on main to add your friend. Ping admins directly. 
 
@@ -104,5 +104,3 @@ For adding new members, please reach out to
 
 For promoting any upcoming event, please reach out to
 [Aditya on WhatsApp](https://wa.me/917880067859)
-
-Group link is [here](https://chat.whatsapp.com/BPT3pREU0QdClCtQarPu7r)
