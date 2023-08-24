@@ -18,7 +18,7 @@ This includes things like **LLMs** and **Vector Databases**, which are amazing t
 
 Trivia:
 1. Dr. Andrew Ng recommends [Awesome NLP](https://github.com/keon/awesome-nlp), a repo I've maintained since 2018 at Stanford's Deep Learning course [CS 230](https://cs230.stanford.edu/section/1/).
-2. My blog have been appreciated by Noble Laureate Dr. Paul Romer [on Twitter](https://twitter.com/paulmromer/status/985518009879089152)
+2. Top 5 GenAI Scientists in India, [Analytics India Magazine](https://www.analyticsvidhya.com/datahack-summit-2023/award-nomination/)
 3. I have written a [book](#book) on Natural Language Processing 
 
 I am on a sabbatical. I enjoy my time playing board games, running India's largest GenerativeAI community. 
