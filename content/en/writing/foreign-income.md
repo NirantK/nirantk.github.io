@@ -51,3 +51,5 @@ If I remember correctly, you will be paying 8.7% _corporate tax_ in Delaware, an
 This can help simplify the process of receiving payments. However, it is important to note that this option is not always the most tax-efficient. It is advisable to consult a CA to understand the implications of this option for your specific amount, transaction frequency and expected personal expenses.
 
 - **Avoiding Foreign Routes**: Sticking to domestic taxation methods like Section 44ADA can sometimes be more beneficial than considering foreign entity structures. Each option has its own implications and should be carefully considered based on your specific financial and business context.
+
+RemoteIndian has a similar [Tax Guide](https://remoteindian.com/guides/tax-guide) that you might find useful. I'm not a CA, so please consult a CA before making any decisions. I'm sharing what I know in the hopes it's helpful to others. If you have any questions, please feel free to reach out to me on [Twitter](https://twitter.com/nirantk).
