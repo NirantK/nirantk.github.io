@@ -20,7 +20,7 @@ Managing taxation and financial compliance as a consultant in India involves sev
 
 ## 1. Compliance: GST, LUT and FIRC
 
-- **Threshold**: Acquiring a GST number becomes almost mandatory once your income surpasses some X lakhs INR in a given financial year. This step legitimizes your income and ensures compliance with Indian taxation laws. The X limits keeps changing and I'd recommend you check the latest one with a CA and NOT rely on Google for this.
+- **Threshold**: Acquiring a GST number becomes almost mandatory once your income surpasses some X=20 lakhs INR in a given financial year. This step legitimizes your income and ensures compliance with Indian taxation laws. The X limits keeps changing and I'd recommend you check the latest one with a CA and NOT rely on Google for this. Some online services like ClearTax offer GST registration services, but I'd recommend you get it done via a CA. It's a one-time process and you don't need to renew it every year.
 
 - **Sole Proprietorship**: If you are an individual, you get a GST number as a sole proprietor. This is the simplest way to get a GST number and is recommended for most consultants. You can also get a GST number as a private limited company, but that might be overkill for most consultants. My CA also recommended that I get an Udyog Certificate, so I did get one but I'm not sure if it's necessary.
   
