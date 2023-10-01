@@ -91,16 +91,6 @@ def remove_pii(text):
 
     return no_emails
 
-
-class WhatsAppGroupAnalysis:
-    def __init__(self, df: pd.DataFrame):
-        # Read the CSV file
-        self.df = df
-        # Convert the 'Datetime' column to a datetime object
-        self.df['Datetime'] = pd.to_datetime(self.df['Datetime'])
-
-# Redefining the entire class with all methods and their full implementations
-
 class WhatsAppGroupAnalysis:
     def __init__(self, df):
         self.df = df
