@@ -19,6 +19,13 @@
   identifier = "ai"
 
 [[main]]
+  name = "Demo Day October 2023"
+  url = "/demoday102023/"
+  weight = 20
+  identifier = "demoday102023"
+  parent = "ai"
+
+[[main]]
   name = "Community Guidelines"
   url = "/community"
   weight = 20
