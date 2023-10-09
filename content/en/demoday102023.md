@@ -1,8 +1,8 @@
 ---
 title: "Demo Day 10th October 2023"
 description: "Details of the demos presented on 10th October 2023"
-date: 2023-10-09T13:59:39+01:00
-lastmod: 2023-10-09T13:59:39+01:00
+date: 2023-10-09T00:59:39+05:30
+lastmod: 2023-10-09T00:59:39+05:30
 draft: false
 images: []
 weight: 640 
