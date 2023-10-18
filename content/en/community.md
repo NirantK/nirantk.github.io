@@ -143,4 +143,4 @@ These are the co-conspirators with provide the emotional, mental fuel to keep th
 - [Nirant Kasliwal](https://nirantk.com/about/) - AI Engineer at Qdrant
 - [Divya Tak](hhttps://www.linkedin.com/in/divya-tak-56019522/) - Co-founder @joyus.studio || Product and Game Design consulting
 - [Zainab Bawa](https://www.linkedin.com/in/zainabbawa/) - COO, Hasgeek
-- [Pranjal Mehta](https://www.linkedin.com/in/pranjal-mehta/) - Co-founder, Stealth, no longer active in the community
+- [Pranjal Mehta](https://www.linkedin.com/in/pranjal-mehta/) - Co-founder, Stealth (inactive in community)
