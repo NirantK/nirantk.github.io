@@ -110,10 +110,13 @@ For promoting any upcoming event, please reach out to
 The community is run with sincere and ongoing efforts from the following people: 
 
 ### AI for Creatives
-- [Computational Mama](https://computationalmama.xyz/), 
+- [Computational Mama](https://computationalmama.xyz/) 
 - [Divya Tak](hhttps://www.linkedin.com/in/divya-tak-56019522/)
 
-### Expertise and Advisory Board aka Moderators** (in no particular order):
+### Expertise and Advisory Board aka Moderators (in no particular order):
+
+These are the folks who pitch in ideas, help with moderation, lend their expertise and time to the community. This is a voluntary role and I'm deeply grateful for their time and effort.
+
 - [Dr. Pratik Desai](https://www.linkedin.com/in/pratikkumardesai/) - CEO, KissanAI
 - [Divya Tak](hhttps://www.linkedin.com/in/divya-tak-56019522/) - Co-founder @joyus.studio || Product and Game Design consulting
 - [Shubhi Saxena](https://www.linkedin.com/in/shubhi-saxena-28241975/) - Product at Quizizz
@@ -128,7 +131,7 @@ The community is run with sincere and ongoing efforts from the following people:
 - [Aditya Agrawal](https://www.linkedin.com/in/meadityagrawal/) - Co-founder, SuperU, ex-Tesla
 - [Abhishek Mishra](https://www.linkedin.com/in/abhishek-harshvardhan-mishra/) - Technical Lead, Intel -- Resident LLM Finetuning Expert
 - [Sandesh Anand](https://www.linkedin.com/in/anandsandesh/) - App Sec veteran, ex-Razorpay
-- [Aryaman (Strello)](https://www.linkedin.com/in/aryaman-behera/) - Co-founder, Strello
+- [Aryaman](https://www.linkedin.com/in/aryaman-behera/) - Co-founder, Strello
 - [Anshuman Pandey](https://www.linkedin.com/in/gpt4/) - CEO, NimbleBox.ai
 
 ### Founding Members (in no particular order):
