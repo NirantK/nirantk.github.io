@@ -117,7 +117,7 @@ The community is run with sincere and ongoing efforts from the following people:
 
 These are the folks who pitch in ideas, help with moderation, lend their expertise and time to the community. This is a voluntary role and I'm deeply grateful for their time and effort: 
 
-- [Computational Mama](https://computationalmama.xyz/)
+- [Computational Mama](https://computationalmama.xyz/), Creative Extraordinaire
 - [Dr. Pratik Desai](https://www.linkedin.com/in/pratikkumardesai/) - CEO, KissanAI
 - [Divya Tak](hhttps://www.linkedin.com/in/divya-tak-56019522/) - Co-founder @joyus.studio || Product and Game Design consulting
 - [Shubhi Saxena](https://www.linkedin.com/in/shubhi-saxena-28241975/) - Product at Quizizz
