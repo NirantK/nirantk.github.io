@@ -119,10 +119,11 @@ These are the folks who pitch in ideas, help with moderation, lend their experti
 
 - [Computational Mama](https://computationalmama.xyz/), Creative Extraordinaire
 - [Dr. Pratik Desai](https://www.linkedin.com/in/pratikkumardesai/) - CEO, KissanAI
-- [Divya Tak](hhttps://www.linkedin.com/in/divya-tak-56019522/) - Co-founder @joyus.studio || Product and Game Design consulting
+- [Divya Tak](hhttps://www.linkedin.com/in/divya-tak-56019522/) - Co-founder @joyus.studio || Product and Game Design
 - [Shubhi Saxena](https://www.linkedin.com/in/shubhi-saxena-28241975/) - Product at Quizizz
 - [Ravi Theja](https://www.linkedin.com/in/ravidesetty/) - Open Source Contributor, Llama Index
 - [Pratyush Choudhary](https://www.linkedin.com/in/177pc/), AI SaaS & Infrastructure Investor @ Together Fund
+- [Ojasvi Yadav](https://www.linkedin.com/in/ojasviyadav/), AI Lead, WriteSonic
 - [Dev Aggarwal](https://www.linkedin.com/in/devxpy/), Technical Founder at Gooey.AI
 - [Kaushik Bokka](https://www.linkedin.com/in/kaushikbokka/), Stealth Founder, ex-LightningAI, Fynd
 - [Sudharshan Chandra Babu](https://www.linkedin.com/in/cbsudux/), Co-founder, FrontierAI
@@ -141,6 +142,6 @@ These are the co-conspirators with provide the emotional, mental fuel to keep th
 
 - [Soumyadeep Mukherjee](https://www.linkedin.com/in/soumyadeepmukherjee/) - Co-founder and Engineer, Dashtoon
 - [Nirant Kasliwal](https://nirantk.com/about/) - AI Engineer at Qdrant
-- [Divya Tak](hhttps://www.linkedin.com/in/divya-tak-56019522/) - Co-founder @joyus.studio || Product and Game Design consulting
+- [Divya Tak](hhttps://www.linkedin.com/in/divya-tak-56019522/) - Co-founder @joyus.studio || Product and Game Design
 - [Zainab Bawa](https://www.linkedin.com/in/zainabbawa/) - COO, Hasgeek
 - [Pranjal Mehta](https://www.linkedin.com/in/pranjal-mehta/) - Co-founder, Stealth (inactive in community)
