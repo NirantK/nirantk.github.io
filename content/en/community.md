@@ -113,10 +113,11 @@ The community is run with sincere and ongoing efforts from the following people:
 - [Computational Mama](https://computationalmama.xyz/) 
 - [Divya Tak](hhttps://www.linkedin.com/in/divya-tak-56019522/)
 
-### Expertise and Advisory Board aka Moderators (in no particular order):
+### Expertise and Advisory Board aka Moderators:
 
-These are the folks who pitch in ideas, help with moderation, lend their expertise and time to the community. This is a voluntary role and I'm deeply grateful for their time and effort.
+These are the folks who pitch in ideas, help with moderation, lend their expertise and time to the community. This is a voluntary role and I'm deeply grateful for their time and effort: 
 
+- [Computational Mama](https://computationalmama.xyz/)
 - [Dr. Pratik Desai](https://www.linkedin.com/in/pratikkumardesai/) - CEO, KissanAI
 - [Divya Tak](hhttps://www.linkedin.com/in/divya-tak-56019522/) - Co-founder @joyus.studio || Product and Game Design consulting
 - [Shubhi Saxena](https://www.linkedin.com/in/shubhi-saxena-28241975/) - Product at Quizizz
@@ -134,7 +135,10 @@ These are the folks who pitch in ideas, help with moderation, lend their experti
 - [Aryaman](https://www.linkedin.com/in/aryaman-behera/) - Co-founder, Strello
 - [Anshuman Pandey](https://www.linkedin.com/in/gpt4/) - CEO, NimbleBox.ai
 
-### Founding Members (in no particular order):
+### Founding Members:
+
+These are the co-conspirators with provide the emotional, mental fuel to keep this community going. They are the ones who helped me get this off the ground and I'm deeply grateful for their support:
+
 - [Soumyadeep Mukherjee](https://www.linkedin.com/in/soumyadeepmukherjee/) - Co-founder and Engineer, Dashtoon
 - [Nirant Kasliwal](https://nirantk.com/about/) - AI Engineer at Qdrant
 - [Divya Tak](hhttps://www.linkedin.com/in/divya-tak-56019522/) - Co-founder @joyus.studio || Product and Game Design consulting
