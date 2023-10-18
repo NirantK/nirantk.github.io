@@ -104,3 +104,36 @@ For adding new members, please reach out to
 
 For promoting any upcoming event, please reach out to
 [Aditya on WhatsApp](https://wa.me/917880067859)
+
+## Community Moderators
+
+The community is run with sincere and ongoing efforts from the following people: 
+
+### AI for Creatives
+- [Computational Mama](https://computationalmama.xyz/), 
+- [Divya Tak](hhttps://www.linkedin.com/in/divya-tak-56019522/)
+
+### Expertise and Advisory Board aka Moderators** (in no particular order):
+- [Dr. Pratik Desai](https://www.linkedin.com/in/pratikkumardesai/) - CEO, KissanAI
+- [Divya Tak](hhttps://www.linkedin.com/in/divya-tak-56019522/) - Co-founder @joyus.studio || Product and Game Design consulting
+- [Shubhi Saxena](https://www.linkedin.com/in/shubhi-saxena-28241975/) - Product at Quizizz
+- [Ravi Theja](https://www.linkedin.com/in/ravidesetty/) - Open Source Contributor, Llama Index
+- [Pratyush Choudhary](https://www.linkedin.com/in/177pc/), AI SaaS & Infrastructure Investor @ Together Fund
+- [Dev Aggarwal](https://www.linkedin.com/in/devxpy/), Technical Founder at Gooey.AI
+- [Kaushik Bokka](https://www.linkedin.com/in/kaushikbokka/), Stealth Founder, ex-LightningAI, Fynd
+- [Sudharshan Chandra Babu](https://www.linkedin.com/in/cbsudux/), Co-founder, FrontierAI
+- [Sumod Mohan](https://www.linkedin.com/in/sumod-k-mohan-3a30127/) - CEO, AutoInfer
+- [Rahul Bhatnagar](https://www.linkedin.com/in/rhlbhatnagar/) - Founder, Kidovo
+- [Kumar Shivendu](https://www.linkedin.com/in/kshivendu/) - Systems Engineer, Qdrant
+- [Aditya Agrawal](https://www.linkedin.com/in/meadityagrawal/) - Co-founder, SuperU, ex-Tesla
+- [Abhishek Mishra](https://www.linkedin.com/in/abhishek-harshvardhan-mishra/) - Technical Lead, Intel -- Resident LLM Finetuning Expert
+- [Sandesh Anand](https://www.linkedin.com/in/anandsandesh/) - App Sec veteran, ex-Razorpay
+- [Aryaman (Strello)](https://www.linkedin.com/in/aryaman-behera/) - Co-founder, Strello
+- [Anshuman Pandey](https://www.linkedin.com/in/gpt4/) - CEO, NimbleBox.ai
+
+### Founding Members (in no particular order):
+- [Soumyadeep Mukherjee](https://www.linkedin.com/in/soumyadeepmukherjee/) - Co-founder and Engineer, Dashtoon
+- [Nirant Kasliwal](https://nirantk.com/about/) - AI Engineer at Qdrant
+- [Divya Tak](hhttps://www.linkedin.com/in/divya-tak-56019522/) - Co-founder @joyus.studio || Product and Game Design consulting
+- [Zainab Bawa](https://www.linkedin.com/in/zainabbawa/) - COO, Hasgeek
+- [Pranjal Mehta](https://www.linkedin.com/in/pranjal-mehta/) - Co-founder, Stealth, no longer active in the community
