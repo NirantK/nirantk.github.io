@@ -138,10 +138,12 @@ These are the folks who pitch in ideas, help with moderation, lend their experti
 
 ### Founding Members:
 
-These are the co-conspirators with provide the emotional, mental fuel to keep this community going. They are the ones who helped me get this off the ground and I'm deeply grateful for their support:
+These are the co-conspirators which provide the emotional, mental fuel to keep this community going. They are the ones who helped me get this off the ground. I'm deeply grateful for their support:
 
 - [Soumyadeep Mukherjee](https://www.linkedin.com/in/soumyadeepmukherjee/) - Co-founder and Engineer, Dashtoon
-- [Nirant Kasliwal](https://nirantk.com/about/) - AI Engineer at Qdrant
 - [Divya Tak](hhttps://www.linkedin.com/in/divya-tak-56019522/) - Co-founder @joyus.studio || Product and Game Design
 - [Zainab Bawa](https://www.linkedin.com/in/zainabbawa/) - COO, Hasgeek
 - [Pranjal Mehta](https://www.linkedin.com/in/pranjal-mehta/) - Co-founder, Stealth (inactive in community)
+
+On behalf of the community, I'd like to thank all of the above for their time and effort.
+- [Nirant Kasliwal](https://nirantk.com/about/) - AI Engineer at Qdrant
