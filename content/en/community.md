@@ -131,7 +131,7 @@ These are the folks who pitch in ideas, help with moderation, lend their experti
 - [Divya Tak](hhttps://www.linkedin.com/in/divya-tak-56019522/) - Co-founder @joyus.studio || Product and Game Design
 - [Shubhi Saxena](https://www.linkedin.com/in/shubhi-saxena-28241975/) - Product at Quizizz
 - [Ravi Theja](https://www.linkedin.com/in/ravidesetty/) - Open Source Contributor, Llama Index
-- [Pratyush Choudhary](https://www.linkedin.com/in/177pc/), AI SaaS & Infrastructure Investor @ Together Fund
+- [Pratyush Choudhury](https://www.linkedin.com/in/177pc/), AI SaaS & Infrastructure Investor @ Together Fund
 - [Ojasvi Yadav](https://www.linkedin.com/in/ojasviyadav/), AI Lead, WriteSonic
 - [Dev Aggarwal](https://www.linkedin.com/in/devxpy/), Technical Founder at Gooey.AI
 - [Kaushik Bokka](https://www.linkedin.com/in/kaushikbokka/), Stealth Founder, ex-LightningAI, Fynd
