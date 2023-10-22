@@ -105,7 +105,16 @@ For adding new members, please reach out to
 For promoting any upcoming event, please reach out to
 [Aditya on WhatsApp](https://wa.me/917880067859)
 
-## Community Moderators
+# LLMs in Production Group
+
+Rules: 
+1. Don’t promote your product
+2. Be nice, be respectful: Don’t shit on other people’s work
+3. Intro about your product when you join
+4. If you’re not sure about something being posted, just message one of us. 
+5. No messages around funding
+
+# Community Moderators
 
 The community is run with sincere and ongoing efforts from the following people: 
 
