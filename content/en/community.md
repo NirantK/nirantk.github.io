@@ -142,7 +142,7 @@ These are the folks who pitch in ideas, help with moderation, lend their experti
 - [Aditya Agrawal](https://www.linkedin.com/in/meadityagrawal/) - Co-founder, SuperU, ex-Tesla
 - [Abhishek Mishra](https://www.linkedin.com/in/abhishek-harshvardhan-mishra/) - Technical Lead, Intel -- Resident LLM Finetuning Expert
 - [Sandesh Anand](https://www.linkedin.com/in/anandsandesh/) - App Sec veteran, ex-Razorpay
-- [Aryaman](https://www.linkedin.com/in/aryaman-behera/) - Co-founder, Strello
+- [Aryaman Behera](https://www.linkedin.com/in/aryaman-behera/) - Co-founder, [Repello AI](https://www.linkedin.com/company/repello-ai)
 - [Anshuman Pandey](https://www.linkedin.com/in/gpt4/) - CEO, NimbleBox.ai
 
 ### Founding Members:
