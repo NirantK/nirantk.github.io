@@ -60,7 +60,7 @@ When you're hitting latency and throughput limits on the Vector Store, consider 
 [Qdrant](https://qdrant.tech) also has [Binary Quantization](https://qdrant.tech/articles/binary-quantization/) which allows you to scale 30-40x with OpenAI Embeddings.
 
 ## Finetuning
-6. LLM: OpenAI GPT3.5 will often be as good as GPT4 with finetuning.
+LLM: OpenAI GPT3.5 will often be as good as GPT4 with finetuning.
 
 Needs about 100 records and you get the 30% latency improvements for free
 
