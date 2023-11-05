@@ -19,10 +19,13 @@ weight: 50
 
 ## Retrieval and Ranking Matter!
 
-
 ### Chunking
 1. Including section title in your chunks improves that, so does keywords from the documents
 1. Different token-efficient separators in your chunks e.g. ### is a single token in GPT
+
+### Examples
+1. Few examples are better than no examples
+2. Examples at the start and end have the highest weight, the middle ones are kinda forgotten by the LLM
 
 ### Re Rankers
 Latency permitting — use a ReRanker — Cohere, Sentence Transformers and BGE have decent ones out of the box
