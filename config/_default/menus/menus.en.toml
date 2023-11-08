@@ -1,15 +1,8 @@
 [[main]]
-  name = "Summaries"
-  url = "/docs/resources/"
-  weight = 60
-  identifier = "summaries"
-  parent = "ai"
-
-[[main]]
-  name = "DeepHack Demos"
-  url = "/deephackdemos/"
-  weight = 60
-  identifier = "deephack"
+  name = "Community Guidelines"
+  url = "/community/"
+  weight = 20
+  identifier = "community"
   parent = "ai"
 
 [[main]]
@@ -19,6 +12,13 @@
   identifier = "ai"
 
 [[main]]
+  name = "DeepHack Demos"
+  url = "/deephackdemos/"
+  weight = 60
+  identifier = "deephack"
+  parent = "ai"
+
+[[main]]
   name = "Demo Day October 2023"
   url = "/demoday102023"
   weight = 30
@@ -26,10 +26,10 @@
   parent = "ai"
 
 [[main]]
-  name = "Community Guidelines"
-  url = "/community"
-  weight = 20
-  identifier = "community"
+  name = "Summaries"
+  url = "/docs/resources/"
+  weight = 60
+  identifier = "summaries"
   parent = "ai"
 
 [[main]]
