@@ -9,7 +9,21 @@ weight: 110
 toc: true
 ---
 
-# Rules
+# About
+
+Our community is a vibrant nexus connecting over 2,000 AI enthusiasts, predominantly in Bangalore and San Francisco. It's a congregation of high-impact professionals including CTOs, senior ML engineers, and open-source hackers from influential projects and startups like Guardrails, Ragas, Llama Index, Qdrant, FastEmbed, KissanAI, Sarvam, Portkey, and more.
+
+Each month, our community engages over 200 active members. We discuss topics ranging from compute cost improvements via vLLM to latency and evaluations. 
+
+![](demoday102023.jpg)
+
+As a team, we have done monthly events since February, which include talks, demo days, hackathons, and a 24-hour hackathon. Our speakers have included industry luminaries like Amod Malviya (Flipkart/Udaan) and Prof. Pratyush (AI4Bharat/Sarvam), offering invaluable insights into the latest AI advancements.
+
+Our community's impact is evident in the success stories it has nurtured. Ragas has evolved into a business and recently got into YCombinator. Previous speaker Ravi Theja found a significant roles at Llama Index, while collaborator Shivendu Kumar joined Qdrant. Notably, FastEmbed itself was born out of the community's articulated needs, exemplifying our commitment to fostering real-world AI solutions.
+
+In essence, our community is not just a forum for discussion but a melting pot for AI Engineering innovation and collaboration.
+
+# WhatsApp Community Rules
 
 ✅ - Please do these behaviours!
 
