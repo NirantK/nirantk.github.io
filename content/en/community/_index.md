@@ -69,7 +69,7 @@ These guides are good rules of thumbs for behaviour, but admins reserve all righ
 
 👎 Sensationalism and exaggerations. 
 
-👎 Don’t ask to just ask. Do some preliminary research beforehand. 
+👎 Don’t ask to just ask. Add context e.g. what you've tried, what can folks help with
 
 ## How can I promote my product/blog/event on group?
 
