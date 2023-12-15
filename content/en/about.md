@@ -10,19 +10,15 @@ weight: 110
 toc: true
 ---
 
-As a consultant and advisor:
-- I specialize in working with Early stage founders, 0 to 1 stage of product development or later stage, adding a new feature to an existing product
-- For non-coding founders, I act as a tour guide for advanced AI technologies - improving their understanding of potential applications and limitations alike
-
+I'm a Machine Learning Consultant and AI Engineer. I help startups and founders build AI products and services.
 This includes things like **LLMs** and **Vector Databases**, which are amazing tools which unlock a lot of new, intelligent value but also have their own limits.
+
+I recently built [FastEmbed](https://qdrant.github.io/fastembed), an embedding library built for speed using ONNX. It is maintained with [Qdrant](https://qdrant.tech/) - a vector search engine.
 
 Trivia:
 1. Dr. Andrew Ng recommends [Awesome NLP](https://github.com/keon/awesome-nlp), a repo I've maintained since 2018 at Stanford's Deep Learning course [CS 230](https://cs230.stanford.edu/section/1/).
 2. Top 5 GenAI Scientists in India, [Analytics India Magazine](https://www.analyticsvidhya.com/datahack-summit-2023/award-nomination/)
 3. I have written a [book](#book) on Natural Language Processing 
-
-I am on a sabbatical. I enjoy my time playing board games, running India's largest GenerativeAI community. 
-I am learning to be better at software library design ([agentai](https://github.com/NirantK/agentai)) and [writing](/writing). 
 
 ## Background
 
