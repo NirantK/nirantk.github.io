@@ -68,8 +68,9 @@ def extract_messages(file_path: Path) -> pd.DataFrame:
 
 def cleanup(df):
     # Drop the rows with no message
-    df = df.dropna()
-
+    # df = df.dropna()
+    df = df.drop_duplicates(subset=["Datetime", "Sender", "Message"])
+    df = df.sort_values(by="Datetime")
     df = df[~df["Message"].str.contains("deleted this message")]
     df = df[~df["Message"].str.contains("message was deleted")]
     df = df[~df["Message"].str.contains("changed the subject to")]
