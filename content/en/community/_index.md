@@ -2,7 +2,7 @@
 title: "Generative AI Community: General Guide"
 description: "Rules, Resources and Recommendations for the Generative AI Community"
 date: 2023-06-16T13:59:39+01:00
-lastmod: 2023-06-01T13:59:39+01:00
+lastmod: 2024-02-01T13:59:39+01:00
 draft: false
 images: []
 weight: 110
