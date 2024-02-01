@@ -45,7 +45,7 @@ These guides are good rules of thumbs for behaviour, but admins reserve all righ
 
 ## Adding Friends
 
-✅ Share the group link with your friends and ask them to apply: https://nas.io/the-generativeai-group (Valid till 15th September 2023)
+✅ Share the group link with your friends and ask them to apply: https://nas.io/the-generativeai-group
 
 👎 Asking on main to add your friend. Ping admins directly. 
 
