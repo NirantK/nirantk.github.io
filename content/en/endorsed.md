@@ -17,7 +17,7 @@ I'm happy to connect you with them if you're looking to hire or collaborate with
 
 | Name | Skills | Remarks/Notes | Endorsed By |
 | --- | --- | --- | -- |
-| [Shubhi Saxena](https://www.linkedin.com/in/shubhi-saxena-28241975/) | Engineer-turned-early-Product: PLG, Pre-Sales, Sales or Marketing | Was an anchoring and energetic friend for the [GenerativeAI DeepHack](https://nirantk.com/deephackdemos) which we did together. Update: Has joined Quizizz in the Product Management Organisation | Nirant
+| [Nivedita Prabhu](https://www.linkedin.com/in/niveditaprabhu/) | Brand, Advertising & Marketing | Mollen-Lowe Lintas, Ogilvy & inMobi alum, dear friend | Nirant |
 | [Dhruv Anand](https://www.linkedin.com/in/dhruv-anand-ainorthstartech/) | Search Consultant, VectorDB & LLM | ex-CMU, Google & Meta Know him via the GenerativeAI Community | Nirant |
 | [Sudarshan Chandra Babu](https://www.linkedin.com/in/cbsudux/) | Generative Image Models | Former Enterpreneur, know him via the GenerativeAI Community | Nirant |
 | [Anudeep](https://www.linkedin.com/in/anudeepyegireddi/) | ML Engineer | Was the category winner at the GenerativeAI Hackathon | Nirant |
