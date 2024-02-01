@@ -14,7 +14,6 @@ Talented friends I can endorse for their work -- either because I've worked with
 
 I'm happy to connect you with them if you're looking to hire or collaborate with them, with double opt-in from both sides.
 
-
 | Name | Skills | Remarks/Notes | Endorsed By |
 | --- | --- | --- | -- |
 | [Nivedita Prabhu](https://www.linkedin.com/in/niveditaprabhu/) | Brand, Advertising & Marketing | Mollen-Lowe Lintas, Ogilvy & inMobi alum, dear friend | Nirant |
