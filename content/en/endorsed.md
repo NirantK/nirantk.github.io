@@ -2,13 +2,14 @@
 title: "Endorsed Friends"
 description: "Talented friends I can endorse for their work"
 lead: "Nirant's Endorsed List of Talented People"
-date: 2020-10-06T08:48:57+00:00
-lastmod: 2020-10-06T08:48:57+00:00
+date: 2023-06-01T08:48:57+00:00
+lastmod: 2024-02-01T08:48:57+00:00
 draft: false
 images: []
 weight: 100
 toc: true
 ---
+Last Updated: February 2024
 
 Talented friends I can endorse for their work -- either because I've worked with them or know them socially.
 
@@ -34,5 +35,3 @@ Past endorsements have then gone on to join companies like EQT Ventures, Quizizz
 | [Kumar Shivendu](https://www.linkedin.com/in/kshivendu/) | Product engineer with interest in Devtools, Search & LLMs | Builds auth devtools at SuperTokens, he was the dev behind this [blog](https://nirantk.com/writing/pgvector-vs-qdrant/). Update: Has joined Qdrant.tech after the endorsement! | Nirant |
 
 You can request addition and edits to this page by sending a PR to [this file](https://github.com/NirantK/nirantk.github.io/blob/main/content/en/endorsed.md)
-
-Last Updated: June 2023
