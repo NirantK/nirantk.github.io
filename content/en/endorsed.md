@@ -18,6 +18,7 @@ I'm happy to connect you with them if you're looking to hire or collaborate with
 | Name | Skills | Remarks/Notes | Endorsed By |
 | --- | --- | --- | -- |
 | [Nivedita Prabhu](https://www.linkedin.com/in/niveditaprabhu/) | Brand, Advertising & Marketing | Mollen-Lowe Lintas, Ogilvy & inMobi alum, dear friend | Nirant |
+| [Heer Shingala](https://www.linkedin.com/in/heer-shingala/?originalSubdomain=in) | B2B SaaS Marketing | Know her socially | Nirant |
 | [Dhruv Anand](https://www.linkedin.com/in/dhruv-anand-ainorthstartech/) | Search Consultant, VectorDB & LLM | ex-CMU, Google & Meta Know him via the GenerativeAI Community | Nirant |
 | [Sudarshan Chandra Babu](https://www.linkedin.com/in/cbsudux/) | Generative Image Models | Former Enterpreneur, know him via the GenerativeAI Community | Nirant |
 | [Anudeep](https://www.linkedin.com/in/anudeepyegireddi/) | ML Engineer | Was the category winner at the GenerativeAI Hackathon | Nirant |
