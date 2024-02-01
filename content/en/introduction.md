@@ -9,7 +9,7 @@ images: []
 weight: 100
 toc: true
 ---
-If you're visiting this page, it means you're likely a founder or VC interested in working with me. I'm going to use this document to describe how I choose projects and split my work between advisory work and consulting. If it all makes sense, shoot me an email at [hello@nirantk.com](mailto:hello@nirantk.com).
+If you're visiting this page, it means you're likely a founder or VC interested in working with me. I'm going to use this document to describe how I choose projects and split my work between advisory work and consulting. If it all makes sense, shoot me an email at nirant [dot] kasliwal [at] gmail
 
 ## Picking Projects
 - I prioritize projects based on three key factors:
@@ -37,7 +37,7 @@ By following this approach, I try to understand the root of what we need to do, 
 
 **Next steps:**
 
-If you got this far, shoot me a *short* email to [hello@nirantk.com](mailto:hello@nirantk.com) about what you're looking for help on. If I think I can help, I'll send you a link to my calendar to schedule a 30-minute call to discuss the project in more detail and see if we're a good fit.
+If you got this far, shoot me a *short* email to nirant [dot] kasliwal [at] gmail about what you're looking for help on. If I think I can help, I'll send you a link to my calendar to schedule a 30-minute call to discuss the project in more detail and see if we're a good fit.
 
 **Here are some examples that have caught my interest:**
 
