@@ -3,7 +3,7 @@ title: "Endorsed Friends"
 description: "Talented friends I can endorse for their work"
 lead: "Nirant's Endorsed List of Talented People"
 date: 2023-06-01T08:48:57+00:00
-lastmod: 2024-02-01T08:48:57+00:00
+lastmod: 2024-02-29T08:48:57+00:00
 draft: false
 images: []
 weight: 100
