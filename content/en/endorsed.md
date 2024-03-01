@@ -36,3 +36,33 @@ Past endorsements have then gone on to join companies like EQT Ventures, Quizizz
 | [Kumar Shivendu](https://www.linkedin.com/in/kshivendu/) | Product engineer with interest in Devtools, Search & LLMs | Builds auth devtools at SuperTokens, he was the dev behind this [blog](https://nirantk.com/writing/pgvector-vs-qdrant/). Update: Has joined Qdrant.tech after the endorsement! | Nirant |
 
 You can request addition and edits to this page by sending a PR to [this file](https://github.com/NirantK/nirantk.github.io/blob/main/content/en/endorsed.md)
+
+# Speakers, Mentors and Jury for GenerativeAI
+
+These are folks whose functional skills have been endorsed by me. I don't have a personal relationship with all of them, but I've seen their work and can vouch for their skills. Please feel free to reach out to them for speaking, mentoring or judging opportunities.
+
+| Name                | Organisation            | Designation                          | Social Link                                                                                                        |
+|---------------------|-------------------------|--------------------------------------|--------------------------------------------------------------------------------------------------------------------|
+| Usha Rengaraju      | Exa Protocol            | Chief Data Scientist                 | [LinkedIn](https://www.linkedin.com/in/usha-rengaraju-b570b7a2/) [Twitter](https://twitter.com/URengaraju)         |
+| Srujana Merugu      | Amazon                  | Principal Data Scientist             | [LinkedIn](https://www.linkedin.com/in/srujana-merugu-a7243819/?originalSubdomain=in)                              |
+| Soumyadeep Mukherjee| Dashtoon                | Co-Founder                           | [LinkedIn](https://www.linkedin.com/in/soumyadeepmukherjee/?originalSubdomain=in)                                  |
+| Soumendra Dhanee    | VJT Inc                 | Chief Scientist                      | [LinkedIn](https://www.linkedin.com/in/soumendradhanee/?originalSubdomain=in)                                      |
+| Shubha Shedthikere  | Swiggy                  | Senior Manager - Data Science        | [LinkedIn](https://www.linkedin.com/in/shubha-shedthikere-233a3814/)                                               |
+| Shruti Rijhwani     | Google AI               | Research Scientist                   | [LinkedIn](https://www.linkedin.com/in/shrutirijhwani/)                                                            |
+| Shreya Jain         | Simpl                   | Principal Product Manager            | [LinkedIn](https://www.linkedin.com/in/shreya-jain24/?originalSubdomain=in)                                        |
+| Shankar Natarajan   | Microsoft               | Principal Product Manager            | [LinkedIn](https://www.linkedin.com/in/shankar-natarajan-0314b511/)                                                |
+| Priyanka Bhatt      | Walmart Global Tech India| Senior Manager II, Data Science, Conversational AI | [LinkedIn](https://www.linkedin.com/in/priyanka-bhatt/)                        |
+| Pratyush Kumar      | SarvamAI                | Co-founder                           | [LinkedIn](https://www.linkedin.com/in/pratyush-kumar-8844a8a3/)                                                    |
+| Pratik Desai        | KissanAI                | Co-founder                           | [Twitter](https://twitter.com/chheplo?lang=en)                                                                      |
+| Mansi Gupta         | Google Workspace        | Software Engineer on LLMs            | [LinkedIn](https://www.linkedin.com/in/immansigupta/)                                                               |
+| Manisha Raisinghania| LogiNext                | Co-Founder                           | [LinkedIn](https://www.linkedin.com/in/manisha-raisinghani/?originalSubdomain=in)                                   |
+| Lavanya Tekumalla   | AiFonic Labs            | Co-founder                           | [LinkedIn](https://www.linkedin.com/in/lavanyats/)                                                                   |
+| Lalit Pagaria       | Oraika                  | Co-Founder                           | [LinkedIn](https://www.linkedin.com/in/lalitpagaria/?originalsubdomain=in)                                          |
+| Heer Shingala       | Independent Consultant  | Marketing Consultant                 | [LinkedIn](https://www.linkedin.com/in/heer-shingala/)                                                               |
+| Heena Bansal        | InMobi                  | Senior Data Scientist                | [LinkedIn](https://www.linkedin.com/in/heenabansal/)                                                                 |
+| Dr. Sumod Mohan     | AutoInfer               | Co-Founder                           | [LinkedIn](https://www.linkedin.com/in/sumod-k-mohan-3a30127/?originalSubdomain=in)                                 |
+| Divya Tak           | Joyous Studio           | Co-founder/Creative Artist           | [LinkedIn](https://www.linkedin.com/in/divya-tak-56019522/?originalSubdomain=in)                                    |
+| Dev Aggarwal        | Gooey.ai                | Co-founder                           | [LinkedIn](https://www.linkedin.com/in/dev-aggarwal-3616a0179/?originalSubdomain=in)                                |
+| Chirasmita Mallick  | G2                      | Principal Data Scientist             | [LinkedIn](https://www.linkedin.com/in/chirasmitamallick/) [Email](mailto:hi@chirasmita.com)                        |
+| Aparna Gupta        | Microsoft               | Principal Software Engineer Manager  | [LinkedIn](https://www.linkedin.com/in/aparanagupta/)                                                               |
+| Aishwarya Goel      | Inferless               | Co-founder                           | [LinkedIn](https://www.linkedin.com/in/aishwarya-goel/?originalSubdomain=in)                                        |
