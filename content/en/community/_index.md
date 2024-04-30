@@ -2,7 +2,7 @@
 title: "Generative AI Community: General Guide"
 description: "Rules, Resources and Recommendations for the Generative AI Community"
 date: 2023-06-16T13:59:39+01:00
-lastmod: 2024-02-01T13:59:39+01:00
+lastmod: 2024-04-29T13:59:39+01:00
 draft: false
 images: []
 weight: 110
@@ -139,28 +139,31 @@ The community is run with sincere and ongoing efforts from the following people:
 
 These are the folks who pitch in ideas, help with moderation, lend their expertise and time to the community. This is a voluntary role and I'm deeply grateful for their time and effort: 
 
-- [Computational Mama](https://computationalmama.xyz/), Creative Extraordinaire
-- [Dr. Pratik Desai](https://www.linkedin.com/in/pratikkumardesai/) - CEO, KissanAI
-- [Divya Tak](hhttps://www.linkedin.com/in/divya-tak-56019522/) - Co-founder @joyus.studio || Product and Game Design
-- [Shubhi Saxena](https://www.linkedin.com/in/shubhi-saxena-28241975/) - Product at Quizizz
-- [Ravi Theja](https://www.linkedin.com/in/ravidesetty/) - Open Source Contributor, Llama Index
-- [Pratyush Choudhury](https://www.linkedin.com/in/177pc/), AI SaaS & Infrastructure Investor @ Together Fund
-- [Ojasvi Yadav](https://www.linkedin.com/in/ojasviyadav/), AI Lead, WriteSonic
-- [Dev Aggarwal](https://www.linkedin.com/in/devxpy/), Technical Founder at Gooey.AI
-- [Kaushik Bokka](https://www.linkedin.com/in/kaushikbokka/), Stealth Founder, ex-LightningAI, Fynd
-- [Sudharshan Chandra Babu](https://www.linkedin.com/in/cbsudux/), Co-founder, FrontierAI
-- [Sumod Mohan](https://www.linkedin.com/in/sumod-k-mohan-3a30127/) - CEO, AutoInfer
-- [Rahul Bhatnagar](https://www.linkedin.com/in/rhlbhatnagar/) - Founder, Kidovo
-- [Kumar Shivendu](https://www.linkedin.com/in/kshivendu/) - Systems Engineer, Qdrant
-- [Aditya Agrawal](https://www.linkedin.com/in/meadityagrawal/) - Co-founder, SuperU, ex-Tesla
-- [Abhishek Mishra](https://www.linkedin.com/in/abhishek-harshvardhan-mishra/) - Technical Lead, Intel -- Resident LLM Finetuning Expert
-- [Sandesh Anand](https://www.linkedin.com/in/anandsandesh/) - App Sec veteran, ex-Razorpay
-- [Aryaman Behera](https://www.linkedin.com/in/aryaman-behera/) - Co-founder, [Repello AI](https://www.linkedin.com/company/repello-ai)
-- [Anshuman Pandey](https://www.linkedin.com/in/gpt4/) - CEO, NimbleBox.ai
-- [Pratiksha Dake](https://www.linkedin.com/in/pratikshadake/) - Founder, Graphia
-- [Navita Pareek](https://www.linkedin.com/in/navita-pareek-1430a79b/) - Founder, InstaPhotoAI
-- [Sachin Dharashivkar](https://www.linkedin.com/in/sachin-dharashivkar/) - Founder, AthenaAgent
-- [Vignesh Baskaran](https://www.linkedin.com/in/vigneshbaskaran0123/) - Co-founder, HexoAI
+1. [Computational Mama](https://computationalmama.xyz/), Creative Extraordinaire
+2. [Dr. Pratik Desai](https://www.linkedin.com/in/pratikkumardesai/) - CEO, KissanAI
+3. [Divya Tak](hhttps://www.linkedin.com/in/divya-tak-56019522/) - Co-founder @joyus.studio || Product and Game Design
+4. [Shubhi Saxena](https://www.linkedin.com/in/shubhi-saxena-28241975/) - Product at Quizizz
+5. [Ravi Theja](https://www.linkedin.com/in/ravidesetty/) - Open Source Contributor, Llama Index
+6. [Pratyush Choudhury](https://www.linkedin.com/in/177pc/), AI SaaS & Infrastructure Investor @ Together Fund
+7. [Ojasvi Yadav](https://www.linkedin.com/in/ojasviyadav/), AI Lead, WriteSonic
+8. [Dev Aggarwal](https://www.linkedin.com/in/devxpy/), Technical Founder at Gooey.AI
+9. [Kaushik Bokka](https://www.linkedin.com/in/kaushikbokka/), Stealth Founder, ex-LightningAI, Fynd
+10. [Sudharshan Chandra Babu](https://www.linkedin.com/in/cbsudux/), Co-founder, FrontierAI
+11. [Sumod Mohan](https://www.linkedin.com/in/sumod-k-mohan-3a30127/) - CEO, AutoInfer
+12. [Rahul Bhatnagar](https://www.linkedin.com/in/rhlbhatnagar/) - Founder, Kidovo
+13. [Kumar Shivendu](https://www.linkedin.com/in/kshivendu/) - Systems Engineer, Qdrant
+14. [Aditya Agrawal](https://www.linkedin.com/in/meadityagrawal/) - Co-founder, SuperU, ex-Tesla
+15. [Abhishek Mishra](https://www.linkedin.com/in/abhishek-harshvardhan-mishra/) - Technical Lead, Intel -- Resident LLM Finetuning Expert
+16. [Sandesh Anand](https://www.linkedin.com/in/anandsandesh/) - App Sec veteran, ex-Razorpay
+17. [Aryaman Behera](https://www.linkedin.com/in/aryaman-behera/) - Co-founder, [Repello AI](https://www.linkedin.com/company/repello-ai)
+18. [Anshuman Pandey](https://www.linkedin.com/in/gpt4/) - CEO, NimbleBox.ai
+19. [Pratiksha Dake](https://www.linkedin.com/in/pratikshadake/) - Founder, Graphia
+20. [Navita Pareek](https://www.linkedin.com/in/navita-pareek-1430a79b/) - Founder, InstaPhotoAI
+21. [Sachin Dharashivkar](https://www.linkedin.com/in/sachin-dharashivkar/) - Founder, AthenaAgent
+22. [Vignesh Baskaran](https://www.linkedin.com/in/vigneshbaskaran0123/) - Co-founder, HexoAI
+23. [Dhruv Anand](https://www.linkedin.com/in/dhruv-anand-ainorthstartech/) - Search Consultant, VectorDB & LLM
+24. [Soumyadeep Mukherjee](https://www.linkedin.com/in/soumyadeepmukherjee/) - Co-founder and Engineer, Dashtoon
+25. [Digvijay](https://www.linkedin.com/in/digvijay-singh-88-safety/) - ex-Hyperverge, Stealth Founder
 
 ### Founding Members:
 
