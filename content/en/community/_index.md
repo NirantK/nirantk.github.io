@@ -154,7 +154,7 @@ These are the folks who pitch in ideas, help with moderation, lend their experti
 13. [Kumar Shivendu](https://www.linkedin.com/in/kshivendu/) - Systems Engineer, Qdrant
 14. [Aditya Agrawal](https://www.linkedin.com/in/meadityagrawal/) - Co-founder, SuperU, ex-Tesla
 15. [Abhishek Mishra](https://www.linkedin.com/in/abhishek-harshvardhan-mishra/) - Technical Lead, Intel -- Resident LLM Finetuning Expert
-16. [Sandesh Anand](https://www.linkedin.com/in/anandsandesh/) - App Sec veteran, ex-Razorpay
+16. [Sandesh Anand](https://www.linkedin.com/in/anandsandesh/) - Co-founder, Seezo, ex-Razorpay
 17. [Aryaman Behera](https://www.linkedin.com/in/aryaman-behera/) - Co-founder, [Repello AI](https://www.linkedin.com/company/repello-ai)
 18. [Anshuman Pandey](https://www.linkedin.com/in/gpt4/) - CEO, NimbleBox.ai
 19. [Pratiksha Dake](https://www.linkedin.com/in/pratikshadake/) - Founder, Graphia
