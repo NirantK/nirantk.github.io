@@ -119,15 +119,6 @@ For adding new members, please reach out to
 For promoting any upcoming event, please reach out to
 [Aditya on WhatsApp](https://wa.me/917880067859)
 
-# LLMs in Production Group
-
-Rules: 
-1. Don’t promote your product
-2. Be nice, be respectful: Don’t shit on other people’s work
-3. Intro about your product when you join
-4. If you’re not sure about something being posted, just message one of us. 
-5. No messages around funding
-
 # Community Moderators
 
 The community is run with sincere and ongoing efforts from the following people: 
@@ -135,6 +126,14 @@ The community is run with sincere and ongoing efforts from the following people:
 ### AI for Creatives
 - [Computational Mama](https://computationalmama.xyz/) 
 - [Divya Tak](hhttps://www.linkedin.com/in/divya-tak-56019522/)
+
+### Women in AI
+- [Pratiksha Dake](https://www.linkedin.com/in/pratikshadake/) - Founder, Graphia
+- [Navita Pareek](https://www.linkedin.com/in/navita-pareek-1430a79b/) - Founder, InstaPhotoAI
+
+### Agents and Tool Usage
+- [Sachin Dharashivkar](https://www.linkedin.com/in/sachin-dharashivkar/) - Founder, AthenaAgent
+- [Vignesh Baskaran](https://www.linkedin.com/in/vigneshbaskaran0123/) - Co-founder, HexoAI
 
 ### Expertise and Advisory Board aka Moderators:
 
@@ -158,6 +157,10 @@ These are the folks who pitch in ideas, help with moderation, lend their experti
 - [Sandesh Anand](https://www.linkedin.com/in/anandsandesh/) - App Sec veteran, ex-Razorpay
 - [Aryaman Behera](https://www.linkedin.com/in/aryaman-behera/) - Co-founder, [Repello AI](https://www.linkedin.com/company/repello-ai)
 - [Anshuman Pandey](https://www.linkedin.com/in/gpt4/) - CEO, NimbleBox.ai
+- [Pratiksha Dake](https://www.linkedin.com/in/pratikshadake/) - Founder, Graphia
+- [Navita Pareek](https://www.linkedin.com/in/navita-pareek-1430a79b/) - Founder, InstaPhotoAI
+- [Sachin Dharashivkar](https://www.linkedin.com/in/sachin-dharashivkar/) - Founder, AthenaAgent
+- [Vignesh Baskaran](https://www.linkedin.com/in/vigneshbaskaran0123/) - Co-founder, HexoAI
 
 ### Founding Members:
 
