@@ -79,21 +79,14 @@ These guides are good rules of thumbs for behaviour, but admins reserve all righ
 
 ## 📚 Resources
 
-### Past Discussion Summaries
-Past discussion [summaries](https://nirantk.com/docs/resources/)
-
 ### Event announcements
-- Please fill out this form: [Generative AI Events](https://forms.gle/s3Na6t7HzW43wfEX7). 
-- All events are published here: [Generative AI Events](https://docs.google.com/spreadsheets/d/e/2PACX-1vTftcrqLyUN8N81ekOBsQgWUWqg_t0QKk0Xil49OZKNhSrhHHN3DZRucTo4RJnYGQBYzes0NFxJKAL_/pubhtml)
-
-
-## Hiring and Jobs
+https://chat.whatsapp.com/FMQSb8S6GXk0eLkS9qHpKP
 
 ### Hiring Announcements:
-Please fill out [this form](https://forms.gle/DRuZGp9z8UHpC8sw9). We will compile these and share them weekly with the group
+Please share them here: https://chat.whatsapp.com/FMQSb8S6GXk0eLkS9qHpKP
 
 ### Looking for jobs?
-See [open roles here](https://docs.google.com/spreadsheets/d/1WOlIw1vxnJXPLZpfcdpozhaR0TXN1hPuFQs_puL3Gn8/edit?resourcekey#gid=1112881564)
+Join here: https://chat.whatsapp.com/FMQSb8S6GXk0eLkS9qHpKP
 
 ### Hackathon and Jury Recommendations
 - [Mentors and Jury](https://docs.google.com/spreadsheets/d/1Aj_mAmcZVGE-cIF6M_CsAqtSmea-SL7nbPPuAyw3_T0/edit#gid=0) from India
