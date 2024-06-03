@@ -48,7 +48,7 @@
 [2023-03-30, 22:24:26] Dalan Mendoca: ‎Dalan Mendoca joined from the community
 [2023-03-30, 22:34:54] Rounak Datta Hackathon Winner: ‎Rounak Datta Hackathon Winner joined from the community
 [2023-03-31, 01:31:46] Rohan Manchanda: ‎Rohan Manchanda joined from the community
-[2023-03-31, 02:51:58] ~ Arihant: ‎~ Arihant joined from the community
+[2023-03-31, 02:51:58] ~ Arihant Barjatya: ‎~ Arihant Barjatya joined from the community
 [2023-03-31, 13:28:04] Satyajeet Kanetkar: ‎Satyajeet Kanetkar joined from the community
 [2023-03-31, 14:04:14] Harshal Bhatia: ‎Harshal Bhatia joined from the community
 [2023-03-31, 15:48:13] ~ Ashutosh Agarwal: ‎~ Ashutosh Agarwal joined from the community
@@ -140,7 +140,7 @@
 [2023-04-18, 11:15:13] ~ Rikkin Majani: ‎~ Rikkin Majani joined from the community
 [2023-04-18, 15:52:07] ~ Jonathan Ve Vance: ‎~ Jonathan Ve Vance joined from the community
 [2023-04-18, 16:38:34] ~ Ravi Trivedi: ‎~ Ravi Trivedi joined from the community
-[2023-04-19, 01:38:53] ~ Neha: ‎~ Neha was added
+[2023-04-19, 01:38:54] ~ Neha: ‎~ Neha was added
 [2023-04-19, 22:27:12] ~ Ravi Trivedi: Dear All - This group seems very quiet. Has anyone tried to train an embeddings model on Indian Scripture (like a Purana) here.
 [2023-04-19, 22:34:59] jyotirmayjk Hackathon: There are lot of PoCs like GitaGPT
 [2023-04-19, 22:35:05] jyotirmayjk Hackathon: https://www.gitagpt.in/
@@ -692,7 +692,7 @@ What happens when you insert a piece of information into the context, that contr
 
 “GPT-4 shows an 80% memorization ratio for the most popular questions. This may suggest that LLMs form a stronger belief in facts concerning more popular entities, possibly because they have seen these facts and entities more often during pre-training, which leads to a stronger confirmation bias.”
 [2023-05-23, 09:29:06] Dev Aggarwal: Deep implications for open domain retireval and generation IMO - for closed domain one can probably get away with sampling the LM and prompt engineering for their domain and pretraining data, but I am worried how accurate open domain qa like bing chat really are.
-[2023-05-23, 11:52:20] ~ Mani: ‎~ Mani joined from the community
+[2023-05-23, 11:52:20] Mani sarvam.ai: ‎Mani sarvam.ai joined from the community
 [2023-05-23, 12:38:41] Hasan Tech Art: https://theoatmeal.com/comics/believe does this sounds like the backfire effect to you?
 [2023-05-23, 12:40:41] ~ Debashish Ghatak: ‎~ Debashish Ghatak left
 [2023-05-23, 12:58:22] Dev Aggarwal: No, in the case of LMs the opposite is true. The more quantity of evidence you provide, the more likely they are to believe what you tell them.
@@ -714,9 +714,9 @@ counter-memory = prompt
 [2023-05-23, 13:14:39] ~ Karthik Prabhu: It takes the least controversial view
 [2023-05-23, 13:15:47] Dev Aggarwal: Nah the key word is *perceives itself* as open and agreeable
 [2023-05-23, 13:54:35] Hasan Tech Art: I think the underneath model is really flexible in terms of following the prompt vs pre trained model as you can see with jailbreak prompts. You are correct about chatgpt replies. @918764022384 yes they seems to be using itself to decide on these parameters. It blocks me at different times depending on the prompt injection so there seems to be an aggregated score for “offensive” language and possibly some alternative guard rails as well like simple keyword detection.
-[2023-05-23, 14:58:27] ~ vignesh iyer: ‎~ vignesh iyer was added
-[2023-05-23, 17:11:27] Ruthvik Reddy: ‎Ruthvik Reddy was added
-[2023-05-23, 17:11:27] ~ Nijil Y: ‎~ Nijil Y was added
+[2023-05-23, 14:58:28] ~ vignesh iyer: ‎~ vignesh iyer was added
+[2023-05-23, 17:11:28] Ruthvik Reddy: ‎Ruthvik Reddy was added
+[2023-05-23, 17:11:28] ~ Nijil Y: ‎~ Nijil Y was added
 [2023-05-23, 21:45:49] Nitin Wyse: ‎Nitin Wyse joined from the community
 [2023-05-24, 19:36:27] Ravi Srinivasan: ‎Ravi Srinivasan joined using this group's invite link
 [2023-05-24, 19:36:40] Ravi Srinivasan: https://www.nibib.nih.gov/news-events/newsroom/study-finds-artificial-intelligence-can-determine-race-medical-images#:~:text=In%20a%20recent%20study%2C%20published,not%20possible%20for%20human%20experts
@@ -912,24 +912,24 @@ I guess there’s no clear line, so better to err on the side of a more balanced
 
 That entire lingo lost credibility, but wasn’t there atleast a few interesting protocols around a world where governance crosses the old boundaries of nation state and embraces something more relevant in an age of agent meditates economics and dare l co-opt the word “world coin” ?
 [2023-05-31, 18:13:30] Vamshi: *mediated economics
-[2023-05-31, 18:34:57] ~ Shouvik Ghosh Roy: ‎~ Shouvik Ghosh Roy was added
-[2023-05-31, 18:34:57] Rahul Sundar 2013: ‎Rahul Sundar 2013 was added
-[2023-05-31, 18:34:57] ~ Anil: ‎~ Anil was added
-[2023-05-31, 18:34:57] Shibangi Barua Budweiser Teetotaler: ‎Shibangi Barua Budweiser Teetotaler was added
-[2023-05-31, 18:34:57] Shubham Sharma 2012C6: ‎Shubham Sharma 2012C6 was added
-[2023-05-31, 18:34:57] Aniket Kamath Nexus IIT B: ‎Aniket Kamath Nexus IIT B was added
-[2023-05-31, 18:34:57] ~ Shriniket Acharya: ‎~ Shriniket Acharya was added
-[2023-05-31, 18:34:57] ~ Ajay: ‎~ Ajay was added
-[2023-05-31, 18:34:57] ~ Harsh: ‎~ Harsh was added
-[2023-05-31, 18:34:57] ~ Sohil Bhagat: ‎~ Sohil Bhagat was added
-[2023-05-31, 18:34:57] Gaurav MonsterAPI Qblocks: ‎Gaurav MonsterAPI Qblocks was added
-[2023-05-31, 18:34:57] Saiyam Wyse: ‎Saiyam Wyse was added
-[2023-05-31, 18:34:57] Sourasis Roy: ‎Sourasis Roy was added
-[2023-05-31, 18:34:57] ~ Akshay Jain: ‎~ Akshay Jain was added
-[2023-05-31, 18:34:57] ~ Shubh: ‎~ Shubh was added
-[2023-05-31, 18:34:57] ~ Arko Cy: ‎~ Arko Cy was added
-[2023-05-31, 18:34:57] Ravi Theja: ‎Ravi Theja was added
-[2023-05-31, 18:34:57] ~ Pradeep Ayyagari: ‎~ Pradeep Ayyagari was added
+[2023-05-31, 18:34:58] ~ Shouvik Ghosh Roy: ‎~ Shouvik Ghosh Roy was added
+[2023-05-31, 18:34:58] Rahul Sundar 2013: ‎Rahul Sundar 2013 was added
+[2023-05-31, 18:34:58] ~ Anil: ‎~ Anil was added
+[2023-05-31, 18:34:58] Shibangi Barua Budweiser Teetotaler: ‎Shibangi Barua Budweiser Teetotaler was added
+[2023-05-31, 18:34:58] Shubham Sharma 2012C6: ‎Shubham Sharma 2012C6 was added
+[2023-05-31, 18:34:58] Aniket Kamath Nexus IIT B: ‎Aniket Kamath Nexus IIT B was added
+[2023-05-31, 18:34:58] ~ Shriniket Acharya: ‎~ Shriniket Acharya was added
+[2023-05-31, 18:34:58] ~ Ajay: ‎~ Ajay was added
+[2023-05-31, 18:34:58] ~ Harsh: ‎~ Harsh was added
+[2023-05-31, 18:34:58] ~ Sohil Bhagat: ‎~ Sohil Bhagat was added
+[2023-05-31, 18:34:58] Gaurav MonsterAPI Qblocks: ‎Gaurav MonsterAPI Qblocks was added
+[2023-05-31, 18:34:58] Saiyam Wyse: ‎Saiyam Wyse was added
+[2023-05-31, 18:34:58] Sourasis Roy: ‎Sourasis Roy was added
+[2023-05-31, 18:34:58] ~ Akshay Jain: ‎~ Akshay Jain was added
+[2023-05-31, 18:34:58] ~ Shubh: ‎~ Shubh was added
+[2023-05-31, 18:34:58] ~ Arko Cy: ‎~ Arko Cy was added
+[2023-05-31, 18:34:58] Ravi Theja: ‎Ravi Theja was added
+[2023-05-31, 18:34:58] ~ Pradeep Ayyagari: ‎~ Pradeep Ayyagari was added
 [2023-05-31, 18:16:14] Vamshi: Maybe “Trust” Is the keyword here ?
 [2023-05-31, 18:18:25] Vamshi: I’m definitely not proposing a “boundary less world” in a hurry, it’s more practical to respect boundaries and prioritise peace.
 [2023-05-31, 18:18:43] Rajesh RS Generative AI WhatsApp Group: This is a very surprising trend to me. It is almost like there was a before-SBF and after-SBF era for the crypto industry - the latter era is a washout for anyone working in crypto or related areas. 
@@ -1296,7 +1296,7 @@ Culturally as well, there’s the “ambitious Asian” spirit which makes becom
 [2023-06-06, 11:25:46] Nirant K: The lack of creativity is second order of incentive structures, China mandates creative science fiction and do that for 30 years and you get Three Body Problem
 [2023-06-06, 11:26:22] Rajesh RS Generative AI WhatsApp Group: Balaji S liked to talk about Snowcrash. Some of these folks just disappeared back into the woodwork after crypto went out with a whimper
 [2023-06-06, 11:26:56] Rajesh RS Generative AI WhatsApp Group: All the crypto bros are now pivoting, they're in generative AI bro mode I suppose
-[2023-06-06, 11:27:24] Nirant K: Not moved to AR/VR yet? ngmi
+[2023-06-06, 11:27:25] Nirant K: Not moved to AR/VR yet? ngmi
 [2023-06-06, 11:29:00] Rajesh RS Generative AI WhatsApp Group: nimby, yimby - or yigmi, ngmi - or whatever combination of these sentiments
 [2023-06-06, 11:34:11] Rajesh RS Generative AI WhatsApp Group: Funnily enough, a few years ago when data science/ML (and not AI) was hot, the folks who became crypto bros circa 2020 would say blockchains are the solution to everything. I expect we will find them a decade down the line too
 [2023-06-06, 11:35:58] Vamshi: The general explanation of things being different in the U.S. is that the governance they accept, is based on the preferences of what is relatively the most itinerant population.
@@ -1933,10 +1933,10 @@ https://www.dwarkeshpatel.com/p/contra-marc-andreessen-on-ai
 [2023-06-15, 09:54:09] ~ Saurabh Mittal: ‎~ Saurabh Mittal joined from the community
 [2023-06-15, 10:39:25] ~ Tarun Raheja: ‎This message was deleted.
 [2023-06-15, 20:16:22] Shashank Mehta Not 22: ‎Shashank Mehta Not 22 joined from the community
-[2023-06-17, 16:03:45] Abhinav Verma Longshot.ai: ‎Abhinav Verma Longshot.ai was added
-[2023-06-17, 16:03:45] Ajay Rungta Ex-BITS Pilani/Practo Engg Leader: ‎Ajay Rungta Ex-BITS Pilani/Practo Engg Leader was added
-[2023-06-17, 16:03:45] ~ Aravinth Kumar: ‎~ Aravinth Kumar was added
-[2023-06-17, 16:03:45] ~ Ritik Madan: ‎~ Ritik Madan was added
+[2023-06-17, 16:03:46] Abhinav Verma Longshot.ai: ‎Abhinav Verma Longshot.ai was added
+[2023-06-17, 16:03:46] Ajay Rungta Ex-BITS Pilani/Practo Engg Leader: ‎Ajay Rungta Ex-BITS Pilani/Practo Engg Leader was added
+[2023-06-17, 16:03:46] ~ Aravinth Kumar: ‎~ Aravinth Kumar was added
+[2023-06-17, 16:03:46] ~ Ritik Madan: ‎~ Ritik Madan was added
 ‎[2023-06-17, 19:09:07] Micheil: ‎image omitted
 [2023-06-17, 19:40:30] Amir Nagri: Link?
 [2023-06-17, 20:56:07] Rajesh RS Generative AI WhatsApp Group: A paper that seemed too good to be true - about GPT4 aceing the MIT EECS and Maths curriculum receives a rebuttal https://flower-nutria-41d.notion.site/No-GPT4-can-t-ace-MIT-b27e6796ab5a48368127a98216c76864
@@ -2057,9 +2057,9 @@ Also the people who wanted to see the remains paid more than the most expensive 
 [2023-06-22, 20:42:14] ashish Acgt01 Twitter: This comment seems to me to be in very poor taste
 [2023-06-22, 20:42:38] Abhinav Verma Longshot.ai: This isn't done to belittle the tragedy
 [2023-06-22, 20:46:02] Abhinav Verma Longshot.ai: Previous comment to this was trying to show this. This is a tragedy, however it is ironic that is with the Titanic. Also ironic is that this submarine was not actually fit to travel to those depths. They skipped a lot of mandatory checks and regulations same as the titanic. Its just a whole lot of coinicidences and because of that some dark humor crept up.
-[2023-06-23, 12:38:49] ~ Adithya: ‎~ Adithya joined from the community
+[2023-06-23, 12:38:49] Adithya GenerativeAI WhatsApp Group: ‎Adithya GenerativeAI WhatsApp Group joined from the community
 [2023-06-23, 16:23:23] Lohith GenerativeAI WhatsApp Group: ‎Lohith GenerativeAI WhatsApp Group joined from the community
-[2023-06-23, 19:36:37] ~ Kahran: ‎Divya Tak added ~ Kahran
+[2023-06-23, 19:36:37] ~ Kahran Singh: ‎Divya Tak added ~ Kahran Singh
 ‎[2023-06-24, 00:47:35] Dev Aggarwal: ‎image omitted
 [2023-06-24, 00:49:42] Dev Aggarwal: https://twitter.com/sjwhitmore/status/1672266362004320256
 
@@ -2592,8 +2592,8 @@ Intelligence is not competence. You don't claim a machine to be intelligent just
 [2023-07-04, 15:11:45] ~ rhea Ostwal: ‎~ rhea Ostwal joined from the community
 [2023-07-04, 16:27:38] ~ Raghav: ‎~ Raghav joined from the community
 [2023-07-04, 17:23:41] ~ Keshav K: ‎~ Keshav K joined from the community
-[2023-07-05, 16:19:22] ~ Hela Mylavarapu: ‎~ Hela Mylavarapu was added
-[2023-07-05, 16:19:22] ~ Adrika Molakala: ‎~ Adrika Molakala was added
+[2023-07-05, 16:19:23] ~ Hela Mylavarapu: ‎~ Hela Mylavarapu was added
+[2023-07-05, 16:19:23] ~ Adrika Molakala: ‎~ Adrika Molakala was added
 [2023-07-05, 23:16:19] ~ Deven: https://openai.com/blog/introducing-superalignment
 ‎[2023-07-05, 23:34:50] Abhishek Mishra: ‎image omitted
 [2023-07-05, 23:44:55] Shubham Sharma 2012C6: Are there any plug and play allignment APIs for open source models?
@@ -2694,7 +2694,7 @@ https://medium.com/@samo.burja/live-versus-dead-players-2b24f6e9eae2
 [2023-07-09, 10:46:15] ~ Manideep Burada: ‎~ Manideep Burada left
 [2023-07-09, 19:02:47] ashish Acgt01 Twitter: https://ai.googleblog.com/2023/06/announcing-first-machine-unlearning.html
 [2023-07-09, 21:19:35] ~ Abhigyan: ‎~ Abhigyan joined from the community
-[2023-07-10, 09:15:15] ~ Aman Tiwari: ‎~ Aman Tiwari was added
+[2023-07-10, 09:15:16] ~ Aman Tiwari: ‎~ Aman Tiwari was added
 [2023-07-10, 21:39:27] Prashanth Harshangi Encrypt AI: ‎Prashanth Harshangi Encrypt AI joined from the community
 [2023-07-11, 00:17:08] ~ Vinayak Kempawad: ‎~ Vinayak Kempawad was added
 [2023-07-11, 04:06:11] ~ Abhiram Ravikumar: Can someone pls summarise this? What is machine unlearning?
@@ -3385,7 +3385,7 @@ Agi as I see will have only 1 which is IQ or Max EQ and empathy to some extent S
 But AQ is not neurological completely, it's a combination of biology too.
 [2023-07-20, 01:08:25] Anubhav mishra Zupay: So imo in case of Superintendent systems it will be a combination of AGI + Human brain. Essentially let's say ( A nano chip that runs a Quantum AGI model with Neuralink. Maybe something like that
 [2023-07-20, 01:31:19] Paras Chopra Wingify: Moral imperative to reduce suffering is independent of it, not a derived conclusion.
-[2023-07-20, 09:38:18] Sumit Sen: ‎Sumit Sen left
+[2023-07-20, 09:38:19] Sumit Sen: ‎Sumit Sen left
 [2023-07-20, 12:37:27] ashish Acgt01 Twitter: A piece by Jeremy Howard of fastai
 
 https://www.fast.ai/posts/2023-11-07-dislightenment.html
@@ -3785,7 +3785,7 @@ I know they have a product (gotham or something) but I wonder how much of their 
 [2023-07-26, 15:41:35] Anshul Bhide Replit: Yep so my definition would be what % of revenue comes from product licensing vs services
 [2023-07-26, 15:41:46] Anshul Bhide Replit: I meant US / western govts
 [2023-07-26, 15:42:22] Pratyush Choudhury: Yeah, I was talking from that angle only
-[2023-07-26, 16:58:24] ~ Kahran: I had a client years ago who broke marketing tech companies into two categories : companies that sell to CMOs who use tech as a shiny thing but actually make the money from selling smart people
+[2023-07-26, 16:58:24] ~ Kahran Singh: I had a client years ago who broke marketing tech companies into two categories : companies that sell to CMOs who use tech as a shiny thing but actually make the money from selling smart people
 And companies that sell to CIO/CTOs that are actually building tech that the companies feel they couldn’t afford/understand/build/etc themselves. 
 These fundamentally hire and attract different kinds of people — one is gloried services which is sales driven. The other is a product company which is more product / Eng driven. 
 
@@ -3801,7 +3801,7 @@ IMO Palantir has always positioned itself as the second but is in reality the fi
 [2023-07-26, 21:45:50] jyotirmayjk Hackathon: Atoms not bits 😅
 [2023-07-26, 22:05:09] Gokul Krishnan: 99.28% people don't know how to use superconductors, here's 431 ways to use them correctly to supercharge your productivity 🧵
 [2023-07-26, 22:15:19] Dr. Pratik Desai KissanAI: Yeah, I'll have second PhD in superconductor by Friday from The Twitter University.
-[2023-07-27, 08:52:05] Akshat Khare: ‎Akshat Khare was added
+[2023-07-27, 08:52:06] Akshat Khare: ‎Akshat Khare was added
 [2023-07-27, 00:25:19] Akshat Khare: Hi,
 I wish to discuss from an indian AI ecosystem point of view if the eu act was implemented for India, what would be the ramifications of it? 
 Act: https://www.klgates.com/European-Parliament-Adopts-Negotiating-Mandate-on-European-Unions-Artificial-Intelligence-Act-Trilogues-Begin-6-26-2023
@@ -3835,7 +3835,7 @@ https://twitter.com/sama/status/1684297687708098565
 [2023-07-27, 14:52:58] Abhinav Verma Longshot.ai: Sam Altman fried
 [2023-07-27, 14:56:09] Gokul Krishnan: As if MSFT will allow a crypto soon-to-be scam anywhere near ChatGPT-like products
 [2023-07-27, 15:01:41] ~ Ani Dalal: That's how we will get to the next bull run
-[2023-07-27, 16:33:45] ~ Trinath Yarlagadda: ‎~ Trinath Yarlagadda was added
+[2023-07-27, 16:33:46] ~ Trinath Yarlagadda: ‎~ Trinath Yarlagadda was added
 [2023-07-27, 18:53:23] ashish Acgt01 Twitter: Fascinating piece about an intriguing startup called Karya [ https://www.karya.in/about.html ]
 
 https://time.com/6297403/india-ai-karya-startup/
@@ -3923,9 +3923,9 @@ https://www.vox.com/technology/2023/7/28/23809028/ai-artificial-intelligence-ope
 [2023-07-31, 11:15:24] Nirmal GenAI group: surprised to see it's from vox.
 [2023-07-31, 12:03:36] Rajesh RS Generative AI WhatsApp Group: This comes close on the heels of viral stories about uncensored open source chatGPT alternatives. Which is a potentially dangerous thing
 [2023-07-31, 12:05:29] Rajesh RS Generative AI WhatsApp Group: I have turned into a crypto skeptic in the last year. Anything to do with crypto - I tend to stay away.
-[2023-07-31, 16:14:14] ~ Shaaban Karim: ‎~ Shaaban Karim was added
-[2023-07-31, 16:14:14] ~ aditya anand: ‎~ aditya anand was added
-[2023-07-31, 16:14:14] ~ Prakash Iyer: ‎~ Prakash Iyer was added
+[2023-07-31, 16:14:15] ~ Shaaban Karim: ‎~ Shaaban Karim was added
+[2023-07-31, 16:14:15] ~ aditya anand: ‎~ aditya anand was added
+[2023-07-31, 16:14:15] ~ Prakash Iyer: ‎~ Prakash Iyer was added
 [2023-07-31, 12:29:25] jyotirmayjk Hackathon: For anyone following updates on room temperature superconductor 
 Follow this anon.an amateur who is replicating making of Lk99 with home setup 
 
@@ -4187,7 +4187,7 @@ huggingface.co/spaces/huggingfaceh4/open_llm_leaderboard
 [2023-08-03, 19:00:25] Nirant K: Did you make this? Are these LLM affirmations?
 [2023-08-03, 19:17:52] Karthik GenerativeAI WhatsApp Group: I’m relatively new to programming, so apologies in advance if I say something wrong. Yes, the code generates llm affirmations, and when there’s issue with internet or openai api, it just displays one of  Louise hay’s affirmations verbatim.
 [2023-08-03, 19:19:48] Nirant K: Aah, clever!
-[2023-08-03, 19:20:08] Nirant K: Cc @919611256611 you could make this if you knew how to code
+[2023-08-03, 19:20:09] Nirant K: Cc @919611256611 you could make this if you knew how to code
 [2023-08-03, 20:07:54] Paras Chopra Wingify: that's aggresive :)
 [2023-08-03, 20:12:26] Nirant K: That's how I express my affection to people I like, ask them to work for their dreams!
 [2023-08-03, 20:18:40] Ambika Computational Mama: Imagine if you were a bot
@@ -4205,7 +4205,7 @@ Anumodna
 🙏
 
 will see how I can use this as an inspiration
-[2023-08-04, 14:02:18] Shubham Arora: ‎Shubham Arora was added
+[2023-08-04, 14:02:19] Shubham Arora: ‎Shubham Arora was added
 [2023-08-04, 17:39:57] Abhinav Verma Longshot.ai: ‎This message was deleted.
 [2023-08-04, 19:23:51] ~ gaurav: ‎~ gaurav was added
 [2023-08-04, 17:57:09] ~ gaurav: https://www.indiatimes.com/worth/news/22-year-old-indian-student-loses-90-percent-income-after-chatgpt-launch-611058.html
@@ -4391,10 +4391,10 @@ Things are changing now and making sure AI actually works in production is becom
 [2023-08-12, 14:53:08] Divya Tak: Hahaha yes I suggested that to him. He is still to take take up the offer
 [2023-08-12, 14:55:59] Nirant K: ‎You deleted this message.
 [2023-08-12, 14:59:06] Dr. Pratik Desai KissanAI: @917737887058 you are right. We are focusing there already. Revenue and self-sustainability before anything else. Jindagi na milengi dubara. ‎<This message was edited>
-[2023-08-12, 15:02:47] Nirant K: Did the message not get deleted fast enough? Or got cached on your notifs?
+[2023-08-12, 15:02:48] Nirant K: Did the message not get deleted fast enough? Or got cached on your notifs?
 [2023-08-12, 15:06:13] Dr. Pratik Desai KissanAI: Insider access to NSA server
 [2023-08-12, 15:07:00] Dr. Pratik Desai KissanAI: Nothing gets deleted from there
-[2023-08-12, 15:10:22] Nirant K: Aaah man. This Gujarati love for access is how we got a Home Minister making criticism of Govt illegal
+[2023-08-12, 15:10:23] Nirant K: Aaah man. This Gujarati love for access is how we got a Home Minister making criticism of Govt illegal
 [2023-08-12, 15:14:03] Dr. Pratik Desai KissanAI: As a large language model, I can not confirm or deny seeing this message.
 [2023-08-12, 15:30:49] Nirant K: Don't worry, you're safe from the Company
 [2023-08-12, 15:32:19] Abhinav Verma Longshot.ai: I agree with this
@@ -4419,10 +4419,10 @@ more importantly, *perspective-based digital twins* can be important to overcome
 [2023-08-13, 17:36:20] Dr. Pratik Desai KissanAI: He may be an extreme example due to being top few % in the field.
 [2023-08-13, 22:13:03] Abhishek Mishra: How many people can talk to Terrence Tao and actually yield a useful discussion for him 🤏
 [2023-08-13, 22:18:16] Dr. Pratik Desai KissanAI: Talking to Gandhiji use case has a better PMF, Munnabhai already did it. 🤣
-[2023-08-14, 16:54:03] ~ Venkat Subbarao: ‎~ Venkat Subbarao joined from the community
+[2023-08-14, 16:54:03] ~ Venkat: ‎~ Venkat joined from the community
 ‎[2023-08-14, 20:08:39] Ciyunni: ‎image omitted
 [2023-08-14, 22:05:36] Nirant K: With income inequality? I believe the Russians and Chinese have some intriguing ideas
-[2023-08-14, 22:06:35] Nirant K: Also, I can make an equally potent causal maps to show how the rich prevent misery and death, and contribute to progress of humanity
+[2023-08-14, 22:06:36] Nirant K: Also, I can make an equally potent causal maps to show how the rich prevent misery and death, and contribute to progress of humanity
 [2023-08-14, 22:06:38] Ciyunni: links please, Nirant.
 [2023-08-14, 22:06:58] Ciyunni: you mean chinese-communism? coerce.
 [2023-08-14, 22:07:05] Nirant K: Depends on how much the rich want to pay for that though
@@ -4432,11 +4432,11 @@ more importantly, *perspective-based digital twins* can be important to overcome
 [2023-08-14, 22:09:14] ~ Prajna Prayas: and the US is 300million employee strong corporation basically
 [2023-08-14, 22:09:30] Ciyunni: ok. please define chinese/russian ideas.
 [2023-08-14, 22:10:09] Ciyunni: that's quite accurate ... i would say. a corporation ready to file for bankruptcy.
-[2023-08-14, 22:10:38] Nirant K: How dare I reduce civilizations to mere words
+[2023-08-14, 22:10:39] Nirant K: How dare I reduce civilizations to mere words
 [2023-08-14, 22:11:42] Nirant K: Besides, I've problems closer to home - there is no Indian civilisation
 [2023-08-14, 22:12:10] ~ Prajna Prayas: Guns, Choppers, Nukes >>> Mere government bond
 [2023-08-14, 22:13:14] Nirmal GenAI group: liberia flag...
-[2023-08-14, 22:14:06] Nirant K: I thought no one would notice
+[2023-08-14, 22:14:07] Nirant K: I thought no one would notice
 [2023-08-14, 22:15:37] Dr. Pratik Desai KissanAI: America can not be virtually bankrupt. American economy is the world economy, they go down, they take everyone with it. ‎<This message was edited>
 [2023-08-14, 22:16:48] Nirant K: America is the only growing Western economy of last 10 years when adjusted against inflation
 [2023-08-14, 22:17:27] Amul Twitter Friend: A lot of anger often comes from a place of ambiguity
@@ -4447,7 +4447,7 @@ I have been always actively recording my parents for a while now. Even planning 
 
 One of the most true and saddest thing I had ever went something like this : when a parent dies, a only first witness to some of your life stories dies with it too and there’s no one else to recollect it
 [2023-08-14, 22:20:07] Dr. Pratik Desai KissanAI: Yes, I'm planning the same. Going to record them and their stories, and probably myself too.
-[2023-08-14, 22:20:59] Nirant K: That's the surest way to prove that all our parents went to the same "khaana khaaya", "Shaadi karlo" school
+[2023-08-14, 22:21:00] Nirant K: That's the surest way to prove that all our parents went to the same "khaana khaaya", "Shaadi karlo" school
 [2023-08-14, 22:21:19] Dr. Pratik Desai KissanAI: Every intellect in the world, doesn't matter how nationalist they are about their own country, wants America to prosper.
 [2023-08-14, 22:23:17] Dr. Pratik Desai KissanAI: Of course, some fights with moms are worth recreating in the future.
 [2023-08-14, 22:23:54] Adithya L Bhat Hackathon: I think it’s more like we want everyone to prosper .
@@ -4633,9 +4633,9 @@ In other words, I am saying Occam's razor is real. The explanation of why this h
 [2023-08-14, 23:45:42] Adithya GenAI WhatsApp Group: Do similar things occur is the us as well?
 Only certain pedigree of college can apply for certain jobs?
 [2023-08-14, 23:45:42] Pranjal Joshi US FINTECH: or it already has
-[2023-08-15, 00:13:02] ~ Adithya: ‎~ Adithya left
+[2023-08-15, 00:13:02] Adithya GenerativeAI WhatsApp Group: ‎Adithya GenerativeAI WhatsApp Group left
 [2023-08-15, 00:15:50] Soumyadeep Mukherjee: I don’t think the absolute number is true. I think it’s more of there are only 3 of us who intersect with the set of ppl fine tuning and set of ppl spending free time stalking group chats on WhatsApp.
-[2023-08-15, 00:20:37] Vedant Trivedi Sequoia: ‎Vedant Trivedi Sequoia left
+[2023-08-15, 00:20:38] Vedant Trivedi Sequoia: ‎Vedant Trivedi Sequoia left
 [2023-08-15, 00:25:57] Nirant K: Absolute number wasn't the point, relative ratio was
 [2023-08-15, 00:34:50] Divya Tak: Hmm is that ratio higher than people who were doing machine learning related stuff before the current AI stuff started happening?
 [2023-08-15, 00:35:12] Divya Tak: Like accessibility is higher even if it is a small percentage
@@ -4755,8 +4755,8 @@ Lastly as Karpathy says, "somethings are easier to dream but harder to build lik
 [2023-08-22, 13:26:08] ~ Vamsi Krishna Mula: ‎~ Vamsi Krishna Mula joined from the community
 [2023-08-22, 22:04:40] ~ Hariprasad P S: ‎~ Hariprasad P S joined from the community
 [2023-08-22, 22:12:48] Saurabh Karn Nyai: A lot of people confuse between an RAG system, an LLM and Chatbot. Is it okay for LLMs to subsume all these different words under one or should there be more nuance pushed for non technical audiences?
-[2023-08-22, 22:15:36] Nitin Umass Amherst Walmart Labs: ‎Nitin Umass Amherst Walmart Labs left
-[2023-08-22, 22:15:36] Shubham Sharma 2012C6: ‎Shubham Sharma 2012C6 left
+[2023-08-22, 22:15:37] Nitin Umass Amherst Walmart Labs: ‎Nitin Umass Amherst Walmart Labs left
+[2023-08-22, 22:15:37] Shubham Sharma 2012C6: ‎Shubham Sharma 2012C6 left
 [2023-08-22, 22:21:57] Nirant K: What makes more money? Apps or exe, dmg, dll, wizard
 [2023-08-22, 22:22:44] Nirant K: Just call them all "chat", why make life harder for your buyer/user?
 [2023-08-22, 23:41:48] ~ Arko Cy: ‎Waiting for this message. This may take a while.
@@ -4982,7 +4982,7 @@ General caution to those scrapping websites for collecting training data. Many, 
 [2023-08-29, 12:25:29] ~ Satpal: ‎~ Satpal joined from the community
 [2023-08-29, 16:38:05] ~ Naresh: ‎~ Naresh joined from the community
 [2023-08-30, 09:41:49] ~ Narayan Sharma: ‎~ Narayan Sharma joined from the community
-[2023-08-31, 02:02:23] ~ Yash More: ‎~ Yash More was added
+[2023-08-31, 02:02:24] ~ Yash More: ‎~ Yash More was added
 [2023-08-30, 16:39:48] Nirant K: @19377081307 anna let's talk here
 [2023-08-30, 16:40:06] Dr. Pratik Desai KissanAI: True
 [2023-08-30, 16:40:16] Dr. Pratik Desai KissanAI: I was wondering Meta has a huge conversation data from FB and Insta, are they using it to train LlaMa? I am sure the data curation job will be PiA  but sure they can create the best conversation LLM if they decide to. wdyt?
@@ -5181,9 +5181,9 @@ GPUs + billions using it. Thats GPU wealthy. Indians will be AI wealthy
 [2023-09-01, 10:29:36] Amit Bhor: 😀
 [2023-09-01, 11:24:08] Abhishek Mishra: Ahh.
 That could be a totally legible thing 🤣
-[2023-09-01, 11:40:22] ~ Krishnan: ‎~ Krishnan was added
-[2023-09-01, 11:40:22] ~ Kaushal Powar: ‎~ Kaushal Powar was added
-[2023-09-01, 11:40:22] Rajiv Poddar DevGPT: ‎Rajiv Poddar DevGPT was added
+[2023-09-01, 11:40:23] ~ Krishnan: ‎~ Krishnan was added
+[2023-09-01, 11:40:23] ~ Kaushal Powar: ‎~ Kaushal Powar was added
+[2023-09-01, 11:40:23] Rajiv Poddar DevGPT: ‎Rajiv Poddar DevGPT was added
 [2023-09-01, 13:08:11] Gokul Krishnan: Could you a totally valid thing because making scrapers follow Copyright law is gonna be a non starter
 [2023-09-01, 13:11:35] ~ Arvind Sankar: Some countries do embrace the concept of granting copyrights to works if they have a "modicum of creativity". In patents too invention is only granted if it is not obvious to a person skilled in the art. It would be interesting to see how these concepts evolve over time.
 [2023-09-01, 13:12:52] ~ Arvind Sankar: Copyright law isnt the only thing you would need to worry. You would have to look at the terms and conditions of the websites too. Many companies have been amending their T&C to prevent scrappers from collecting data
@@ -5284,7 +5284,7 @@ No one from cruise or any of those autonomous EVs or others
 [2023-09-08, 09:25:41] ~ YP: Georgi Gerganov. AUTOMATIC1111, Robin Rombach, comfy😅
 [2023-09-08, 12:12:11] Jaskamal Kainth 2013: ‎Jaskamal Kainth 2013 joined from the community
 [2023-09-08, 12:21:49] ~ Arjun: ‎~ Arjun joined from the community
-[2023-09-08, 13:07:22] Gaurav Sharma Founder CEO: ‎Gaurav Sharma Founder CEO was added
+[2023-09-08, 13:07:23] Gaurav Sharma Founder CEO: ‎Gaurav Sharma Founder CEO was added
 [2023-09-08, 14:51:09] Kesava Reddy: ‎Kesava Reddy joined from the community
 [2023-09-08, 14:53:17] ~ Rahul: ‎~ Rahul joined from the community
 [2023-09-08, 15:04:45] Mihir Kulkarni WadhwaniAI, Princeton: ‎Mihir Kulkarni WadhwaniAI, Princeton joined from the community
@@ -5425,8 +5425,8 @@ Thoughts? Are the signatories respected ones?
 
 Starting with, have some solid Professors in Classic CS. Think distributed/ parallel computing,  compilers, comp arch, databases etc. Then add some CS adjacent folks like NLP and CV, statistical learning etc. And as nirant mentioned, incentiveze collaborations and results and track via graduate outcomes and research/patent/spin off results. Bonus if you can maintain strong Alumni-Uni tie ups like the Chinese have
 [2023-09-11, 02:47:50] Dr. Pratik Desai KissanAI: A group of people with deep pocket and government mendate has interest in this initiative and we are supposed to advise from academic prospective and not business.
-[2023-09-11, 07:08:24] ~ gaurav: ‎~ gaurav left
-[2023-09-11, 07:08:24] Aishwarya Goel Inferless 5s for 5G: ‎Aishwarya Goel Inferless 5s for 5G left
+[2023-09-11, 07:08:25] ~ gaurav: ‎~ gaurav left
+[2023-09-11, 07:08:25] Aishwarya Goel Inferless 5s for 5G: ‎Aishwarya Goel Inferless 5s for 5G left
 [2023-09-11, 07:49:59] Nirant K: Underrated easter egg: Pramath Raj Sinha founded both ISB and Ashoka. For someone to create institutions, which grew and earned so fast (less than 10 years) — is absolute mad respect. Money aside, this is sheer skill. 
 [2023-09-11, 08:17:15] Dr. Pratik Desai KissanAI: TIL
 [2023-09-11, 09:18:03] Jay Pokarna 2014 BPCC: In a podcast he mentioned that for institutions to grow fast and earn respect from zero, they need to focus much more on teachers first than students. Get the right teachers, and make them stick for sometime and you will get great institutions, is his funda, AFAIR
@@ -5516,7 +5516,7 @@ https://www.reddit.com/r/StrangeEarth/comments/16hj2zp/mexico_just_showed_off_th
 ‎[2023-09-14, 22:17:16] Micheil: Manifesto Poster.pdf • ‎1 page ‎document omitted
 [2023-09-15, 01:25:55] ~ Badal: ‎~ Badal left
 [2023-09-15, 11:34:42] ~ Anuj ~ radioactiveSugar: https://youtu.be/b2uEAgLeOzA?si=Gs97U1pkowfS1QGv
-[2023-09-15, 22:01:19] ~ Maaz Karim: ‎~ Maaz Karim was added
+[2023-09-15, 22:01:20] ~ Maaz Karim: ‎~ Maaz Karim was added
 [2023-09-16, 17:04:28] Mohit YC W23: ‎Mohit YC W23 joined from the community
 [2023-09-16, 17:04:40] Mohit YC W23: ‎Mohit YC W23 left
 [2023-09-17, 11:03:15] Amit Bhor: https://x.com/togelius/status/1703273894826615123?t=Zfs_asBscdzrhP7tM82oNw&s=08
@@ -5566,7 +5566,7 @@ It's a bit like saying that Nissan (auto) is Japanese, but it's not.
 [2023-09-19, 17:48:26] Dr. Pratik Desai KissanAI: Take a single N and overfit on 1000x1000 dataset 😜 limited by the size of training set. 😂
 ‎[2023-09-19, 17:48:52] Dev Aggarwal: ‎sticker omitted
 [2023-09-20, 15:01:05] ~ AJ: ‎~ AJ joined from the community
-[2023-09-20, 18:37:00] ~ Avani Vidhani: ‎~ Avani Vidhani was added
+[2023-09-20, 18:37:01] ~ Avani Vidhani: ‎~ Avani Vidhani was added
 [2023-09-20, 18:37:13] ~ Akash: ‎~ Akash joined from the community
 [2023-09-20, 19:06:24] Amit Bhor: https://x.com/_akhaliq/status/1704313058028355991?t=B9x2cGnSTKUDmCBu53tfuw&s=08
 [2023-09-20, 19:06:25] Amit Bhor: Chinchilla 70B, while trained primarily on text, compresses ImageNet patches to 43.4% and LibriSpeech samples to 16.4% of their raw size, beating domain-specific compressors like PNG (58.5%) or FLAC (30.3%), respectively.
@@ -5820,11 +5820,11 @@ For chat related ask @918764022384 he has got an amazing understanding of it
 [2023-09-27, 14:58:42] Alok Bishoyi: https://jobs.careers.microsoft.com/global/en/job/1627555/Principal-Program-Manager-Nuclear-Technology
 
 🤯🤯
-[2023-09-28, 00:55:44] Niko: ‎Niko joined from the community
+[2023-09-28, 00:55:44] Niko Cunningham: ‎Niko Cunningham joined from the community
 [2023-09-28, 20:32:32] ~ YP: As reference to mistral not revealing their training recipe
 The LLM industry is almost at a warzone level😅
 [2023-09-29, 06:52:14] Nirant K: Enterprise wars
-[2023-09-29, 06:52:39] Nirant K: Very reminiscent of DB wars which led to Oracle and other giants
+[2023-09-29, 06:52:40] Nirant K: Very reminiscent of DB wars which led to Oracle and other giants
 [2023-09-29, 08:12:22] Shashank B Designer: https://about.fb.com/news/2023/09/new-ray-ban-meta-smart-glasses/
 
 Interesting application of multimodal llm (?)
@@ -5844,7 +5844,7 @@ https://twitter.com/TaliaRinger/status/1707607612731101597?t=pImSEjN2aXd7U8BIEcO
 
 https://g.co/bard/share/307b895afa8d
 [2023-09-30, 10:54:48] ~ Arya: ‎~ Arya joined from the community
-[2023-09-30, 13:40:53] Anwesha Hasgeek BD: ‎Anwesha Hasgeek BD was added
+[2023-09-30, 13:40:54] Anwesha Hasgeek BD: ‎Anwesha Hasgeek BD was added
 [2023-09-30, 23:35:09] Jaidev Deshpande: ‎Jaidev Deshpande joined from the community
 [2023-10-01, 13:19:38] Dev Aggarwal: https://www.youtube.com/watch?v=ex3C1-5Dhb8
 
@@ -5941,8 +5941,8 @@ Or even has the potential to?
 [2023-10-08, 05:19:39] ~ Mrigesh Parashar: ‎~ Mrigesh Parashar joined from the community
 [2023-10-08, 16:50:25] ~ AA: ‎~ AA was added
 [2023-10-09, 11:50:28] ~ Sundar: ‎~ Sundar was added
-[2023-10-11, 12:20:28] ~ Uma K: ‎~ Uma K was added
-[2023-10-11, 12:20:28] ~ Aman Jain: ‎~ Aman Jain was added
+[2023-10-11, 12:20:29] ~ Uma K: ‎~ Uma K was added
+[2023-10-11, 12:20:29] ~ Aman Jain: ‎~ Aman Jain was added
 [2023-10-11, 13:13:41] Naman (Repello): ‎Naman (Repello) joined from the community
 [2023-10-11, 20:52:03] Ambika Computational Mama: Hi all. A researcher was asking about any political protests that have used AI to help their cause. If you recollect anything please share it my way.
 [2023-10-11, 20:55:49] Adithya GenAI WhatsApp Group: Us election 🥲
@@ -6059,7 +6059,7 @@ This makes conversation on trading the value of computations just within the rea
 [2023-10-15, 13:12:55] Nirant K: Technically, people moving cities for less air pollution do pay for oxygen too
 [2023-10-15, 13:14:28] Dr. Pratik Desai KissanAI: For AI Pay (1) Money (2) Data (3) by becoming RLHF lab rat (4) Attention
 [2023-10-15, 13:15:35] Dr. Pratik Desai KissanAI: If government subsidies, then Vote+tax ‎<This message was edited>
-[2023-10-15, 18:10:52] Sandeep Srinivasa RedCarpetup: ‎Sandeep Srinivasa RedCarpetup was added
+[2023-10-15, 18:10:53] Sandeep Srinivasa RedCarpetup: ‎Sandeep Srinivasa RedCarpetup was added
 ‎[2023-10-15, 13:37:50] Sandeep Srinivasa RedCarpetup: ‎image omitted
 [2023-10-15, 17:45:57] Abhinav Verma Longshot.ai: Can you link this idea for reference
 [2023-10-15, 18:02:27] C Chaitanya: For me right now, AI is just software. And as pointed above, software has found different means of thriving. Freemuim, SaaS, Open, Free etc. It's a miracle that Google found a way to be free which I think has led to all this innovation.
@@ -6070,7 +6070,7 @@ But the simple fact remains, there is no free lunch. Someone always has to pay, 
 [2023-10-15, 18:34:33] Samhan Meta/Twitter Friend: ‎Samhan Meta/Twitter Friend joined from the community
 [2023-10-15, 22:27:30] C Chaitanya: Agreed, it's a new kind of software. Maybe as important as databases as you mentioned. And just like databases I am sure we will have multiple models. Closed, open, managed, self hosted etc. And just like in databases, somebody pays :)
 [2023-10-16, 00:04:30] ~ SJ: ‎~ SJ joined from the community
-[2023-10-16, 14:27:18] Zainab Bawa: ‎Zainab Bawa was added
+[2023-10-16, 14:27:19] Zainab Bawa: ‎Zainab Bawa was added
 [2023-10-17, 00:45:51] ~ Harshil: ‎~ Harshil joined from the community
 [2023-10-17, 13:41:35] Nirant K: 
 Marc of a16z and creator of Netscape, writes an Optimist Manifesto: https://twitter.com/pmarca/status/1713930459779129358
@@ -6330,8 +6330,8 @@ India is going that way too, but for most our commercial history — we've liked
 [2023-10-17, 16:59:57] Nirant K: Mattel (Barbie) too ‎<This message was edited>
 [2023-10-17, 17:00:57] Nirant K: Reasonably off topic for this group, will stop here on the fin talk
 [2023-10-17, 17:31:59] Dr. Pratik Desai KissanAI: Sending my deck 🫡
-[2023-10-17, 19:17:00] ~ Vivek (CashBook): ‎~ Vivek (CashBook) was added
-[2023-10-17, 19:17:00] ~ Suhas Baliga: ‎~ Suhas Baliga was added
+[2023-10-17, 19:17:01] ~ Vivek (CashBook): ‎~ Vivek (CashBook) was added
+[2023-10-17, 19:17:01] ~ Suhas Baliga: ‎~ Suhas Baliga was added
 ‎[2023-10-18, 02:51:14] Samhan Meta/Twitter Friend: ‎image omitted
 [2023-10-18, 09:33:34] ~ Subhrajit  Dey: ‎~ Subhrajit  Dey left
 [2023-10-18, 11:15:21] Gokul Krishnan: India included?
@@ -6369,7 +6369,7 @@ I think it is.
 [2023-10-19, 17:30:21] Vamshi: I’ve resisted Instagram but I may find myself weak in the face of a neural implant for direct access
 [2023-10-19, 17:30:43] Vamshi: Especially if there was a war (god forbid)
 [2023-10-19, 17:49:02] Sthit Generative AI WhatsApp Group: Might not be such a guessing game soon after all
-[2023-10-19, 18:20:18] ~ Vijay: ‎~ Vijay left
+[2023-10-19, 18:20:19] ~ Vijay: ‎~ Vijay left
 [2023-10-20, 09:22:51] ~ Priyanka Chandak: ‎~ Priyanka Chandak left
 [2023-10-20, 10:00:48] Abhirami G Ken: ‎Abhirami G Ken was added
 [2023-10-20, 12:12:41] Amit Bhor: https://x.com/varun_mathur/status/1715041606825308222?t=NF1wLTfir1OItciWdmM0TA&s=08
@@ -6385,7 +6385,7 @@ https://www.theverge.com/2023/10/19/23923736/youtube-ai-voice-music-tool-copy-mu
 [2023-10-22, 09:15:19] Naman (Repello): https://twitter.com/chrisalbon/status/1715780020877304198?t=ndObbBygISrKeiyyPYOqwQ&s=19
 
 Tldr; there's a significant difference in being an AI critic and an AI ethic-ist. The former outright reject AI but the latter love AI and want to ensure it's ethical use. However the two factions get mixed up more often than not (including, in the Techo Optimist piece by a16z)
-[2023-10-22, 09:28:59] ~ Bhumil Haria: ‎~ Bhumil Haria was added
+[2023-10-22, 09:29:00] ~ Bhumil Haria: ‎~ Bhumil Haria was added
 [2023-10-22, 10:29:18] Sachin Legaltech: I consider AI ethics people enemy of human progress. The primary reason is at a micro level, most of us wouldn’t be comfortable having a moral police watching our behavior and criticize us according to their beliefs/ values. Same logic will apply to organizations. At this scale, we would be adding a bunch of supposedly holier than thou people whose job is criticize or cancel bunch of projects/ experiments based on their own beliefs of what would or should happen. Having an additional set of bureaucracy leads to corruption where a skilled operator will know how to get their projects approved through AI ethics; whereas rest of us will be bogged down by need to convince some supposedly more moral person utility of our project. Even if we assume AI ethics authority to be always non-corrupt (that’s a huge if), most of the scientific advances come from people tinkering around the frontier of knowledge and it’s not possible to know the impact of an experiment before even running it. Also having a subset of people studying ethics and telling others what is ethical assumes there are certain ethical values which should be shared by the entire society. Usually that’s not the case; some of us will value individual liberty much more than the rest; while some will value safety or conservation of their way of life more. Last time when Indian civilization gave a bunch people right to decide what’s ethical for the rest of the society, it lead to decline of our civilization by arbitrarily causing different prohibitions. I believe all of us together are needed to build a collection of ethical practices and outsourcing this task to a group of people will create dystopian future.
 [2023-10-22, 10:32:30] ~ Mrigesh Parashar: ‎This message was deleted.
 [2023-10-22, 10:37:21] ~ Mrigesh Parashar: I completely agree and that's why I don't agree with some of the points in the manifesto.
@@ -6550,7 +6550,7 @@ I would discount stuff such as s/o or google search
 [2023-10-23, 19:09:41] ~ Abhik: ‎~ Abhik was added
 [2023-10-23, 19:09:41] Shikhil Kumar Gupta: ‎Shikhil Kumar Gupta was added
 [2023-10-23, 19:09:41] ~ Akhil Ramolla: ‎~ Akhil Ramolla left
-[2023-10-24, 21:49:22] ~ Arpit: ‎~ Arpit was added
+[2023-10-24, 21:49:23] ~ Arpit: ‎~ Arpit was added
 [2023-10-24, 20:16:24] ~ Lana: https://youtu.be/AaU6tI2pb3M?si=c4BxT24z0uFmNl6e
 [2023-10-24, 22:50:42] Vamshi: This was interesting, I wonder if there’s better articles along these lines
 
@@ -6830,7 +6830,7 @@ While the White House order isn’t currently stifling startups and open source,
 
 https://twitter.com/AndrewYNg/status/1719474906138607650
 [2023-11-01, 13:42:15] Samhan Meta/Twitter Friend: There seems to be an easy loophole in the EO - you can stop the training at less than the max allowed FLOPs open source it and then someone else can continue the pre training or fine tuning. In fact this is pretty much the norm 🧐
-[2023-11-01, 14:23:30] ~ KS: ‎~ KS joined from the community
+[2023-11-01, 14:23:30] ~ Kaustubh: ‎~ Kaustubh joined from the community
 [2023-11-01, 14:45:17] ~ ຸ: ‎~ ຸ joined from the community
 [2023-11-01, 16:59:50] ~ YP: https://x.com/teortaxesTex/status/1719674801533468688?s=20
 [2023-11-01, 16:59:51] ~ YP: This is beautifully put!
@@ -6844,10 +6844,10 @@ https://twitter.com/AndrewYNg/status/1719474906138607650
 [2023-11-02, 09:29:08] ~ YP: https://twitter.com/apples_jimmy/status/1719925579049541760
 [2023-11-02, 09:29:17] ~ YP: Super unexpected for dev day
 [2023-11-02, 09:35:57] Bharat Shetty GenAI WhatsApp Group: unrelated question, is dev day livestreamed for others or recordings will be made available by any chance , any idea ?
-[2023-11-02, 09:37:05] ~ KS: What exactly happened?
+[2023-11-02, 09:37:05] ~ Kaustubh: What exactly happened?
 [2023-11-02, 09:37:06] Bharat Shetty GenAI WhatsApp Group: interesting.. but foundation models can be leveraged by bad actors with lot of gpus/funding to create such models even in the future no ?
 [2023-11-02, 09:41:10] ~ YP: Speculation on what's going to happen - Nov 6 is the OpenAI's dev day ‎<This message was edited>
-[2023-11-02, 09:44:19] ~ KS: Got it
+[2023-11-02, 09:44:19] ~ Kaustubh: Got it
 [2023-11-02, 10:17:23] Bharat Shetty GenAI WhatsApp Group: Looks like it will be live streamed 🔥
 [2023-11-02, 10:17:39] Bharat Shetty GenAI WhatsApp Group: https://www.youtube.com/live/U9mJuUkhUzk?feature=shared
 [2023-11-02, 12:55:08] Vamshi: https://people.ischool.berkeley.edu/~nick/aaronson-oracle/
@@ -6861,7 +6861,7 @@ My physicist friend : First time ?
 [2023-11-02, 13:43:57] Sthit Generative AI WhatsApp Group: Major loop quantum gravity vibes here :)
 [2023-11-02, 13:43:58] Rajesh RS Generative AI WhatsApp Group: Are we going down the Sabine Hossenfelder route?
 [2023-11-02, 13:44:10] Vamshi: “It” bring self 😄
-[2023-11-02, 13:44:11] ~ KS: What Sheldon would say
+[2023-11-02, 13:44:11] ~ Kaustubh: What Sheldon would say
 [2023-11-02, 13:44:16] Vamshi: Being
 [2023-11-02, 13:45:07] Samhan Meta/Twitter Friend: This reminds of the game we used to play in school similar to Rock paper scissors but it was cricket. Some ppl were shockingly good at predicting what you would do
 [2023-11-02, 13:46:15] Sthit Generative AI WhatsApp Group: A great read here is Kruskal Counting:
@@ -6953,7 +6953,7 @@ We'll revisit this when we've 250 MAU or more
 [2023-11-06, 17:02:17] ~ Rushabh: ‎~ Rushabh was added
 [2023-11-06, 20:40:17] ~ Sudarshan: ‎~ Sudarshan joined from the community
 [2023-11-07, 01:18:26] ~ Rishabh Jain: ‎~ Rishabh Jain joined from the community
-[2023-11-07, 10:56:46] ~ abhinav: ‎~ abhinav joined from the community
+[2023-11-07, 10:56:46] ~ appidi abhinav: ‎~ appidi abhinav joined from the community
 ‎[2023-11-07, 21:01:42] ~ YP: ‎image omitted
 [2023-11-07, 21:02:14] Samhan Meta/Twitter Friend: It’s true . This is one reason companies invest in open source
 [2023-11-07, 21:03:10] Samhan Meta/Twitter Friend: The counter would be it depends on if ML is core to the business or a side tool used by it. For a business they want to commoditize their complement
@@ -7141,8 +7141,8 @@ How do I get even 1/10 as good as an engineer there?
 BTW is Adderall legal in India. Should be right?
 [2023-11-14, 23:38:01] Anubhav mishra Zupay: Sama and Ilya sutskever don't let them sleep probably
 [2023-11-14, 23:38:10] ~ Manish Rastogi: Unfortunately not.
-[2023-11-14, 23:38:16] Nirant K: How does a 30 yo engineer get to do good work now? Teams like OpenAI obliterate you by both reach. And for the next 10y?
-[2023-11-14, 23:38:42] Nirant K: It is, under the brand name Concerta, which is slightly different and more long acting
+[2023-11-14, 23:38:17] Nirant K: How does a 30 yo engineer get to do good work now? Teams like OpenAI obliterate you by both reach. And for the next 10y?
+[2023-11-14, 23:38:43] Nirant K: It is, under the brand name Concerta, which is slightly different and more long acting
 [2023-11-14, 23:38:44] Anubhav mishra Zupay: Bro Elon Musk and Sergie Brin had a fight coz of ilya, you can reach out to him and ask if he's on aderall too
 [2023-11-14, 23:39:24] Adarsh GenAI WhatsApp Group: Gonna make a life size cutout of karpathy and keep it near my desk while i learn machine learning, following the legacy of eklavya
 
@@ -7150,24 +7150,24 @@ https://x.com/arpitingle/status/1724475583302934825?s=20
 [2023-11-14, 23:39:35] Abhinav Verma Longshot.ai: Illya probably gets his Russian accent on to serve as Adderall.
 [2023-11-14, 23:39:51] ~ Manish Rastogi: Let me call my dealer.
 [2023-11-14, 23:40:20] Saurav Tomar GenerativeAI WA Group: It requires both deep work (grokking research papers) and simultaneously having high shipping velocity.
-[2023-11-14, 23:40:22] Nirant K: Karpathy will ask you to go back to 2012 and work on Image Net and get into Stanford PhD
+[2023-11-14, 23:40:23] Nirant K: Karpathy will ask you to go back to 2012 and work on Image Net and get into Stanford PhD
 [2023-11-14, 23:41:16] Saurav Tomar GenerativeAI WA Group: The side effects don’t make it worth it in the long run.
 [2023-11-14, 23:41:20] Adarsh GenAI WhatsApp Group: A small price to pay as guru dakshina🫠
 [2023-11-14, 23:41:32] Abhinav Verma Longshot.ai: Also need to jail break chatgpt. The 20$ intern needs to do more now
-[2023-11-14, 23:41:34] Nirant K: I'm asking for mere mortals who don't get into even CMU MS
+[2023-11-14, 23:41:35] Nirant K: I'm asking for mere mortals who don't get into even CMU MS
 [2023-11-14, 23:42:26] Anubhav mishra Zupay: https://www.youtube.com/watch?v=pq34V_V5j18
 [2023-11-14, 23:42:48] Anubhav mishra Zupay: Anyone saw this ? They uploaded a breakout session they had on devday
 [2023-11-14, 23:43:03] Anubhav mishra Zupay: 😂 they will kill all the startups
 [2023-11-14, 23:43:26] Anubhav mishra Zupay: Look at the assistant API use case they have demonstrated 😂
 [2023-11-14, 23:47:35] Nirant K: I feel like this is going to cause a minor tech winter, and by winter I mean the gap between us figuring out what to do next and everything right now being done by oAI
 [2023-11-14, 23:50:21] Anubhav mishra Zupay: Pickup a niche and keep building, we have oAI coz  MAANG and musk didn't take AI too seriously, now they'll pro'lly raise $50 bil from Microsoft and US gov to build superintendence who knows. Sam Altman always keeps everyone guessing from YC days
-[2023-11-14, 23:50:57] Nirant K: Gonna need "we hate Sama" club
+[2023-11-14, 23:50:58] Nirant K: Gonna need "we hate Sama" club
 [2023-11-15, 00:10:26] Samhan Meta/Twitter Friend: It’s not an individual thing it’s the additive efforts of a strong team and their culture
 [2023-11-15, 00:10:43] Samhan Meta/Twitter Friend: If you joined openAI you would also become way more impactful
 [2023-11-15, 00:11:36] Samhan Meta/Twitter Friend: Tech has become too much about bureaucracy and the bad aspects of “management” , “roadmapping” “alignment” and all this fake work. The worst waste of time is doing pointless work that only serves political purposes
-[2023-11-15, 00:21:14] Nirant K: Very confusing man, you just said I'd be more impactful at OpenAI because it's an org
+[2023-11-15, 00:21:15] Nirant K: Very confusing man, you just said I'd be more impactful at OpenAI because it's an org
 [2023-11-15, 00:21:34] Samhan Meta/Twitter Friend: With the right culture 😁
-[2023-11-15, 00:21:50] Nirant K: The right culture is whichever wins, right?
+[2023-11-15, 00:21:51] Nirant K: The right culture is whichever wins, right?
 [2023-11-15, 00:21:50] Samhan Meta/Twitter Friend: Big orgs / bureaucrats = bad for shipping fast
 [2023-11-15, 00:22:22] Nirant K: So if Google starts shipping, it's right? Is MSFT right now, since they ship too?
 [2023-11-15, 00:22:56] Samhan Meta/Twitter Friend: It’s also about core values and alignment. We all care deeply about shipping cool AI products . 
@@ -7192,7 +7192,7 @@ Microsoft is actually doing quite well for their size. Google has done terribly
 [2023-11-15, 01:52:05] Dr. Pratik Desai KissanAI: Haha, Innovators's dilemma (Even though there is no innovation at Infy)
 [2023-11-15, 01:52:15] Samhan Meta/Twitter Friend: If you want to generate English data cheaply can’t think of a better place
 [2023-11-15, 03:58:16] Dev Aggarwal: ‎Dev Aggarwal left
-[2023-11-15, 07:53:15] Nirant K: I don't think they'd be able to do the needful at their earliest convenience
+[2023-11-15, 07:53:16] Nirant K: I don't think they'd be able to do the needful at their earliest convenience
 [2023-11-15, 08:02:39] ~ Sandeep Bantia: In case you've not seen this - inside look at OpenAI. Don't have access to the full newsletter though. 
 
 https://newsletter.pragmaticengineer.com/p/inside-openai-how-does-chatgpt-ship
@@ -7231,7 +7231,7 @@ https://x.com/chheplo/status/1706850412597575810?s=46&t=HZS4Ar4p8RMA3Tj10LCWEw
 [2023-11-16, 04:06:50] Dr. Pratik Desai KissanAI: That’s what I want to do instead of running reasoning code, which has been proven slow and the reason we are trying to solve AGI using NN and not KGs.
 [2023-11-16, 09:26:13] ~ Harsha: ‎~ Harsha joined from the community
 [2023-11-16, 11:00:54] Kartik Gupta Qdrant: ‎Kartik Gupta Qdrant joined from the community
-[2023-11-16, 18:37:14] ~ Atharv: ‎~ Atharv was added
+[2023-11-16, 18:37:15] ~ Atharv: ‎~ Atharv was added
 ‎[2023-11-17, 02:50:33] Abhinav Verma Longshot.ai: ‎image omitted
 [2023-11-17, 03:38:28] Sthit Generative AI WhatsApp Group: Gg
 [2023-11-17, 03:38:30] Sthit Generative AI WhatsApp Group: Right move
@@ -7326,7 +7326,7 @@ Maybe Brayan Johnson III would play his sci fi work as an XR game ‎<This messa
 [2023-11-17, 20:46:43] Samhan Meta/Twitter Friend: This kind of vibes based debate on technology has done enormous damage. For eg the complete shut down of nuclear energy . Which could end up actually destroying our civilization by accelerating climate change
 [2023-11-17, 20:48:08] Samhan Meta/Twitter Friend: The planet is already on course to be destroyed if no technical progress is made . 😁
 [2023-11-17, 20:51:45] ~ Kishore M R: https://academic.oup.com/bioscience/advance-article/doi/10.1093/biosci/biad080/7319571
-[2023-11-18, 02:18:00] ~ Kahran: “Mr. Altman’s departure follows a deliberative review process by the board, which concluded that he was not consistently candid in his communications with the board, hindering its ability to exercise its responsibilities. The board no longer has confidence in his ability to continue leading OpenAI.”
+[2023-11-18, 02:18:00] ~ Kahran Singh: “Mr. Altman’s departure follows a deliberative review process by the board, which concluded that he was not consistently candid in his communications with the board, hindering its ability to exercise its responsibilities. The board no longer has confidence in his ability to continue leading OpenAI.”
 Wow.
 [2023-11-18, 02:42:11] Arko C | xylem.ai: Satya is like MS will sell. You focus on RnD. Don’t try to make profits.
 [2023-11-18, 03:15:23] Twishmay Shankar: ‎Twishmay Shankar joined from the community
@@ -7388,7 +7388,7 @@ Wow.
 [2023-11-18, 07:33:04] Kashyap Kompella: Satya trying to reassure customers and investors —
 [2023-11-18, 07:33:07] Kashyap Kompella: https://twitter.com/satyanadella/status/1725656554878492779?s=46&t=k0cVW-ZCarySfMdBQgEq3A
 [2023-11-18, 07:38:37] ~ vignesh iyer: My bet is Elon is coming to OpenAI again.. he has been surprisingly silent so far
-[2023-11-18, 07:40:50] Hari Balasubramanian: ‎Hari Balasubramanian was added
+[2023-11-18, 07:40:51] Hari Balasubramanian: ‎Hari Balasubramanian was added
 ‎[2023-11-18, 07:49:52] C Chaitanya: ‎image omitted
 [2023-11-18, 07:51:20] C Chaitanya: Remember he also has his hands in Worldcoin. Must have been mixing things too much with no care for personal data or must have been moving money around different startups of his.
 [2023-11-18, 07:53:55] C Chaitanya: https://x.com/bernhardsson/status/1725664622705865073?s=20
@@ -7408,7 +7408,7 @@ https://www.reddit.com/u/Anxious_Bandicoot126/s/gLP2mheppX
 [2023-11-18, 08:06:56] Samhan Meta/Twitter Friend: Here is my theory - safetyism isn’t about safety . It’s about power just like everything else
 [2023-11-18, 08:27:00] jyotirmayjk Hackathon: ‎This message was deleted.
 ‎[2023-11-18, 08:27:36] jyotirmayjk Hackathon: ‎image omitted
-[2023-11-18, 08:42:38] Bharat Kumar Ramesh Hashmal Web3: ‎Bharat Kumar Ramesh Hashmal Web3 was added
+[2023-11-18, 08:42:39] Bharat Kumar Ramesh Hashmal Web3: ‎Bharat Kumar Ramesh Hashmal Web3 was added
 [2023-11-18, 08:32:29] Bharat Kumar Ramesh Hashmal Web3: The board is 6 people. You need 4 to execute something like this. Confident that Greg and Sam are one side
 [2023-11-18, 08:32:57] Bharat Kumar Ramesh Hashmal Web3: Begs the question why did the 4 others collectively decide this. There's some deeper incentive or motive here
 [2023-11-18, 08:24:15] Vaibhav Pilani: ‎Vaibhav Pilani joined from the community
@@ -7437,7 +7437,7 @@ This is from 2021
 [2023-11-18, 08:43:23] Bharat Kumar Ramesh Hashmal Web3: Still, it's remarkable that Ilya managed to orchestrate this
 ‎[2023-11-18, 08:44:26] Ojasvi Yadav: ‎image omitted
 [2023-11-18, 08:46:00] Ankur Pandey: It's maybe the impact of recently held AI safety summit. The powers that be are becoming concerned by the top AI company behaving in a rogue, reckless mode. And influencing others.
-[2023-11-18, 08:46:42] Dia Thanki: ‎You added Dia Thanki
+[2023-11-18, 08:46:43] Dia Thanki: ‎You added Dia Thanki
 [2023-11-18, 08:47:50] ~ Himanshu: ‎~ Himanshu joined from the community
 [2023-11-18, 08:48:28] Bharat Kumar Ramesh Hashmal Web3: Meh, It's kind of weird for Adam D Angelo to be setting an AI safety direction
 [2023-11-18, 08:49:29] jyotirmayjk Hackathon: He might not be concerned with AI safety but he can use it as a cover for a coup
@@ -7501,7 +7501,7 @@ The cause and effect are reversed.
 [2023-11-18, 09:41:46] ~ Sushant: I wonder if Microsoft is good to take this opportunity
 
 Make a case for devaulation of openai and look for buying at much less $ value
-[2023-11-18, 09:50:41] Lucifer 😎: ‎Lucifer 😎 was added
+[2023-11-18, 09:50:42] Lucifer 😎: ‎Lucifer 😎 was added
 [2023-11-18, 09:42:12] Lucifer 😎: https://twitter.com/gregisenberg/status/1725615015984607390?t=Ph3fSYY_eXyPSLeo8H0CRA&s=19
 
 Important thread
@@ -7542,7 +7542,7 @@ This was the time xd
 [2023-11-18, 09:54:06] ~ Karthik Prabhu: Is that even legal
 [2023-11-18, 09:54:21] ~ Karthik Prabhu: Wouldn't they have to chair a board meeting to vote him out?
 [2023-11-18, 09:54:58] Amogh V: OpenAI did
-[2023-11-18, 11:34:32] ~ Bibek: ‎~ Bibek was added
+[2023-11-18, 11:34:33] ~ Bibek: ‎~ Bibek was added
 [2023-11-18, 09:55:24] ~ Bibek: Next what for him then. Will he be building the Indic gpt
 [2023-11-18, 09:55:33] Lucifer 😎: 😂😂
 [2023-11-18, 09:55:38] ~ Bibek: Pun intended
@@ -7583,8 +7583,8 @@ https://x.com/jeremyphoward/status/1725712220955586899?s=20
 [2023-11-18, 10:27:23] ashish Acgt01 Twitter: funny and profound !
 doesnt chair of the board have veto ?
 [2023-11-18, 10:27:36] Paras Chopra Wingify: https://x.com/gdb/status/1725736242137182594?s=48&t=5SKrdzH6OFd69KBYuCBPSA
-[2023-11-18, 11:34:42] ~ Unni: ‎~ Unni was added
-[2023-11-18, 10:27:51] ~ Unni: Can they start a rival of chatgpt
+[2023-11-18, 11:34:42] ~ Unni Krishnan: ‎~ Unni Krishnan was added
+[2023-11-18, 10:27:51] ~ Unni Krishnan: Can they start a rival of chatgpt
 Will they also have non compete clause etc
 [2023-11-18, 10:28:24] ~ Karthik Prabhu: Dk what is the progress on their AGI/GPT-5
 [2023-11-18, 10:28:31] ~ Karthik Prabhu: OpenAI is quite secretive on that
@@ -7603,7 +7603,7 @@ https://x.com/sama/status/1725742088317534446?s=46 ‎<This message was edited>
 ‎[2023-11-18, 10:45:41] Adarsh GenAI WhatsApp Group: ‎image omitted
 [2023-11-18, 10:47:01] Lucifer 😎: Has elon tweeted anything on this situation ?
 [2023-11-18, 10:47:14] Lucifer 😎: Edit is riyal
-[2023-11-18, 10:47:24] ~ Unni: Waiting for his wise cracks
+[2023-11-18, 10:47:24] ~ Unni Krishnan: Waiting for his wise cracks
 [2023-11-18, 10:47:35] ~ Satpal: a job post😂
 [2023-11-18, 10:47:50] Lucifer 😎: He is standing down looking at his starship
 He got no time
@@ -7614,7 +7614,7 @@ He called Geohot to solve the reccos of twt and paid him hefty only for 2 weeks
 
 He might maybe shoot a shot at sama
 [2023-11-18, 10:48:44] Lucifer 😎: 😂😂
-[2023-11-18, 11:34:46] Anuj Gupta DLBLR Meetups: ‎Anuj Gupta DLBLR Meetups was added
+[2023-11-18, 11:34:47] Anuj Gupta DLBLR Meetups: ‎Anuj Gupta DLBLR Meetups was added
 ‎[2023-11-18, 10:49:37] Anuj Gupta DLBLR Meetups: ‎image omitted
 [2023-11-18, 10:50:22] Lucifer 😎: This news was also circulated in reddit
 I think this is not the full picture.
@@ -8144,10 +8144,10 @@ More details, meanwhile, have also emerged about Altman’s broader ambitions in
 ‎[2023-11-19, 05:22:14] Samhan Meta/Twitter Friend: ‎image omitted
 [2023-11-19, 06:00:26] Shimanta Generative AI: ‎Shimanta Generative AI joined from the community
 [2023-11-19, 06:45:37] Ayush Yadav: This is getting interesting by the hour.
-[2023-11-19, 07:45:50] ~ Karthikeyan Vijayan: ‎~ Karthikeyan Vijayan was added
-[2023-11-19, 07:45:50] ~ Chirag: ‎~ Chirag was added
-[2023-11-19, 07:45:50] G Kuppuram GenAI Demo Day: ‎G Kuppuram GenAI Demo Day was added
-[2023-11-19, 07:45:50] Dia Thanki: ‎Dia Thanki left
+[2023-11-19, 07:45:51] ~ Karthikeyan Vijayan: ‎~ Karthikeyan Vijayan was added
+[2023-11-19, 07:45:51] ~ Chirag: ‎~ Chirag was added
+[2023-11-19, 07:45:51] G Kuppuram GenAI Demo Day: ‎G Kuppuram GenAI Demo Day was added
+[2023-11-19, 07:45:51] Dia Thanki: ‎Dia Thanki left
 ‎[2023-11-19, 07:49:53] Anubhav mishra Zupay: ‎image omitted
 ‎[2023-11-19, 07:51:33] Rahul Chhabra 2016: ‎image omitted
 [2023-11-19, 07:54:28] Rahul Chhabra 2016: This does line up p well w the belief that Satya won’t let a multi billion $ investment go to ruin and will do anything and everything to have sama back. 
@@ -8693,7 +8693,7 @@ This is not helping
 [2023-11-21, 00:54:33] Poorvi Vijay Elevation SAIF: ‎You removed Poorvi Vijay Elevation SAIF
 [2023-11-21, 00:56:29] Khyati Jain Sundial: ‎You removed Khyati Jain Sundial
 [2023-11-21, 00:57:02] Sathvik Napa: ‎You removed Sathvik Napa
-[2023-11-21, 00:58:31] Niko: ‎You removed Niko
+[2023-11-21, 00:58:31] Niko Cunningham: ‎You removed Niko Cunningham
 [2023-11-21, 01:01:04] Satyajeet Kanetkar: ‎You removed Satyajeet Kanetkar
 [2023-11-21, 01:01:41] Naman Jain Stellaris: ‎You removed Naman Jain Stellaris
 [2023-11-21, 01:09:27] ~ Honnesh Rohmetra: ‎You removed ~ Honnesh Rohmetra
@@ -8776,7 +8776,7 @@ This research paper on AI policy, co-authored by OpenAI board member Helen Turne
 [2023-11-27, 21:42:28] ~ Karthik Prabhu: (Don't know if it's actually followed though)
 [2023-11-27, 21:42:44] Shubham Girdhar: Didn't know that was an option, thanks for sharing
 [2023-11-27, 21:44:41] ~ Karan Gandhi: ‎This message was deleted.
-[2023-11-28, 01:36:54] ~ Kahran: thank you!!! ❤️❤️❤️❤️❤️
+[2023-11-28, 01:36:54] ~ Kahran Singh: thank you!!! ❤️❤️❤️❤️❤️
 [2023-11-28, 15:02:59] Varshul Dubverse: Hey all, going for a Meta roundtable today. They are trying to understand how to efficiently work with Indian startups on AI/XR stuff. Meta's global Policy heads will be present(Joel Kaplan/Shivraj Thukral et al)
 
 Do post in your questions that I can help ask.
@@ -9004,7 +9004,7 @@ So you know. Just sticking to empirically what works and what does not.
 [2023-12-16, 12:41:29] Rajiv Poddar DevGPT: You are the truth.
 [2023-12-16, 12:41:57] Sthit Generative AI WhatsApp Group: Interesting
 [2023-12-16, 12:42:04] Sthit Generative AI WhatsApp Group: Will watch and dm you 🫡
-[2023-12-16, 19:57:28] ~ KS: Math has flaws? Elaborate please.
+[2023-12-16, 19:57:28] ~ Kaustubh: Math has flaws? Elaborate please.
 [2023-12-16, 20:00:36] ~ Sudarshan: ‎~ Sudarshan left
 ‎[2023-12-16, 20:16:42] Prashant Singh JarApp: ‎GIF omitted
 [2023-12-16, 20:18:14] Prashant Singh JarApp: This is one of the  Mahāvākyas of upnishads
@@ -9119,7 +9119,7 @@ PS: At your own risk. I take no blame for any sleep you might lose over this �
 [2023-12-16, 23:03:28] ~ Praveen Sridhar: ‎You removed ~ Praveen Sridhar
 [2023-12-16, 23:03:55] ~ Sankeerth: ‎You removed ~ Sankeerth
 [2023-12-16, 23:04:04] ~ anuja grazzel: ‎You removed ~ anuja grazzel
-[2023-12-16, 23:15:09] Shekar Ramachandran Intel Senior MTS: ‎You added Shekar Ramachandran Intel Senior MTS
+[2023-12-16, 23:15:10] Shekar Ramachandran Intel Senior MTS: ‎You added Shekar Ramachandran Intel Senior MTS
 [2023-12-16, 23:31:59] Edgar Monis Mumbai WHO: So I was thinking something:
 
 Most llm evals have this problem of data leakage where the eval set leaks into the training set.
@@ -9381,9 +9381,9 @@ An interesting read about a BCG experiment on the use of AI by Business Consulta
 [2023-12-29, 14:30:30] ~ Rachna M: Khosla, is making a relevant point, even though we’re seeing inflation now, in the medium to long run there’s a possibility of deflation because AI and Automation will reduce the cost of production. Such deflation may actually be good for the economy as costs will decline and not business profit margins measured in %. 
 
 However, this business insider article is not well thought out and not well written, as they didn’t quite understand the Macroeconomic cause that will lead to decline in prices with the use of AI and are just using a generic definition of deflation to draw negative conclusions.
-[2023-12-29, 15:21:11] ~ KS: I do not agree with the logic that the cost of production will determine the price of a product. Raw material prices usually increase every year. Even if the cost of production reduces, companies won't take a hit on their margins.
+[2023-12-29, 15:21:11] ~ Kaustubh: I do not agree with the logic that the cost of production will determine the price of a product. Raw material prices usually increase every year. Even if the cost of production reduces, companies won't take a hit on their margins.
 [2023-12-29, 15:25:56] Kunal Bhatia Hexo: If cost of production goes down, competition will drive prices down
-[2023-12-29, 15:27:14] ~ KS: Yes there is a possibility but, that reduction has to be significant enough to take the decision of reducing prices.
+[2023-12-29, 15:27:14] ~ Kaustubh: Yes there is a possibility but, that reduction has to be significant enough to take the decision of reducing prices.
 [2023-12-29, 15:28:07] ~ Arvind Sankar: AI would also increase supply
 [2023-12-29, 15:33:28] Sthit Generative AI WhatsApp Group: Well written. Thanks for sharing. 
 
@@ -10192,7 +10192,7 @@ So asking for govt regulation on external AI has resulted(will result?) in net l
 [2024-03-04, 12:48:49] Rahul Chhabra 2016: https://x.com/itsarnavb/status/1764504056503111774?s=46
 [2024-03-04, 12:50:24] Bulia Siddharth Aurashop: I am just a Devil’s advocate here 🙂 Discussing the possibilities on what all could happen if Govt. goes this way. ‎<This message was edited>
 [2024-03-04, 12:52:07] Rahul Chhabra 2016: Kinda based and worth doing.
-[2024-03-04, 13:40:31] Dia Thanki: ‎Dia Thanki was added
+[2024-03-04, 13:40:32] Dia Thanki: ‎Dia Thanki was added
 [2024-03-04, 13:11:02] Dia Thanki: https://www.moneycontrol.com/news/technology/ai-launch-advisory-not-applicable-to-startups-rajeev-chandrasekhar-clarifies-after-outcry-12397621.html
 [2024-03-04, 13:11:29] Dia Thanki: Following from my comments yesterday, how convenient!
 [2024-03-04, 13:14:22] Sandeep Srinivasa RedCarpetup: this is ALREADY in effect. No financial service co can use chatgp. the RBI law on data residency is in effect. Most of the bank deployments im seeing is private models.
@@ -10421,7 +10421,7 @@ Like open-compute. Also, use case curation from India point of view. In fact, th
 [2024-04-12, 10:40:16] ~ Vrinda Damani: ‎~ Vrinda Damani requested to join
 [2024-04-12, 16:09:54] ~ Ria Mirchandani: ‎Waiting for this message. This may take a while.
 [2024-04-14, 15:58:38] ~ Sanjeed: Any recommended pre-reads?
-[2024-04-18, 19:08:21] ~ Vishnu Prasad: ‎~ Vishnu Prasad left
+[2024-04-18, 19:08:22] ~ Vishnu Prasad: ‎~ Vishnu Prasad left
 [2024-04-20, 12:36:01] ~ Elwin Linus: ‎~ Elwin Linus requested to join
 [2024-04-20, 19:30:14] AI Policy: ‎You changed the group name to “AI Policy”
 [2024-04-20, 19:30:26] Nirant K: Friends, we initially created this group to create a space for India specific conversations across Policy and Philosophy. 
@@ -10432,7 +10432,7 @@ We also don't have long term contributors who're experts on the topic.
 
 With that in mind, I'm reducing the scope of this to Policy for now i.e. removing Philosophy
 [2024-04-20, 19:30:42] ~ Rajat Choudhary: ‎~ Rajat Choudhary requested to join
-[2024-04-20, 19:39:56] Nirant K: We'd love to have 2 people who're looking into AI Policy anywhere in the world moderate this. If you've someone in mind, please reply to this message and make an intro? 
+[2024-04-20, 19:39:57] Nirant K: We'd love to have 2 people who're looking into AI Policy anywhere in the world moderate this. If you've someone in mind, please reply to this message and make an intro? 
 
 
 Nirant, on behalf of GenerativeAI Community https://nirantk.com/community
@@ -10673,7 +10673,7 @@ I think the way it could work is have small group discussions with individuals, 
 [2024-04-28, 09:13:20] Nirant K: Partially. Malicious usage prevention is baked into most UGC tools including social media. For instance, a user sharing hate speech on Twitter creates liability for both Twitter and user.
 [2024-04-28, 09:19:23] Saurabh Karn Nyai: In this Apple, Open AI case? The situation is probably 1 human consuming and transmission is default available.
 [2024-04-28, 10:29:02] Nirant K: Single person consumption would imply OpenAI is the publisher and I'd assume Apple will push liability towards them
-[2024-04-28, 10:29:29] Nirant K: Transmission is human initiated as such
+[2024-04-28, 10:29:30] Nirant K: Transmission is human initiated as such
 [2024-04-28, 14:52:30] ~ Mimansa: ‎~ Mimansa left
 [2024-04-28, 20:45:22] Anubhav mishra Zupay: Why has the homeland security create a board ?
 Why is palantir not there
@@ -11005,9 +11005,9 @@ OpenAI will not want a verdict.
 [2024-05-17, 11:33:07] Amlan Mohanty AI Policy: Some early recommendations: Define the goals on compute more clearly (social impact? sovereignty? financial returns?). There are many ways to build and manage compute infrastructure - we need to study these approaches in detail since the government has already started the procurement process under a PPP model. Also, the government should drive local demand by highlighting priority use cases and enable affordable access through digital public infrastructure (DPIs). Additionally, building dedicated clusters for academic research and national security is a priority. Lastly, data, skilling, and regulation should be addressed in conjunction with compute as part of a broader AI strategy.
 [2024-05-17, 11:34:27] Amlan Mohanty AI Policy: This report on compute was based on meetings with key stakeholders in the AI policy ecosystem. If you'd like to be involved in future meetings, please DM me. Thanks!
 [2024-05-17, 11:43:02] Rajiv Poddar DevGPT: great report. i was piqued by the "sovereign compute" thing as well. lot of people have been dissing on this idea that India needs it own foundational models, latest one being Nilekani. that is what sovereign compute is for, right?
-[2024-05-17, 12:49:30] Nirant K: Nilekani's case is explicitly against building models
-‎[2024-05-17, 12:50:26] Nirant K: ‎image omitted
-[2024-05-17, 12:50:26] Nirant K: I was there too, so I can confirm that this press piece is directionally correct
+[2024-05-17, 12:49:31] Nirant K: Nilekani's case is explicitly against building models
+‎[2024-05-17, 12:50:27] Nirant K: ‎image omitted
+[2024-05-17, 12:50:27] Nirant K: I was there too, so I can confirm that this press piece is directionally correct
 ‎[2024-05-17, 12:53:26] Adarsh GenAI WhatsApp Group: ‎image omitted
 [2024-05-17, 12:53:58] Tanuj Bhojwani: I’m usually the one to have a radical, pointed view but let me attempt to interpret these two differences from my understanding of this.
 [2024-05-17, 12:54:42] Tanuj Bhojwani: The government of India has a point of view that India should be producing these models. It stems from the same philosophy that India as a country should have an atomic mission or a space mission. Commendable goals, and I support it. The how though is up for a lot of debate.
@@ -11016,13 +11016,13 @@ OpenAI will not want a verdict.
 [2024-05-17, 12:56:44] Tanuj Bhojwani: The man was ahead of his times, sad what happened between him and Murthy. Who knows where Infosys would’ve been if not for this. This is the tussle that led to Nandan coming back to Infosys, he was otherwise very hands-off on infosys.
 [2024-05-17, 12:58:16] Tanuj Bhojwani: My simple (and therefore definitionally flawed) analogy is mobility. Indians need to go from point A to B. You can ask when will be build our own Jaguars, Hummers, Mercedes and Ferraris. But the pragmatist will say boss build your activas first.
 [2024-05-17, 12:59:56] Tanuj Bhojwani: Bangalore car traffic makes you forget it, but we are a two-wheeler country primarily. Less than 8% of households have a car.
-[2024-05-17, 13:03:05] Nirant K: Why not both? Korea, China, Viet Nam, Japan did both.
+[2024-05-17, 13:03:06] Nirant K: Why not both? Korea, China, Viet Nam, Japan did both.
 
 But I digress, thanks for taking the time to share and expand
 [2024-05-17, 13:03:24] Nirant K: This is a great and pithy phrasing. Like it!
 [2024-05-17, 13:04:40] Tanuj Bhojwani: I think both too. It’s just about who you are and what levers of influence you have. Government should aim for capability, Nandan should aim for impact. Is either of them wrong? no. The media (and we also) love to forgo nuance.
 [2024-05-17, 13:05:36] Tanuj Bhojwani: I like this group therefore, and can have this conversation here. But in the press, I’ll also be reinterpreted as being in one camp or the other. And someone in some other whatsapp group is probably calling me daft too 🙂
-[2024-05-17, 13:05:57] Nirant K: No no. We are all for nuance. The point of this space is to hear details, specifics and hence nuance
+[2024-05-17, 13:05:58] Nirant K: No no. We are all for nuance. The point of this space is to hear details, specifics and hence nuance
 [2024-05-17, 13:06:06] Dr. Pratik Desai KissanAI: Do we think then the foundation model research should be left to highly funded institutions (model that has worked for India, ISRO, DRDO), while drive startup ecosystem on something that is monetizable as Indian consumers are still not there to pay for GenAI services, enabling model work at startup ecosystem level. ‎<This message was edited>
 [2024-05-17, 13:07:11] Dr. Pratik Desai KissanAI: Wrong word “highly”, but still mission driven for home grown capabilities in case there is any AGI embargo in future ‎<This message was edited>
 [2024-05-17, 13:07:56] Tanuj Bhojwani: The we was we Indians, not this group. 
@@ -11225,7 +11225,7 @@ My first intuition upon seeing this article is that it is taken out of context. 
 [2024-05-20, 17:56:25] Anubhav mishra Zupay: Sarvam is an AI agent company now I guess like Alteria
 [2024-05-20, 17:57:50] Anubhav mishra Zupay: Specialising in Indic language use cases
 [2024-05-20, 17:58:32] Amlan Mohanty AI Policy: VCs can solve capital issues. But what’s the reasoning behind the Sarvam investment if there is a compute and talent constraint? My question is this - is Sarvam the exception in that regard - they can access compute and have the talent in ways other Indian companies don’t? Or are VCs just hedging their bets
-[2024-05-20, 18:02:43] Nirant K: Yes to both - they've unfair access to some degree
+[2024-05-20, 18:02:44] Nirant K: Yes to both - they've unfair access to some degree
 [2024-05-20, 18:10:00] Ravi Theja: Just curious, why would someone raise 41M when one is not building FM? 🤔
 [2024-05-20, 18:10:12] Dr. Pratik Desai KissanAI: More than talent, we don’t have incentive to train foundation model. I’m sure tomorrow if there is an embargo or emergency, we will figure out how to train and train something like DBRX level, but that would be for national security not for building startup.
 [2024-05-20, 18:12:28] Anubhav mishra Zupay: We can’t produce a large frontier model. It’s not just about foundation model.
@@ -11377,3 +11377,245 @@ We used to speak about him with very high respect at my college, when I was a fr
 [2024-05-21, 21:37:48] Amlan Mohanty AI Policy: This today from the AI safety summit in South Korea
 [2024-05-21, 22:20:12] Amit Malik Aviva Life Insurance: Good read
 [2024-05-21, 22:20:15] Amit Malik Aviva Life Insurance: Thanks for sharing
+‎[2024-05-22, 09:28:04] Dr. Pratik Desai KissanAI: ‎image omitted
+[2024-05-22, 09:31:04] Dr. Pratik Desai KissanAI: This anonymous account has a history of insider information and leaks. It is still a rumor, but it may end up becoming a reality soon.
+[2024-05-22, 09:34:37] Bulia Siddharth Aurashop: In case of this event, would it be possible for Indian Government to license the model?
+[2024-05-22, 09:35:39] Dr. Pratik Desai KissanAI: That's a dependency, and every time there is a conflict of interest, they twist the arm.
+[2024-05-22, 09:40:03] Bulia Siddharth Aurashop: I hope India go into this negotiation with a strong arm 💪
+[2024-05-22, 09:42:01] Amlan Mohanty AI Policy: Out of curiosity, why does the Indian government need model weights to be open from a sovereignty perspective?
+[2024-05-22, 09:42:26] Dr. Pratik Desai KissanAI: We have been licensing 30yr old Jet engines cause we can't build them. While China is copy pasting even B2 bombers. It won't end well, and DC will control negotiations, not Meta.
+[2024-05-22, 09:45:05] Anubhav mishra Zupay: https://open.substack.com/pub/luttig/p/the-future-of-foundation-models-is?r=21nunz&utm_campaign=post&utm_medium=email
+
+More on this
+[2024-05-22, 09:55:50] Bulia Siddharth Aurashop: I like this argument.
+[2024-05-22, 09:55:58] Tanuj Bhojwani: This is not news to me! It's also a fair strategy. Keep something to commercialise.
+[2024-05-22, 09:57:29] Dr. Pratik Desai KissanAI: Then, it is a calculated risk to be always under the influence of the US gov when the AI race accelerates.
+‎[2024-05-22, 09:59:37] Anubhav mishra Zupay: ‎image omitted
+[2024-05-22, 12:22:05] Saurabh Karn Nyai: Two scenarios:
+1) There are equally performant models for all sorts of use (civil or defence) which has not been developed by Indian govt. In this case there is a dependency that tomorrow we don’t have model weights because we have been using some API. (Highly unlikely though) Sovereignty immediately get’s compromised. 
+
+2) There are models that Indian govt. has bought for all sorts of use cases (civil or defence) and has been shared model weights as well - so now 10k GPUs can be consumed and the model can be used. But the govt. doesnt have access to training procedure or the base data used to train. The model get’s stale and govt. is vendor locked. Sovereignty is at mild risk but from a competitive edge perspective not a good place to be at.
+
+3) There are models that Indian govt. has bought/developed or the has received along with base data, training procedure and model weights. Govt. will have to ensure that there is upkeep and maintenance but it is still in control. Sovereignty remains some what intact but the onus on ensuring that it is not a sunk cost comes back to the govt.
+[2024-05-22, 12:22:16] Saurabh Karn Nyai: That’s my 25 paise on this
+[2024-05-22, 12:36:20] Rajiv Poddar DevGPT: https://x.com/deedydas/status/1793150273441218833
+[2024-05-22, 12:36:43] Rajiv Poddar DevGPT: India should seize the opportunity. Lots of companies might wanna move.
+[2024-05-22, 13:50:31] ~ Rikkin Majani: ‎~ Rikkin Majani requested to join
+[2024-05-22, 17:38:09] ~ Bharath: We even explored hiring from there once. ‎<This message was edited>
+[2024-05-22, 18:36:13] Samhan Meta/Twitter Friend: I’m becoming doomer pilled on open source. I think models of GPt-4 or better class will not get open sourced. Happy to be proven wrong
+[2024-05-22, 18:36:53] Samhan Meta/Twitter Friend: I’m sure Zucks phone is ringing with all sorts of powerful ppl making all kinds of plays to ensure this
+[2024-05-22, 18:38:00] Samhan Meta/Twitter Friend: Something like GPT-4o is way too powerful to open source just like that
+[2024-05-22, 18:43:58] Samhan Meta/Twitter Friend: Where will BPO folks go ? I’m pretty sure Infy etc can do 10x of what scale AI is currently doing. Can move to data annotation , production , evaluation. Will also help build domestic models
+[2024-05-22, 18:44:44] Samhan Meta/Twitter Friend: The same ppl answering support calls with some training can create data
+[2024-05-22, 18:44:53] Samhan Meta/Twitter Friend: But it will be a much smaller number
+[2024-05-22, 19:27:08] Rajiv Poddar DevGPT: Infy, TCS etc. are applying the cloud playbook to GenAI. They're "certifying" their employees as GenAI ready and selling AI transformation projects to US clients. TCS just bagged a billion dollar project.
+[2024-05-22, 19:27:46] Rajiv Poddar DevGPT: If they are building datasets/models, they're not doing it in public at least.
+[2024-05-22, 19:35:08] Rajiv Poddar DevGPT: https://www.financialexpress.com/business/digital-transformation-global-economy-genai-impact-weigh-on-it-industry-recovery-infy-co-founder-gopalakrishnan-3491071/
+[2024-05-22, 19:44:49] Dr. Pratik Desai KissanAI: Who are these people, not FAANG+OpenAI, spending billion dollar on GenAI outsourcing?
+[2024-05-22, 19:46:04] Dr. Pratik Desai KissanAI: Or are they just commitment numbers that every other is claiming these days?
+[2024-05-22, 19:46:31] Rajiv Poddar DevGPT: https://analyticsindiamag.com/tcs-records-900-million-ai-and-genai-pipeline-this-quarter/
+[2024-05-22, 19:48:24] Dr. Pratik Desai KissanAI: Accenture numbers were commitments or pilot projected to earn that much, and TCS assuming they are comparing is also saying the same. AIM folks are amazing. ‎<This message was edited>
+[2024-05-22, 19:48:54] Rajiv Poddar DevGPT: it mentions airline, security, etc.
+[2024-05-22, 19:49:16] Dr. Pratik Desai KissanAI: There is not a single company except big tech that will spend 1B on a single GenAI project
+[2024-05-22, 19:50:16] Dr. Pratik Desai KissanAI: Also, these numbers were not pure GenAI but part of their digital transformation package.
+[2024-05-22, 19:51:16] ~ Tapan: Interesting 🤔
+[2024-05-22, 19:58:32] Rajiv Poddar DevGPT: Assuming if TCS, Accenture, Infy are applying the cloud transformation playbook, they must be marketing their "GenAI ready workforce" to all the non core IT sector: BFSI, Pharma, Healthcare, etc.
+[2024-05-22, 20:02:34] Rajiv Poddar DevGPT: Many CIOs are under pressure to experiment with GenAI to cut costs, increase productivity, because of the "challenging economic conditions". Probably the VC funds pouring money going into Gen AI startups also are pushing for it.
+[2024-05-22, 20:06:25] Rajiv Poddar DevGPT: That's how they're filling up their pipelines. But, there's price pressure though. These guys are the biggest MS Copilot users. And MS has been touting the 50% productivity gains.
+[2024-05-22, 20:12:22] jyotirmayjk Hackathon: Reminds me of Infosys AusOpen sponsorship 
+
+They heavily branded AusOpen with Infy AI
+As part of promotion they hosted a text-2-imgmodel so users can generate graffiti for Nadal.
+
+Turns out that they hosted a bunch of pre-generated images and kept serving those via cdns whenever anyone entered a prompt.
+[2024-05-22, 22:09:23] Samhan Meta/Twitter Friend: Indias goal should be simple in short term 
+- A 7 B / 14B multi modal LLM that can do voice text and image understanding in top 10 Indian languages
+[2024-05-22, 22:15:18] Amlan Mohanty AI Policy: Any idea how much compute that would require in terms of GPUs or PF?
+[2024-05-22, 22:30:11] Samhan Meta/Twitter Friend: I think it would cost on the order of millions of dollars 🤔
+[2024-05-22, 22:30:15] Samhan Meta/Twitter Friend: Quite doable
+[2024-05-22, 22:33:37] Saurabh Karn Nyai: Calculating in PF isn’t straightforward. See this: https://medium.com/@dzmitrybahdanau/the-flops-calculus-of-language-model-training-3b19c1f025e4
+
+I am pretty sure better resources exist but this has a decent explanation
+[2024-05-22, 22:35:11] Saurabh Karn Nyai: Also you should factor for multiple runs. LLM gods need to bless you before you get your model.
+[2024-05-22, 22:53:24] Samhan Meta/Twitter Friend: Starting with some LAMA as a base + changing tokenizer and then up cycling maybe a shortcut . I tnink that’s what many GPU poor startups do
+[2024-05-22, 22:54:27] Anubhav mishra Zupay: @919880723689 
+https://huggingface.co/training-cluster
+
+Try this
+[2024-05-22, 22:54:50] Anubhav mishra Zupay: Cost calculator by HF
+[2024-05-22, 23:15:42] Rajiv Poddar DevGPT: https://analyticsindiamag.com/indian-it-is-training-a-genai-workforce-to-eventually-replace-them-with-ai/
+[2024-05-22, 23:16:48] Rajiv Poddar DevGPT: At least somebody's talking about labour replacement. The next few years are gonna be wild.
+[2024-05-23, 09:29:34] ~ Sandya Saravanan: In the Build Keynote, I think Rajesh Jha did mention Acenture, Tech Mahindra and a few others buying 100,000+ copilot licenses
+[2024-05-23, 11:34:41] Amlan Mohanty AI Policy: My hunch is this can be easily done with a portion of the 10k GPUs being acquired. Question is whether a 7b model can do the use cases that Indian wants and needs. I think this will be discovery process and some back and forth with devs to get the right parameters.(including on context windows etc) and the compute allocation right.
+[2024-05-23, 11:34:53] Amlan Mohanty AI Policy: But I’m feeling more confident that India can build a useful foundational model from scratch. What I like about this goal is that it’s clearly defined so resources can be invested accordingly (capex never an issue, more about compute and talent)
+[2024-05-23, 11:54:24] Rajiv Poddar DevGPT: MS is aggressively marketing copilot to enterprises. It's a blockbuster product. It's a problem for services companies though.
+[2024-05-23, 11:55:19] Rajiv Poddar DevGPT: Clients are asking for discounts on the projects citing copilot. There's downward pressure on contract values.
+[2024-05-23, 11:57:09] Rajiv Poddar DevGPT: That's gonna push more adoption of GenAI tools. Copilots for PMs, meeting assistants, agents.
+‎[2024-05-23, 13:33:47] Amlan Mohanty AI Policy: ‎image omitted
+[2024-05-23, 13:46:19] Tanuj Bhojwani: India being the government or Indians? Because Indians already have.
+‎[2024-05-23, 14:06:34] Anubhav mishra Zupay: ‎image omitted
+[2024-05-23, 14:08:32] Anubhav mishra Zupay: It’s a GPT 3 trained on NaMo and teams content management system data
+[2024-05-23, 14:09:26] Anubhav mishra Zupay: It’s cool actually for normal q and a on the namo app
+[2024-05-23, 14:12:53] Amlan Mohanty AI Policy: I would say publicly funded, but more importantly in the public interest (does that exclude commercial models, I don’t know). This gets to heart of “what is a sovereign model”. It’s a good research question, something I’m keen to explore
+[2024-05-23, 14:14:27] Tanuj Bhojwani: If government, what you’re saying is you’re confident taxpayer money can be used to spin up GPUs to train a model of a certain size. I am confident about that too. However this model will not exist in a vacuum, this model will be competing with other models. I’m less confident of what happens after. What’s your take on that? The Abu Dhabi government also trained falcon-34B. A few months down the line, how is it being used, by whom and for what?
+[2024-05-23, 14:22:27] Dr. Pratik Desai KissanAI: In terms of adaptation and competitive edge, there will be only 2-3 winners in the model race anyway. The sovereign models are more about national security and developing applications for surveillance, security, etc. A good analogy can be a commercial plane vs a Jet fighter.
+[2024-05-23, 14:30:16] Anubhav mishra Zupay: https://youtu.be/uHBFMK6h4Mc?si=Gash1XPz_8Bh9aFH
+
+Here is a good Bloomberg interview of edlud low with Jensen on sovereign AI
+[2024-05-23, 14:30:34] Anubhav mishra Zupay: Bookmarked it a couple of months ago
+[2024-05-23, 14:31:35] Anubhav mishra Zupay: https://blogs.nvidia.com/blog/what-is-sovereign-ai/
+[2024-05-23, 14:33:55] Anubhav mishra Zupay: https://www.weforum.org/agenda/2024/04/sovereign-ai-what-is-ways-states-building/
+
+This was also a good read.
+[2024-05-23, 14:42:24] Samhan Meta/Twitter Friend: Don’t worry folks hacker news says AI is just hype
+[2024-05-23, 14:48:07] Dr. Pratik Desai KissanAI: Perfect. Going back to build B2B SaaS...
+[2024-05-23, 14:49:00] ~ Narayan Sharma: ‎This message was deleted.
+[2024-05-23, 14:49:32] Samhan Meta/Twitter Friend: You captured my feelings. AI is probably the only real new / good idea in the pure software industry right now. What else ? Crypto ? 😂
+[2024-05-23, 14:54:47] Sthit Generative AI WhatsApp Group: Quantum is on its way. Give it 5 years.
+[2024-05-23, 14:55:35] Keertana S Suvy: I'm interested to work on the problem of readying talent for this/AI in India...interested to hear from others who are doing the same...of course the vision of what is needed is the first essential ‎<This message was edited>
+[2024-05-23, 15:24:17] Saurabh Karn Nyai: Similarly Bloomberg trained Bloombger GPT by spending $10mm and there is no evidence of why that is better  than any other model.
+[2024-05-23, 15:25:10] Saurabh Karn Nyai: That’s the tricky thing about LLMs it doesn’t work like that. You get some compute, some data and some training procedure - may or may not lead to a model usable.
+[2024-05-23, 15:25:40] Saurabh Karn Nyai: Similar to like how education DOESNT work by just putting a teacher and students in a classroom
+[2024-05-23, 15:25:56] Saurabh Karn Nyai: This one was unnecessary but something I think about
+[2024-05-23, 15:30:54] Keertana S Suvy: And the key is , how to design education that substitutes for experience? Look at most new job posts related to AI , almost all ask for several years  experience working with AI  ( 5+ ) - demand clearly outstrips supply of labor here. How to fill the gap quickly, as new jobs emerge?
+‎[2024-05-23, 18:38:03] Hasan Tech Art: ‎image omitted
+‎[2024-05-24, 12:24:41] Rajiv Poddar DevGPT: ‎image omitted
+[2024-05-24, 13:38:48] ~ Prajna Prayas: ‎You removed ~ Prajna Prayas
+[2024-05-24, 13:39:03] ~ Uma K: ‎You removed ~ Uma K
+[2024-05-24, 13:39:53] ~ Harveer: ‎You removed ~ Harveer
+[2024-05-24, 13:40:39] ~ Tanuj Mendiratta: ‎You removed ~ Tanuj Mendiratta
+[2024-05-24, 13:41:17] Siddharth Agarwal: ‎You removed Siddharth Agarwal
+[2024-05-24, 13:46:58] Ravi Srinivasan: ‎You removed Ravi Srinivasan
+[2024-05-24, 13:47:08] Diwank Thiel Fellow: ‎You removed Diwank Thiel Fellow
+[2024-05-24, 13:50:23] Amlan Mohanty AI Policy: Interesting update on this. I heard from a source that the Chinese AI company listed here has pulled out after signing on to this commitment
+[2024-05-24, 13:50:45] Prado Garv's Friend: ‎You removed Prado Garv's Friend
+[2024-05-24, 13:51:36] Aayush Jain AWS: ‎You removed Aayush Jain AWS
+[2024-05-24, 13:52:18] Ramakrishnan Lokanathan: ‎You removed Ramakrishnan Lokanathan
+[2024-05-24, 13:52:49] Aman Dreamboat.ai: ‎You removed Aman Dreamboat.ai
+[2024-05-24, 13:53:29] Abhishek Sahu Ultrahuman: ‎You removed Abhishek Sahu Ultrahuman
+[2024-05-24, 13:54:38] ~ Varun Rai: ‎You removed ~ Varun Rai
+[2024-05-24, 13:55:07] ~ Shashank Kapadia: ‎You removed ~ Shashank Kapadia
+[2024-05-24, 13:58:27] ~ Arpit: ‎You removed ~ Arpit
+[2024-05-24, 13:58:43] ~ Nimish Tiwari: ‎You removed ~ Nimish Tiwari
+[2024-05-24, 13:58:52] Chirag Gandhi Trifecta Capital: ‎You removed Chirag Gandhi Trifecta Capital
+[2024-05-24, 14:00:37] Swastik Banerjee: ‎You removed Swastik Banerjee
+[2024-05-24, 14:01:18] Palkush GenerativeAI Group: ‎You removed Palkush GenerativeAI Group
+[2024-05-24, 14:01:29] ~ Hariprasad P S: ‎You removed ~ Hariprasad P S
+[2024-05-24, 14:01:43] Abhinav Shop101: ‎You removed Abhinav Shop101
+[2024-05-24, 14:02:03] ~ Sandeep: ‎You removed ~ Sandeep
+[2024-05-24, 14:02:26] Vibbs Dod: ‎You removed Vibbs Dod
+[2024-05-24, 14:04:24] ~ Harsh: ‎You removed ~ Harsh
+[2024-05-24, 14:04:30] ~ Harsh: ‎You removed ~ Harsh
+[2024-05-24, 14:06:08] Ananth Radhakrishnan 2012A7: ‎You removed Ananth Radhakrishnan 2012A7
+[2024-05-24, 14:07:01] ~ Saravanan Balakrishnan: ‎You removed ~ Saravanan Balakrishnan
+[2024-05-24, 14:08:08] Lavish 2017: ‎You removed Lavish 2017
+[2024-05-24, 14:08:32] Amritanshu Simplismart: ‎You removed Amritanshu Simplismart
+[2024-05-24, 14:12:00] ~ Apoorv Saxena: ‎You removed ~ Apoorv Saxena
+[2024-05-24, 14:12:21] Pushpak Kedia Sequoia: ‎You removed Pushpak Kedia Sequoia
+[2024-05-24, 14:13:28] ~ Ketan Sethi: ‎You removed ~ Ketan Sethi
+[2024-05-24, 14:13:36] ~ Advait Shankar: ‎You removed ~ Advait Shankar
+[2024-05-24, 14:13:51] ~ Anuraag Gupta: ‎You removed ~ Anuraag Gupta
+[2024-05-24, 14:15:12] Dhawal Jain Generative AI Group: ‎You removed Dhawal Jain Generative AI Group
+[2024-05-24, 14:15:20] Amal David Futuryze: ‎You removed Amal David Futuryze
+[2024-05-24, 14:15:42] ~ Krishaay: ‎You removed ~ Krishaay
+[2024-05-24, 14:45:47] Dipin Chopra: ‎You removed Dipin Chopra
+[2024-05-24, 14:47:40] ~ Rishabh Raj: ‎You removed ~ Rishabh Raj
+[2024-05-24, 14:47:48] ~ Deven: ‎You removed ~ Deven
+[2024-05-24, 14:48:14] Dhanush Speciale Invest: ‎You removed Dhanush Speciale Invest
+[2024-05-24, 14:49:04] ~ Aditya Chivukula: ‎You removed ~ Aditya Chivukula
+[2024-05-24, 14:49:18] ~ Ashish Sardana: ‎You removed ~ Ashish Sardana
+[2024-05-24, 14:50:16] ~ Anil: ‎You removed ~ Anil
+[2024-05-24, 14:50:25] Animesh Mishra: ‎You removed Animesh Mishra
+[2024-05-24, 14:51:09] ~ Max 🦧: ‎You removed ~ Max 🦧
+[2024-05-24, 14:51:45] ~ Bharat Chandra: ‎You removed ~ Bharat Chandra
+[2024-05-24, 14:51:53] ~ Rupali: ‎You removed ~ Rupali
+[2024-05-24, 14:53:50] ~ Kanchi: ‎You removed ~ Kanchi
+[2024-05-24, 14:54:06] ~ Akash Rathi: ‎You removed ~ Akash Rathi
+[2024-05-24, 14:54:44] ~ Blessin Varkey: ‎You removed ~ Blessin Varkey
+[2024-05-24, 14:55:11] Ved Chitnis: ‎You removed Ved Chitnis
+[2024-05-24, 14:55:28] ~ Unmesh R: ‎You removed ~ Unmesh R
+[2024-05-24, 14:56:29] ~ R S: ‎You removed ~ R S
+[2024-05-24, 14:56:37] Lohith GenerativeAI WhatsApp Group: ‎You removed Lohith GenerativeAI WhatsApp Group
+[2024-05-24, 14:57:46] ~ Animesh Agrawal: ‎You removed ~ Animesh Agrawal
+[2024-05-24, 14:58:03] ~ Jagdishwar Jaman Jyothi: ‎You removed ~ Jagdishwar Jaman Jyothi
+[2024-05-24, 14:59:33] ~ Avani Vidhani: ‎You removed ~ Avani Vidhani
+[2024-05-24, 14:59:42] ~ KK: ‎You removed ~ KK
+[2024-05-24, 14:59:51] Kaushik S YC W23: ‎You removed Kaushik S YC W23
+[2024-05-24, 18:46:06] ~ Aanchal Gupta: ‎~ Aanchal Gupta requested to join
+[2024-05-24, 19:12:02] ~ Anuj Modi: ‎~ Anuj Modi requested to join
+[2024-05-24, 19:40:36] AI Policy: ‎You changed the group description
+[2024-05-24, 19:40:51] AI Policy: ‎You changed the group description
+[2024-05-24, 19:54:07] ~ Anjineyulu: We need to bring proper metrics via which we can compare for diffrent user persona,we need to prove quantam leap in answer relavence and cost.We should finetune the model relatively with performance of other models
+[2024-05-25, 12:12:43] ~ nikhil@medianama.com: Is there any research on testing? As in, we've seen in the past that companies often don't stick to their commitments. Facebook and Google have both been fined in the past when caught out. How do we know wrt AI? Is there any regtech?
+[2024-05-26, 11:10:12] Anubhav mishra Zupay: https://www.microsoft.com/en-us/research/publication/pariksha-a-scalable-democratic-transparent-evaluation-platform-for-assessing-indic-large-language-models/
+
+has anyone followed this ? MSFT india published a paper which is a framework to evaluate LLMs for indic lang
+[2024-05-26, 11:34:15] Nirant K: ‎You deleted this message.
+[2024-05-26, 13:18:52] ~ Harsha: We have created a community for Indic Model builders. The MSR India team is a part of this. Let me know if you have any questions or want to join!
+
+More here: https://peopleplus.ai/leaderboard
+[2024-05-27, 12:15:18] ~ Abhinash Khare: ‎~ Abhinash Khare left
+[2024-05-27, 14:07:46] ~ Bhavya Singh: ‎~ Bhavya Singh requested to join
+[2024-05-27, 14:32:38] ~ Bhavya Singh: ‎~ Bhavya Singh joined from the community
+[2024-05-27, 21:59:22] Amlan Mohanty AI Policy: Unfortunately no standardised benchmarks on AI safety that I’m aware of. There are many frameworks to evaluate performance, including an independent one by Stanford and the one on Indic languages by Microsoft and People+AI that was just posted
+[2024-05-27, 21:59:52] Amlan Mohanty AI Policy: My worry is there’s too much emphasis on model performance and not enough on testing and safety
+‎[2024-05-27, 22:00:20] Amlan Mohanty AI Policy: ‎image omitted
+[2024-05-27, 22:19:02] Prashanth Harshangi Encrypt AI: Yes, unfortunately not many standards. We started some efforts on this - https://www.enkryptai.com/llm-safety-leaderboard 
+Lot more additions coming soon ...
+‎[2024-05-28, 21:40:04] Hasan Tech Art: ‎image omitted
+[2024-05-28, 21:46:54] Saurabh Karn Nyai: What tasks do you use local 8b for?
+[2024-05-28, 21:47:50] Hasan Tech Art: Also with MoE becoming open with mixtral and some experimental 2b x 8 models. Seems like multiple small brains is actually the way to go.
+[2024-05-28, 21:52:24] Hasan Tech Art: I have been collaborating with artists for a theatre show. It’ll be about the challenges of powerful AI tools in the context of online attacks on journalists and such. One of the parts have a fake tweet storm targeting one of the audience members. The tweets, names and usernames are being generated by a local LLM. Also another part where Audience member have to introduce themselves and we record that 30 seconds. In 10 minutes we ask the person to step out of the stage we will continue the show with a bot but with their face and voice 😁. The dialogue bot is saying are coming from a local LLM. ‎<This message was edited>
+‎[2024-05-28, 21:54:53] Hasan Tech Art: ‎video omitted
+[2024-05-28, 21:54:59] Hasan Tech Art: The performance is about to start in Germany in 1 hour so 🤞for errors. ‎<This message was edited>
+‎[2024-05-28, 21:59:53] Hasan Tech Art: ‎video omitted
+[2024-05-28, 22:05:06] Saurabh Karn Nyai: That is pretty cool! All the best ☺️
+[2024-05-30, 15:44:46] Aditya Kothari Covid19: ‎Aditya Kothari Covid19 requested to join
+[2024-05-31, 06:58:35] ~ Apurva Chamaria: ‎~ Apurva Chamaria requested to join
+[2024-05-31, 11:35:02] Nirant K: Hello friends, as you might've noticed that we remove folks from the community because of WhatsApp limitation of 2K people — and we're oversubcribed at all times. This meant you'd have to be active in the main group even if you personally were more interested in Policy because the removal criteria only factored that group. That will change to allow activity in this group to count from June 1. 
+
+Why? We want to encourage specialisation since Day 1. And it makes no sense to encourage contributing in an engineering forum if your heart lies elsewhere. 
+[2024-05-31, 12:09:56] Ciyunni: ‎Ciyunni left
+[2024-05-31, 13:07:22] ~ pajama poets: ‎~ pajama poets left
+[2024-05-31, 13:18:42] Ishavasyam Antler: ‎Ishavasyam Antler left
+[2024-05-31, 19:26:22] ~ Animesh.xyz: ‎~ Animesh.xyz left
+‎[2024-05-31, 22:58:56] Anubhav mishra Zupay: ‎image omitted
+[2024-06-01, 07:15:55] ~ Arvind Sankar: Doesnt help OpenAI's commitment to privacy though
+[2024-06-01, 07:16:32] Sthit Generative AI WhatsApp Group: Who's gonna prosecute then though ? 😂
+[2024-06-01, 07:36:08] ~ Venkat: No
+[2024-06-01, 08:02:30] Rajiv Poddar DevGPT: https://www.financialexpress.com/life/technology-indiaai-makes-it-possible-for-intel-amd-to-take-on-nvidia-3507490/
+[2024-06-01, 08:03:05] Rajiv Poddar DevGPT: PLI scheme for GPUs
+[2024-06-01, 08:40:27] Sthit Generative AI WhatsApp Group: Take on Nvidia is a bit delusional I feel
+[2024-06-01, 08:46:32] Dr. Pratik Desai KissanAI: These folks think $100M-$150M are going to create level field for Intel and AMD.
+[2024-06-01, 08:49:49] Dr. Pratik Desai KissanAI: Basically, they will buy a lot of garbage, some Babaus and middlemen will make money, and nobody will care after a while. New Defense Contracts style opportunity unlocked.
+[2024-06-01, 08:51:54] Dr. Pratik Desai KissanAI: People who never heard the Cuda word before will make the decision to buy Intel AMD GPUs over Nvidia
+[2024-06-01, 21:05:07] ~ WhatsApp User: ‎‎~ WhatsApp User changed their phone number to a new number. ‎Tap to message or add the new number.
+[2024-06-02, 11:09:22] Vishwam Jindal Webnyay: Helpful starting point for compliance with EU AI Act
+
+https://nasscom.in/ai/responsibleai/eu-ai-act/
+[2024-06-02, 13:08:54] Ankur Pandey: ‎Ankur Pandey left
+‎[2024-06-02, 13:42:21] Adarsh GenAI WhatsApp Group: ‎image omitted
+[2024-06-02, 13:43:43] Harshal Bhatia: Distasteful take
+[2024-06-02, 13:44:17] C Chaitanya: So Tsinghua University is not doing anything worthy for $4 billion?
+[2024-06-02, 13:44:56] ~ Karthik Prabhu: Another fun fact: Stanford’s endowment fund is more than double India’s education budget
+[2024-06-02, 13:49:47] Adarsh GenAI WhatsApp Group: My prof told me this: in a particular conference, around a 100 papers accepted were from Tsinghua alone whereas there were less than 10 papers from all universities in India combined ‎<This message was edited>
+‎[2024-06-02, 14:06:58] Nirant K: ‎image omitted
+[2024-06-02, 14:09:35] Nirant K: The "count" is quasi effort score and hence on a log-scale. It's non trivial to hack it, because it excludes citations completely. 
+‎[2024-06-02, 14:11:17] Nirant K: ‎image omitted
+[2024-06-02, 14:17:18] ~ Shashank Shekhar: On AI Tshinghua is way ahead of not only Indian universities but any university in the world. While the list places CMU on 3rd, on number of publications in top ABDC listed journals and conferences, Tshinghua is way ahead. State of affairs in India is pretty disappointing. There is no encouragement for research for undergrads. For post grads and PhD too, the efforts are disparate and the institutions have very negligible role ‎<This message was edited>
+[2024-06-02, 14:18:38] Nirant K: CMU places 3rd largely because of their "low resource language" hack to get published everywhere from language to vision these days 
+[2024-06-02, 14:19:46] ~ Shashank Shekhar: We recently did a RAGathon at IIT M and the performance of the students (mostly undergrads) was pretty disappointing. Hardly any innovation or originality in thoughts
+[2024-06-02, 14:20:02] C Chaitanya: When I was younger, I was more impressed with these numbers. Wanting to study in the "top 10" universities etc etc. Unfortunately have now become older and more disillusioned with rankings, numbers etc.
+All I know is that money is not the only thing to define research. Especially for Math. All you need is an active, inquisitive mind. And one mentor who believes in you.
+Some other kind of research might need huge investments for sure. There is no way around. But AI and math research, I still have hope that the best results will come from some corner by some obscure researcher.
+[2024-06-02, 14:23:03] C Chaitanya: The main problem with Chinese universities, for me at atleast, is that their research most probably will not benefit humanity. It might benefit China. But that's not the same as benefitting humanity. I think in that ranking, it will rank pretty low.
+[2024-06-02, 14:25:32] ~ Shashank Shekhar: I don’t completely agree. Give the current landscape and pace , infrastructure and investment will prove to be necessary for any significant innovation in this domain
+[2024-06-02, 14:27:54] Nirant K: China is around 25% of humanity! And in fairness, China does ship it's surplus in most areas from battery innovation to textiles to rest of the world in past. It's unfair to say that it won't benefit humanity.
+
+Asian manufacturing, shipping, coordination prowess has helped humanity grow from 3B to ~9B in less than 40 years. That's insane.
+[2024-06-02, 14:28:27] Nirant K: I get the idea that China is often isolationist, but they're publishing in Western "open" venues for now
+[2024-06-02, 14:36:58] C Chaitanya: Of course I have no problem with China spending money and doing research. Their country their money :)
+But I was just pointing out that that may not be the best approach for our country at this stage. We cannot just invest $4B in one university so that we have a top ranking University in the world. Our current goal seems to be welfare schemes which will uplift people out of poverty. At least thats what people are voting for.
+[2024-06-02, 14:38:56] C Chaitanya: It is more judicious for us to look at alternative forms of research that does not compete  directly with their research. We do not have the money, the compute or talent in that area to win.
+[2024-06-02, 15:31:38] ~ Vrinda Damani: ‎~ Vrinda Damani requested to join
+[2024-06-02, 15:43:38] Abhinav Verma Longshot.ai: What were some interesting approaches
