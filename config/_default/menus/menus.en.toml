@@ -38,23 +38,29 @@
   weight = 20
 
 [[main]]
+  name = "About"
+  weight = 20
+  identifier = "about"
+  url = "/about"
+
+[[main]]
   name = "Work With Me"
   url = "/work-with-me/"
   weight = 30
   identifier = "work-with-me"
 
 [[main]]
-  name = "About"
-  weight = 30
-  identifier = "about"
-  url = "/about"
-  parent = "work-with-me"
-
-[[main]]
   name = "Endorsed Friends"
   weight = 40
   identifier = "endorsed"
   url = "/endorsed"
+  parent = "work-with-me"
+
+[[main]]
+  name = "Contact"
+  weight = 50
+  identifier = "contact"
+  url = "/contact"
   parent = "work-with-me"
 
 [[social]]
