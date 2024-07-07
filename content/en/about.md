@@ -13,7 +13,7 @@ toc: true
 I'm a Machine Learning Consultant and AI Engineer. I help startups and founders build AI products and services.
 This includes things like **LLMs** and **Vector Databases**, which are amazing tools which unlock a lot of new, intelligent value but also have their own limits.
 
-I recently built [FastEmbed](https://qdrant.github.io/fastembed), an embedding library built for speed using ONNX. It is maintained with [Qdrant](https://qdrant.tech/) - a vector search engine.
+I recently built [FastEmbed](https://qdrant.github.io/fastembed), an embedding library built for speed using ONNX. It is maintained by [Qdrant](https://qdrant.tech/) - a vector search engine.
 
 Trivia:
 1. Dr. Andrew Ng recommends [Awesome NLP](https://github.com/keon/awesome-nlp), a repo I've maintained since 2018 at Stanford's Deep Learning course [CS 230](https://cs230.stanford.edu/section/1/).
