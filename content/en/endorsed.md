@@ -9,7 +9,7 @@ images: []
 weight: 100
 toc: true
 ---
-Last Updated: February 2024
+Last Updated: July 2024
 
 Talented friends I can endorse for their work -- either because I've worked with them or know them socially.
 
