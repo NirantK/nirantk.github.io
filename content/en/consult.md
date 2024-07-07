@@ -1,7 +1,7 @@
 ---
-title: "Consulting Services"
-description: "Applied AI Consulting Services"
-lead: "Applied AI Consulting Services"
+title: "Applied AI Consulting Services"
+description: "For teams that want to go from RAGs to Riches"
+lead: "I've been building and deploying real-world AI solutions since 2016. My goal is to help you minimize regret by sharing my lessons and giving you a clear vision on what to invest in and what to build."
 date: 2024-07-02T08:48:57+00:00
 lastmod: 2024-07-02T08:48:57+00:00
 draft: false
@@ -9,8 +9,6 @@ images: []
 weight: 100
 toc: true
 ---
-
-# Applied AI Consulting Services
 
 > This page is copied from [Jason Liu](https://github.com/jxnl/blog/blob/main/docs/services.md) -- a solid example of an AI Engineer, and you should check out his work.
 
