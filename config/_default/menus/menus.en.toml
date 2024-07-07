@@ -57,10 +57,10 @@
   parent = "work-with-me"
 
 [[main]]
-  name = "Contact"
-  weight = 50
-  identifier = "contact"
-  url = "/contact"
+  name = "Consult"
+  weight = 30
+  identifier = "consult"
+  url = "/consult"
   parent = "work-with-me"
 
 [[social]]
