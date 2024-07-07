@@ -15,20 +15,26 @@ Talented friends I can endorse for their work -- either because I've worked with
 
 I'm happy to connect you with them if you're looking to hire or collaborate with them, with double opt-in from both sides.
 
+# Endorsed Engineering Talent
+
 | Name | Skills | Remarks/Notes | Endorsed By |
 | --- | --- | --- | -- |
 | [Rohit Bhardwaj](https://www.linkedin.com/in/ro7it/) | Data Engineer | Worked with him at verloop.io, solving analytics problems | Nirant | 
 | [Harsh Gupta](https://www.linkedin.com/in/hargup/) | Generalist Backend engineer, Search, LLMs, Data Augumentation and Pipeline | Ex-JPMC, Helpshift, GSoC mentor and student. Built [felvin.com](https://www.producthunt.com/products/felvin#felvin) one of the first no-code tools for building AI applications, raised angel investments for it. Know him socially. | Nirant|
-| [Heer Shingala](https://www.linkedin.com/in/heer-shingala/?originalSubdomain=in) | B2B SaaS Marketing | Know her socially | Nirant |
 | [Dhruv Anand](https://www.linkedin.com/in/dhruv-anand-ainorthstartech/) | Search Consultant, VectorDB & LLM | ex-CMU, Google & Meta Know him via the GenerativeAI Community | Nirant |
-| [Sudarshan Chandra Babu](https://www.linkedin.com/in/cbsudux/) | Generative Image Models | Former Enterpreneur, know him via the GenerativeAI Community | Nirant |
 | [Anudeep](https://www.linkedin.com/in/anudeepyegireddi/) | ML Engineer | Was the category winner at the GenerativeAI Hackathon | Nirant |
 | [Kshitij](https://www.linkedin.com/in/agrawalkshitij/) | ML Engineer | - | Sudarshan |
+| [Kumar Shivendu](https://www.linkedin.com/in/kshivendu/) | Product engineer with interest in Devtools, Search & LLMs | Builds auth devtools at SuperTokens, he was the dev behind this [blog](https://nirantk.com/writing/pgvector-vs-qdrant/). Update: Has joined Qdrant.tech after the endorsement! | Nirant |
+
+# Endorsed Non-Engineering Talent
+
+| Name | Skills | Remarks/Notes | Endorsed By |
+| --- | --- | --- | -- |
 | [Eepsita Gupta](https://www.linkedin.com/in/eepsita/) | SaaS Positioning | Has worked with the likes of Capillary, Vymo, DHL. Know her socially | Nirant |
 | [Nivedita Prabhu](https://www.linkedin.com/in/niveditaprabhu/) | Brand, Advertising & Marketing | Mollen-Lowe Lintas, Ogilvy & inMobi alum, dear friend | Nirant |
 | [Shubhi Saxena](https://www.linkedin.com/in/shubhi-saxena-28241975/) | Engineer-turned-early-Product: PLG, Pre-Sales, Sales or Marketing | Was an anchoring and energetic friend for the [GenerativeAI DeepHack](https://nirantk.com/deephackdemos) which we did together. Update: Has joined Quizizz in the Product Management Organization | Nirant |
 | [Preet Singh Khalsa](https://www.linkedin.com/in/psk97/) | Generalist Extraordinaire | Ex-CRED, Accel, Update: Has moved to VC firm EQT in Europe after the endorsement | Nirant | 
-| [Kumar Shivendu](https://www.linkedin.com/in/kshivendu/) | Product engineer with interest in Devtools, Search & LLMs | Builds auth devtools at SuperTokens, he was the dev behind this [blog](https://nirantk.com/writing/pgvector-vs-qdrant/). Update: Has joined Qdrant.tech after the endorsement! | Nirant |
+| [Heer Shingala](https://www.linkedin.com/in/heer-shingala/?originalSubdomain=in) | B2B SaaS Marketing | Know her socially | Nirant |
 
 You can request addition and edits to this page by sending a PR to [this file](https://github.com/NirantK/nirantk.github.io/blob/main/content/en/endorsed.md)
 
