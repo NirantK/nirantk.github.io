@@ -17,7 +17,7 @@ I recently built [FastEmbed](https://qdrant.github.io/fastembed), an embedding l
 
 Trivia:
 1. Dr. Andrew Ng recommends [Awesome NLP](https://github.com/keon/awesome-nlp), a repo I've maintained since 2018 at Stanford's Deep Learning course [CS 230](https://cs230.stanford.edu/section/1/).
-2. Top 5 GenAI Scientists in India, [Analytics India Magazine](https://www.analyticsvidhya.com/dhs-2023/award-nomination/)
+2. Top 5 GenAI Scientists in India, [Analytics India Magazine](https://web.archive.org/web/20240731033150/https://www.analyticsvidhya.com/dhs-2023/award-nomination/)
 3. I have written a [book](#book) on Natural Language Processing 
 
 ## Background
