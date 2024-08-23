@@ -79,17 +79,8 @@ These guides are good rules of thumbs for behaviour, but admins reserve all righ
 
 ## 📚 Resources
 
-### Event announcements
-https://chat.whatsapp.com/FMQSb8S6GXk0eLkS9qHpKP
-
-### Hiring Announcements:
-Please share them here: https://chat.whatsapp.com/FMQSb8S6GXk0eLkS9qHpKP
-
-### Looking for jobs?
-Join here: https://chat.whatsapp.com/FMQSb8S6GXk0eLkS9qHpKP
-
 ### Hackathon and Jury Recommendations
-- [Mentors and Jury](https://docs.google.com/spreadsheets/d/1Aj_mAmcZVGE-cIF6M_CsAqtSmea-SL7nbPPuAyw3_T0/edit#gid=0) from India
+- [Mentors and Jury](https://nirantk.com/endorsed) from India
 
 ### Finances & Expenses
 
@@ -156,7 +147,6 @@ These are the folks who pitch in ideas, help with moderation, lend their experti
 22. [Vignesh Baskaran](https://www.linkedin.com/in/vigneshbaskaran0123/) - Co-founder, HexoAI
 23. [Dhruv Anand](https://www.linkedin.com/in/dhruv-anand-ainorthstartech/) - Search Consultant, VectorDB & LLM
 24. [Soumyadeep Mukherjee](https://www.linkedin.com/in/soumyadeepmukherjee/) - Co-founder and Engineer, Dashtoon
-25. [Digvijay](https://www.linkedin.com/in/digvijay-singh-88-safety/) - ex-Hyperverge, Stealth Founder
 
 ### Founding Members:
 
