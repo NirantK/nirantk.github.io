@@ -6,66 +6,49 @@ from typing import Tuple
 import pandas as pd
 
 
-def extract_messages(file_path: Path) -> pd.DataFrame:
-    """
-    Extract messages from a WhatsApp chat file.
-
-    :param file_path: Path to the WhatsApp chat file.
-    :return: DataFrame containing Sender, Datetime, and Message columns.
-    """
-    # Pattern to match the WhatsApp messages
-    pattern = re.compile(
-        r"\[(?P<date>\d{1,2}\/\d{1,2}\/\d{2,4}), (?P<time>\d{1,2}:\d{2}:\d{2})\] (?P<sender>[^:]+): (?P<message>.+)"
-    )
-
-    # Lists to hold the extracted data with consideration for multi-line messages
-    dates = []
-    times = []
-    senders = []
-    messages = []
-
-    # Variables to hold the current message details
-    current_date = current_time = current_sender = current_message = None
-
-    # Reading the file and extracting the messages, considering multi-line messages
+def extract_dataframe(file_path: Path):
+    datetimes, senders, messages = [], [], []
+    
+    message_patterns = [
+        r'\[(\d{4}-\d{2}-\d{2}, \d{2}:\d{2}:\d{2})\]([^:]+): (.+)',
+        r'(\d{2}/\d{2}/\d{2},\s+\d{1,2}:\d{2}\s+[ap]m)([^:]+): (.+)?',
+    ]
+    system_pattern = r'\[(\d{4}-\d{2}-\d{2}, \d{2}:\d{2}:\d{2})\] (.+)'
+    
+    def parse_datetime(date_str):
+        try:
+            return datetime.strptime(date_str, '%Y-%m-%d, %H:%M:%S')
+        except ValueError:
+            return datetime.strptime(date_str, '%d/%m/%y, %I:%M %p')
+    
     with open(file_path, "r") as file:
         for line in file:
-            match = pattern.match(line)
-            if match:
-                if current_message is not None:
-                    dates.append(current_date)
-                    times.append(current_time)
-                    senders.append(current_sender)
-                    messages.append(current_message)
-                current_date = match.group("date")
-                current_time = match.group("time")
-                current_sender = match.group("sender")
-                current_message = match.group("message")
+            line = line.strip()
+            
+            for pattern in message_patterns:
+                match = re.match(pattern, line)
+                if match:
+                    date_str, sender, message = match.groups()
+                    date_time = parse_datetime(date_str)
+                    break
             else:
-                if current_message is not None:
-                    current_message += " " + line.strip()
+                system_match = re.match(system_pattern, line)
+                if system_match:
+                    date_str, message = system_match.groups()
+                    date_time = parse_datetime(date_str)
+                    sender = 'System or Continuation'
+                continue
+            
+            datetimes.append(date_time)
+            senders.append(sender)
+            messages.append(message)
 
-    # Adding the last message if there is one
-    if current_message is not None:
-        dates.append(current_date)
-        times.append(current_time)
-        senders.append(current_sender)
-        messages.append(current_message)
-
-    # Combining the date and time into a single datetime column
-    datetimes = [
-        datetime.strptime(f"{date} {time}", "%m/%d/%y %H:%M:%S")
-        for date, time in zip(dates, times)
-    ]
-
-    # Creating a DataFrame with multi-line messages
-    chat_df = pd.DataFrame(
-        {"Sender": senders, "Datetime": datetimes, "Message": messages}
-    )
-
-    return chat_df
-
-
+    return pd.DataFrame({
+        "Datetime": datetimes,
+        "Sender": senders,
+        "Message": messages,
+    })
+    
 def cleanup(df):
     # Drop the rows with no message
     # df = df.dropna()
