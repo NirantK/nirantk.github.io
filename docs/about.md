@@ -16,6 +16,7 @@ This includes things like **LLMs** and **Vector Databases**, which are amazing t
 I recently built [FastEmbed](https://qdrant.github.io/fastembed), an embedding library built for speed using ONNX. It is maintained by [Qdrant](https://qdrant.tech/) - a vector search engine.
 
 Trivia:
+
 1. Dr. Andrew Ng recommends [Awesome NLP](https://github.com/keon/awesome-nlp), a repo I've maintained since 2018 at Stanford's Deep Learning course [CS 230](https://cs230.stanford.edu/section/1/).
 2. Top 5 GenAI Scientists in India, [Analytics India Magazine](https://web.archive.org/web/20240731033150/https://www.analyticsvidhya.com/dhs-2023/award-nomination/)
 3. I have written a [book](#book) on Natural Language Processing 
@@ -25,11 +26,13 @@ Trivia:
 Machine Learning and AI Engineer with 7+ years of experience in chat bots, retrieval, ranking and language modeling. 
 
 As a Machine Learning Engineer, I
+
 - Trained the first [Hindi LM](https://github.com/NirantK/hindi2vec)
 - Deployed Sentence Transformers and Annoy (vector search library) for cosine Similarity powered search in 2018 in production
 - Managed a team of 3 engineers to build a support chatbot for 1M chat messages per month
 
 As an AI Engineer,
+
 - Have built and deployed Question Answering systems for 3+ years, including 2 projects with OpenAI LLMs e.g. text-davinci-003, GPT3.5 and GPT4
 - Hallucination-free summarization and question answering systems
 
