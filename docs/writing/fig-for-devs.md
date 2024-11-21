@@ -34,7 +34,13 @@ If you want to change your geography, you need to uproot your life and move to a
 
 You can, but it's difficult and perhaps needs a lot of thinking cycles and internal conviction.
 
-One of the things higher education e.g. MS/PhD/MBA helps is change 2 of these at a time e.g. you might get into a PhD program which changes your function and industry both. Or a MS abroad program which changes your function and geography.
+### Cheat code: Higher Education
+
+MS/PhD/MBA helps folk change 2 of these at a time:
+
+1. You might get into a PhD program which changes your function and industry both
+2. MS abroad program which changes your function and geography
+3. MBA program which changes your industry (e.g. IT services to consulting) and geography (e.g. India to US)
 
 ## Clarity Helps a Lot
 
