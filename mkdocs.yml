@@ -21,16 +21,34 @@ theme:
   icon:
     repo: fontawesome/brands/github
   features:
-    - search.suggest
-    - search.highlight
-    - navigation.instant
-    - navigation.tracking
-    - navigation.expand
-    - navigation.sections
-    - content.code.annotate
-    - toc.follow
-    - header.autohide
+    features:
     - announce.dismiss
+    - content.action.edit
+    - content.action.view
+    - content.code.annotate
+    - content.code.copy
+    - content.code.select
+    - content.footnote.tooltips
+    - content.tabs.link
+    - content.tooltips
+    - header.autohide
+    - navigation.expand
+    - navigation.footer
+    - navigation.indexes
+    - navigation.instant
+    - navigation.instant.prefetch
+    - navigation.instant.progress
+    - navigation.prune
+    - navigation.sections
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.top
+    - navigation.tracking
+    - search.highlight
+    - search.share
+    - search.suggest
+    - toc.follow
+    - toc.integrate
   accent:
     # Primary color
     color: "#3f51b5"
@@ -61,7 +79,10 @@ markdown_extensions:
       toc_depth: 3
 
 plugins:
-  - search
+  - search:
+      separator: '[\s\u200b\-_,:!=\[\]()"`/]+|\.(?!\d)|&[lg]t;|(?!\b)(?=[A-Z][a-z])'
+  - minify:
+      minify_html: true
   - mkdocstrings:
       default_handler: python
       handlers:
@@ -89,9 +110,31 @@ plugins:
         remove_input_tags:
           - Remove_input
 
+extra:
+  # analytics:
+  #   provider: google
+  #   property: G-686PKP2V2V
+  social:
+    - icon: fontawesome/brands/twitter
+      link: https://twitter.com/nirantk
+    - icon: fontawesome/brands/github
+      link: https://github.com/nirantk
+    - icon: fontawesome/brands/linkedin
+      link: https://www.linkedin.com/in/nirant/
+
+# extra_css:
+#   - stylesheets/extra.css
+extra_javascript:
+  # - javascripts/mathjax.js
+  # - javascripts/analytics.js
+  - https://polyfill.io/v3/polyfill.min.js?features=es6
+  - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
+
 markdown_extensions:
   - pymdownx.superfences:
       custom_fences:
         - name: mermaid
           class: mermaid
           format: !!python/name:pymdownx.superfences.fence_code_format
+
+copyright: Copyright &copy; 2024 Nirant Kasliwal
