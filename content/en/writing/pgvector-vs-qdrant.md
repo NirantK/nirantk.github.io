@@ -66,7 +66,7 @@ Qdrant(quantization=False, m=16, ef_construct=128, grpc=True, hnsw_ef=None, resc
 PGVector(lists=200, probes=2)
 ```
 
-The `pgvector` [recommendation]((https://github.com/pgvector/pgvector#query-options)) which'd be possibly worse performance-wise:
+The `pgvector` [recommendation](https://github.com/pgvector/pgvector#query-options) which'd be possibly worse performance-wise:
 ```
 PGVector(lists=1000, probes=1)
 ```
