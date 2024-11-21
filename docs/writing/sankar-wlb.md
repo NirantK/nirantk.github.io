@@ -2,9 +2,9 @@
 contributors:
 - Nirant Kasliwal
 date: '2015-09-27 23:29:18+05:30'
-description: Python f-string Primer
+description: Syam Sankar on Work Life Balance
 draft: false
-excerpt: Python f-string Primer
+excerpt: Syam Sankar on Work Life Balance
 featured_image: images/ink.png
 images: []
 lastmod: '2015-09-27 23:29:18+05:30'
