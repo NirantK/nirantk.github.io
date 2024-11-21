@@ -1,0 +1,8 @@
+{{ $date := .Date | time.Format "January 2, 2006" }}
+{{ $lastmod := .Lastmod | time.Format "January 2, 2006" }}
+<div class="blog-date">
+  <span>Published: {{ $date }}</span>
+  {{ if ne $date $lastmod }}
+  <br><span>Last modified: {{ $lastmod }}</span>
+  {{ end }}
+</div> 
