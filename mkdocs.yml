@@ -1,4 +1,92 @@
-site_name: My Docs
+site_name: Nirant Kasliwal
 site_url: https://nirantk.com/
+site_author: Nirant Kasliwal
+
+remote_branch: gh-pages
+remote_name: origin
+
+plugins:
+  - search
+  - social
+
+
 theme:
   name: material
+  # logo: assets/logo/favicon.png
+  icon:
+    repo: fontawesome/brands/github
+  features:
+    - search.suggest
+    - search.highlight
+    - navigation.instant
+    - navigation.tracking
+    - navigation.expand
+    - navigation.sections
+    - content.code.annotate
+    - toc.follow
+    - header.autohide
+    - announce.dismiss
+  accent:
+    # Primary color
+    color: "#3f51b5"
+    # Text color for primary color
+    text: "#ffffff"
+
+  palette:
+    # Palette toggle for light mode
+    - scheme: default
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+
+    # Palette toggle for dark mode
+    - scheme: slate
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+
+markdown_extensions:
+  - abbr
+  - admonition
+  - attr_list
+  # - highlight
+  - def_list
+  - toc:
+      permalink: true
+      toc_depth: 3
+
+plugins:
+  - search
+  - mkdocstrings:
+      default_handler: python
+      handlers:
+        python:
+          options:
+            show_source: false
+            show_bases: false
+            show_if_no_docstring: true
+            merge_init_into_class: true
+            show_root_toc_entry: false
+            show_inheritance: true
+            show_private: false
+            show_special_members: false
+  - mknotebooks:
+      execute: false
+      timeout: 100
+      allow_errors: false
+      tag_remove_configs:
+        remove_cell_tags:
+          - Remove_cell
+        remove_all_outputs_tags:
+          - Remove_all_output
+        remove_single_output_tags:
+          - Remove_single_output
+        remove_input_tags:
+          - Remove_input
+
+markdown_extensions:
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
