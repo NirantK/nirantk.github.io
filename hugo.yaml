@@ -1,0 +1,5 @@
+baseURL: https://nirantk.com/
+languageCode: en-us
+title: Nirant Kasliwal
+theme:
+  - hugo-theme-stack
