@@ -18,7 +18,9 @@ That's it.
 
 That's the framework.
 
-You can change one of these three at a time.
+You can change one of these. Not all three at a time.
+
+![](/assets/images/fig-career.png)
 
 ## Why only one at a time?
 
