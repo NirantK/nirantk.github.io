@@ -1,12 +1,11 @@
 ---
-title: "Qdrant vs pgvector - Results from the 1M OpenAI Benchmark"
+title: "pgvector vs Qdrant- Results from the 1M OpenAI Benchmark"
 description: "Consider This Before Using pgvector in Production"
 excerpt: "Consider This Before Using pgvector in Production"
 date: 2023-06-30T00:00:18+05:30
 lastmod: 2023-06-30T00:00:18+05:30
 draft: false
 weight: 50
-images: ["../images/1M_QPS.jpeg", "../images/1M_kNN.jpeg", "../images/QPSvsVectorpgvector.png", "../images/QPSvsVectorQdrant.png"]
 tags: ["tech", "machine learning", "production ml"]
 contributors: ["Nirant Kasliwal", "Shivendu Kumar"]
 social_preview_image: images/1M_QPS.jpeg

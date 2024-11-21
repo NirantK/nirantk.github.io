@@ -5,7 +5,7 @@ date: '2017-11-24 00:09:00+05:30'
 description: It's Magic
 draft: false
 excerpt: It's Magic
-featured_image: /images/bitsaa-keychain.png
+featured_image: assets/images/bitsaa-keychain.png
 images: []
 lastmod: '2017-11-24 00:09:00+05:30'
 tags:
@@ -56,7 +56,7 @@ _I learned to question virtues themselves in BITS Pilani._
 
 The Japanese have a strange art called Kintsugi. As per the art, you repair broken vessels with something precious, such as gold. The practice is related to the Japanese philosophy which calls for seeing beauty in the flawed or imperfect.
 
-![](/images/kintsugi.jpeg)
+![](../images/kintsugi.jpeg)
 
 If students are vessels to be filled with wisdom and knowledge, Pilani shatters them before it repairs them. Some don’t break, yet they are chipped away. The weather, the culture, the competition.
 
