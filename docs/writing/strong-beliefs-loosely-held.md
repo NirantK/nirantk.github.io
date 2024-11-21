@@ -9,7 +9,7 @@ lastmod: '2019-09-24 00:00:09+05:30'
 show_reading_time: true
 tags:
 - notes for self
-title: Personal Manifesto
+title: Strong Beliefs, Loosely Held
 toc: true
 weight: 50
 ---
