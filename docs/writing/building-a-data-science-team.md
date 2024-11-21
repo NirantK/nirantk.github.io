@@ -34,14 +34,7 @@ People with these questions:
 * "How can I build a Machine Learning team from scratch?" 
     * This is typically founders e.g. CEO/CTO looking to build out a Machine Learning function 
 
-This is divided into the following sections:
-
-1. [Org Design](#organisation-design)
-2. [Hiring](#hiring)
-3. [Working with the Boss & Friends](#stakeholders)
-
 Bonus: [Beliefs](#beliefs)
-
 
 # Hiring
 
@@ -55,7 +48,7 @@ In Summer of 2019, I did over 120 introductory calls between February and August
 
 For >1 year, we have hired for exactly ONE role: Machine Learning Engineer. 
 
-As explained in our [MLE Prep Guide](./verloop-ml-prep-guide/), we collapsed several roles into one. This means we don't hire a specialized Data Scientist, Researcher and then separate Product and Data Engineers to productionize the models. 
+As explained in our [MLE Prep Guide](verloop-ml-prep-guide.md), we collapsed several roles into one. This means we don't hire a specialized Data Scientist, Researcher and then separate Product and Data Engineers to productionize the models. 
 
 At Verloop, the same engineer takes the entire system live from research to production, and occassionally several months into maintenance and growth as well.
 
@@ -67,7 +60,7 @@ Our hiring process evaluates all candidates on primarily 3 skills:
 
 1. Low Level API Design for Web Services
 2. Programming Mindset and Quality
-3. Natural Language Processing/Machine Learning Skills (see [Prep Guide](./verloop-ml-prep-guide) if you're curious)
+3. Natural Language Processing/Machine Learning Skills (see [Prep Guide](verloop-ml-prep-guide.md) if you're curious)
 
 I biased the top of the funnel of the interview process to hire a team of compliments around my weaknesses.Each compliment should bring in a skill which is my weakness, but that individual's strength. 
 
@@ -87,7 +80,7 @@ It frankly makes my job a lot easier if developers do amazing work without me pu
 
 ## Process
 
-Our hiring process consists of two primary rounds: a programming challenge and ML challenge. You can actually take a deeper look here: [Verloop ML/NLP Interview Prep Guide](./verloop-ml-prep-guide).
+Our hiring process consists of two primary rounds: a programming challenge and ML challenge. You can actually take a deeper look here: [Verloop ML/NLP Interview Prep Guide](verloop-ml-prep-guide.md).
 
 The programming challenge is a take home exercise which is focussed on low level design and straightforward API design. We typically give 2-3 days to the candidate for this. 
 
