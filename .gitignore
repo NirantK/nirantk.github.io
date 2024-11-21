@@ -16,3 +16,4 @@ resources/_gen/*/*
 .hugo_build.lock
 community_dev/nbs/raw_latest.csv
 community_dev/nbs/users_to_remove.csv
+public/*
