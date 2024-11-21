@@ -31,14 +31,14 @@ theme:
     - content.footnote.tooltips
     - content.tabs.link
     - content.tooltips
-    - header.autohide
+    # - header.autohide
     - navigation.expand
     - navigation.footer
     - navigation.indexes
     - navigation.instant
     - navigation.instant.prefetch
     - navigation.instant.progress
-    - navigation.prune
+    # - navigation.prune
     - navigation.sections
     - navigation.tabs
     - navigation.tabs.sticky
@@ -138,3 +138,5 @@ markdown_extensions:
           format: !!python/name:pymdownx.superfences.fence_code_format
 
 copyright: Copyright &copy; 2024 Nirant Kasliwal
+
+docs_dir: docs
