@@ -26,5 +26,9 @@ jobs:
           restore-keys: |
             mkdocs-material-
       - run: pip install -r requirements-doc.txt
-      - run: cp static/CNAME CNAME
+      - name: Copy CNAME
+        run: |
+          if [ -f CNAME ]; then
+            cp static/CNAME docs/CNAME
+          fi
       - run: mkdocs gh-deploy --force
