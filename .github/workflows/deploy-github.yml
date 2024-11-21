@@ -1,6 +1,6 @@
 # Deploy your Hyas site to GitHub Pages
 
-name: GitHub Pages
+name: Deploy to GitHub Pages
 
 on:
   push:
@@ -8,26 +8,36 @@ on:
       - main
 
 jobs:
-  deploy:
-    runs-on: ubuntu-20.04
+  build-deploy:
+    runs-on: ubuntu-latest
+
     steps:
-      - uses: actions/checkout@v2
-      - uses: actions/setup-node@v2
-        with:
-          node-version: '16'
-          cache: 'npm'
+    - name: Check out the code
+      uses: actions/checkout@v4
+      with:
+        submodules: true  # Fetch submodules like themes
 
-      - name: Install dependencies
-        run: npm install
+    - name: Install Hugo
+      uses: peaceiris/actions-hugo@v3
+      with:
+        hugo-version: 'latest'
+        extended: true
 
-      - name: Check for linting errors
-        run: npm test
+    - name: Build the site
+      run: hugo --minify
 
-      - name: Build production website
-        run: npm run build
+    - name: Show Current Directory
+      run: pwd
 
-      - name: Deploy to GitHub Pages
-        uses: peaceiris/actions-gh-pages@v3
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./public
+    - name: List Files in Current Directory
+      run: ls -la
+
+    - name: List Files in 'public' Directory
+      run: ls -la public
+
+    - name: Deploy to GitHub Pages
+      uses: peaceiris/actions-gh-pages@v3
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+        publish_dir: ./public
+        publish_branch: gh-pages
