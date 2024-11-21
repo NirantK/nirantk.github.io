@@ -20,7 +20,7 @@ That's the framework.
 
 You can change one of these. Not all three at a time.
 
-![](/assets/images/fig-career.png)
+![](../images/fig-career.png)
 
 ## Why only one at a time?
 
