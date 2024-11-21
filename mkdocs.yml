@@ -14,8 +14,6 @@ plugins:
       blog_toc: true
       post_dir: docs/writing/
       post_url_format: "{slug}"
-      authors_file: docs/writing/.authors.yml
-      sort_by: date
 
 theme:
   name: material
