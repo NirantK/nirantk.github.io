@@ -12,7 +12,7 @@ toc: true
 excerpt: A framework to think about career transitions through the lens of Function, Industry and Geography - and why you should change only one at a time.
 ---
 
-Your career is a function of Function, Industry, Geography.
+Your career is a combination of Function, Industry, Geography.
 
 That's it.
 
