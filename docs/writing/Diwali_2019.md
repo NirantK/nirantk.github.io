@@ -10,7 +10,7 @@ images: []
 lastmod: '2019-11-01 00:09:00+05:30'
 tags:
 - niranting
-title: 'Annual Letter: Diwali 2019'
+title: 'Diwali 2019: Annual Letter'
 toc: true
 weight: 50
 ---
