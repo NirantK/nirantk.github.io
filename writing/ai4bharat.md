@@ -5,7 +5,7 @@ excerpt: "Patterns for building AI4Humans"
 draft: false
 date: 2023-07-21T00:09:00+05:30
 lastmod: 2023-07-21T00:09:00+05:30
-tags: ["tech", "niranting", "ai4bharat"]
+tags: ["tech", "niranting", "ai4bharat", "talk"]
 weight: 50
 images: []
 toc: true
