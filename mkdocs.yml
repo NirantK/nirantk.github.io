@@ -95,11 +95,6 @@ markdown_extensions:
       pygments_lang_class: true
   - pymdownx.inlinehilite
   - pymdownx.keys
-  - pymdownx.magiclink:
-      normalize_issue_symbols: true
-      repo_url_shorthand: true
-      user: jxnl 
-      repo: instructor
   - pymdownx.mark
   - pymdownx.smartsymbols
   - pymdownx.snippets:
@@ -172,13 +167,6 @@ extra_javascript:
   # - javascripts/analytics.js
   - https://polyfill.io/v3/polyfill.min.js?features=es6
   - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
-
-markdown_extensions:
-  - pymdownx.superfences:
-      custom_fences:
-        - name: mermaid
-          class: mermaid
-          format: !!python/name:pymdownx.superfences.fence_code_format
 
 copyright: Copyright &copy; 2024 Nirant Kasliwal
 
