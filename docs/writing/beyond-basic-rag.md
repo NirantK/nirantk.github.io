@@ -12,8 +12,8 @@ show_reading_time: true
 tags:
 - niranting
 title: Beyond Basic RAG: Building Production-Ready AI Systems
-weight: 50
 ---
+
 # Beyond Basic RAG: A Deep Dive into Building Production-Ready AI Systems
 
 > "Picture this: You're a developer who just deployed your first RAG system. Everything seems perfect in testing. Then reality hits - users start complaining about irrelevant results, slow responses, and occasional hallucinations. Welcome to the world of real-world RAG systems."
@@ -59,11 +59,11 @@ The final piece is making sure your responses are accurate and useful:
 
 Here's a real story that illustrates why naive RAG fails:
 
-```
-Company X implemented a RAG system for HR queries. When employees asked about leave policies, 
-the system kept pulling information from the sales team's wiki because it contained similar keywords. 
-The result? The entire company was getting sales team vacation policies instead of their own.
-```
+!!! note "Company X case study"
+
+    Company X implemented a RAG system for HR queries. When employees asked about leave policies, 
+    the system kept pulling information from the sales team's wiki because it contained similar keywords. 
+    The result? The entire company was getting sales team vacation policies instead of their own.
 
 The solution? They implemented:
 1. Role-based filtering
