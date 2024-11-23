@@ -1,5 +1,5 @@
 ---
-date: '2017-12-15'
+date: 2017-12-15
 authors:
 - nirant
 categories:

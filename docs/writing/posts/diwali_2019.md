@@ -1,5 +1,5 @@
 ---
-date: '2019-11-01'
+date: 2019-11-01
 authors:
 - nirant
 categories:

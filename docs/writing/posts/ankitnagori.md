@@ -1,5 +1,5 @@
 ---
-date: '2020-04-30'
+date: 2020-04-30
 authors:
 - nirant
 categories:

@@ -1,5 +1,5 @@
 ---
-date: '2019-09-24'
+date: 2019-09-24
 authors:
 - nirant
 categories:

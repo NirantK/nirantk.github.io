@@ -1,8 +1,8 @@
 ---
+date: 2024-11-23
 authors:
 - nirant
 - soumyadeepmukherjee
-- zainabbawa
 categories:
 - niranting
 title: Meetup Parameters
