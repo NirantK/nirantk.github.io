@@ -8,7 +8,7 @@ categories:
   - machine-learning
 ---
 
-# Beyond Basic RAG: A Deep Dive into Building Production-Ready AI Systems
+# Beyond Basic RAG: What You Need to Know
 
 !!! example "The Real World of RAG Systems"
     📒 Picture this: You're a developer who just deployed your first RAG system. Everything seems perfect in testing. Then reality hits - users start complaining about irrelevant results, not being able to do "basic stuff" and occasional hallucinations. Welcome to the world of real-world RAG systems.
@@ -86,21 +86,21 @@ The solution? They implemented:
 
 Here's your action plan:
 
-1. **Start with Query Understanding**
-   - Implement basic query type classification
-   - Extract key metadata (dates, entities, filters)
-   - Use this to guide your retrieval strategy
 
-2. **Layer Your Retrieval**
-   - Begin with metadata filtering
-   - Add keyword-based search
-   - Top it off with semantic search
-   - Combine results intelligently
+1. **Query Understanding**: Implement basic query type classification
+2. **Ingestion**: Extract key metadata (dates, entities, filters)
+3. **Retrieval**: Begin with metadata filtering
+4. **Retrieval**: Add keyword-based search or BM25
+5. **Retrieval**: Top it off with semantic search
+6. **Synthesis**: Combine results intelligently using a good re-ranker or fusion e.g. RRF
+7. **Validation**: Cross-check extracted dates and numbers
+8. **Validation**: Implement a RAG metrics system e.g. [Ragas](https://docs.ragas.io)
+9. **Validation**: Monitor user feedback e.g. using A/B tests and adapt 
 
-3. **Validate Everything**
-   - Cross-check extracted dates and numbers
-   - Implement hallucination detection
-   - Monitor user feedback and adapt
+!!! tip "Reciprocal Rank Fusion"
+    Reciprocal Rank Fusion (RRF) is a technique that combines the results of multiple retrieval systems. It's a powerful way to improve the quality of your search results by leveraging the strengths of different retrieval methods. 
+    
+    But it's [NOT a silver bullet](https://softwaredoug.com/blog/2024/11/03/rrf-is-not-enough).
 
 ## The Challenge
 
