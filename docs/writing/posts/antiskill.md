@@ -41,7 +41,7 @@ This will make it easier to see when/if you're stuck. Other way to say the same 
 
 This way, when something is not working, you can see what's going on.
 
-If you're in a position where you're stuck at a local maxima -- resist the temptation to go up the ladder. Think of taking titles into your [identity on as taking debt](https://nirantk.com/writing/character-is-net-worth.html). Job titles are not your identity. They're _prestige handcuffs_, and you're not going to be able to get them off you easily.
+If you're in a position where you're stuck at a local maxima -- resist the temptation to go up the ladder. Think of taking titles into your [identity on as taking debt](./character-is-net-worth.md). Job titles are not your identity. They're _prestige handcuffs_, and you're not going to be able to get them off you easily.
 
 It might be harder to get out of these impressions at your existing job, because they tend to be sticky. In such scenarios, moving to a different team within the same company or a different company altogether might be preferred. I know of atleast one case where someone had to change jobs to get a 'soft' career reset.
 
