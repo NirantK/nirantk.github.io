@@ -1,5 +1,5 @@
 ---
-author:
+authors:
   - nirant
 date: 2019-09-18
 categories:
@@ -23,8 +23,6 @@ title: Don't Bask in Reflected Glory
     इन जैसा क्यूँ बनूँ...
     Inn jaisa kyun banun
     Why should I be like them?
-
---- Irshad Kamil
 
 # Identity
 

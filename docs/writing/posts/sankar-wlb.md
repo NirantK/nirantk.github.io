@@ -1,23 +1,15 @@
 ---
-contributors:
-- Nirant Kasliwal
-date: '2015-09-27 23:29:18+05:30'
-description: Syam Sankar on Work Life Balance
-draft: false
-excerpt: Syam Sankar on Work Life Balance
-featured_image: images/ink.png
-images: []
-lastmod: '2015-09-27 23:29:18+05:30'
-show_reading_time: true
-tags:
-- python
-- tech
+authors:
+  - shyam-sankar
+date: 2015-09-27
+categories:
+  - tech
 title: The Case Against Work Life Balance
-toc: true
-weight: 50
+tags:
+  - tech
 ---
 
-Note from Nirant: This is an archived blog post from [here](https://webcache.googleusercontent.com/search?q=cache:Ig6Kku5T8oYJ:https://shyamsankar.com/the-case-against-work-life-balance-owning-your-future+&cd=1&hl=en&ct=clnk&gl=in) by Syam Sankar. I am not the author of this post. I'm keeping it here since the original source is no longer available.
+Note from Nirant: This is an archived blog post from [here](https://webcache.googleusercontent.com/search?q=cache:Ig6Kku5T8oYJ:https://shyamsankar.com/the-case-against-work-life-balance-owning-your-future+&cd=1&hl=en&ct=clnk&gl=in) by Syam Sankar. I am not the author of this post. I'm archiving it here since the original source is no longer available.
 
 I've taken the liberty to copy paste the raw text:
 

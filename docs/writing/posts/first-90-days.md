@@ -1,24 +1,15 @@
 ---
-contributors:
-- Nirant Kasliwal
-date: '2020-09-12 00:09:00+05:30'
-description: What you can do to make the most of a fresh start
-draft: false
-excerpt: What you can do to make the most of a fresh start
-images: []
-lastmod: '2020-09-12 00:09:00+05:30'
-show_reading_time: true
-tags:
-- career
-- tech
-title: First 90 Days - Software Engineer Version
-toc: true
-weight: 50
+authors:
+  - nirant
+date: 2020-09-12
+categories:
+  - careers
+  - tech
+title: The First 90 Days for a New Engineer
 ---
 
-[Aditya Ankur](https://mobile.twitter.com/adityankur), asked me: 
-
-**I know that there is a book for the first 90 days as an executive. Is there something similar for programmers?**
+!!!question "Aditya Ankur"
+    I know that there is a book for the first 90 days as an executive. Is there something similar for programmers?
 
 I don't quite know of a book/essay which covers this yet sticks to the question. So I am writing one for him.
 

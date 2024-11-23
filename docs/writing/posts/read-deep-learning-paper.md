@@ -1,19 +1,10 @@
 ---
-contributors:
-- Nirant Kasliwal
-date: '2020-11-15 23:29:18+05:30'
-description: Making the best of your Paper Reading Time
-draft: false
-excerpt: Making the best of your Paper Reading Time
-featured_image: images/paper-background.jpg
-images: []
-lastmod: '2020-11-15 23:29:18+05:30'
-tags:
-- machine-learning
-- tech
-title: How to Read a Deep Learning Paper
-toc: true
-weight: 50
+authors:
+  - nirant
+date: 2020-11-15
+categories:
+  - machine-learning
+  - tech
 ---
 
 ## Who is this for? 
