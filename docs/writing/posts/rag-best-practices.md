@@ -1,19 +1,11 @@
 ---
-contributors:
-- Nirant Kasliwal
-date: '2023-11-01 23:29:18+05:30'
-description: 
-draft: false
-excerpt: 6 Quick tips on doing RAG better
-featured_image: images/paper-background.jpg
-images: []
-lastmod: '2023-11-01 23:29:18+05:30'
-tags:
-- machine-learning
-- tech
+author:
+  - nirant
+date: 2023-11-01
+categories:
+  - machine-learning
+  - RAG
 title: Retrieval Augmented Generation Best Practices
-toc: true
-weight: 50
 ---
 
 

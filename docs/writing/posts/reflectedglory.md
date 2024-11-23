@@ -1,39 +1,30 @@
 ---
-contributors:
-- Nirant Kasliwal
-date: '2019-09-18 00:00:09+05:30'
-description: How to keep your identity small?
-draft: false
-excerpt: How to keep your identity small?
-images: []
-lastmod: '2019-09-18 00:00:09+05:30'
-show_reading_time: true
-tags:
-- niranting
+author:
+  - nirant
+date: 2019-09-18
+categories:
+  - careers
 title: Don't Bask in Reflected Glory
-toc: true
-weight: 50
 ---
 
-```
-ये जो लोग-बाग हैं, जंगल की आग हैं 
-Ye jo log baag hain, Jungle ki aag hain
-The people, are jungle fire
+!!! quote "Irshad Kamil"
+    ये जो लोग-बाग हैं, जंगल की आग हैं 
+    Ye jo log baag hain, Jungle ki aag hain
+    The people, are jungle fire
 
-क्यूँ आग में जलूँ...
-Kyun aag mein jalun
-Why should I burn in the fire?
+    क्यूँ आग में जलूँ...
+    Kyun aag mein jalun
+    Why should I burn in the fire?
 
-ये नाकाम प्यार में, खुश हैं ये हार में
-Ye nakaam pyaar mein, Khush hai yeh haar mein
-Defeated in love, they're happy in defeat
+    ये नाकाम प्यार में, खुश हैं ये हार में
+    Ye nakaam pyaar mein, Khush hai yeh haar mein
+    Defeated in love, they're happy in defeat
 
-इन जैसा क्यूँ बनूँ...
-Inn jaisa kyun banun
-Why should I be like them?
+    इन जैसा क्यूँ बनूँ...
+    Inn jaisa kyun banun
+    Why should I be like them?
 
-- Irshad Kamil
-```
+--- Irshad Kamil
 
 # Identity
 
@@ -57,9 +48,9 @@ For instance, while you might be someone who build rocket ships, your identity m
 
 Here is a short mental exercise. Fill this blank with _at least_ 3 small phrases:
 
-```
-I am ___
-```
+!!! question "Your Identity"
+    I am ___
+
 
 Done?
 
@@ -67,9 +58,9 @@ Awesome.  Let's carry on:
 
 Here is what I came up with a few years ago: 
 
-```
-I am {Indian, guy, techie}
-```
+!!! question "My Identity"
+    I am {Indian, guy, techie}
+
 
 The labels in `{}` are (in the very crude sense) - my identity. Notice that these labels do not always have to be professional, personal or even _Truth_ in the strictest sense. 
 
@@ -77,9 +68,9 @@ They don't have to align with reality in any meaningful way. They simply describ
 
 Want another example? Here is what a friend filled: 
 
-```
-I am {smart, get things done, make no excuses}
-```
+!!! question "My Identity"
+    I am {smart, get things done, make no excuses}
+
 
 If you have not filled in your three, please pause - take a quick second and type it down somewhere. I'll wait. 
 
@@ -99,7 +90,9 @@ Reflected glory is how Satan wins over honest, smart and hard working people. It
 
 Even in certain careers, labeling yourself can be a career limiting move:
 
-> If you call yourself a programmer, someone is already working on a way to get you fired - from [Don't Call Yourself a Programmer](https://www.kalzumeus.com/2011/10/28/dont-call-yourself-a-programmer/) by [@patio11](https://twitter.com/@patio11)
+
+!!! quote "Don't Call Yourself a Programmer"
+    If you call yourself a programmer, someone is already working on a way to get you fired - from [Don't Call Yourself a Programmer](https://www.kalzumeus.com/2011/10/28/dont-call-yourself-a-programmer/) by [@patio11](https://twitter.com/@patio11)
 
 And why are otherwise honest people, so deeply tempted to label themselves professionally?
 
@@ -118,7 +111,8 @@ Keep your identity small
 
 ## In Politics
 
-> "People like us ... " - wait, go deeper and think. Your mental dialog will begin: "What does he mean by us? I am nobody. Why does a nobody matter? Is he using my emotions as a stepping stone to get where he wants to go?"
+!!! quote "Politician's Trick"
+    "People like us ... " - wait, go deeper and think. Your mental dialog will begin: "What does he mean by us? I am nobody. Why does a nobody matter? Is he using my emotions as a stepping stone to get where he wants to go?"
 
 The politician is tricking you into filling in the gaps he left. What do you will fill this with? What makes best sense for you, from your own identity. 
 
@@ -156,8 +150,9 @@ Keep your identity small
 
 ## In Casual Conversation 
 
-> "Look at Michael, an Olympic athlete, I knew him in college" - wait, and think. 
-> You might end up going this way: "Why is that relevant in this conversation? Is this an offer to make an intro to the Olympian, so that I improve my game? Or is this just banter-bragging? And why brag?"
+!!! quote "Bragging"
+    "Look at Michael, an Olympic athlete, I knew him in college" - wait, and think. 
+    You might end up going this way: "Why is that relevant in this conversation? Is this an offer to make an intro to the Olympian, so that I improve my game? Or is this just banter-bragging? And why brag?"
 
 Brag about achievements of someone you know. Or worked with. Or went to school with. 
 
@@ -191,5 +186,6 @@ That we are human beings, not human doings.
 
 *The moon waxes and wanes because it basks in reflected glory - but even the darkest clouds cannot hide the glory of sun*
 
->> When your contributions are meaningful enough, you don't need borrowed glory. 
-> The sun shines it's own light, it's the moon that steals light
+!!! quote "Borrowed Glory"
+    When your contributions are meaningful enough, you don't need borrowed glory.
+    The sun shines it's own light, it's the moon that steals light

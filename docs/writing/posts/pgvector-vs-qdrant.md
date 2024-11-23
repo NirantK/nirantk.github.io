@@ -1,16 +1,13 @@
 ---
 title: "pgvector vs Qdrant- Results from the 1M OpenAI Benchmark"
-description: "Consider This Before Using pgvector in Production"
-excerpt: "Consider This Before Using pgvector in Production"
-date: 2023-06-30T00:00:18+05:30
-lastmod: 2023-06-30T00:00:18+05:30
-draft: false
-weight: 50
-tags: ["tech", "machine learning", "production ml"]
-contributors: ["Nirant Kasliwal", "Shivendu Kumar"]
-social_preview_image: images/1M_QPS.jpeg
-pinned: false
-homepage: true
+date: 2023-06-30
+categories:
+  - RAG
+  - production
+  - machine-learning
+author:
+  - nirant
+  - kumarshivendu
 ---
 
 You may have considered using PostgreSQL's `pgvector` extension for vector similarity search. There are good reasons why this option is **strictly inferior** to dedicated vector search engines, such as [Qdrant](https://qdrant.tech/).
