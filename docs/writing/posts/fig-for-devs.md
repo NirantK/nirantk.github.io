@@ -1,15 +1,10 @@
 ---
-contributors:
-- Nirant Kasliwal
+date: 2024-11-21
+authors:
+  - nirant
+categories:
+  - careers
 title: "Function, Industry, Geography: Career Framework"
-date: 2024-11-21T00:00:00+05:30
-description: "A comprehensive guide to using Fig to supercharge your terminal experience"
-draft: false
-tags: 
-- careers
-weight: 50
-toc: true
-excerpt: A framework to think about career transitions through the lens of Function, Industry and Geography - and why you should change only one at a time.
 ---
 
 Your career is a combination of Function, Industry, Geography.
