@@ -1,10 +1,11 @@
 ---
-date: 2024-03-20
+date: 2024-11-23
 authors:
   - nirant
 categories:
   - RAG
-  - Production
+  - production
+  - machine-learning
 ---
 
 # Beyond Basic RAG: A Deep Dive into Building Production-Ready AI Systems

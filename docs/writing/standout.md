@@ -1,18 +1,11 @@
 ---
-contributors:
-- Nirant Kasliwal
-date: '2020-06-07 00:09:00+05:30'
+date: 2020-06-07
+authors:
+  - nirant
+categories:
+  - career
 description: Unconventional Things I've seen Amazing Early Career Professionals Do
-draft: false
-excerpt: Unconventional Things I've seen Amazing Early Career Professionals Do
-featured_image: /images/meghanaTalk.jpg
-images: []
-lastmod: '2020-06-07 00:09:00+05:30'
-tags:
-- career
 title: Standing Out at Work
-toc: true
-weight: 50
 ---
 
 In my short career, I've seen some amazing young people stand out at work. 

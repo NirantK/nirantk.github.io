@@ -1,19 +1,11 @@
 ---
-contributors:
-- Nirant Kasliwal
-date: '2021-12-07 00:09:00+05:30'
-description: How to form better connections within the community
-draft: false
-excerpt: How to form better connections within the community
-images: []
-lastmod: '2021-12-07 00:09:00+05:30'
-show_reading_time: true
-tags:
-- career
-- niranting
+date: 2021-12-07
+authors:
+  - nirant
+categories:
+  - career
+  - machine-learning
 title: Breaking into NLP
-toc: true
-weight: 50
 ---
 
 _Bulk of this is borrowed from notes made my teammate and friend at Verloop.io's NLP/ML team of our conversations. I've taken the liberty to remove our internal slang and some boring stuff_.

@@ -1,16 +1,11 @@
 ---
-title: "AI4Humans: Software x LLMs"
-description: "Slides, Citations and References for my talk at AI4Bharat, IIT Madras, July 2023"
-excerpt: "Patterns for building AI4Humans"
-draft: false
-date: 2023-07-21T00:09:00+05:30
-lastmod: 2023-07-21T00:09:00+05:30
-tags: ["tech", "niranting", "ai4bharat", "talk"]
-weight: 50
-images: []
-toc: true
-contributors: ["Nirant Kasliwal"]
-show_reading_time: true
+date: 2021-12-07
+authors:
+  - nirant
+categories:
+  - RAG
+  - talks
+title: AI4Humans aka Software x LLMs
 ---
 *AI4Bharat, IIT Madras, July 2023*
 
@@ -18,7 +13,9 @@ Namaste! 🙏 I'm Nirant and here's a brief of what we discussed in our session.
 
 ## Why You Should Care?
 
-I have a track record in the field of NLP and machine learning, including a paper at ACL 2020 on Hinglish, the first Hindi-LM, and an NLP book with over 5000 copies sold. I've contributed to [IndicGlue](https://indicnlp.ai4bharat.org/) by AI4Bharat, built and deployed systems used by Nykaa, and consulted for healthcare enterprises and YC companies. I also manage India’s largest GenAI community with regular meetups since February 2023. [Github](https://github.com/NirantK)
+I have a track record in the field of NLP and machine learning, including a paper at ACL 2020 on Hinglish, the first Hindi-LM, and an NLP book with over 5000 copies sold. I've contributed to [IndicGlue](https://indicnlp.ai4bharat.org/) by AI4Bharat, built and deployed systems used by Nykaa, and consulted for healthcare enterprises and YC companies. I also manage India’s largest GenAI community with regular meetups since February 2023. 
+
+Here's my [Github](https://github.com/NirantK).
 
 ## AI4Humans: Retrieval Augmented Generation for India
 
@@ -37,7 +34,7 @@ However, there are several open problems in RAG, such as text splitting, improvi
 
 We can improve RAG by integrating models like OpenAI's GPT4, Ada-002, and others. We can also enhance the system by adding a Cross-Encoder and 2 Pass Search.
 
-![RAG Outline](../images/RAG_System_Diagram.png)
+![RAG Outline](../../images/RAG_System_Diagram.png)
 
 Despite these improvements, challenges remain in areas like evaluation, monitoring, and handling latency/speed. For instance, we discussed how to evaluate answers automatically, monitor model degradation, and improve system latency.
 
