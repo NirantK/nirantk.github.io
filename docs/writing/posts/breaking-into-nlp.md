@@ -3,7 +3,7 @@ date: 2021-12-07
 authors:
   - nirant
 categories:
-  - career
+  - careers
   - machine-learning
 title: Breaking into NLP
 ---

@@ -1,20 +1,12 @@
 ---
-contributors:
-- Nirant Kasliwal
-date: '2020-08-30 00:09:00+05:30'
-description: ''
-draft: false
+author:
+  - nirant
+date: 2020-08-30
 excerpt: ''
-images: []
-lastmod: '2020-08-30 00:09:00+05:30'
-show_reading_time: true
-tags:
-- org
-- machine learning
-- tech
+categories:
+  - engineering-management
+  - machine-learning
 title: Building a Data Science Team at a Startup
-toc: true
-weight: 50
 ---
 
 Hello! 
@@ -263,5 +255,6 @@ This has been one of the most fulfilling and hard things I have done.
 
 If you are considering a career in Data Science, I hope this helps you see beauty and effort beyond our love for data and ever increasing technical intricacies.
 
-Till we meet again,
+Till we meet again, 
+
 Nirant

@@ -3,7 +3,7 @@ date: 2016-12-12
 authors:
   - nirant
 categories:
-  - career
+  - careers
   - machine-learning
 title: How to prepare for a Data Science job from college?
 ---
