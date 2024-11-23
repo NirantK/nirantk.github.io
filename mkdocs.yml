@@ -128,7 +128,7 @@ plugins:
   - search
   - blog:
       blog_dir: writing
-      post_url_format: "{slug}"
+      post_url_format: "{file}"
   - minify:
       minify_html: true
   - mkdocstrings:
