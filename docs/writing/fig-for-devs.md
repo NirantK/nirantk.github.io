@@ -71,4 +71,4 @@ People on the Internet call this thing informational interviews and there's plen
 ## Recommended Reading
 
 1. [The Antidote to I'm Feeling Stuck?](https://com.queries.fun/p/the-antidote-to-i-am-feeling-stuck) from [Swanand](https://x.com/_swanand)
-2. [Act Like You're 35](https://nirantk.com/writing/act-like-youre-35) from [Nirant](https://x.com/nirantk)
+2. [Act Like You're 35](./actlike35.md) from [Nirant](https://x.com/nirantk)
