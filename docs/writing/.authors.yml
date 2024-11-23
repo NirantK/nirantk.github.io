@@ -2,12 +2,15 @@ authors:
   nirant:
     name: Nirant Kasliwal
     description: AI Engineer
+    url: https://twitter.com/intent/follow?screen_name=nirantk
     avatar: https://pbs.twimg.com/profile_images/1716473928590512128/F7cyV0D1_400x400.jpg
   kumarshivendu:
     name: Kumar Shivendu
     description: Tech @ Qdrant
+    url: https://www.linkedin.com/in/kshivendu/
     avatar: https://www.kshivendu.dev/_next/image?url=%2Fstatic%2Fimages%2Fshivendu.jpg
   shyam-sankar:
     name: Shyam Sankar
     description: CTO @ Palantir
-    avatar: https://www.linkedin.com/in/shyamsankar/
+    url: https://www.linkedin.com/in/shyamsankar/
+    avatar: https://substackcdn.com/image/fetch/w_264,c_limit,f_webp,q_auto:best,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F22ea7fc7-7bfb-46ef-bd62-1375af03b68c_1280x1280.png
