@@ -1,19 +1,10 @@
 ---
-contributors:
-- Nirant Kasliwal
-date: '2021-12-15 00:09:00+05:30'
-description: Skills you don't want to tell people about
-draft: false
-excerpt: Skills you don't want to tell people about
-images: []
-lastmod: '2021-12-15 00:09:00+05:30'
-show_reading_time: true
-tags:
-- niranting
-- career
-title: Anti Skills
-toc: true
-weight: 50
+author:
+  - nirant
+date: 2021-12-15
+categories:
+  - careers
+title: Anti Skills 
 ---
 
 You learn a well-paying skill and years later - it comes back to hurt you in unexpected ways. That's an **Anti Skill**.
