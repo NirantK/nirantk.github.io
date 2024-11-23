@@ -3,7 +3,7 @@ date: 2020-04-30
 authors:
 - nirant
 categories:
-- exclusive-convo
+- podcasts
 title: Ankit Nagori, Co-Founder of Cult
 ---
 
