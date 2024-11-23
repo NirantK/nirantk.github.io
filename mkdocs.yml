@@ -7,16 +7,6 @@ remote_name: origin
 
 docs_dir: docs
 
-plugins:
-  - search
-  - social
-  - blog:
-      enabled: !ENV CI
-      blog_dir: docs/writing
-      blog_toc: true
-      post_dir: docs/writing/
-      post_url_format: "{slug}"
-
 theme:
   name: material
   custom_dir: overrides
@@ -136,6 +126,9 @@ markdown_extensions:
 
 plugins:
   - search
+  - blog:
+      blog_dir: writing
+      post_url_format: "{slug}"
   - minify:
       minify_html: true
   - mkdocstrings:
