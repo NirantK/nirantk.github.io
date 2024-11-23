@@ -68,8 +68,8 @@ theme:
         name: Switch to dark mode
     - media: "(prefers-color-scheme: dark)"
       scheme: slate
-      primary: black
-      accent: indigo
+      primary: amber
+      accent: amber
       toggle:
         icon: material/toggle-switch-off
         name: Switch to light mode
@@ -129,6 +129,8 @@ plugins:
   - blog:
       blog_dir: writing
       post_url_format: "{file}"
+      pagination: true
+      pagination_per_page: 3
   - minify:
       minify_html: true
   - mkdocstrings:
