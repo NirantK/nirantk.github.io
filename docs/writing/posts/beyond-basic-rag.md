@@ -1,18 +1,11 @@
 ---
-contributors:
-- Nirant Kasliwal
-date: '2024-11-22 00:09:00+05:30'
-description: Dealing with, and preventing common issues in production RAG systems
-excerpt: Dealing with, and preventing common issues in production RAG systems
-draft: false
-images: []
-show_reading_time: true
-tags:
-- niranting
-title: Beyond Basic RAG
+date: 2024-03-20
+authors:
+  - nirant
+categories:
+  - RAG
+  - Production
 ---
-
-
 
 # Beyond Basic RAG: A Deep Dive into Building Production-Ready AI Systems
 
@@ -72,7 +65,7 @@ The final piece is making sure your responses are accurate and useful:
 
 Here's a real story that illustrates why naive RAG fails:
 
-!!! failure "Company X case study"
+!!! failure "The Leave Policy Fiasco"
 
     Company X implemented a RAG system for HR queries. When employees asked about leave policies, 
     the system kept used the entire company's wiki -- including that of the sales team. 
