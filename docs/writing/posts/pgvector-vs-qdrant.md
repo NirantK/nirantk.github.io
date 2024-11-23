@@ -5,7 +5,7 @@ categories:
   - RAG
   - production
   - machine-learning
-author:
+authors:
   - nirant
   - kumarshivendu
 ---
