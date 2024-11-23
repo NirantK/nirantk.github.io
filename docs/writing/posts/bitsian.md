@@ -6,8 +6,6 @@ description: It's Magic
 categories:
   - personal
 title: The BITS Pilani Experience
-images:
-  - org
 ---
 
 There is a invisible binding thread among most BITSian’s - optimistic, easy going, but somewhat pragmatic. The sky is the limit, but most of them realize flying in hot air pockets is easy - it’s the takeoff that hurts.

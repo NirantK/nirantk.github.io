@@ -34,7 +34,7 @@ However, there are several open problems in RAG, such as text splitting, improvi
 
 We can improve RAG by integrating models like OpenAI's GPT4, Ada-002, and others. We can also enhance the system by adding a Cross-Encoder and 2 Pass Search.
 
-![RAG Outline](../../images/RAG_System_Diagram.png)
+![RAG Outline](../images/RAG_System_Diagram.png)
 
 Despite these improvements, challenges remain in areas like evaluation, monitoring, and handling latency/speed. For instance, we discussed how to evaluate answers automatically, monitor model degradation, and improve system latency.
 

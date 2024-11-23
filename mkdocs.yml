@@ -131,6 +131,7 @@ plugins:
       post_url_format: "{file}"
       pagination: true
       pagination_per_page: 3
+  - tags
   - minify:
       minify_html: true
   - mkdocstrings:

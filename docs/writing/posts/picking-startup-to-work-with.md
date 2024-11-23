@@ -1,18 +1,10 @@
 ---
-contributors:
-- Nirant Kasliwal
-date: '2017-12-29 00:09:00+05:30'
-description: Who you work with defines your future as much as what you work on
-draft: false
-excerpt: Who you work with defines your future as much as what you work on
-images: []
-lastmod: '2017-12-29 00:09:00+05:30'
-show_reading_time: true
-tags:
-- career
+authors:
+  - nirant
+date: 2017-12-29
+categories:
+  - careers
 title: Picking a Startup Team You Want to Work With
-toc: true
-weight: 50
 ---
 
 # Why we need to do a reference check on startup teams we work with? 
