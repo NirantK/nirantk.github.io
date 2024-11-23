@@ -1,23 +1,18 @@
 ---
-contributors:
-- Nirant Kasliwal
-date: '2017-11-24 00:09:00+05:30'
+authors:
+  - nirant
+date: 2017-11-24
 description: It's Magic
-draft: false
-excerpt: It's Magic
-featured_image: assets/images/bitsaa-keychain.png
-images: []
-lastmod: '2017-11-24 00:09:00+05:30'
-tags:
-- niranting
+categories:
+  - personal
 title: The BITS Pilani Experience
-toc: false
-weight: 50
+images:
+  - org
 ---
 
 There is a invisible binding thread among most BITSian’s - optimistic, easy going, but somewhat pragmatic. The sky is the limit, but most of them realize flying in hot air pockets is easy - it’s the takeoff that hurts.
 
----
+# Act 1
 
 I guess there is a flavour of cheerful pragmatism that is uniquely BITSian. You can get ice cream and ice cream shakes anywhere - but Sharma’s MNB is uniquely BITSian.
 
@@ -68,13 +63,12 @@ That glimmer?
 **That’s gold. It’s magic.**
 
 
--- Nirant, 2012C6PS694P
-
----
+-- Nirant, 
+2012C6PS694P
 
 Cover Image Credits: [Ravali Priya Gandhapuneni](https://www.flickr.com/photos/ravalipriyag/14845672745)
 
 Originally appeared as an answer to [How is your experience at BITS Pilani? What did you get? What did you expect?](https://www.quora.com//How-is-your-experience-at-BITS-Pilani-What-did-you-get-What-did-you-expect/answer/Nirant-Kasliwal/) on Quora in 2017
 
 
-If you want to hear more from me, get my words in your [email](https://niranting.substack.com/) or [WhatsApp](https://bit.ly/niranting-wa-join)
+If you want to hear more from me, get my words in your [email](https://niranting.substack.com/)

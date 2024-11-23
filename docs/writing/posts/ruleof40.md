@@ -1,19 +1,10 @@
 ---
-contributors:
-- Nirant Kasliwal
-date: '2019-11-29 00:00:18+05:30'
-description: Your profit+growth percentage should be a minimum 40%
-draft: false
-excerpt: Your profit+growth percentage should be a minimum 40%
-featured_image: ''
-images: []
-lastmod: '2019-11-29 00:00:18+05:30'
-show_reading_time: true
-tags:
-- career
+authors:
+  - nirant
+date: 2019-11-29
+categories:
+  - careers
 title: Thinking of Your Career as a Startup
-toc: false
-weight: 50
 ---
 
 Broadly speaking, it’s useful to think of your career as a startup.

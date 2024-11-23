@@ -3,8 +3,7 @@ date: 2020-06-07
 authors:
   - nirant
 categories:
-  - career
-description: Unconventional Things I've seen Amazing Early Career Professionals Do
+  - careers
 title: Standing Out at Work
 ---
 
