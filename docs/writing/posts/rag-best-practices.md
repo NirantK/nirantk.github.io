@@ -1,5 +1,5 @@
 ---
-author:
+authors:
   - nirant
 date: 2023-11-01
 categories:
