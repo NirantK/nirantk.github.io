@@ -3,9 +3,11 @@ date: 2019-09-24
 authors:
 - nirant
 categories:
-- notes for self
+- niranting
 title: Strong Beliefs, Loosely Held
 ---
+
+# Strong Beliefs, Loosely Held
 
 # On Death
 
