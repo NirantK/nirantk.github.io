@@ -1,18 +1,10 @@
 ---
-contributors:
-- Nirant Kasliwal
-date: '2020-10-10 00:09:00+05:30'
-description: And 2 more metaphors
-draft: false
-excerpt: And 2 more metaphors
-featured_image: /images/bitsaa-keychain.png
-images: []
-lastmod: '2020-10-10 00:09:00+05:30'
-tags:
+date: '2020-10-10'
+authors:
+- nirant
+categories:
 - niranting
 title: Character is Net Worth
-toc: true
-weight: 50
 ---
 
 

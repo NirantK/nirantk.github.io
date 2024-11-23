@@ -1,19 +1,11 @@
 ---
-contributors:
-- Nirant Kasliwal
-date: '2019-10-27 23:29:18+05:30'
-description: The most exhaustive list of resources that I know of
-draft: false
-excerpt: The most exhaustive list of resources that I know of
-images: []
-lastmod: '2019-10-27 23:29:18+05:30'
-show_reading_time: true
-tags:
+date: '2019-10-27'
+authors:
+- nirant
+categories:
 - machine-learning
 - tech
 title: Math for Machine Learning
-toc: true
-weight: 50
 ---
 
 

@@ -1,18 +1,10 @@
 ---
-contributors:
-- Nirant Kasliwal
-date: '2023-09-21 23:29:18+05:30'
-description: 'Quick Notes on Taxation of Foreign Income for Indian Residents'
-draft: false
-excerpt: ''
-featured_image: ''
-images: []
-lastmod: '2020-09-21 23:29:18+05:30'
-tags:
+date: '2023-09-21'
+authors:
+- nirant
+categories:
 - niranting
 title: Tax Tips for Consultants with Foreign Income
-toc: true
-weight: 50
 ---
 
 Managing taxation and financial compliance as a consultant in India involves several considerations: GST to the benefits of Section 44ADA and the complexities of foreign entity considerations, consultants must juggle multiple aspects to ensure compliance and tax optimization. I'm sharing what I know in the hopes it's helpful to others.

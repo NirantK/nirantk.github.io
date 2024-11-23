@@ -1,19 +1,11 @@
 ---
-contributors:
-- Nirant Kasliwal
-date: '2021-07-21 00:09:00+05:30'
-description: ''
-draft: false
-excerpt: ''
-images: []
-lastmod: '2021-07-21 00:09:00+05:30'
-show_reading_time: true
-tags:
+date: '2021-07-21'
+authors:
+- nirant
+categories:
 - machine learning
 - tech
 title: MLOps for Startups
-toc: true
-weight: 50
 ---
 
 # OVERVIEW

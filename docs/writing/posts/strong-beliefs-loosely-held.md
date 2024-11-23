@@ -1,17 +1,10 @@
 ---
-contributors:
-- Nirant Kasliwal
-date: '2019-09-24 00:00:09+05:30'
-draft: false
-excerpt: ''
-images: []
-lastmod: '2019-09-24 00:00:09+05:30'
-show_reading_time: true
-tags:
+date: '2019-09-24'
+authors:
+- nirant
+categories:
 - notes for self
 title: Strong Beliefs, Loosely Held
-toc: true
-weight: 50
 ---
 
 # On Death

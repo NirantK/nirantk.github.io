@@ -1,18 +1,10 @@
 ---
-contributors:
-- Nirant Kasliwal
-date: '2019-11-01 00:09:00+05:30'
-description: And Annual Updates
-draft: false
-excerpt: And Annual Updates
-featured_image: /images/Diwali2019.jpg
-images: []
-lastmod: '2019-11-01 00:09:00+05:30'
-tags:
+date: '2019-11-01'
+authors:
+- nirant
+categories:
 - niranting
 title: 'Diwali 2019: Annual Letter'
-toc: true
-weight: 50
 ---
 
 I wanted to drop by and wish you a very Happy Diwali!

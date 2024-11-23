@@ -1,18 +1,10 @@
 ---
-contributors:
-- Nirant Kasliwal
-date: '2018-11-13 00:09:00+05:30'
-description: And Annual Updates
-draft: false
-excerpt: And Annual Updates
-featured_image: /images/Diwali2018.jpg
-images: []
-lastmod: '2018-11-13 00:09:00+05:30'
-tags:
+date: '2018-11-13'
+authors:
+- nirant
+categories:
 - niranting
 title: 'Diwali 2018: Annual Letter'
-toc: true
-weight: 50
 ---
 
 How are you?

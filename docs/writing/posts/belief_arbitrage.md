@@ -1,18 +1,10 @@
 ---
-contributors:
-- Nirant Kasliwal
-date: '2021-07-21 00:09:00+05:30'
-description: Talent, Genius and Courage
-draft: false
-excerpt: Talent, Genius and Courage
-featured_image: /images/belief_arbit.png
-images: []
-lastmod: '2021-07-21 00:09:00+05:30'
-show_reading_time: true
-tags:
+date: '2021-07-21'
+authors:
+- nirant
+categories:
 - niranting
 title: Belief Arbitrage
-weight: 50
 ---
 
 This is a 3 part essay. 

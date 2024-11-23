@@ -1,16 +1,11 @@
 ---
-title: "Meetup Parameters" 
-description: "Lessons from organising multiple GenerativeAI Meetups"
-excerpt: "Make lists. They Rock."
-draft: false
-date: 2023-08-01T00:09:00+05:30
-lastmod: 2023-08-01T00:09:00+05:30
-tags: ["niranting"]
-weight: 50
-images: []
-toc: true
-contributors: ["Nirant Kasliwal", "Soumyadeep Mukherjee", "Zainab Bawa"]
-show_reading_time: true
+authors:
+- nirant
+- soumyadeepmukherjee
+- zainabbawa
+categories:
+- niranting
+title: Meetup Parameters
 ---
 
 This is based on organising GenerativeAI Meetups in Bengaluru, India. This is a living document and will be updated as we learn more.
