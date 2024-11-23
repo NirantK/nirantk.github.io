@@ -2,7 +2,6 @@
 author:
   - nirant
 date: 2020-08-30
-excerpt: ''
 categories:
   - engineering-management
   - machine-learning

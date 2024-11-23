@@ -1,5 +1,5 @@
 ---
-author:
+authors:
   - nirant
 date: 2020-03-15
 categories:
