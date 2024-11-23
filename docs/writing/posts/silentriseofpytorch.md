@@ -4,9 +4,8 @@ authors:
 - nirant
 categories:
 - python
-- machine learning
+- machine-learning
 - tech
-- deeplearning
 title: The Silent Rise of PyTorch Ecosystem
 ---
 
