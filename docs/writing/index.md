@@ -8,5 +8,5 @@ I won't email you more than twice a month, not every post I write is worth shari
 
 ## Career Discussions
 
-1. [FIG: Career Framework for LLM Developers](./fig-for-devs.md)
-2. [Act like you're 35](./actlike35.md)
+1. [FIG: Career Framework for LLM Developers](./posts/fig-for-devs.md)
+2. [Act like you're 35](./posts/actlike35.md)
