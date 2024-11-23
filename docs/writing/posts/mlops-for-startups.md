@@ -8,7 +8,7 @@ categories:
 title: MLOps for Startups
 ---
 
-# OVERVIEW
+# MLOps for Startups
 
 Start your development by writing the overall impact and feature overview in the Press Release doc and README
 

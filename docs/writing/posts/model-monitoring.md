@@ -4,8 +4,8 @@ authors:
 - nirant
 categories:
 - tech
-- machine learning
-- production ml
+- machine-learning
+- production
 title: ML Model Monitoring
 ---
 

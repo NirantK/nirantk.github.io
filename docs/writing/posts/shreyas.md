@@ -3,7 +3,7 @@ date: 2020-06-15
 authors:
 - nirant
 categories:
-- exclusive-convo
+- podcasts
 title: 'Shreyas Karanth: Moving from SW Engg to Product'
 ---
 

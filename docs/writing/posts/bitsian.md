@@ -4,7 +4,7 @@ authors:
 date: 2017-11-24
 description: It's Magic
 categories:
-  - personal
+  - niranting
 title: The BITS Pilani Experience
 ---
 

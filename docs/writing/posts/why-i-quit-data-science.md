@@ -4,7 +4,7 @@ authors:
 - nirant
 categories:
 - niranting
-- career
+- careers
 title: Why I Quit Data Science
 ---
 
