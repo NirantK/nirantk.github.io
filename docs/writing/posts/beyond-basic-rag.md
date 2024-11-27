@@ -5,6 +5,7 @@ authors:
 categories:
   - RAG
   - production
+tags:
   - machine-learning
 ---
 
@@ -12,28 +13,6 @@ categories:
 
 !!! example "The Real World of RAG Systems"
     📒 Picture this: You're a developer who just deployed your first RAG system. Everything seems perfect in testing. Then reality hits - users start complaining about irrelevant results, not being able to do "basic stuff" and occasional hallucinations. Welcome to the world of real-world RAG systems.
-
-This is an inline \(a^*=x-b^*\) equation.
-
-These are block equations:
-
-\[a^*=x-b^*\]
-
-\[ a^*=x-b^* \]
-
-\[
-a^*=x-b^*
-\]
-
-These are also block equations:
-
-$$a^*=x-b^*$$
-
-$$ a^*=x-b^* $$
-
-$$
-a^*=x-b^*
-$$
 
 ## The Problem With "Naive RAG"
 
