@@ -1,10 +1,10 @@
 ---
-date: 2023-09-21
+date: 2024-12-18
 authors:
 - nirant
 categories:
 - niranting
-title: Tax Tips for Consultants with Foreign Income
+title: Tax Tips for Technical Consultants in India
 ---
 
 Managing taxation and financial compliance as a consultant in India involves several considerations: GST to the benefits of Section 44ADA and the complexities of foreign entity considerations, consultants must juggle multiple aspects to ensure compliance and tax optimization. I'm sharing what I know in the hopes it's helpful to others.
@@ -27,6 +27,16 @@ Managing taxation and financial compliance as a consultant in India involves sev
 - **Letter of Undertaking (LUT)**: For consultants involved in international transactions, an LUT is crucial. This legal document clarifies that all relevant taxes will be paid exclusively in India, thereby simplifying compliance requirements for cross-border business. It is advisable to get an LUT even if you are not sure if you will be involved in international transactions. You need to mention the LUT in your invoices to foreign entities.
 
 - **GST on Foreign Transactions**: GST is not applicable on foreign transactions. However, you will need to mention the LUT in your invoices to foreign entities. This is to ensure that the GST authorities are aware that you are not liable to pay GST on these transactions.
+
+
+### 1.1 GST Filing
+- **GST Filing**: You can file GST monthly or quarterly. I'd recommend you to file quarterly, as it's easier to manage. I also recommend hiring a CA to do this for you who can also help you with other compliances.
+
+### 1.2 Address
+- I'd recommend you to get a separate address for your business. I use a Virtual Office address and that works. I'd recommend that you get this somewhere you can visit if needed by the bank or tax authorities.
+- If you are a consultant, you can use your home address as your business address. This will need a NoC from the title owner of the property. This owner might be your landlord or your parents.
+- GST Number is different for each state/billing address
+
 
 ## 2. Taxation
 
@@ -53,4 +63,21 @@ If I remember correctly, you will be paying 8.7% _corporate tax_ in Delaware, an
 
 This can help simplify the process of receiving payments. However, it is important to note that this option is not always the most tax-efficient. It is advisable to consult a CA to understand the implications of this option for your specific amount, transaction frequency and expected personal expenses.
 
-RemoteIndian has a similar [Tax Guide](https://remoteindian.com/guides/tax-guide) that you might find useful. I'm not a CA, so please consult a CA before making any decisions. I'm sharing what I know in the hopes it's helpful to others. If you have any questions, please feel free to reach out to me on [Twitter](https://twitter.com/nirantk).
+RemoteIndian has a similar [Tax Guide](https://remoteindian.com/guides/tax-guide) that you might find useful. 
+
+
+## 3. Invoicing
+
+I use [Refrens](https://refrens.com) to invoice my clients. It's a great tool for invoicing and managing your invoices. Here are some of the fields which I'd recommend you to fill in: 
+
+1. **GSTIN**: This is your GST number.
+2. **Billed To**: This is the name, address, phone number, PAN and GSTIN of the client.
+3. **Invoice Date**: This is the date of the invoice.
+4. **Due Date**: This is the date by which the client needs to pay the invoice.
+5. **Invoice Number**: This is the invoice number.
+6. **Invoice Amount**: This is the amount of the invoice.
+7. **Invoice Currency**: This is the currency of the invoice.
+
+
+I'm not a CA, so please consult a CA before making any decisions. I'm sharing what I know in the hopes it's helpful to others. If you have any questions, please feel free to reach out to me on [Twitter](https://twitter.com/nirantk).
+
