@@ -47,7 +47,7 @@ Managing taxation and financial compliance as a consultant in India involves sev
 
 Example Math:
 
-If you make 100 lakhs INR in a year, you can assume 37.5 lakhs INR (half of 75 lakhs) as your expenses and pay taxes on the remaining 100-37.5=62.5 lakhs INR. At 30% income tax rate, you'd pay 19.3 lakhs INR in taxes. Effectively, you'd be paying 19% of your income in taxes. 
+If you make 72 lakhs INR in a year, you can assume 36 lakhs INR (half of 75 lakhs) as your expenses and pay taxes on the remaining 72-36=36 lakhs INR. At 30% income tax rate, you'd pay 10.8 lakhs INR in taxes. Effectively, you'd be paying 10.8/72 = 15% of your income in taxes.
 
 💡 You do NOT need to maintain books of expenses for Section 44ADA. This is a huge benefit as it simplifies the process of filing taxes!
 
@@ -80,4 +80,3 @@ I use [Refrens](https://refrens.com) to invoice my clients. It's a great tool fo
 
 
 I'm not a CA, so please consult a CA before making any decisions. I'm sharing what I know in the hopes it's helpful to others. If you have any questions, please feel free to reach out to me on [Twitter](https://twitter.com/nirantk).
-
