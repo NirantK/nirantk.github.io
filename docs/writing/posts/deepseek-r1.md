@@ -48,6 +48,7 @@ Early evidence: [Fireworks Document Inlining](https://fireworks.ai/blog/document
 ## Reasoning Distilation
 
 Early evidence: [Bespoke Labs](https://www.bespokelabs.ai/blog/bespoke-stratos-the-unreasonable-effectiveness-of-reasoning-distillation) and [Sky T1](https://novasky-ai.github.io/posts/sky-t1/)
+
 tl;dr: This is part of a broader evidence that distillation of all kinds really works!
 
 How? They took the reasoning traces from R1, collected over a large set of math and code problems and distilled it into Qwen. They use it to beat the previous SOTA on math and code problems. 
