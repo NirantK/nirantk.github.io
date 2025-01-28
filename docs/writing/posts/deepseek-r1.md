@@ -10,11 +10,11 @@ title: Deepseek R1/V3 Ideas for GPU Poor and Middle Class
 
 The internet is abuzz right now with DeepSeek. I want to here suggest some ideas and opportunities which engineers have - most of them are exciting to do for engineering curiosity. 
 
-# Agents with Better Planning
+## Agents with Better Planning
 
 R1 is exceptional at planning and significantly cheaper than O1/O3, and we expect the prices for reasoning models to go continuously cheaper. So, with that in mind, I want to suggest some ideas which benefit from better planning agents. 
 
-## Multi-file Code Editing
+### Multi-file Code Editing
 
 Early evidence: [R1 Sonnet set SOTA on Aider's Polyglot Benchmark](https://aider.chat/2025/01/24/r1-sonnet.html#r1sonnet-set-sota-on-aiders-polyglot-benchmark)
 
@@ -25,7 +25,7 @@ This is a very good result and as part of the broader trend, there's enough evid
 
 There is an opportunity to improve upon Cursor's interfaces for multi-file cold code editing as it stands today in Q1 2025. For instance, what would it look like if you could directly interact between a user feature request in their own words with the code base to generate a pull request and run an A/B test over for that specific feature?
 
-## Browser Agents
+### Browser Agents
 
 Early evidence: [John Rush](https://x.com/johnrushx/status/1883872256121774401) benchmarked multiple LLMs for browser usage. 
 
@@ -33,7 +33,7 @@ tl;dr: One could build a better benchmark for evaluating your LLM's ability to d
 
 [ComplexFuncBench](https://github.com/THUDM/ComplexFuncBench) is another resource for evaluating your LLM's ability to do reasoning with function calling.
 
-## Open Source Document Inlining
+### Open Source Document Inlining
 
 The core idea here is that you can convert any text based LLM into a Vision LLM. Most folks like try to do this right now by doing some sort of thin OCR. But I think a more promising approach would be to lightly fine tune and update the weights to work with the Vision component. And I guess that is what Fireworks has been doing. And this is very promising when combined with Reasoning LLMs.
 
@@ -47,7 +47,7 @@ Early evidence: [Fireworks Document Inlining](https://fireworks.ai/blog/document
 > Input flexibility - Automatically transform multiple file types like PDFs and screenshots. We can also handle rich document structures like tables/charts
 > Ultra-simple usage - Our API is OpenAI compatible. Enable this capability by editing 1-line to specify “#transform=inline” alongside your file
 
-# Reasoning Distilation
+## Reasoning Distilation
 
 Early evidence: [Bespoke Labs](https://www.bespokelabs.ai/blog/bespoke-stratos-the-unreasonable-effectiveness-of-reasoning-distillation) and [Sky T1](https://novasky-ai.github.io/posts/sky-t1/)
 tl;dr: This is part of a broader evidence that distillation of all kinds really works!
@@ -58,7 +58,7 @@ We already knew this for deep learning based models, but given the higher utilit
 
 Sky T1 was fine-tuned on a $450 run, so it's quite cheap. 
 
-## Related: Reasoning models with Structured Outputs (JSON/XML)
+### Reasoning models with Structured Outputs (JSON/XML)
 
 Opportunity: Open source reasoning models currently don't prioritize function calling and structured outputs. Even less so when used with images, scans and pdf-images. 
 
