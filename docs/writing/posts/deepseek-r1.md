@@ -5,7 +5,7 @@ authors:
 categories:
 - niranting
 - machine-learning
-title: Deepseek R1/V3 Ideas for GPU Poor and Middle Class
+title: Deepseek R1 Ideas for GPU Poor and Middle Class
 ---
 
 The internet is abuzz right now with DeepSeek. I want to here suggest some ideas and opportunities which engineers have - most of them are exciting to do for engineering curiosity. 
