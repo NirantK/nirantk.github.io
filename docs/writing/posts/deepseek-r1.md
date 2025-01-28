@@ -31,8 +31,6 @@ Early evidence: [John Rush](https://x.com/johnrushx/status/1883872256121774401) 
 
 tl;dr: One could build a better benchmark for evaluating your LLM's ability to do reasoning with function calling in addition to [WebVoyager](https://arxiv.org/abs/2401.13919). This is a great start for anyone wanting to build a LLM for a specialized use case (not workflow or task oriented) at a lower cost. 
 
-[ComplexFuncBench](https://github.com/THUDM/ComplexFuncBench) is another resource for evaluating your LLM's ability to do reasoning with function calling.
-
 ### Open Source Document Inlining
 
 The core idea here is that you can convert any text based LLM into a Vision LLM. Most folks like try to do this right now by doing some sort of thin OCR. But I think a more promising approach would be to lightly fine tune and update the weights to work with the Vision component. And I guess that is what Fireworks has been doing. And this is very promising when combined with Reasoning LLMs.
@@ -64,7 +62,7 @@ Opportunity: Open source reasoning models currently don't prioritize function ca
 
 We have abundant training data available:
   - [GorillaBench](https://gorilla.cs.berkeley.edu/leaderboard.html) datasets
-  - General open source datasets
+  - [ComplexFuncBench](https://github.com/THUDM/ComplexFuncBench) is another resource for evaluating your LLM's ability to do reasoning with function calling.
 
 While closed source models have so far excelled at function calling, this advantage may be diminishing:
   - We now have access to direct traces from R1
