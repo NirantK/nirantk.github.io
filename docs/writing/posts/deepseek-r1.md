@@ -63,15 +63,22 @@ Sky T1 was fine-tuned on a $450 run, so it's quite cheap.
 Opportunity: Open source reasoning models currently don't prioritize function calling and structured outputs. Even less so when used with images, scans and pdf-images. 
 
 We have abundant training data available:
-  * GorillaBench datasets
-  * General open source datasets
+  - [GorillaBench](https://gorilla.cs.berkeley.edu/leaderboard.html) datasets
+  - General open source datasets
 
 While closed source models have so far excelled at function calling, this advantage may be diminishing:
-  * We now have access to direct traces from R1
-  * These traces can be used for training
+  - We now have access to direct traces from R1
+  - These traces can be used for training
 
-How to do this?
-  * We can prompt R1 to generate XML traces of outputs
-  * Verify these traces against existing datasets
-  * Fine-tune reasoning models to produce structured JSON/XML
-  * This would significantly enhance their planning and reasoning capabilities
+#### How to do this?
+
+Approach 1: You need the traces:
+
+  1. Prompt R1 to generate XML traces of outputs
+  2. Verify these traces against existing datasets
+  3. Fine-tune reasoning models to produce structured JSON/XML
+
+Approach 2: You don't need the traces:
+
+  1. Use reasoning models to generate structured JSON/XML
+  2. Fine-tune reasoning models to produce structured JSON/XML
