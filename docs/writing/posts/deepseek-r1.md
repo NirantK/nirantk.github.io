@@ -62,15 +62,15 @@ Sky T1 was fine-tuned on a $450 run, so it's quite cheap.
 
 Opportunity: Open source reasoning models currently don't prioritize function calling and structured outputs. Even less so when used with images, scans and pdf-images. 
 
-* We have abundant training data available:
+We have abundant training data available:
   * GorillaBench datasets
   * General open source datasets
 
-* While closed source models traditionally excelled at function calling, this advantage may be diminishing:
+While closed source models have so far excelled at function calling, this advantage may be diminishing:
   * We now have access to direct traces from R1
   * These traces can be used for training
 
-* Opportunity for improvement:
+How to do this?
   * We can prompt R1 to generate XML traces of outputs
   * Verify these traces against existing datasets
   * Fine-tune reasoning models to produce structured JSON/XML
