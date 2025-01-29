@@ -8,6 +8,8 @@ categories:
   - machine-learning
 ---
 
+# Trying DeepSeek R1 and ChatGPT for India
+
 I asked 3 different kinds of questions: 
 
 1. Code Mixed Hindi and English
@@ -16,13 +18,11 @@ I asked 3 different kinds of questions:
 
 ## Executive Summary
 
-The evaluation of DeepSeek-R1 across three distinct question categories—code-mixed Hindi-English, religious scriptures, and politically sensitive topics—reveals nuanced strengths and limitations.
+Testing DeepSeek-R1 revealed mixed results across three areas:
 
-1. **Multilingual Code-Mixing**: R1 excels in handling code-mixed queries, providing coherent, context-aware responses in hybrid languages (e.g., Hindi-English). Its ability to structure explanations in simple Hindi while retaining technical English terminology (e.g., "Machine Learning," "algorithms") demonstrates robust multilingual adaptability, making it valuable for linguistically diverse users.
-
-2. **Cultural and Religious Context**: While R1 adeptly retrieves widely available religious texts (e.g., Gayatri Mantra, Namokar Mantra), its failure to recognize culturally specific references (e.g., the iconic Bollywood dialogue from Deewaar) highlights gaps in localized cultural knowledge. This contrasts with ChatGPT, which leverages broader training data to contextualize such references.
-
-3. **Political Sensitivity and Censorship**: R1’s refusal to address historical conflicts like the 1962 Sino-Indian War on its consumer platform—despite the model’s capability to do so in less restricted environments (e.g., playground APIs)—underscores the impact of content moderation policies. Such filtering, while ethically motivated, risks limiting factual discourse on historical or geopolitical topics, raising questions about transparency and regional applicability.
+1. **Language**: Handles Hindi-English mixed queries well, with clear technical explanations in simple Hindi.
+2. **Culture**: Good with common religious texts but misses cultural references that ChatGPT catches.
+3. **Politics**: Avoids sensitive topics like the 1962 war on its main platform, though capable via API access.
 
 
 # Specific Examples and Questions
