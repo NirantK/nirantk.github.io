@@ -130,11 +130,11 @@ Answer:
 
 ChatGPT has a perfect answer: 
 
-![mere paas ma hain](./images/mere-paas-ma-hain.png)
+![mere paas ma hain](../images/mere-paas-ma-hain.png)
 
 DeepSeek R1 has no clue: 
 
-![mere paas ai hain](./images/mere-paas-ai-hain.png)
+![mere paas ai hain](../images/mere-paas-ai-hain.png)
 
 But the thinking process is very interesting: 
 
@@ -181,9 +181,9 @@ I am not sure if this is a good thing or a bad thing. I suspect that the sparse 
 
 Next, I tried asking both LLMs for Gayatri Mantra and Namokar Mantra. 
 
-![Gayatri Mantra](./images/gayatri-r1.png)
+![Gayatri Mantra](../images/gayatri-r1.png)
 
-![Namokar Mantra](./images/namokar-r1.png)
+![Namokar Mantra](../images/namokar-r1.png)
 
 It is quite clear that R1 is quite multilingual and for any Indic model to compete with this level of a free, MIT licensed model which can also be served locally or in India-aligned countries e.g. US. 
 
@@ -191,7 +191,7 @@ It is quite clear that R1 is quite multilingual and for any Indic model to compe
 
 DeepSeek completely barfed on me:
 
-![1962-R1](./images/r1-1962.png)
+![1962-R1](../images/r1-1962.png)
 
 It also refused to answer more questions which I think are completely fine from a history lens:
 
@@ -202,7 +202,7 @@ I tried the same questions on the [Fireworks Playground](https://fireworks.ai/mo
 
 While ChatGPT has no trouble answering these questions:
 
-![gpt-1962](./images/gpt-1962.png)
+![gpt-1962](../images/gpt-1962.png)
 
 # End Notes
 
