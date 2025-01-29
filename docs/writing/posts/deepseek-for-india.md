@@ -206,6 +206,10 @@ While ChatGPT has no trouble answering these questions:
 
 # End Notes
 
-DeepSeek-R1’s MIT license and adaptability for local deployment (e.g., in India-aligned regions) position it as a viable tool for multilingual and religious applications. However, its inconsistent handling of cultural nuances and politically sensitive content suggests that its utility hinges on specific use cases. For developers, this underscores the need to augment models with localized datasets or fine-tuning for cultural relevance. For users, it highlights a trade-off between access to cutting-edge multilingual AI and the constraints of content governance frameworks.
+DeepSeek-R1’s MIT license and adaptability for local deployment (e.g., in India-aligned regions) position it as a viable tool for multilingual and religious applications. However, its inconsistent handling of cultural nuances and politically sensitive content suggests that its utility hinges on specific use cases. 
 
-Ultimately, while R1 showcases impressive multilingual prowess, its effectiveness in diverse contexts—particularly where culture, history, and politics intersect—will depend on continued improvements in cultural awareness and ethical transparency.
+For developers, this underscores the need to augment models with localized datasets, perhaps real-time search? This is what Perplexity.ai does! Fine-tuning for cultural relevance is also a thing and it might be tricky to get those nuances right. 
+
+For users, it highlights a trade-off between access to cutting-edge multilingual AI and the constraints of content governance frameworks.
+
+Ultimately, while R1 showcases impressive multilingual prowess, LLM effectiveness in diverse contexts—particularly where culture, history, and politics intersect—will depend on continued improvements in cultural awareness. That said, it's definitely ready for a behind
