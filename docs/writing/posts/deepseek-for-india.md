@@ -212,4 +212,4 @@ For developers, this underscores the need to augment models with localized datas
 
 For users, it highlights a trade-off between access to cutting-edge multilingual AI and the constraints of content governance frameworks.
 
-Ultimately, while R1 showcases impressive multilingual prowess, LLM effectiveness in diverse contexts—particularly where culture, history, and politics intersect—will depend on continued improvements in cultural awareness. That said, it's definitely ready for a behind
+Ultimately, while R1 showcases impressive multilingual prowess, LLM effectiveness in diverse contexts—particularly where culture, history, and politics intersect—will depend on continued improvements in cultural awareness. That said, it's definitely ready for a behind-the-scenes role!
