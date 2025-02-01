@@ -18,35 +18,44 @@ The recent R1 papers represent an evolution of work from DeepSeek v3 and other p
 GRPO stands for Group Reward Policy Optimization. R1 is the first major model to do reinforcement learning on a large model backbone. While GRPO is not a new idea, it is the first time it has been applied to a large model. 
 
 #### 1. Generate Multiple Responses
+
 For a math question (e.g., "Solve x²−5x+6=0"), the model generates 3 Chain of Thought responses:
+
 - **Response A**: Uses factoring ($(x-2)(x-3)=0$)
 - **Response B**: Uses the quadratic formula ($x = \frac{-5\pm\sqrt{25-24}}{2}$)
 - **Response C**: Contains an arithmetic error (e.g., $x = -5\pm3$)
 
 #### 2. Score Each Response
+
 Assign rewards based on accuracy or adherence to format:
+
 - Response A: Reward = 1.0 (correct and concise)
 - Response B: Reward = 0.8 (correct but verbose) 
 - Response C: Reward = 0.2 (incorrect)
 
 #### 3. Calculate Group Average Reward
+
 Compute the mean reward:
 Group Average = $\frac{1.0 + 0.8 + 0.2}{3} = 0.67$
 
 #### 4. Compute Relative Advantages
+
 Subtract the group average from each response's reward:
+
 - Response A: $1.0 - 0.67 = +0.33$ (positive advantage)
 - Response B: $0.8 - 0.67 = +0.13$ (positive advantage)
 - Response C: $0.2 - 0.67 = -0.47$ (negative advantage)
 
 #### 5. Update the Policy
+
 The model's parameters are updated to:
+
 - Increase the probability of generating Response A (highest advantage)
 - Slightly increase Response B (moderate advantage)
 - Decrease Response C (negative advantage)
 
 The update is regularized using KL divergence to prevent abrupt policy changes.
 
-## Broader Implications
+# Broader Implications
 
 This development demonstrates that innovative AI advancement isn't confined to American companies, highlighting the viability of multiple approaches in achieving comparable results. It suggests a democratization of AI development that could accelerate global progress in the field.
