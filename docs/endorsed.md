@@ -34,7 +34,6 @@ I'm happy to connect you with them if you're looking to hire or collaborate with
 | [Nivedita Prabhu](https://www.linkedin.com/in/niveditaprabhu/) | Brand, Advertising & Marketing | Mollen-Lowe Lintas, Ogilvy & inMobi alum, dear friend | Nirant |
 | [Shubhi Saxena](https://www.linkedin.com/in/shubhi-saxena-28241975/) | Engineer-turned-early-Product: PLG, Pre-Sales, Sales or Marketing | Was an anchoring and energetic friend for the [GenerativeAI DeepHack](https://nirantk.com/deephackdemos) which we did together. Update: Has joined Quizizz in the Product Management Organization | Nirant |
 | [Preet Singh Khalsa](https://www.linkedin.com/in/psk97/) | Generalist Extraordinaire | Ex-CRED, Accel, Update: Has moved to VC firm EQT in Europe after the endorsement | Nirant | 
-| [Heer Shingala](https://www.linkedin.com/in/heer-shingala/?originalSubdomain=in) | B2B SaaS Marketing | Know her socially | Nirant |
 
 You can request addition and edits to this page by sending a PR to [this file](https://github.com/NirantK/nirantk.github.io/blob/main/content/en/endorsed.md)
 
@@ -66,4 +65,3 @@ These are folks whose functional skills have been endorsed by me. I don't have a
 | Dev Aggarwal        | Gooey.ai                | Co-founder                           | [LinkedIn](https://www.linkedin.com/in/dev-aggarwal-3616a0179/?originalSubdomain=in)                                |
 | Chirasmita Mallick  | G2                      | Principal Data Scientist             | [LinkedIn](https://www.linkedin.com/in/chirasmitamallick/) [Email](mailto:hi@chirasmita.com)                        |
 | Aparna Gupta        | Microsoft               | Principal Software Engineer Manager  | [LinkedIn](https://www.linkedin.com/in/aparanagupta/)                                                               |
-| Aishwarya Goel      | Inferless               | Co-founder                           | [LinkedIn](https://www.linkedin.com/in/aishwarya-goel/?originalSubdomain=in)                                        |
