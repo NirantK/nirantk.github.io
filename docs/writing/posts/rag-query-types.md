@@ -1,10 +1,11 @@
 ---
 title: "The 5 RAG Query Types Every Engineering Leader Should Know"
 date: 2025-03-22
-author: "Nirant Kasliwal"
-tags:
-  - RAG
+authors:
+  - nirant
+categories:
   - machine-learning
+  - RAG
 ---
 
 Ever tried building a RAG system that *actually works* for the weird ways humans ask questions? After years of building and breaking retrieval systems at scale, I've found that most RAG failures happen at the query understanding level.
