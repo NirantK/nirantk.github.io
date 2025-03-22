@@ -122,12 +122,11 @@ Some queries explicitly request creative generation where strict factuality isn'
 1. Identify when a query is creative rather than factual
 2. Adjust the retrieval-generation balance to favor generation
 3. Use broader, more diverse retrieval to spark creativity
-4. Potentially implement different evaluation metrics for these queries
+4. Preferably, implement different evaluation metrics for these queries
 
-## Practical Implementation: Query Type Detection
+## Practical Implementation: Query Type Detection (Evals)
 
 Don't expect users to tell you what type of query they're asking. Your system needs to detect this automatically.
-
 I've implemented a simple but effective query classifier that looks something like this:
 
 ```python
@@ -163,23 +162,6 @@ For effective RAG system evaluation, you need a test suite that covers all five 
 | Multi-hop | 20% | Reasoning correctness, Factuality | 25-50 |
 | Insufficient context | 10% | Refusal rate, Hallucination detection | 15-30 |
 | Creative | 5% | Relevance, Creativity metrics | 10-20 |
-
-## How This Helped a Real-World Financial System
-
-I recently worked with a financial services firm that was struggling with their investment analysis RAG system. Their accuracy was stuck at around 68% despite trying different embeddings, chunking strategies, and vector databases.
-
-The breakthrough came when we analyzed their queries by type:
-- Their system was handling synthesis queries at 91% accuracy
-- Lookup queries were at 72% 
-- Multi-hop queries were failing spectacularly at 34%
-- They weren't even measuring insufficient context detection
-
-Instead of general improvements, we built specific handling pipelines for each query type:
-1. A dedicated query classifier to detect the type
-2. Different retrieval strategies per type
-3. Specialized prompting for each category
-
-The result? Overall accuracy jumped to 84%, with the biggest gains in multi-hop queries and correctly refusing to answer impossible questions.
 
 ## Think About This
 
