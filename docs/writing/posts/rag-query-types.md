@@ -182,13 +182,13 @@ def classify_rag_query(query: str) -> str:
 
 For effective RAG system evaluation, you need a test suite that covers all five query types:
 
-| Query Type | Test Coverage | Evaluation Metrics | Sample Size |
-|------------|---------------|-------------------|-------------|
-| Synthesis | 40% | Precision, Answer correctness | 100-200 |
-| Lookup | 25% | F1 score, Completeness | 50-100 |
-| Multi-hop | 20% | Reasoning correctness, Factuality | 25-50 |
-| Insufficient context | 10% | Refusal rate, Hallucination detection | 15-30 |
-| Creative | 5% | Relevance, Creativity metrics | 10-20 |
+| Query Type | Evaluation Metrics |
+|------------|-------------------|
+| Synthesis | Precision, Answer correctness |
+| Lookup | F1 score, Completeness |
+| Multi-hop | Reasoning correctness, Factuality |
+| Insufficient context | Refusal rate, Hallucination detection |
+| Creative | Relevance, Creativity metrics |
 
 ## Think About This
 
