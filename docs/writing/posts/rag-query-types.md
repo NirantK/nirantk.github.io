@@ -60,7 +60,7 @@ Look for these patterns in lookup queries:
 - Comparative elements ("compared to," "versus")
 - Trend analysis requirements ("pattern," "trend," "over time")
 
-**Engineering implication**: Lookup queries often require merging information from multiple documents or sources. Your RAG system needs strong reranking capabilities and potentially dedicated retrieval strategies for temporal information.
+**Engineering implication**: Lookup queries often require merging information from multiple documents or sources. Your RAG system needs strong reranking capabilities and potentially dedicated retrieval strategies e.g. text2sql and preprocessing the corpus to include tables which can be queried (h/t [Dhruv Anand](https://www.linkedin.com/in/dhruv-anand-ainorthstartech/))
 
 One approach I've found effective is implementing a two-phase retrieval:
 
