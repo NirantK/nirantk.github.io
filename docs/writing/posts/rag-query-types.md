@@ -192,10 +192,12 @@ For effective RAG system evaluation, you need a test suite that covers all five 
 
 ## Think About This
 
-How often does your team debug RAG issues without first identifying the query type? Most teams I see spend weeks optimizing retrieval parameters when the real problem is a mismatch between query type and system design.
+How often does your team debug RAG issues without first identifying the query type? Most teams I see spend weeks optimizing retrieval parameters when the real problem is a mismatch between query type and system design. 
 
 Next time your RAG system fails, ask: "What type of query is this, and is our system designed to handle this specific type?"
 
 Charge more. Grow more.
 
 *Originally published by Nirant Kasliwal, who builds RAG systems that don't embarrass your brand.*
+
+**Thanks** to [Dhruv Anand](https://www.linkedin.com/in/dhruv-anand-ainorthstartech/) and [Rajaswa Patil](https://www.linkedin.com/in/rajaswa-patil/) for reading drafts of this.
