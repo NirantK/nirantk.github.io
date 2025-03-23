@@ -8,13 +8,14 @@ categories:
   - RAG
 ---
 
-Ever tried building a RAG system that *actually works* for the weird ways humans ask questions? After years of building and breaking retrieval systems at scale, I've found that most RAG failures happen at the query understanding level.
+Ever tried building a RAG system that *actually works* for the all the different ways humans ask questions? After years of building and breaking retrieval systems at scale, I've found that most RAG failures happen at the query understanding level.
 
 Here's the thing: not all queries are created equal. The reason your system hallucinates or gives garbage answers often has more to do with the question type than your vector DB settings or chunking strategy.
 
 I've distilled RAG queries into 5 distinct types, each requiring different handling strategies. Understanding these will save your team months of confusion and help you diagnose issues before they become production nightmares.
 
 ## tl;dr
+
 - **Synthesis queries**: Straightforward factoid retrieval with light transformation
 - **Lookup queries**: Require specific information retrieval, often with time/comparative elements
 - **Multi-hop queries**: Need decomposition into sub-questions for complete answers
@@ -26,13 +27,15 @@ I've distilled RAG queries into 5 distinct types, each requiring different handl
 Synthesis queries are the bread and butter of RAG systems - straightforward questions requiring basic factual retrieval and minimal transformation.
 
 **Examples:**
+
 - "What were our Q2 earnings?"
 - "What's the maximum dosage for Drug X?"
 - "When was our healthcare policy updated?"
 
-💡 **Key insight**: Synthesis queries typically map directly to content in your knowledge base, requiring minimal inferencing from the LLM. These are where RAG truly shines.
+> 💡 **Key insight**: Synthesis queries typically map directly to content in your knowledge base, requiring minimal inferencing from the LLM. These are where RAG truly shines.
 
 These queries typically follow a predictable pattern:
+
 - A clear, singular subject
 - A specific attribute being requested
 - No complex temporal or conditional elements
@@ -43,14 +46,16 @@ I built a healthcare RAG system where we optimized specifically for synthesis qu
 
 ## 2. Lookup Queries: Beyond Simple Facts
 
-Lookup queries introduce additional complexity through comparative elements, time components, or the need to process patterns.
+Lookup queries introduce additional complexity through comparative elements, time components, or the need to process patterns. These often rely on aggregation over some attributes e.g. time, location and I recommend setting up a metadata index to support these queries.
 
 **Examples:**
+
 - "How did our healthcare costs compare between 2022 and 2023?"
 - "What's the trend in side effect reporting for Drug X over the past 5 years?"
 - "Show me all dividend-paying stocks that increased yield for 3 consecutive quarters"
 
 Look for these patterns in lookup queries:
+
 - Time-bound components ("during 2023," "over the past five years")
 - Comparative elements ("compared to," "versus")
 - Trend analysis requirements ("pattern," "trend," "over time")
@@ -58,6 +63,7 @@ Look for these patterns in lookup queries:
 **Engineering implication**: Lookup queries often require merging information from multiple documents or sources. Your RAG system needs strong reranking capabilities and potentially dedicated retrieval strategies for temporal information.
 
 One approach I've found effective is implementing a two-phase retrieval:
+
 1. Fetch the core entities and facts
 2. Run a separate retrieval for the comparison elements
 3. Let the LLM synthesize both retrieved contexts
@@ -67,10 +73,11 @@ One approach I've found effective is implementing a two-phase retrieval:
 These are the questions that require breaking down into sub-questions, with each answer feeding into the next retrieval step.
 
 **Examples:**
+
 - "Which of our healthcare plans has the best coverage for the conditions most common among our engineering team?"
 - "What investment strategy would have performed best in the sectors where we saw the highest growth last quarter?"
 
-💡 **Key insight**: Multi-hop queries can't be solved with a single retrieval operation. They require decomposition, planning, and sequential execution.
+> 💡 **Key insight**: Multi-hop queries can't be solved with a single retrieval operation. They require decomposition, planning, and sequential execution.
 
 **Engineering implication**: Your system architecture needs to support query planning and multiple retrieval steps. This often means implementing:
 
@@ -85,6 +92,7 @@ I remember debugging a financial RAG system that kept hallucinating on multi-hop
 Some questions simply cannot be answered with the information available. The hallmark of a mature RAG system is recognizing these cases.
 
 **Examples:**
+
 - "What will our stock price be next quarter?"
 - "Which unreleased drug in our pipeline will have the fewest side effects?"
 - "How will changes to healthcare policy affect our costs in 2026?"
@@ -112,13 +120,15 @@ If the evaluation returns categories 2 or 3, we either refuse to answer or clear
 Some queries explicitly request creative generation where strict factuality isn't the primary goal.
 
 **Examples:**
+
 - "Draft a blog post about our healthcare benefits program"
 - "Generate a sample investor pitch based on our financial performance"
 - "Write a description of what our ideal drug delivery mechanism might look like"
 
-💡 **Key insight**: For creative queries, LLM capabilities should be emphasized over retrieval, using the knowledge base as inspiration rather than constraint.
+> 💡 **Key insight**: For creative queries, LLM capabilities should be emphasized over retrieval, using the knowledge base as inspiration rather than constraint.
 
 **Engineering implication**: Your system needs to:
+
 1. Identify when a query is creative rather than factual
 2. Adjust the retrieval-generation balance to favor generation
 3. Use broader, more diverse retrieval to spark creativity
