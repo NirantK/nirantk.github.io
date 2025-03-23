@@ -1,5 +1,5 @@
 ---
-title: "The 5 RAG Query Types Every Engineering Leader Should Know"
+title: "5 RAG Query Patterns Every Engineering Leader Should Know"
 date: 2025-03-22
 authors:
   - nirant
@@ -12,7 +12,7 @@ Ever tried building a RAG system that *actually works* for the all the different
 
 Here's the thing: not all queries are created equal. The reason your system hallucinates or gives garbage answers often has more to do with the question type than your vector DB settings or chunking strategy.
 
-I've distilled RAG queries into 5 distinct types, each requiring different handling strategies. Understanding these will save your team months of confusion and help you diagnose issues before they become production nightmares.
+I've distilled RAG queries into 5 distinct patterns, each requiring different handling strategies. Understanding these will save your team months of confusion and help you diagnose issues before they become production nightmares. These are the most common patterns I've seen in RAG systems, but I don't claim they are the only ones.
 
 ## tl;dr
 
@@ -195,8 +195,6 @@ For effective RAG system evaluation, you need a test suite that covers all five 
 How often does your team debug RAG issues without first identifying the query type? Most teams I see spend weeks optimizing retrieval parameters when the real problem is a mismatch between query type and system design. 
 
 Next time your RAG system fails, ask: "What type of query is this, and is our system designed to handle this specific type?"
-
-Charge more. Grow more.
 
 *Originally published by Nirant Kasliwal, who builds RAG systems that don't embarrass your brand.*
 
