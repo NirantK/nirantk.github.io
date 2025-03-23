@@ -142,23 +142,40 @@ I've implemented a simple but effective query classifier that looks something li
 ```python
 def classify_rag_query(query: str) -> str:
     """
-    Classifies a query into one of the five RAG query types.
-    Uses a simple prompt-based approach with the LLM.
+    Classifies a query into one of the five RAG query types using Instructor for function calling.
     """
-    prompt = f"""
-    Classify the following query into one of these categories:
-    - Synthesis: Basic factual request with minimal transformation
-    - Lookup: Information retrieval with comparative or temporal elements
-    - Multi-hop: Requires breaking down into sub-questions and sequential answering
-    - Insufficient context: Likely cannot be answered with available information
-    - Creative/generative: Requesting creative content where strict factuality isn't primary
+    from instructor import patch
+    from pydantic import BaseModel, Field
     
-    Query: {query}
+    class QueryClassification(BaseModel):
+        category: str = Field(
+            description="The query category",
+            enum=[
+                "synthesis",
+                "lookup",
+                "multi-hop", 
+                "insufficient_context",
+                "creative"
+            ]
+        )
+        confidence: float = Field(
+            description="Confidence score for the classification",
+            ge=0.0,
+            le=1.0
+        )
     
-    Category:
-    """
-    response = llm.generate(prompt)
-    return response.strip()
+    # Patch the LLM to enable structured outputs
+    patched_llm = patch(llm)
+    
+    result = patched_llm.chat.predict_model(
+        model=QueryClassification,
+        messages=[{
+            "role": "user",
+            "content": f"Classify this query: {query}"
+        }]
+    )
+    
+    return result.category
 ```
 
 ## Testing Matrix for Different Query Types
