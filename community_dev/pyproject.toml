@@ -9,7 +9,6 @@ dependencies = [
     "pandas>=2.0.0",
     "click>=8.0.0",
     "loguru>=0.7.0",
-    "pandarallel>=1.6.0",
     "pydantic>=2.0.0",
     "rich>=13.0.0",
     "tqdm>=4.65.0",

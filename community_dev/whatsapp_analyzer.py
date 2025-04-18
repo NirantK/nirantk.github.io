@@ -1,7 +1,6 @@
 #!/usr/bin/env python3
 
 import enum
-import os
 import re
 from datetime import datetime
 from pathlib import Path
@@ -11,31 +10,34 @@ import click
 import numpy as np
 import pandas as pd
 from loguru import logger
-from pandarallel import pandarallel
 from pydantic import BaseModel
 from rich import print
-from tqdm import tqdm
 
 # Configure logger
 logger.add("whatsapp_analyzer.log", rotation="1 MB")
 
+
 class Labels(str, enum.Enum):
     """Enumeration for single-label text classification."""
+
     MALE = "male"
     FEMALE = "female"
     UNDECIDED = "undecided"
 
+
 class SinglePrediction(BaseModel):
     """Class for a single class label prediction."""
+
     class_label: Labels
     class_probability: float
 
+
 def parse_chat_line(line: str) -> Optional[Tuple[datetime, str, str]]:
     """Parse a single line from a WhatsApp chat export.
-    
+
     Args:
         line: A line from the chat export
-        
+
     Returns:
         Tuple of (datetime, sender, message) if successful, None otherwise
     """
@@ -68,12 +70,13 @@ def parse_chat_line(line: str) -> Optional[Tuple[datetime, str, str]]:
             return date_time, sender.strip(), message.strip()
     return None
 
+
 def parse_chat(file_path: Union[str, Path]) -> pd.DataFrame:
     """Parse a WhatsApp chat log into a DataFrame.
-    
+
     Args:
         file_path: Path to the chat log file
-        
+
     Returns:
         DataFrame containing the parsed chat with columns 'Sender', 'Datetime', 'Message'
     """
@@ -88,18 +91,19 @@ def parse_chat(file_path: Union[str, Path]) -> pd.DataFrame:
     df = pd.DataFrame(parsed_data, columns=["Datetime", "Sender", "Message"])
     return df
 
+
 def cleanup(df: pd.DataFrame) -> pd.DataFrame:
     """Clean up the DataFrame by removing system messages and duplicates.
-    
+
     Args:
         df: DataFrame containing message data
-        
+
     Returns:
         Cleaned DataFrame
     """
     df = df.drop_duplicates(subset=["Datetime", "Sender", "Message"])
     df = df.sort_values(by="Datetime")
-    
+
     # Remove system messages
     system_messages = [
         "deleted this message",
@@ -111,12 +115,13 @@ def cleanup(df: pd.DataFrame) -> pd.DataFrame:
         "changed the subject from",
         "changed this group's settings",
     ]
-    
+
     for message in system_messages:
         df = df[~df["Message"].str.contains(message)]
-    
+
     logger.info(f"Cleaned DataFrame has {len(df)} messages")
     return df
+
 
 def chat_to_df(
     file_path: Path,
@@ -124,12 +129,12 @@ def chat_to_df(
     group_name: Optional[str] = None,
 ) -> pd.DataFrame:
     """Convert a WhatsApp chat export to a DataFrame.
-    
+
     Args:
         file_path: Path to the chat export file
         previous_df_path: Optional path to a previous DataFrame to merge with
         group_name: Optional name of the group to add as a column
-        
+
     Returns:
         DataFrame containing the chat data
     """
@@ -150,12 +155,13 @@ def chat_to_df(
         df["Group"] = group_name
     return df
 
+
 class WhatsAppGroupAnalysis:
     """Class for analyzing WhatsApp group chat data."""
 
     def __init__(self, df: pd.DataFrame) -> None:
         """Initialize with a DataFrame containing message data.
-        
+
         Args:
             df: DataFrame with 'Datetime' and 'Sender' columns
         """
@@ -166,7 +172,7 @@ class WhatsAppGroupAnalysis:
 
     def get_current_users(self) -> Tuple[pd.DataFrame, int]:
         """Get the current users in the group.
-        
+
         Returns:
             Tuple of (DataFrame with current users, count of current users)
         """
@@ -191,10 +197,10 @@ class WhatsAppGroupAnalysis:
 
     def get_message_count_in_window(self, window_days: int = 60) -> pd.DataFrame:
         """Get the message count for each user in a time window.
-        
+
         Args:
             window_days: Number of days to look back, defaults to 60
-            
+
         Returns:
             DataFrame with message counts per user in the window
         """
@@ -209,15 +215,17 @@ class WhatsAppGroupAnalysis:
             messages_in_window["Sender"].value_counts().reset_index()
         )
         message_count_in_window.columns = ["User", "Message_Count_In_Window"]
-        logger.info(f"Message counts calculated for {len(message_count_in_window)} users in {window_days} day window")
+        logger.info(
+            f"Message counts calculated for {len(message_count_in_window)} users in {window_days} day window"
+        )
         return message_count_in_window
 
     def get_inactive_users(self, exclude_contacts: bool = False) -> pd.DataFrame:
         """Get users who have been inactive.
-        
+
         Args:
             exclude_contacts: Whether to exclude contacts (users with names starting with '~'), defaults to False
-            
+
         Returns:
             DataFrame with inactive users and their statistics
         """
@@ -262,12 +270,14 @@ class WhatsAppGroupAnalysis:
             on="User",
             how="left",
         )
-        logger.info(f"Found {len(filtered_inactive_users_with_recent_message)} inactive users")
+        logger.info(
+            f"Found {len(filtered_inactive_users_with_recent_message)} inactive users"
+        )
         return filtered_inactive_users_with_recent_message
 
     def get_users_with_zero_messages(self) -> pd.DataFrame:
         """Get users who have sent zero messages in the last 60 days.
-        
+
         Returns:
             DataFrame with users who have sent zero messages
         """
@@ -288,7 +298,7 @@ class WhatsAppGroupAnalysis:
 
     def get_users_with_joining_date(self) -> pd.DataFrame:
         """Get the joining date for each user.
-        
+
         Returns:
             DataFrame with user joining dates
         """
@@ -305,79 +315,95 @@ class WhatsAppGroupAnalysis:
         return users_with_joining_date
 
     def calculate_activity_score(
-        self, 
-        inactive_users_df: pd.DataFrame, 
+        self,
+        inactive_users_df: pd.DataFrame,
         decay_days: int = 90,
-        reference_messages: int = 5
+        reference_messages: int = 5,
     ) -> pd.DataFrame:
         """Calculate an exponential decay activity score for inactive users.
-        
+
         Args:
             inactive_users_df: DataFrame with inactive users
             decay_days: Number of days for score to decay to zero, defaults to 90
             reference_messages: Number of messages that would give a score of 1.0, defaults to 5
-            
+
         Returns:
             DataFrame with activity scores added
         """
         # Make a copy to avoid modifying the original
         df = inactive_users_df.copy()
-        
+
         # Get the current date (max date in the dataset)
         current_date = self.df["Datetime"].max()
-        
+
         # Calculate days since last message for each user
-        df["Days_Since_Last_Message"] = (current_date - df["Most_Recent_Message_Date"]).dt.days
-        
+        df["Days_Since_Last_Message"] = (
+            current_date - df["Most_Recent_Message_Date"]
+        ).dt.days
+
         # Calculate the activity score using exponential decay
         # Score = (Total_Messages_Sent / reference_messages) * exp(-lambda * days_since_last_message)
         # where lambda = ln(2) / decay_days (half-life)
         lambda_decay = np.log(2) / decay_days
-        
+
         # Calculate the base score (normalized by reference_messages)
         df["Base_Score"] = df["Total_Messages_Sent"] / reference_messages
-        
+
         # Apply the exponential decay
-        df["Activity_Score"] = df["Base_Score"] * np.exp(-lambda_decay * df["Days_Since_Last_Message"])
-        
+        df["Activity_Score"] = df["Base_Score"] * np.exp(
+            -lambda_decay * df["Days_Since_Last_Message"]
+        )
+
         # Cap the score at 1.0
         df["Activity_Score"] = df["Activity_Score"].clip(upper=1.0)
-        
+
         # Round the score to 3 decimal places
         df["Activity_Score"] = df["Activity_Score"].round(3)
-        
+
         # Sort by activity score (lowest first)
         df = df.sort_values("Activity_Score", ascending=True)
-        
+
         logger.info(f"Calculated activity scores for {len(df)} inactive users")
         return df
+
 
 @click.group()
 def cli():
     """WhatsApp Group Analysis Tool"""
     pass
 
+
 @cli.command()
-@click.argument('input_path', type=click.Path(exists=True, path_type=Path))
-@click.option('--output', '-o', type=click.Path(path_type=Path), help='Output file path')
-@click.option('--window-days', '-w', default=60, help='Window in days to consider for inactivity')
-@click.option('--exclude-contacts/--include-contacts', default=False, help='Exclude contacts (users with ~)')
-def analyze_single(input_path: Path, output: Optional[Path], window_days: int, exclude_contacts: bool):
+@click.argument("input_path", type=click.Path(exists=True, path_type=Path))
+@click.option(
+    "--output", "-o", type=click.Path(path_type=Path), help="Output file path"
+)
+@click.option(
+    "--window-days", "-w", default=60, help="Window in days to consider for inactivity"
+)
+@click.option(
+    "--exclude-contacts/--include-contacts",
+    default=False,
+    help="Exclude contacts (users with ~)",
+)
+def analyze_single(
+    input_path: Path, output: Optional[Path], window_days: int, exclude_contacts: bool
+):
     """Analyze a single WhatsApp group chat export."""
     logger.info(f"Analyzing single group: {input_path}")
-    
+
     # Process the chat file
     df = chat_to_df(input_path)
     analysis = WhatsAppGroupAnalysis(df)
-    
+
     # Get inactive users
     inactive_users = analysis.get_inactive_users(exclude_contacts=exclude_contacts)
-    
+
     # Sort by total messages sent and then by joining date
     inactive_users = inactive_users.sort_values(
         by=["Total_Messages_Sent", "Joining_Date"], ascending=[True, True]
     )
-    
+
     # Save or display results
     if output:
         inactive_users.to_csv(output, index=False)
@@ -386,15 +412,29 @@ def analyze_single(input_path: Path, output: Optional[Path], window_days: int, e
         print("\nInactive Users:")
         print(inactive_users)
 
+
 @cli.command()
-@click.argument('input_dir', type=click.Path(exists=True, file_okay=False, dir_okay=True, path_type=Path))
-@click.option('--output', '-o', type=click.Path(path_type=Path), help='Output file path')
-@click.option('--window-days', '-w', default=60, help='Window in days to consider for inactivity')
-@click.option('--exclude-contacts/--include-contacts', default=False, help='Exclude contacts (users with ~)')
-def analyze_multiple(input_dir: Path, output: Optional[Path], window_days: int, exclude_contacts: bool):
+@click.argument(
+    "input_dir",
+    type=click.Path(exists=True, file_okay=False, dir_okay=True, path_type=Path),
+)
+@click.option(
+    "--output", "-o", type=click.Path(path_type=Path), help="Output file path"
+)
+@click.option(
+    "--window-days", "-w", default=60, help="Window in days to consider for inactivity"
+)
+@click.option(
+    "--exclude-contacts/--include-contacts",
+    default=False,
+    help="Exclude contacts (users with ~)",
+)
+def analyze_multiple(
+    input_dir: Path, output: Optional[Path], window_days: int, exclude_contacts: bool
+):
     """Analyze multiple WhatsApp group chat exports in a directory."""
     logger.info(f"Analyzing multiple groups in: {input_dir}")
-    
+
     # Process all chat files
     chat_files = list(input_dir.glob("*.txt"))
     group_list = []
@@ -403,19 +443,19 @@ def analyze_multiple(input_dir: Path, output: Optional[Path], window_days: int, 
         chat_df = chat_to_df(chat_file, group_name=group_name)
         assert len(chat_df) > 0, f"Chat file {chat_file} is empty"
         group_list.append(chat_df)
-    
+
     # Combine all groups
     combined_df = pd.concat(group_list, ignore_index=True)
     analysis = WhatsAppGroupAnalysis(combined_df)
-    
+
     # Get inactive users
     inactive_users = analysis.get_inactive_users(exclude_contacts=exclude_contacts)
-    
+
     # Sort by total messages sent and then by joining date
     inactive_users = inactive_users.sort_values(
         by=["Total_Messages_Sent", "Joining_Date"], ascending=[True, True]
     )
-    
+
     # Save or display results
     if output:
         inactive_users.to_csv(output, index=False)
@@ -424,35 +464,56 @@ def analyze_multiple(input_dir: Path, output: Optional[Path], window_days: int, 
         print("\nInactive Users:")
         print(inactive_users)
 
+
 @cli.command()
-@click.argument('input_path', type=click.Path(exists=True, path_type=Path))
-@click.option('--output', '-o', type=click.Path(path_type=Path), help='Output file path')
-@click.option('--window-days', '-w', default=60, help='Window in days to consider for inactivity')
-@click.option('--exclude-contacts/--include-contacts', default=False, help='Exclude contacts (users with ~)')
-@click.option('--decay-days', '-d', default=90, help='Number of days for score to decay to zero')
-@click.option('--reference-messages', '-r', default=5, help='Number of messages that would give a score of 1.0')
-def score_inactive(input_path: Path, output: Optional[Path], window_days: int, exclude_contacts: bool, decay_days: int, reference_messages: int):
+@click.argument("input_path", type=click.Path(exists=True, path_type=Path))
+@click.option(
+    "--output", "-o", type=click.Path(path_type=Path), help="Output file path"
+)
+@click.option(
+    "--window-days", "-w", default=60, help="Window in days to consider for inactivity"
+)
+@click.option(
+    "--exclude-contacts/--include-contacts",
+    default=False,
+    help="Exclude contacts (users with ~)",
+)
+@click.option(
+    "--decay-days", "-d", default=90, help="Number of days for score to decay to zero"
+)
+@click.option(
+    "--reference-messages",
+    "-r",
+    default=5,
+    help="Number of messages that would give a score of 1.0",
+)
+def score_inactive(
+    input_path: Path,
+    output: Optional[Path],
+    window_days: int,
+    exclude_contacts: bool,
+    decay_days: int,
+    reference_messages: int,
+):
     """Analyze inactive users with an exponential decay activity score.
-    
+
     This command helps identify formerly active members who might be worth re-activating
     by calculating an activity score based on their message history and recency.
     """
     logger.info(f"Scoring inactive users in: {input_path}")
-    
+
     # Process the chat file
     df = chat_to_df(input_path)
     analysis = WhatsAppGroupAnalysis(df)
-    
+
     # Get inactive users
     inactive_users = analysis.get_inactive_users(exclude_contacts=exclude_contacts)
-    
+
     # Calculate activity scores
     scored_users = analysis.calculate_activity_score(
-        inactive_users, 
-        decay_days=decay_days,
-        reference_messages=reference_messages
+        inactive_users, decay_days=decay_days, reference_messages=reference_messages
     )
-    
+
     # Save or display results
     if output:
         scored_users.to_csv(output, index=False)
@@ -461,5 +522,6 @@ def score_inactive(input_path: Path, output: Optional[Path], window_days: int, e
         print("\nInactive Users with Activity Scores:")
         print(scored_users)
 
+
 if __name__ == "__main__":
-    cli() 
+    cli()
