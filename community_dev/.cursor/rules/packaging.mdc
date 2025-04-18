@@ -1,0 +1,10 @@
+---
+description: 
+globs: 
+alwaysApply: true
+---
+
+# Packaging
+
+- Always use `uv` with `pyproject.toml`
+- Always use `ruff`

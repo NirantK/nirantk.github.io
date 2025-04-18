@@ -1,0 +1,11 @@
+---
+description: 
+globs: 
+alwaysApply: true
+---
+
+# Logging
+
+- Use `loguru`
+- Log to file and stdio where possible
+- Log progress where possible using `tqdm`

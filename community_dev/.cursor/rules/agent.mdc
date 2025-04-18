@@ -1,0 +1,7 @@
+---
+description: 
+globs: 
+alwaysApply: true
+---
+- Always start by making a broad TODO section in the README.md
+- Make small reversible commits. 
