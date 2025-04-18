@@ -1,4 +1,6 @@
+import json
 import shutil
+from datetime import datetime
 from pathlib import Path
 from tempfile import NamedTemporaryFile
 
@@ -91,6 +93,20 @@ def get():
         class_="container"
     )
 
+def create_table_rows(results):
+    """Create table rows from results DataFrame."""
+    # Create header row
+    header_row = Tr(*[Th(col) for col in results.columns])
+    
+    # Create data rows
+    data_rows = []
+    for _, row in results.iterrows():
+        data_rows.append(
+            Tr(*[Td(str(cell)) for cell in row])
+        )
+    
+    return header_row, data_rows
+
 @rt("/analyze", methods=["POST"])
 async def analyze(req):
     """Handle file upload and analysis."""
@@ -137,13 +153,39 @@ async def analyze(req):
             else:
                 results = analysis.get_inactive_users(exclude_contacts=exclude_contacts)
             
-            # Convert results to HTML table and wrap in a div
-            table_html = results.to_html(classes="table", index=False)
+            # Save results to a temporary CSV file
+            timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
+            csv_filename = f"whatsapp_analysis_{timestamp}.csv"
+            csv_path = TEMP_DIR / csv_filename
+            results.to_csv(csv_path, index=False)
+            
+            # Create table using FastHTML components
+            header_row, data_rows = create_table_rows(results)
             
             return Container(
                 H2("Analysis Results"),
-                Div(table_html),
-                A("⬅️ Back to Upload", href="/"),
+                P(f"Found {len(results)} users to analyze."),
+                Div(
+                    A(
+                        "⬇️ Download CSV",
+                        href=f"/download/{csv_filename}",
+                        class_="button-secondary"
+                    ),
+                    A(
+                        "⬅️ Back to Upload",
+                        href="/",
+                        class_="button-secondary"
+                    ),
+                    class_="button-group"
+                ),
+                Div(
+                    Table(
+                        Thead(header_row),
+                        Tbody(*data_rows),
+                        class_="table"
+                    ),
+                    class_="table-container"
+                ),
                 class_="container"
             )
             
@@ -154,6 +196,31 @@ async def analyze(req):
     except Exception as e:
         logger.exception("Error processing file")
         return error_response(f"Error processing file: {str(e)}")
+
+@rt("/download/{filename}")
+async def download(filename: str):
+    """Handle CSV file download."""
+    try:
+        file_path = TEMP_DIR / filename
+        if not file_path.exists():
+            return error_response("File not found")
+        
+        with open(file_path, "r") as f:
+            content = f.read()
+            
+        # Clean up the file after reading
+        file_path.unlink()
+        
+        return Response(
+            content,
+            headers={
+                "Content-Type": "text/csv",
+                "Content-Disposition": f"attachment; filename={filename}"
+            }
+        )
+    except Exception as e:
+        logger.exception("Error downloading file")
+        return error_response(f"Error downloading file: {str(e)}")
 
 def error_response(message: str):
     """Return an error page."""
@@ -167,7 +234,7 @@ def error_response(message: str):
 # Add some basic CSS styling
 app.css = """
 .container { 
-    max-width: 800px; 
+    max-width: 1200px; 
     margin: 0 auto; 
     padding: 20px;
     background-color: #fff;
@@ -202,18 +269,40 @@ app.css = """
     border-radius: 4px;
     margin-bottom: 1rem;
 }
+.table-container {
+    overflow-x: auto;
+    margin: 1rem 0;
+    border: 1px solid #dee2e6;
+    border-radius: 4px;
+}
 .table { 
     width: 100%; 
     border-collapse: collapse; 
-    margin: 1rem 0; 
+    margin: 0;
+    background-color: #fff;
 }
 .table th, .table td { 
     padding: 0.75rem; 
-    border: 1px solid #ddd; 
+    border: 1px solid #dee2e6;
+    text-align: left;
+    font-size: 0.9rem;
 }
 .table th { 
     background: #f8f9fa;
     font-weight: 600;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    white-space: nowrap;
+}
+.table td {
+    white-space: nowrap;
+}
+.table tbody tr:nth-child(even) {
+    background-color: #f8f9fa;
+}
+.table tbody tr:hover {
+    background-color: #f2f2f2;
 }
 .button-primary { 
     margin-top: 1rem;
@@ -224,8 +313,26 @@ app.css = """
     border-radius: 4px;
     cursor: pointer;
 }
-.button-primary:hover {
+.button-secondary {
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    margin: 0.5rem;
+    background-color: #6c757d;
+    color: white;
+    text-decoration: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.button-primary:hover,
+.button-secondary:hover {
     background-color: #0056b3;
+    text-decoration: none;
+    color: white;
+}
+.button-group {
+    margin: 1rem 0;
+    display: flex;
+    gap: 1rem;
 }
 body {
     background-color: #f8f9fa;
