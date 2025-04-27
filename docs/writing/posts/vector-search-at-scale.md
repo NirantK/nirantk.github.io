@@ -21,7 +21,7 @@ Here's a list of things that teams do that can be improved:
 
 This post is a walkthrough of what a real retrieval stack looks like when it's designed not just for correctness, but also for operational efficiency and failure debugging.
 
-![Retrieval Stack Architecture: Query Router, BM25, Vector Search, Aggregation, Reranker](search-scaling.png)
+![Retrieval Stack Architecture: Query Router, BM25, Vector Search, Aggregation, Reranker](../images/search-scaling.png)
 *Figure: Retrieval stack architecture balancing cost, quality, and latency. Each layer maximizes relevance per dollar and enables debugging.*
 
 ## The Architecture
