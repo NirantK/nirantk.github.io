@@ -9,7 +9,7 @@ images: []
 weight: 100
 toc: true
 ---
-Last Updated: July 2024
+Last Updated: July 2025
 
 Talented friends I can endorse for their work -- either because I've worked with them or know them socially.
 
@@ -22,8 +22,6 @@ I'm happy to connect you with them if you're looking to hire or collaborate with
 | [Rohit Bhardwaj](https://www.linkedin.com/in/ro7it/) | Data Engineer | Worked with him at verloop.io, solving analytics problems | Nirant | 
 | [Harsh Gupta](https://www.linkedin.com/in/hargup/) | Generalist Backend engineer, Search, LLMs, Data Augumentation and Pipeline | Ex-JPMC, Helpshift, GSoC mentor and student. Built [felvin.com](https://www.producthunt.com/products/felvin#felvin) one of the first no-code tools for building AI applications, raised angel investments for it. Know him socially. | Nirant|
 | [Dhruv Anand](https://www.linkedin.com/in/dhruv-anand-ainorthstartech/) | Search Consultant, VectorDB & LLM | ex-CMU, Google & Meta Know him via the GenerativeAI Community | Nirant |
-| [Anudeep](https://www.linkedin.com/in/anudeepyegireddi/) | ML Engineer | Was the category winner at the GenerativeAI Hackathon | Nirant |
-| [Kshitij](https://www.linkedin.com/in/agrawalkshitij/) | ML Engineer | - | Sudarshan |
 | [Kumar Shivendu](https://www.linkedin.com/in/kshivendu/) | Product engineer with interest in Devtools, Search & LLMs | Builds auth devtools at SuperTokens, he was the dev behind this [blog](https://nirantk.com/writing/pgvector-vs-qdrant/). Update: Has joined Qdrant.tech after the endorsement! | Nirant |
 
 # Endorsed Non-Engineering Talent
