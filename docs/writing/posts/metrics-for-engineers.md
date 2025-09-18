@@ -7,7 +7,7 @@ categories:
   - RAG
   - metrics
 title: Agent Metrics: A Guide for Engineers**
-
+---
 
 Measuring the performance of non-deterministic, compound systems like LLM-powered chat applications is fundamentally different from traditional software. An output can be syntactically perfect and seem plausible, yet be factually incorrect, unhelpful, or unsafe. 
 
