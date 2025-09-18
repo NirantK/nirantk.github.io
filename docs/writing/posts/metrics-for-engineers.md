@@ -3,14 +3,15 @@ date: 2025-09-18
 authors:
   - nirant
 categories:
-  - niranting
+  - machine-learning
+  - RAG
   - metrics
-title: Metrics for Engineers
----
+title: Agent Metrics: A Guide for Engineers**
 
-# **Metric Design for LLM-Powered Systems: A Guide for Engineers**
 
-Measuring the performance of non-deterministic, compound systems like LLM-powered chat applications is fundamentally different from traditional software. An output can be syntactically perfect and seem plausible, yet be factually incorrect, unhelpful, or unsafe. A robust measurement strategy requires a multi-layered approach that covers everything from operational efficiency to nuanced aspects of output quality and user success. This requires a shift in thinking from simple pass/fail tests to a portfolio of metrics that, together, paint a comprehensive picture of system performance.
+Measuring the performance of non-deterministic, compound systems like LLM-powered chat applications is fundamentally different from traditional software. An output can be syntactically perfect and seem plausible, yet be factually incorrect, unhelpful, or unsafe. 
+
+A robust measurement strategy requires a multi-layered approach that covers everything from operational efficiency to nuanced aspects of output quality and user success. This requires a shift in thinking from simple pass/fail tests to a portfolio of metrics that, together, paint a comprehensive picture of system performance.
 
 This guide breaks down metric design into two parts:
 
