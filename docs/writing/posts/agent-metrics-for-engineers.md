@@ -152,6 +152,6 @@ This is the ultimate measure of value. A model can produce a perfect, factual, s
   - **Response Edit Rate (Ratio):** How often do users have to copy and then significantly edit the AI's generated response? A high rate is a strong negative signal.
   - **Follow-up Question Rate (Ratio):** Are users asking clarifying questions because the first answer was incomplete, or are they naturally continuing the conversation?
 #### Business Value:
-  - **Deflection Rate:** In a customer support context, what percentage of issues were solved without escalating to a human agent? A high deflection rate is only good if user satisfaction is also high.
+  - **Deflection Rate:** In a customer support context, what percentage of issues were solved without escalating to a human agent? A high deflection rate is only good if user satisfaction is also high. This is also the pricing structure for [Fin by Intercom](https://fin.ai/drlp/ai-agent).
   - **Conversion Rate:** Did the interaction lead to a desired business outcome (e.g., a sale, a sign-up)?
   - **User Retention (Ratio):** Are users coming back to use the application? This is a powerful long-term indicator of value.
