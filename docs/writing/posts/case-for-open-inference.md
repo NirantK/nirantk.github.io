@@ -53,7 +53,7 @@ The third reason is a little different: I think it's useful to revisit why OpenI
 
 ## What can OpenInference do better?
 
-1. [OpenInference](https://github.com/Arize-ai/openinference) is completely maintained and developed by Arize.ai. It is not a community effort, despite being Apache 2.0 (the project's contributor graph reveals this quickly[^5]). This is a great thing for the company, but a critical challenge for its adoption as a standard.
+1. [OpenInference](https://github.com/Arize-ai/openinference) is completely maintained and developed by Arize.ai. It is not a community effort, despite being Apache 2.0 (the project's contributors reveals this quickly[^5]). This is a great thing for the company, but a critical challenge for its adoption as a standard.
 
 This single-vendor stewardship creates a natural friction against broader adoption. The most effective way for Arize to counter this would be to aggressively pursue OTel compatibility, proving that OpenInference is a good faith extension of the ecosystem, not a replacement aimed at vendor lock-in.
 
@@ -71,9 +71,11 @@ Ultimately, the debate isn't about OTel versus OpenInference. We should acknowle
 
 If OTel is the lingua franca of distributed systems, OpenInference is the dialect for reasoning systems. The two are not competitors — they’re layers. OTel tells you how your system behaves, OpenInference tells you why.
 
+## References
+
 [^1]: A good alternative definition is a LLM while loop with tools: https://www.braintrust.dev/blog/agent-while-loop
 [^2]: [Law of large numbers](https://en.wikipedia.org/wiki/Law_of_large_numbers) makes clicks way useful for SaaS and consumer applications alike
 [^3]: [RED metrics](https://grafana.com/blog/2018/08/02/the-red-method-how-to-instrument-your-services/)
 [^4]: [OTel GenAI Spec](https://opentelemetry.io/docs/specs/semconv/gen-ai/)
-[^5]: Most contributors to Arize's OpenInference are all their employees, with top 3 contributors coming from their own DevRel team: https://github.com/Arize-ai/openinference/graphs/contributors
-[^6]: OpenAI built the Responses API to support multi-modal and tool calling as first class concerns: https://developers.openai.com/blog/responses-api/
+[^5]: Most contributors to Arize's OpenInference are all their employees, with top 3 contributors coming from their own DevRel team. Source: [Github Contributions](https://github.com/Arize-ai/openinference/graphs/contributors)
+[^6]: OpenAI built the Responses API to support multi-modal and tool calling as first class concerns: [OpenAI blog on Why Responses API](https://developers.openai.com/blog/responses-api/)
