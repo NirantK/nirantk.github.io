@@ -18,6 +18,13 @@ This guide breaks down metric design into three parts:
 1. **Foundational Metric Types:** The basic building blocks of any measurement system.
 2. **A Layered Framework for LLM Systems:** A specific, hierarchical approach for applying these metrics to your application.
 3. **Multi-Turn Chat Metrics:** Specialized metrics for evaluating conversational systems beyond single-turn interactions.
+
+{{< callout type="info" >}}
+**Skip Ahead:**
+- Already familiar with metric fundamentals (binary, ordinal, continuous, etc.)? → [Jump to Part 2: Layered Framework](#part-2-a-layered-framework-for-llm-systems)
+- Building conversational agents and need conversation-level metrics? → [Jump to Part 3: Multi-Turn Chat](#part-3-multi-turn-chat--measuring-conversations-not-just-responses)
+{{< /callout >}}
+
 ## Part 1: Foundational Metric Types
 
 These are the fundamental ways to structure a measurement. Understanding these types is the first step to building a meaningful evaluation suite.
