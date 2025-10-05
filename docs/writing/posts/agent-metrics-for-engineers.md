@@ -20,7 +20,7 @@ This guide breaks down metric design into three parts:
 3. **Multi-Turn Chat Metrics:** Specialized metrics for evaluating conversational systems beyond single-turn interactions.
 
 !!! note "Skip Ahead"
-    - Already familiar with metric fundamentals (binary, ordinal, continuous, etc.)? → [Jump to Part 2: Layered Framework](#part-2-a-layered-framework-for-llm-systems)
+    - Already familiar with metric fundamentals? → [Jump to Part 2: Layered Framework](#part-2-a-layered-framework-for-llm-systems)
     - Building conversational agents and need conversation-level metrics? → [Jump to Part 3: Multi-Turn Chat](#part-3-multi-turn-chat--measuring-conversations-not-just-responses)
 
 ## Part 1: Foundational Metric Types
