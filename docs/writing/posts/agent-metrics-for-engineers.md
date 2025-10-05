@@ -108,6 +108,21 @@ Measures the position of an item in an ordered list. This is crucial for systems
 
 Thinking in layers helps isolate problems and understand the system's health from different perspectives. A failure at a lower level (e.g., high latency) will inevitably impact the higher levels (e.g., user satisfaction).
 
+These three layers form a hierarchy where each builds on the previous:
+
+```mermaid
+graph TB
+    Op[Layer 1: Operational<br/>Is it working?]
+    Qual[Layer 2: Output Quality<br/>Is it good?]
+    Success[Layer 3: User Success<br/>Does it help?]
+
+    Op --> Qual --> Success
+
+    style Op fill:#e8f4f8
+    style Qual fill:#e1f5ff
+    style Success fill:#ffe1f5
+```
+
 ### Layer 1: Operational & System Metrics (Is it working?)
 
 This is the foundation. If the system isn't running, nothing else matters. These metrics are objective, easy to collect, and tell you about the health and efficiency of your service.
@@ -162,20 +177,7 @@ This is the ultimate measure of value. A model can produce a perfect, factual, s
   - **Conversion Rate:** Did the interaction lead to a desired business outcome (e.g., a sale, a sign-up)?
   - **User Retention (Ratio):** Are users coming back to use the application? This is a powerful long-term indicator of value.
 
-These three layers form a hierarchy where each builds on the previous:
 
-```mermaid
-graph TB
-    Op[Layer 1: Operational<br/>Is it working?]
-    Qual[Layer 2: Output Quality<br/>Is it good?]
-    Success[Layer 3: User Success<br/>Does it help?]
-
-    Op --> Qual --> Success
-
-    style Op fill:#e8f4f8
-    style Qual fill:#e1f5ff
-    style Success fill:#ffe1f5
-```
 
 ## Part 3: Multi-Turn Chat — Measuring Conversations, Not Just Responses
 
