@@ -198,10 +198,6 @@ graph LR
     Turn --> Conv
     Signals --> Conv
     Conv --> Insights[Product Decisions]
-
-    style Turn fill:#e1f5ff
-    style Conv fill:#ffe1f5
-    style Insights fill:#90EE90
 ```
 
 ## Turn-Specific Metrics — Extending the Question-Answer Framework
