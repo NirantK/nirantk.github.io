@@ -14,7 +14,7 @@ Software Engineering, and it's cousins like Computer Science are unique. Unlike 
 
 This also means we have a unique opportunity here. This makes it better to work in a field which is not yet c
 
-But for those interested in pushing forward the frontiers of knowledge, it will sometimes be better to work in a field that has not yet cohered, or in a field on the cusp of crystallizing. 
+But for those interested in pushing forward the frontiers of knowledge, it will sometimes be better to work in a field that has not yet coalesced, or in a field on the cusp of crystallizing. 
 
 Often the best intellectual opportunities — if you want to be a breakthrough researcher — and the largest economic opportunities — if you want to build a great company — are going to be precisely in those areas about to crystallize into a new field.
 

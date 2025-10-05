@@ -11,7 +11,7 @@ show_reading_time = true
 
 This entire essay is about one idea: **Humility follows strength**.
 
-I'd been taught to be obedient, subservient even. I've been often accused of being rude or tactless). I am inclined to plead guilty to these charges. 
+I'd been taught to be obedient, subservient even. I've been often accused of being rude or tactless. I am inclined to plead guilty to these charges. 
 
 But what is a befitting punishment for a social crime? 
 
