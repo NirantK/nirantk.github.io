@@ -18,19 +18,11 @@ Most people frame this as “OTel vs OpenInference,” as if one will win and th
 
 If your product is a traditional service with predictable APIs, OTel works beautifully. But once your system starts reasoning, calling tools, and chaining LLMs together, you’ve left OTel’s comfort zone. That’s where OpenInference comes in — it extends OTel with span types and attributes that actually make sense for LLMs: token usage, cost per request, time to first token, and tool calls. It’s not competing with OTel — it’s extending it into a new domain.
 
-So when I read the recent [Signoz essay](https://signoz.io/blog/llm-observability-opentelemetry/) arguing that “OTel is enough for LLM observability” I disagreed — not because OTel is wrong, but because the framing misses what’s fundamentally new about GenAI workloads.
+So when I read the recent [Signoz essay](https://signoz.io/blog/llm-observability-opentelemetry/) arguing that "OTel is enough for LLM observability" I disagreed — not because OTel is wrong, but because the framing misses what's fundamentally new about GenAI workloads.
 
-Here is a quick refresher on some terms:
-
-> Spans: units of traced operations (e.g. “generate response”)
-> OTel: standard for tracing distributed systems
-> OpenInference: extension for LLM behavior (token counts, tool calls)
-
-If you are coming across OpenInference for the first time, it's an enriched version of OTel for LLMs. It offers more specific span types for LLMs, including LLM, tool, and agent. It is first and foremost built for developers to use in their own LLM-powered applications, where they want to log LLM choices and actions. OpenInference was designed to be complementary to OpenTelemetry GenAI [^4], not an alternative. It already provides OTel-friendly instrumentations and semantic conventions.
+OpenInference is an enriched version of OTel built specifically for LLMs. It offers more specific span types for LLMs, including LLM, tool, and agent. It is first and foremost built for developers to use in their own LLM-powered applications, where they want to log LLM choices and actions. OpenInference was designed to be complementary to OpenTelemetry GenAI [^4], not an alternative. It already provides OTel-friendly instrumentations and semantic conventions.
 
 As an example, the metrics which OpenInference takes seriously are: Token usage, cost per request, time to first token, tool call rates. And the original OTel cares about the RED metrics [^3] e.g. latency, error rates, and throughput.
-
-I'm not going to rehash the whole essay here, but I want to repeat the main claim which I differ with and why:
 
 Signoz is not alone in making a case for OTel against OpenInference. The main case is quite simple: OTel is a well-established standard with broad language support, while OpenInference is newer, has limited adoption, and its OTel compatibility is superficial.
 
@@ -38,9 +30,9 @@ Signoz is not alone in making a case for OTel against OpenInference. The main ca
 
 I disagree with the main case for OTel against OpenInference: compatibility triumphs everything else.
 
-If this was the case, we should not have needed anything except Postgres for structured data. I mean from ClickHouse to Snowflake, we have a lot of differentiation in the usecases and tradeoffs. And that is precisely the case with OpenInference and OTel.
+If this was the case, we should not have needed anything except Postgres for structured data. From ClickHouse to Snowflake, we have a lot of differentiation in the usecases and tradeoffs. And that is precisely the case with OpenInference and OTel.
 
-Allow me to take this metaphor even further: Every system will adopt the SQL dialect to make it their own. Like SQL dialects, OTel and OpenInference share a syntax but serve different workloads. If you’re building an LLM product that needs to explain its reasoning, optimize latency, or debug tool calls — OpenInference gives you visibility that OTel simply can’t today:
+To extend this metaphor: Every system adopts the SQL dialect to make it their own. Like SQL dialects, OTel and OpenInference share a syntax but serve different workloads. If you’re building an LLM product that needs to explain its reasoning, optimize latency, or debug tool calls — OpenInference gives you visibility that OTel simply can’t today:
 
 1. OpenInference is a better choice for products where LLMs are in the driver's seat and not the developers. All modern _agents_ [^1] have this property. This means that the debug and RCA loop is much much faster and easier with OpenInference.
 
@@ -57,11 +49,11 @@ This shift towards product analytics is critical because we lack traditional use
 
 For example: With semantically rich spans for `TOOL_CALL`, a product manager can finally answer questions like, 'Which tools are my users' agents invoking most often?' or 'Are users getting stuck in a loop trying to use the calendar tool?'. These are product questions, not just engineering alerts, and they are invisible in a standard RED metrics dashboard.
 
-The third reason is a little different: I think it's useful to revisit why OpenInference even exists: OTel didn't have a decent spec for GenAI workloads! It is on its way to have one, but as modern APIs change e.g. OpenAI went from Chat Completions to Responses API [^6]. As a specialized, single-focus project, OpenInference is structurally positioned to adapt to the rapid evolution of GenAI APIs... far more quickly than a large, consensus-driven standards body like OTel.
+The third reason is a little different: I think it's useful to revisit why OpenInference even exists: OTel didn't have a decent spec for GenAI workloads! It is on its way to have one, but as modern APIs change e.g. OpenAI went from Chat Completions to Responses API [^6]. As a specialized, single-focus project, OpenInference is structurally positioned to adapt to the rapid evolution of GenAI APIs far more quickly than a large, consensus-driven standards body like OTel.
 
 ## What can OpenInference do better?
 
-1. [OpenInference](https://github.com/Arize-ai/openinference) is completely maintained and developed by Arize.ai. It is not a community effort, despite being Apache 2.0 as a (look at the project's contributor graph quickly reveals[^5]). This is a great thing for the company, critical challenge for its adoption as a standard.
+1. [OpenInference](https://github.com/Arize-ai/openinference) is completely maintained and developed by Arize.ai. It is not a community effort, despite being Apache 2.0 (the project's contributor graph reveals this quickly[^5]). This is a great thing for the company, but a critical challenge for its adoption as a standard.
 
 This single-vendor stewardship creates a natural friction against broader adoption. The most effective way for Arize to counter this would be to aggressively pursue OTel compatibility, proving that OpenInference is a good faith extension of the ecosystem, not a replacement aimed at vendor lock-in.
 
@@ -69,13 +61,13 @@ This single-vendor stewardship creates a natural friction against broader adopti
 
 ## Putting myself in others' shoes
 
-Arize PoV: Perhaps, they are right in delaying this push for OTel Compatibility. The standard has not matured fast enough and Arize can keep ahead of the curve, move faster and address developer needs better.
+From Arize's perspective, delaying the push for OTel compatibility might be the right move. The standard hasn't matured fast enough, and moving independently lets them stay ahead of the curve and address developer needs more quickly.
 
-Signoz: If I were at Signoz and wanted to own GenAI logging (and alerting workload), I'd create a Signoz plugin that accepts OpenInference traces and GenAI [^4] traces and helps with the same nested visualization.
+If I were at Signoz and wanted to own GenAI logging and alerting, I'd create a Signoz plugin that accepts both OpenInference traces and OTel GenAI [^4] traces, offering the same nested visualization capabilities that make Phoenix compelling.
 
 ## Conclusion
 
-Ultimately, the debate isn't about OTel versus OpenInference. We should acknowledge that observing generative AI is a fundamentally new problem that requires more than just knowing if an endpoint's health. We need a richer vocabulary to understand what our applications are doing and why. And the strategic bet is clear: LLMs are not another web service — they’re runtime decision-makers. And observing them needs a richer language than latency, error, and throughput.
+Ultimately, the debate isn't about OTel versus OpenInference. We should acknowledge that observing generative AI is a fundamentally new problem that requires more than just knowing if an endpoint is healthy. We need a richer vocabulary to understand what our applications are doing and why. And the strategic bet is clear: LLMs are not another web service — they’re runtime decision-makers. And observing them needs a richer language than latency, error, and throughput.
 
 If OTel is the lingua franca of distributed systems, OpenInference is the dialect for reasoning systems. The two are not competitors — they’re layers. OTel tells you how your system behaves, OpenInference tells you why.
 
