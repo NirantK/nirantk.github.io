@@ -34,7 +34,9 @@ If this was the case, we should not have needed anything except Postgres for str
 
 To extend this metaphor: Every system adopts the SQL dialect to make it their own. Like SQL dialects, OTel and OpenInference share a syntax but serve different workloads. If you’re building an LLM product that needs to explain its reasoning, optimize latency, or debug tool calls — OpenInference gives you visibility that OTel simply can’t today:
 
-1. OpenInference is a better choice for products where LLMs are in the driver's seat and not the developers. All modern _agents_ [^1] have this property. This means that the debug and RCA loop is much much faster and easier with OpenInference.
+### OpenInference is a better choice for agentic systems
+
+Agents are products where LLMs are in the driver's seat and not the developers. All modern _agents_ [^1] have this property. This means that the debug and RCA loop is much much faster and easier with OpenInference. 
 
 For instance, when an agent fails, a standard OTel trace might show a single long-running `process_request` span. An OpenInference trace, however, would immediately break this down into `LLM` -> `TOOL_CALL(search)` -> `RETRIEVER` -> `LLM` spans, instantly revealing that the failure occurred because the search tool got stuck in a loop or something in the query rewriting step needs to improve.
 
@@ -43,7 +45,9 @@ This nesting visualization is also quite powerful and something I deeply appreci
 ![Phoenix Tracing Visualization](../images/phoenix-tracing.png)
 _Source: [Arize Phoenix Tracing Documentation](https://arize.com/docs/phoenix/tracing/llm-traces)_
 
-2. OpenInference logs are actually data meant for not just alerting 500 and 429 but for product analytics and observability. This means that the data is actually meant to be used for more than just API alerting.
+### Logs as Analytics data
+
+OpenInference logs are actually data meant for not just alerting 500 and 429 but for product analytics and observability. This means that the data is actually meant to be used for more than just API alerting.
 
 This shift towards product analytics is critical because we lack traditional user intent signals, like 'click events,' in conversational interfaces. With the high effort of text and voice interactions, we can't rely on the law of large numbers.
 
@@ -53,11 +57,9 @@ The third reason is a little different: I think it's useful to revisit why OpenI
 
 ## What can OpenInference do better?
 
-1. [OpenInference](https://github.com/Arize-ai/openinference) is completely maintained and developed by Arize.ai. It is not a community effort, despite being Apache 2.0 (the project's contributors reveals this quickly[^5]). This is a great thing for the company, but a critical challenge for its adoption as a standard.
+1. [OpenInference](https://github.com/Arize-ai/openinference) is completely maintained and developed by Arize.ai. It is not a community effort, despite being Apache 2.0 (the project's contributors reveals this quickly[^5]). This single-vendor stewardship creates a natural friction against broader adoption.
 
-This single-vendor stewardship creates a natural friction against broader adoption. The most effective way for Arize to counter this would be to aggressively pursue OTel compatibility, proving that OpenInference is a good faith extension of the ecosystem, not a replacement aimed at vendor lock-in.
-
-2. OpenInference should take OTel compatibility seriously. And frankly, as the [OTel GenAI](https://opentelemetry.io/docs/specs/semconv/gen-ai/) spec is maturing, it should be a priority for OpenInference to be compatible with it. This would mean that all OTel logging frameworks and tools should be able to use OpenInference, and hence switch to Arize Phoenix from other logging frameworks and tools. This is not the case today.
+2. The most effective way for Arize to counter this would be to aggressively pursue OTel compatibility, proving that OpenInference is a good faith extension of the ecosystem, not a replacement aimed at vendor lock-in. This would mean that all OTel logging frameworks and tools should be able to use OpenInference, and hence switch to Arize Phoenix from other logging frameworks and tools. 
 
 ## Putting myself in others' shoes
 
