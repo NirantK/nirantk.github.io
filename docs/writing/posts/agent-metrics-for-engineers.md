@@ -166,6 +166,53 @@ Multi-turn chat introduces complexities that single-turn evaluation cannot captu
 
 This section focuses on what's unique to conversational systems: **Conversation-Specific Metrics** that evaluate the entire user journey, and **User Interaction Signals** that reveal implicit feedback traditional metrics miss.
 
+The following diagram illustrates how Part 3 extends Part 2's framework into the conversational domain:
+
+```mermaid
+graph TB
+    subgraph "Part 2: Single-Turn Framework"
+        L1[Layer 1: Operational<br/>Latency, Cost, Errors]
+        L2[Layer 2: Output Quality<br/>Faithfulness, Relevance, Safety]
+        L3[Layer 3: User Success<br/>Task Completion, Satisfaction]
+        L1 --> L2
+        L2 --> L3
+    end
+
+    subgraph "Part 3: Multi-Turn Extension"
+        subgraph "Turn-Level (Micro)"
+            T1[Turn 1: Quality Metrics]
+            T2[Turn 2: Quality Metrics]
+            T3[Turn N: Quality Metrics]
+            T1 -.-> T2
+            T2 -.-> T3
+        end
+
+        subgraph "Conversation-Level (Macro)"
+            C1[Drop-off Analysis]
+            C2[Success Rate]
+            C3[Topic Drift]
+            C4[Recovery Rate]
+        end
+
+        subgraph "User Behavior Signals"
+            E1[Explicit: Frustration<br/>Confusion, Questions]
+            I1[Implicit: Copy, Screenshot<br/>Citations, Dwell Time]
+        end
+
+        T1 & T2 & T3 --> C1 & C2 & C3 & C4
+        T1 & T2 & T3 --> E1 & I1
+        C1 & C2 & C3 & C4 --> Decision[Product Decisions]
+        E1 & I1 --> Decision
+    end
+
+    L2 -.applies per turn.-> T1 & T2 & T3
+    L3 -.aggregated across conversation.-> C1 & C2 & C3 & C4
+
+    style L2 fill:#e1f5ff
+    style L3 fill:#ffe1f5
+    style Decision fill:#90EE90
+```
+
 ## Turn-Specific Metrics — Extending the Question-Answer Framework
 
 At the micro-level, we must ensure each turn is high-quality. These metrics adapt classical QA evaluation to the conversational setting, and many have been operationalized in open-source frameworks like Ragas[^2].
