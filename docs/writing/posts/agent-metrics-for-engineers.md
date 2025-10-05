@@ -157,60 +157,44 @@ This is the ultimate measure of value. A model can produce a perfect, factual, s
   - **Conversion Rate:** Did the interaction lead to a desired business outcome (e.g., a sale, a sign-up)?
   - **User Retention (Ratio):** Are users coming back to use the application? This is a powerful long-term indicator of value.
 
+These three layers form a hierarchy where each builds on the previous:
+
+```mermaid
+graph TB
+    Op[Layer 1: Operational<br/>Is it working?]
+    Qual[Layer 2: Output Quality<br/>Is it good?]
+    Success[Layer 3: User Success<br/>Does it help?]
+
+    Op --> Qual --> Success
+
+    style Op fill:#e8f4f8
+    style Qual fill:#e1f5ff
+    style Success fill:#ffe1f5
+```
 
 ## Part 3: Multi-Turn Chat — Measuring Conversations, Not Just Responses
 
-Parts 1 and 2 established the foundational metric types and a layered framework applicable to any LLM system. Part 2's Layer 2 covered output quality metrics—relevancy, faithfulness, coherence—that apply to individual model responses. This foundation is essential, but insufficient for conversational systems.
+Parts 1 and 2 established the foundational metric types and a layered framework applicable to any LLM system. Part 2's Layer 2 covered output quality metrics—relevancy, faithfulness, coherence—that apply to individual model responses. This foundation is essential, and now we extend it for agentic and conversational systems. 
 
 Multi-turn chat introduces complexities that single-turn evaluation cannot capture: context management across turns, user intent shifts, conversational flow, and the ability to recover from errors. A response that scores perfectly on relevancy and faithfulness in isolation can still derail an entire conversation if it ignores previous context or misinterprets evolving user intent.
 
 This section focuses on what's unique to conversational systems: **Conversation-Specific Metrics** that evaluate the entire user journey, and **User Interaction Signals** that reveal implicit feedback traditional metrics miss.
 
-The following diagram illustrates how Part 3 extends Part 2's framework into the conversational domain:
+The evaluation flow for conversations extends the single-turn approach:
 
 ```mermaid
-graph TB
-    subgraph "Part 2: Single-Turn Framework"
-        L1[Layer 1: Operational<br/>Latency, Cost, Errors]
-        L2[Layer 2: Output Quality<br/>Faithfulness, Relevance, Safety]
-        L3[Layer 3: User Success<br/>Task Completion, Satisfaction]
-        L1 --> L2
-        L2 --> L3
-    end
+graph LR
+    Turn[Turn Metrics<br/>Quality per response]
+    Conv[Conversation Metrics<br/>Success across turns]
+    Signals[User Signals<br/>Behavior patterns]
 
-    subgraph "Part 3: Multi-Turn Extension"
-        subgraph "Turn-Level (Micro)"
-            T1[Turn 1: Quality Metrics]
-            T2[Turn 2: Quality Metrics]
-            T3[Turn N: Quality Metrics]
-            T1 -.-> T2
-            T2 -.-> T3
-        end
+    Turn --> Conv
+    Signals --> Conv
+    Conv --> Insights[Product Decisions]
 
-        subgraph "Conversation-Level (Macro)"
-            C1[Drop-off Analysis]
-            C2[Success Rate]
-            C3[Topic Drift]
-            C4[Recovery Rate]
-        end
-
-        subgraph "User Behavior Signals"
-            E1[Explicit: Frustration<br/>Confusion, Questions]
-            I1[Implicit: Copy, Screenshot<br/>Citations, Dwell Time]
-        end
-
-        T1 & T2 & T3 --> C1 & C2 & C3 & C4
-        T1 & T2 & T3 --> E1 & I1
-        C1 & C2 & C3 & C4 --> Decision[Product Decisions]
-        E1 & I1 --> Decision
-    end
-
-    L2 -.applies per turn.-> T1 & T2 & T3
-    L3 -.aggregated across conversation.-> C1 & C2 & C3 & C4
-
-    style L2 fill:#e1f5ff
-    style L3 fill:#ffe1f5
-    style Decision fill:#90EE90
+    style Turn fill:#e1f5ff
+    style Conv fill:#ffe1f5
+    style Insights fill:#90EE90
 ```
 
 ## Turn-Specific Metrics — Extending the Question-Answer Framework
