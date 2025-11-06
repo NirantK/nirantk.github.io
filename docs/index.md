@@ -23,18 +23,17 @@ Book: [NLP in Python: Quickstart Guide](https://read.amazon.in/kp/embed?asin=B07
 I wrote this book in 2018 to make Natural Language Programming more accessible for software engineers and programmers. The accompanying code is available on [Github](https://github.com/NirantK/nlp-python-deep-learning).
 ## Papers and Open Source Contributions
 
-1. [Ragas](https://github.com/explodinggradients/ragas) - We helped improve the most widely used Agent Metrics layer. My contributions are [here](https://github.com/explodinggradients/ragas/pulls?q=is%3Apr+author%3ANirantK+is%3Aclosed+).
+1. [Ragas](https://github.com/explodinggradients/ragas) <img src="https://img.shields.io/github/stars/explodinggradients/ragas?style=social" style="display: inline-block;"/> - We helped improve the most widely used Agent Metrics layer. My contributions are [here](https://github.com/explodinggradients/ragas/pulls?q=is%3Apr+author%3ANirantK+is%3Aclosed+).
 
-2. [FastEmbed](https://github.com/qdrant/fastembed) - I built the first version of FastEmbed, an embedding library built for speed using ONNX. It is used by Qdrant, [NVIDIA Nemo Guardrails](https://github.com/NVIDIA/nemo-guardrails) and [3000+ more respositories alone!](https://github.com/qdrant/fastembed/network/dependents).
+2. [FastEmbed](https://github.com/qdrant/fastembed) <img src="https://img.shields.io/github/stars/qdrant/fastembed?style=social" style="display: inline-block;"/> - I built the first version of FastEmbed, an embedding library built for speed using ONNX. It is used by Qdrant, [NVIDIA Nemo Guardrails](https://github.com/NVIDIA/nemo-guardrails) and [3000+ more respositories alone!](https://github.com/qdrant/fastembed/network/dependents).
 
-3. OpenAI Cookbook: [Fine-tuned Retrieval Augmented Generation with Qdrant](https://github.com/openai/openai-cookbook/blob/main/examples/fine-tuned_qa/ft_retrieval_augmented_generation_qdrant.ipynb)
+3. OpenAI Cookbook: [Fine-tuned Retrieval Augmented Generation with Qdrant](https://github.com/openai/openai-cookbook/blob/main/examples/fine-tuned_qa/ft_retrieval_augmented_generation_qdrant.ipynb) <img src="https://img.shields.io/github/stars/openai/openai-cookbook?style=social" style="display: inline-block;"/>
 
 4. Hinglish: [github](https://github.com/NirantK/Hinglish), [paper](https://aclanthology.org/2020.semeval-1.119/) focussed on code-mixed languages was published in ACL 2019.
 
 5. [Awesome Project Ideas](https://github.com/NirantK/awesome-project-ideas) <img src="https://img.shields.io/github/stars/NirantK/awesome-project-ideas?style=social" style="display: inline-block;"/> - Curated list of machine learning (mostly deep learning) project ideas with datasets. These ideas range from Vision, Text, Forecasting to Recommender Systems
 
-6. [Awesome NLP](https://github.com/keon/awesome-nlp) <img src= "https://img.shields.io/github/stars/keon/awesome-nlp?style=social" style="display: inline-block;"> Curated list of Natural Language Processing Resources. I've been the Primary Maintainer for [Awesome-NLP](https://github.com/keon/awesome-nlp)
-
+6. [Awesome NLP](https://github.com/keon/awesome-nlp) <img src= "https://img.shields.io/github/stars/keon/awesome-nlp?style=social" style="display: inline-block;"> Curated list of Natural Language Processing Resources. 
 	* Recommended by Dr. Andrew Ng's (Stanford) CS 230
 	* Featured in Github's Official Machine Learning [Collection](https://github.com/collections/machine-learning) since 2016 and 
 	
