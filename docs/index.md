@@ -10,20 +10,18 @@ weight: 110
 toc: true
 ---
 
-I am a Machine Learning/AI Engineer. I started [Scaled Focus](https://scaledfocus.com) to help companies evaluate, optimize and deploy agents. I have written a [book](#book) on Natural Language Processing for software engineers. I have also contributed to [Ragas](https://github.com/explodinggradients/ragas), built [FastEmbed](https://github.com/qdrant/fastembed) and maintained [Awesome NLP](https://github.com/keon/awesome-nlp).
+I am a Machine Learning/AI Engineer. I started [Scaled Focus](https://scaledfocus.com) to help companies evaluate, optimize and deploy agents. 
+
+I have written a [book](#book) on Natural Language Processing for software engineers. 
+
+I have also contributed to [Ragas](https://github.com/explodinggradients/ragas), built [FastEmbed](https://github.com/qdrant/fastembed) and maintained [Awesome NLP](https://github.com/keon/awesome-nlp).
 
 ## Book
 
-Book: [NLP in Python: Quickstart Guide](https://read.amazon.in/kp/embed?asin=B07L3PLQS1&preview=newtab&linkCode=kpe&ref_=cm_sw_r_kb_dp_MRBPRC9ZWRC8B4SKT74X)
+Book: [NLP in Python: Quickstart Guide](https://read.amazon.in/kp/embed?asin=B07L3PLQS1&preview=newtab&linkCode=kpe&ref_=cm_sw_r_kb_dp_MRBPRC9ZWRC8B4SKT74X) has sold over 5000 copies.
 
-Code: [Github](https://github.com/NirantK/nlp-python-deep-learning)
-
-I wrote this book in 2018 to make Natural Language Programming more accessible for software engineers and programmers. This had a very design and code-first view of tools and their limitations. Today, most of it is outdated, I do not recommend buying it. 
-
-<img src="https://images-eu.ssl-images-amazon.com/images/I/41uaueSqtUL._SX260_.jpg" alt="bookcover"/>
-
+I wrote this book in 2018 to make Natural Language Programming more accessible for software engineers and programmers. The accompanying code is available on [Github](https://github.com/NirantK/nlp-python-deep-learning).
 ## Papers and Open Source Contributions
-
 
 1. [Ragas](https://github.com/explodinggradients/ragas) - We helped improve the most widely used Agent Metrics layer. My contributions are [here](https://github.com/explodinggradients/ragas/pulls?q=is%3Apr+author%3ANirantK+is%3Aclosed+).
 
