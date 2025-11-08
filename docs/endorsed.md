@@ -23,6 +23,7 @@ I'm happy to connect you with them if you're looking to hire or collaborate with
 | [Harsh Gupta](https://www.linkedin.com/in/hargup/) | Generalist Backend engineer, Search, LLMs, Data Augumentation and Pipeline | Ex-JPMC, Helpshift, GSoC mentor and student. Built [felvin.com](https://www.producthunt.com/products/felvin#felvin) one of the first no-code tools for building AI applications, raised angel investments for it. Know him socially. | Nirant|
 | [Dhruv Anand](https://www.linkedin.com/in/dhruv-anand-ainorthstartech/) | Search Consultant, VectorDB & LLM | ex-CMU, Google & Meta Know him via the GenerativeAI Community | Nirant |
 | [Kumar Shivendu](https://www.linkedin.com/in/kshivendu/) | Product engineer with interest in Devtools, Search & LLMs | Builds auth devtools at SuperTokens, he was the dev behind this [blog](https://nirantk.com/writing/pgvector-vs-qdrant/). Update: Has joined Qdrant.tech after the endorsement! | Nirant |
+| [Rahul Sundar](https://www.linkedin.com/in/rahul-sundar-311a6977/) | SciML Researcher and Engineer with interest in GenAI, LLMs, agents, and Classical ML algorithms for Science & Engineering | Full time AI/ML scientist at Verisk Catastrophe and Risk Solutions, India. Pro-Bono / community efforts: (1) Project lead for [SARAL](saral.democratiseresearch.in) to democratise research, and (2) Founder, [Dhyuti](https://www.youtube.com/@dhyutifrontiers/community) - an open source initiative/community in AI for Science and Engineering | Nirant |
 
 # Endorsed Non-Engineering Talent
 
