@@ -126,6 +126,9 @@ markdown_extensions:
 
 plugins:
   - search
+  - redirects:
+      redirect_maps:
+        'about.md': 'index.md'
   - blog:
       blog_dir: writing
       post_url_format: "{file}"
