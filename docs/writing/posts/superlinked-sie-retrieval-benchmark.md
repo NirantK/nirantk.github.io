@@ -10,6 +10,8 @@ categories:
 title: One Cluster, Seven Models, NDCG 0.621 — Financial Search on Superlinked's SIE
 ---
 
+![Pipeline](../images/superlinked-sie-hero.png)
+
 > Disclosure: [Superlinked](https://superlinked.com) sponsored this benchmarking project and the compute. I'll keep using SIE for [genka.dev](https://genka.dev)'s Indian financial-document pipeline on my own cluster. Sponsored or not, the deploy story is the reason. 
 
 If you run retrieval inside a customer VPC and can't pin a fixed GPU per model, you've probably hit the same wall I did: every embedder and reranker wants its own deployment, and the SRE team does one deployment at a time. I want to try hundreds of models. 
@@ -24,6 +26,8 @@ The surprise wasn't which embedder won. The actual split was brutally lopsided: 
 For ingestion, SIE's autoscaling handles bursty load without me sizing anything ahead of time. That balance, hot for ingest, elastic for serve, is a pain to build yourself. 
 
 Here are the results, sorted best to worst: 
+
+![Results](../images/superlinked-sie-results-chart.png)
 
 ## Results
 
