@@ -114,10 +114,9 @@ Everything runs inside the VPC. I don't take any vendor lock-in risks on top of 
 
 ## Recommendations
 
-As a default, going forward, I think more of a pipeline should evaluate directly on the end output and not on single-component scoring systems. This allows the entire pipeline to be optimized at once instead of worrying if a single-component improvement has instead translated further ahead without causing a regression. Auto-research can only be run on any such pipeline if the underlying experimentation infrastructure is scalable and yet cost-effective. 
+Lot of what we did in IR teams can be reductively understood as parameter sweeping over a multi-stage pipeline, keeping this specific lens in mind, I've 2 recomemndations: 
+
+1. As a default, going forward, I think more pipelines should evaluate directly on the end output and not one component at a time. This allows the entire pipeline to be optimized at once instead of worrying if a single-component improvement has instead translated further ahead or not. 
+2. Auto-research can only be effective for a pipeline if the underlying experimentation infrastructure is scalable and yet cost-effective. 
 
 Without SIE, even with Codex and CC, this would have been a 1-2 month project for 2 devs to deploy 100s of models and then run autoresearch on the final pipeline. With SIE, I was able to run the entire experiment in a weekend.
-
-- **Deploy SIE in your VPC**: [github.com/superlinked/sie](https://github.com/superlinked/sie), Helm chart, Terraform, deploy guide.
-- **Reproduce this benchmark**: clone the [retrieval-ablation example](https://github.com/superlinked/sie/tree/main/examples/retrieval-ablation), `uv sync`, `uv run python benchmark_ablation.py --dry-run`.
-- **Talk to the team**: [superlinked.com](https://superlinked.com).
