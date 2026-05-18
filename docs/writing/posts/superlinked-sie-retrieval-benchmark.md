@@ -7,10 +7,8 @@ categories:
   - retrieval
   - benchmarks
   - RAG
-title: One Cluster, Seven Models, NDCG 0.621 — Financial Search on Superlinked's SIE
+title: autoreseach-maxxing Finance Search with SIE 
 ---
-
-![Pipeline](../images/superlinked-sie-hero.png)
 
 > Disclosure: [Superlinked](https://superlinked.com) sponsored this benchmarking project and the compute. I'll keep using SIE for [genka.dev](https://genka.dev)'s Indian financial-document pipeline on my own cluster. Sponsored or not, the deploy story is the reason. 
 
@@ -54,7 +52,7 @@ How much of the 0.621 actually comes from the cross-encoder, versus from adding 
 
 MV pooling plus rerank is what's running in production now, with the cross-encoder doing the actual work (the second MV adds two-and-a-half NDCG points to the pool, which is nice to have for free, but it's not why the headline number is 0.621). 
 
-## What it cost
+## Cost Savings
 
 > *Claude wrote this section. It had the receipts.*
 
