@@ -50,6 +50,8 @@ Two MV models in parallel give the reranker a slightly more diverse candidate po
 
 How much of the 0.621 actually comes from the cross-encoder, versus from adding a second MV model to the pool? To find out, I ran the same two MV models in parallel but skipped the rerank, RRF-fused the bge-m3 and jina-colbert top-100 rankings instead. That gives NDCG 0.458 / R@10 0.512: only **+0.023 NDCG over the better single MV (bge-m3 at 0.435)**. Then layering the CE rerank on the same pool takes it from 0.458 to 0.621, **+0.163 NDCG (+35.6%)** from the reranker alone. The dual-MV pool contributes a sliver of diversity; the reranker is doing roughly 80% of the lift over a single MV baseline.
 
+![Rerank vs second MV](../images/superlinked-sie-rerank-vs-dual-mv.png)
+
 MV pooling plus rerank is what's running in production now, with the cross-encoder doing the actual work (the second MV adds two-and-a-half NDCG points to the pool, which is nice to have for free, but it's not why the headline number is 0.621). 
 
 ## Cost Savings
