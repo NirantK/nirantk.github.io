@@ -512,7 +512,7 @@ document.querySelectorAll('[data-chart]').forEach(chart => {
       const [x, y] = dot.dataset['dot' + key].split(',').map(Number);
       tip.textContent = dot.dataset['tip' + key];
       tip.style.display = 'block';
-      tip.style.top = `${y - 76}px`;
+      tip.style.top = `${tip.textContent.includes('thinking on') ? y + 22 : y - 76}px`;
       if (x > 1000) { tip.style.left = 'auto'; tip.style.right = `${1664 - x + 8}px`; }
       else { tip.style.right = 'auto'; tip.style.left = `${x - 8}px`; }
     });
