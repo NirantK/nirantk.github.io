@@ -1,0 +1,17 @@
+.copy-md-wrap {
+  display: flex;
+  justify-content: flex-end;
+  margin: 0 0 1rem 0;
+}
+
+.md-button--copy-md {
+  font-size: 0.75rem;
+  padding: 0.35em 0.9em;
+  border-radius: 0.25rem;
+  cursor: pointer;
+}
+
+.md-button--copy-md[disabled] {
+  opacity: 0.7;
+  cursor: progress;
+}
